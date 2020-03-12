@@ -1,0 +1,4 @@
+#Thu Jul 27 22:03:15 CST 2017
+FOCUS_BLUR=false
+EDGE_BLUR=false
+CLOUD_SHADOW=true

@@ -1,0 +1,9 @@
+#Tue Jul 25 14:29:55 CST 2017
+POM=true
+Moonlight=0.006
+DoF_Strength=120
+POM_RES=512
+Lens_Flares=true
+Depth_of_Field=true
+Colorboost=0.35
+Godrays=true

@@ -1,0 +1,14 @@
+#Sun Jul 23 00:15:32 CST 2017
+CHROMATIC_ABBORATION=true
+SSAO=true
+noiseTextureResolution=516
+centerDepthHalflife=6
+REFLECTION_STRENGTH=1.0
+LENS_EFFECTS=false
+HQ_MOTIONBLUR=true
+TRANSLUCENT_BLOCKS=true
+MOVIE_BORDER=true
+NORMALMAP_CLOUD_EFFECT=true
+BLOOM=false
+sunPathRotation=-20
+GODRAYS=true

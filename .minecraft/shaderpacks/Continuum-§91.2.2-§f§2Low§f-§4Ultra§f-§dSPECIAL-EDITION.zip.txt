@@ -1,0 +1,11 @@
+#Tue Feb 12 13:46:19 CST 2019
+shadowDistance=160
+HBAO=true
+Dynamic_Weather=true
+SEUS_VL=true
+GI_FILTER_QUALITY=3.5
+shadowMapResolution=4096
+CLOUD_SHADOW=true
+SUNRISEnSET=5.25
+NEW_GI_QUALITY=256
+NIGHT=0.25

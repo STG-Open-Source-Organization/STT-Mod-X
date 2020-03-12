@@ -1,0 +1,6 @@
+#Mon May 29 17:14:59 CST 2017
+DOF=false
+DOF_NEARVIEWBLUR=false
+shadowMapResolution=2048
+Brightness=1.0
+MOTION_BLUR=false

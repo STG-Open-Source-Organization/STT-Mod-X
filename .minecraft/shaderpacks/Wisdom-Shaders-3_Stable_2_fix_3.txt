@@ -1,0 +1,5 @@
+#Tue Jul 04 16:00:02 CST 2017
+shadowDistance=256
+shadowMapResolution=4096
+ambientOcclusionLevel=0.0f
+WAVING_SHADOW=true
