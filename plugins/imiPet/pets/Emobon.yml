@@ -1,0 +1,422 @@
+pet:
+  # 模型唯一ID
+  #modelId: "default:pet"
+  modelId: "imipet:emobon"
+  # 贴图名
+  #texture: "petTexture"
+  texture: "emobon"
+  # 宠物展示图 - 大
+  #  推荐图片大小 250x250 或更大
+  imageShowBig: "https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/68dc3c39fc6c1ed87143aca984af52d165938730/embBig.png"
+  # 宠物展示图 - 小
+  imageShowSmall: "https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/7b4e9d5abdb775ecee50e95600896181127fc6c9/emb.png"
+  #
+  #  可用数学：
+  #    () 括号
+  #    * 乘法
+  #    / 除法
+  #    + 加法
+  #    - 减法
+  #    还要更多请看：https://www.runoob.com/jsref/jsref-obj-math.html
+  #
+  # 玩家获得经验的同时也额外存入到经验存储盒
+  #   变量
+  #     add_exp 玩家获得的经验值
+  #   当然，玩家获得的经验不会因而减少
+  addExpByPlayer: "(Math.random()*(add_exp*0.2))+(add_exp*0.1)"
+  # 关于宠物经验等级公式
+  #   变量
+  #     level 宠物升级前的等级
+  levelExpFormula: "30*(level*level*level+5*level)-10"
+  # 关于宠物最低攻击公式
+  #   变量
+  #     level 宠物升级前的等级
+  #     min_damage 宠物升级前得最低攻击
+  addMinAttackFormula: "min_damage+2"
+  # 关于宠物最高攻击公式
+  #   变量
+  #     level 宠物升级前的等级
+  #     max_damage 宠物升级前得最高攻击
+  addMaxAttackFormula: "max_damage+3"
+  # 关于宠物活力公式
+  #   变量
+  #     level 宠物升级前的等级
+  #     max_food 宠物升级前的活力
+  addFoodFormula: "max_food+10"
+  # 回复血量需求
+  cureHP:
+    requirement:
+      # 需要经济
+      #   回复一血需要多少经济
+      money: 0.1
+      # 是否允许通过MC回血药水对宠物回血
+      potion: false
+  # 关于宠物进化
+  evolution:
+    # 是否可以进化
+    enable: false
+    # 宠物达到多少级可以进化
+    requirement: 10
+    # 点击进化按钮的信息
+    text:
+      - "&f                                            "
+      - "&6进化条件"
+      - "&f需要达到 &c%imipet_evolutionlevel% &f级"
+      - "&f"
+      - "&6如果满足条件，请问，是否确定进化"
+      - "&f"
+      - "&7&l[&a点击确定&7&l]"
+      - "&f"
+    # 指定新的模型ID
+    newModelId: ""
+  # 宠物活力值
+  food:
+    # 是否会消耗活力
+    enable: true
+    # 活力补充需求
+    requirement:
+      # 需要经济
+      #   补充一活力需要多少经济
+      money: 0.1
+  # 基本值
+  basis:
+    display:
+      # 是否显示名称
+      show: false
+      # 显示名称高度
+      height: 1.2
+      # 显示名格式
+      format: "&7[&6主人：&f%imipet_owner%&7] &f%imipet_name%"
+      # 默认的宠物名称
+      name: "埃墨朋"
+    # 是否受到重力状态
+    gravity: true
+    # 初始血量
+    HP: 20
+    # 初始伤害范围
+    minDamage: 2
+    maxDamage: 6
+    # 初始活力值
+    food: 20
+    # 初始最极经验值
+    exp: 30
+    # 等级上限
+    level: 100
+  # 动作动态启用与否列表
+  animationList:
+    # 空闲状态
+    idle: true
+    # 移动状态
+    walk: true
+    # 攻击状态
+    attack: true
+  # 模型部件或骨骼配置
+  part:
+    # 部件或骨骼的ID
+    #   这里是头部
+    head:
+      # 物品名称
+      itemName: "§c§l§8§8§l§a§b§b§1"
+      # 是否为头部
+      isHead: true
+      # 是否设置为身体
+      #   如果设置为头部，就不要设置为身体
+      isBody: false
+      # 如果不是上面两项
+      #   那么这个为是否给指定骨骼添加该部件
+      isAddToSkeleton: false
+      # 如果 isAddToSkeleton 为 true
+      #   那么请填入骨骼的ID
+      skeleton: "body"
+      # 部件位置与角度设置
+      addBox:
+        offsetX: 0
+        offsetY: 2
+        offsetZ: 0
+        eulerAngleX: 0
+        eulerAngleY: 0
+        eulerAngleZ: 0
+      # 动态设置
+      # 空闲状态
+      animationIdle:
+        isAnimation: true
+        # 设置帧数
+        keyFrame:
+          1:
+            second: 0
+            eulerAngleX: 10
+          2:
+            second: 30
+            offsetY: -0.125
+          3:
+            second: 60
+            eulerAngleX: 10
+    # 部件或骨骼的ID
+    body_two:
+      # 物品名称
+      itemName: "§c§l§8§8§l§a§b§b§6"
+      # 是否为头部
+      isHead: false
+      # 是否设置为身体
+      #   如果设置为头部，就不要设置为身体
+      isBody: true
+      # 如果不是上面两项
+      #   那么这个为是否给指定骨骼添加该部件
+      isAddToSkeleton: false
+      # 如果 isAddToSkeleton 为 true
+      #   那么请填入骨骼的ID
+      skeleton: "head"
+      # 部件位置与角度设置
+      addBox:
+        offsetY: 2
+      # 动态设置
+      # 空闲状态
+      animationIdle:
+        isAnimation: true
+        # 设置帧数
+        keyFrame:
+          1:
+            second: 0
+            offsetY: 3
+          2:
+            second: 30
+          3:
+            second: 60
+            offsetY: 3
+      # 移动状态
+      animationWalk:
+        isAnimation: true
+        # 设置帧数
+        keyFrame:
+          1:
+            second: 0
+            eulerAngleX: 30
+            offsetY: -6
+          2:
+            second: 20
+            eulerAngleX: 30
+            offsetY: -6
+    # 部件或骨骼的ID
+    body_one:
+      # 物品名称
+      itemName: "§c§l§8§8§l§a§b§b§7"
+      # 是否为头部
+      isHead: false
+      # 是否设置为身体
+      #   如果设置为头部，就不要设置为身体
+      isBody: false
+      # 如果不是上面两项
+      #   那么这个为是否给指定骨骼添加该部件
+      isAddToSkeleton: true
+      # 如果 isAddToSkeleton 为 true
+      #   那么请填入骨骼的ID
+      skeleton: "body_two"
+      # 部件位置与角度设置
+      addBox:
+        offsetY: -0.06
+        eulerAngleZ: 0
+      # 动态设置
+      # 空闲状态
+      animationIdle:
+        isAnimation: true
+        # 设置帧数
+        keyFrame:
+          1:
+            second: 0
+          2:
+            second: 30
+            offsetY: 5
+          3:
+            second: 60
+    # 部件或骨骼的ID
+    face_right:
+      # 物品名称
+      itemName: "§c§l§8§8§l§a§b§b§2"
+      # 是否为头部
+      isHead: false
+      # 是否设置为身体
+      #   如果设置为头部，就不要设置为身体
+      isBody: false
+      # 如果不是上面两项
+      #   那么这个为是否给指定骨骼添加该部件
+      isAddToSkeleton: true
+      # 如果 isAddToSkeleton 为 true
+      #   那么请填入骨骼的ID
+      skeleton: "head"
+      # 部件位置与角度设置
+      addBox:
+        offsetY: 0.015625
+      # 动态设置
+      # 空闲状态
+      animationIdle:
+        isAnimation: true
+        # 设置帧数
+        keyFrame:
+          1:
+            second: 0
+            offsetY: 5
+          2:
+            second: 30
+          3:
+            second: 60
+            offsetY: 5
+      # 攻击状态
+      animationAttack:
+        isAnimation: true
+        # 设置帧数
+        keyFrame:
+          1:
+            second: 0
+            offsetX: 0
+            offsetY: 20
+            offsetZ: 50
+          2:
+            second: 10
+            offsetX: 0
+            offsetY: 10
+            offsetZ: 30
+          3:
+            second: 20
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 10
+    # 部件或骨骼的ID
+    face_left:
+      # 物品名称
+      itemName: "§c§l§8§8§l§a§b§b§3"
+      # 是否为头部
+      isHead: false
+      # 是否设置为身体
+      #   如果设置为头部，就不要设置为身体
+      isBody: false
+      # 如果不是上面两项
+      #   那么这个为是否给指定骨骼添加该部件
+      isAddToSkeleton: true
+      # 如果 isAddToSkeleton 为 true
+      #   那么请填入骨骼的ID
+      skeleton: "head"
+      # 部件位置与角度设置
+      addBox:
+        offsetY: 0.015625
+      # 动态设置
+      # 空闲状态
+      animationIdle:
+        isAnimation: true
+        # 设置帧数
+        keyFrame:
+          1:
+            second: 0
+            offsetY: 5
+          2:
+            second: 30
+          3:
+            second: 60
+            offsetY: 5
+      # 攻击状态
+      animationAttack:
+        isAnimation: true
+        # 设置帧数
+        keyFrame:
+          1:
+            second: 0
+            offsetX: 0
+            offsetY: 20
+            offsetZ: 50
+          2:
+            second: 10
+            offsetX: 0
+            offsetY: 10
+            offsetZ: 30
+          3:
+            second: 20
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 10
+    # 部件或骨骼的ID
+    ear_right:
+      # 物品名称
+      itemName: "§c§l§8§8§l§a§b§b§4"
+      # 是否为头部
+      isHead: false
+      # 是否设置为身体
+      #   如果设置为头部，就不要设置为身体
+      isBody: false
+      # 如果不是上面两项
+      #   那么这个为是否给指定骨骼添加该部件
+      isAddToSkeleton: true
+      # 如果 isAddToSkeleton 为 true
+      #   那么请填入骨骼的ID
+      skeleton: "head"
+      # 部件位置与角度设置
+      addBox:
+        offsetY: 0.015625
+      # 动态设置
+      # 空闲状态
+      animationIdle:
+        isAnimation: true
+        # 设置帧数
+        keyFrame:
+          1:
+            second: 0
+          2:
+            second: 30
+            eulerAngleZ: -30
+          3:
+            second: 60
+      # 走路状态
+      animationWalk:
+        isAnimation: true
+        # 设置帧数
+        keyFrame:
+          1:
+            second: 0
+          2:
+            second: 30
+            eulerAngleZ: -30
+          3:
+            second: 60
+    # 部件或骨骼的ID
+    ear_left:
+      # 物品名称
+      itemName: "§c§l§8§8§l§a§b§b§5"
+      # 是否为头部
+      isHead: false
+      # 是否设置为身体
+      #   如果设置为头部，就不要设置为身体
+      isBody: false
+      # 如果不是上面两项
+      #   那么这个为是否给指定骨骼添加该部件
+      isAddToSkeleton: true
+      # 如果 isAddToSkeleton 为 true
+      #   那么请填入骨骼的ID
+      skeleton: "head"
+      # 部件位置与角度设置
+      addBox:
+        offsetY: 0.015625
+      # 动态设置
+      # 空闲状态
+      animationIdle:
+        isAnimation: true
+        # 设置帧数
+        keyFrame:
+          1:
+            second: 0
+            eulerAngleZ: 30
+          2:
+            second: 30
+          3:
+            second: 60
+            eulerAngleZ: 30
+      # 走路状态
+      animationWalk:
+        isAnimation: true
+        # 设置帧数
+        keyFrame:
+          1:
+            second: 0
+            eulerAngleZ: 30
+          2:
+            second: 30
+          3:
+            second: 60
+            eulerAngleZ: 30

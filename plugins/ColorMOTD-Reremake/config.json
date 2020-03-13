@@ -1,0 +1,24 @@
+{
+  "motds": [
+    "&b1.12.2多人工业服务器实况\n&d现在时间: &e%date% %time%",
+    "&b1.12.2多人工业服务器实况\n&d在线人数: &e%online%",
+    "&b1.12.2多人工业服务器实况\n&d您的网络运营商: &e%isp%"
+  ],
+  "onlineMsgs": [
+    " &a在线人数: &b%online%&d/&2%maxplayer%",
+    " &a现在时间: &e%date% %time%"
+  ],
+  "players": [
+    ""
+  ],
+  "maintenanceModeMotd": "&c服务器维护中, 请等待维护完成...",
+  "maintenanceModeKickMsg": "&c服务器维护中,请等待维护完成再进入服务器!",
+  "tpsFormat": "0.0",
+  "usePlaceHolderAPI": true,
+  "showPing": false,
+  "maintenanceMode": false,
+  "emergencyMode": false,
+  "requestLimit": 15,
+  "ipProvider": "taobao",
+  "limitTime": 600000
+}

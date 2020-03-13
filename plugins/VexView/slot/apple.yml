@@ -1,0 +1,19 @@
+#物品槽X坐标
+x: 0
+#物品槽Y坐标
+y: 0
+item:
+   #物品名称
+   name: '卢本伟宝剑'
+   #物品类型（注意，这里不能填写数字ID，应该填写Material枚举，有关枚举信息，在
+   #这里查询：https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)
+   material: IRON_SWORD
+   #物品数量
+   amount: 1
+   #消耗型物品的耐久度/普通物品的副ID
+   durability: 50
+   #物品lore信息
+   lore:
+   - '我卢本伟是真的没有开挂'
+   - '我求你们了，艹！'
+   - '我真TM没开挂'

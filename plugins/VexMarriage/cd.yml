@@ -1,0 +1,313 @@
+Switch: 
+  #金币转账功能是否开启
+  Money: true
+  #点卷转账功能是否开启
+  Points: true
+  #传送功能是否开启
+  Chuansong: true
+Gui: 
+  #GUI信息填写
+  url: "[local]Marry/qinglv.png"
+  x: -1
+  y: -1
+  Width: 500
+  Height: 300
+  w: 500
+  h: 300
+  
+AiGui: 
+  #GUI信息填写
+  url: "[local]Marry/xuanyanGui.png"
+  x: -1
+  y: -1
+  Width: 500
+  Height: 300
+  w: 500
+  h: 300
+  
+KJGui: 
+  #GUI信息填写
+  url: "[local]Marry/kongjian.png"
+  x: -1
+  y: -1
+  Width: 500
+  Height: 300
+  w: 500
+  h: 300
+  
+MonGui: 
+  #GUI信息填写
+  url: "[local]Marry/jinbi.png"
+  x: -1
+  y: -1
+  Width: 500
+  Height: 300
+  w: 500
+  h: 300
+  
+PointsGui: 
+  #GUI信息填写
+  url: "[local]Marry/dianjuan.png"
+  x: -1
+  y: -1
+  Width: 500
+  Height: 300
+  w: 500
+  h: 300
+  
+SiLiaoGui: 
+  #GUI信息填写
+  url: "[local]Marry/Siliao.png"
+  x: -1
+  y: -1
+  Width: 500
+  Height: 300
+  w: 500
+  h: 300
+  
+Button: 
+  #按钮信息填写
+  #按钮ID
+  id: "id_1"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/fangwenkaiguan.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/fangwenkaiguan2.png"
+  x: 70
+  y: 90
+  Width: 100
+  Height: 40
+  
+Button2: 
+  #按钮信息填写
+  #按钮ID
+  id: "id_12"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/qinglvkongjian.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/qinglvkongjian2.png"
+  x: 200
+  y: 90
+  Width: 100
+  Height: 40
+  
+Button3: 
+  #按钮信息填写
+  #按钮ID
+  id: "id_13"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/chuansong.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/chuansong2.png"
+  x: 340
+  y: 90
+  Width: 100
+  Height: 40
+  #当情侣所在为以下世界时禁止传送
+  World: 
+    - fb1
+    - fb2
+  
+Button4: 
+  #按钮信息填写
+  #按钮ID
+  id: "id_14"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/xuanyan.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/xuanyan2.png"
+  x: 70
+  y: 140
+  Width: 100
+  Height: 40
+  
+Button5: 
+  #按钮信息填写
+  #按钮ID
+  id: "id_15"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/jinbizhuanzhang.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/jinbizhuanzhang2.png"
+  x: 200
+  y: 140
+  Width: 100
+  Height: 40
+  
+Button6: 
+  #按钮信息填写
+  #按钮ID
+  id: "id_16"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/dianjuanzhuanzhang.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/dianjuanzhuanzhang2.png"
+  x: 340
+  y: 140
+  Width: 100
+  Height: 40
+  
+Button7: 
+  #按钮信息填写
+  #按钮ID
+  id: "id_17"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/qinglvsiliao.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/qinglvsiliao2.png"
+  x: 200
+  y: 190
+  Width: 100
+  Height: 40
+  
+AiButton: 
+  #按钮信息填写
+  #按钮ID
+  id: "id_18"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/queding1.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/queding2.png"
+  x: 200
+  y: 175
+  Width: 100
+  Height: 40
+  
+MonButton: 
+  #按钮信息填写
+  #按钮ID
+  id: "id_1"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/queding1.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/queding2.png"
+  x: 200
+  y: 200
+  Width: 100
+  Height: 40
+  enai: 10
+  
+PointsButton: 
+  #按钮信息填写
+  #按钮ID
+  id: "id_100"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/queding1.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/queding2.png"
+  x: 200
+  y: 200
+  Width: 100
+  Height: 40
+  enai: 10
+  
+KJButton: 
+  #按钮信息填写
+  #按钮ID
+  id: "id_100"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/guanbi1.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/guanbi2.png"
+  x: 200
+  y: 250
+  Width: 100
+  Height: 40
+  
+SiLiaoButton: 
+  #按钮信息填写
+  #按钮ID
+  id: "id_100"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/queding1.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/queding2.png"
+  x: 200
+  y: 175
+  Width: 100
+  Height: 40
+  enai: 5
+  
+AiKuang: 
+  #输入框信息填写
+  x: 75
+  y: 110
+  Width: 350
+  Height: 25
+  w: 150
+  h: 50
+  
+MonKuang: 
+  #输入框信息填写
+  x: 90
+  y: 130
+  Width: 320
+  Height: 25
+  w: 120
+  h: 50
+  enai: 10
+  
+PointsKuang: 
+  #输入框信息填写
+  x: 90
+  y: 130
+  Width: 320
+  Height: 25
+  w: 120
+  h: 50
+  enai: 10
+  
+SiLiaoKuang: 
+  #输入框信息填写
+  x: 75
+  y: 110
+  Width: 350
+  Height: 25
+  w: 150
+  h: 50
+  enai: 5
+  
+KJText: 
+  #文本信息填写
+  x: 70
+  y: 100
+  #此为文字放大倍数
+  Beishu: 1
+  
+KJText2: 
+  #文本信息填写
+  x: 160
+  y: 120
+  #此为文字放大倍数
+  Beishu: 1
+  
+KJText3: 
+  #文本信息填写
+  x: 160
+  y: 190
+  #此为文字放大倍数
+  Beishu: 1

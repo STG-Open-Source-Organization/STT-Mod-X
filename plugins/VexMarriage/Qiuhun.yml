@@ -1,0 +1,253 @@
+Gui: 
+  #GUI信息填写
+  url: "[local]Marry/Qiuhun.png"
+  x: -1
+  y: -1
+  Width: 600
+  Height: 300
+  w: 450
+  h: 320
+  
+Gui2: 
+  #GUI信息填写
+  url: "[local]Marry/Zuan.png"
+  x: -1
+  y: -1
+  Width: 600
+  Height: 300
+  w: 450
+  h: 320
+  
+Gui3: 
+  #GUI信息填写
+  url: "[local]Marry/Hua.png"
+  x: -1
+  y: -1
+  Width: 600
+  Height: 300
+  w: 450
+  h: 320
+  
+Gui4: 
+  #GUI信息填写
+  url: "[local]Marry/Suo.png"
+  x: -1
+  y: -1
+  Width: 600
+  Height: 300
+  w: 450
+  h: 320
+  
+Gui5: 
+  #GUI信息填写
+  url: "[local]Marry/Ka.png"
+  x: -1
+  y: -1
+  Width: 600
+  Height: 300
+  w: 450
+  h: 320
+  
+Kuang: 
+  #输入框信息填写
+  x: 230
+  y: 30
+  Width: 120
+  Height: 30
+  w: 120
+  h: 30
+ 
+Kuang2: 
+  #输入框信息填写
+  x: 230
+  y: 30
+  Width: 120
+  Height: 30
+  w: 120
+  h: 30
+ 
+Kuang3: 
+  #输入框信息填写
+  x: 230
+  y: 30
+  Width: 120
+  Height: 30
+  w: 120
+  h: 30
+  
+Kuang4: 
+  #输入框信息填写
+  x: 230
+  y: 30
+  Width: 120
+  Height: 30
+  w: 120
+  h: 30
+  
+Button: 
+  #按钮ID
+  id: "id_1"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/xuanze1.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/xuanze2.png"
+  x: 72
+  y: 168
+  Width: 90
+  Height: 30
+  
+Button2: 
+  #按钮ID
+  id: "id_2"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/xuanze1.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/xuanze2.png"
+  x: 293
+  y: 168
+  Width: 90
+  Height: 30
+  
+Button3: 
+  #按钮ID
+  id: "id_3"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/xuanze1.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/xuanze2.png"
+  x: 72
+  y: 262
+  Width: 90
+  Height: 30
+  
+Button4: 
+  #按钮ID
+  id: "id_4"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/xuanze1.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/xuanze2.png"
+  x: 293
+  y: 262
+  Width: 90
+  Height: 30
+  
+ZButton: 
+  #按钮ID
+  id: "id_5"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/fasong.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/fasong2.png"
+  x: 175
+  y: 250
+  Width: 110
+  Height: 45
+  
+ZButton2: 
+  #按钮ID
+  id: "id_6"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/fasong.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/fasong2.png"
+  x: 293
+  y: 168
+  Width: 90
+  Height: 30
+  
+HButton: 
+  #按钮ID
+  id: "id_7"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/fasong.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/fasong2.png"
+  x: 175
+  y: 250
+  Width: 110
+  Height: 45
+  
+HButton2: 
+  #按钮ID
+  id: "id_8"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/fasong.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/fasong2.png"
+  x: 175
+  y: 250
+  Width: 110
+  Height: 45
+  
+SButton: 
+  #按钮ID
+  id: "id_9"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/fasong.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/fasong2.png"
+  x: 175
+  y: 250
+  Width: 110
+  Height: 45
+  
+SButton2: 
+  #按钮ID
+  id: "id_10"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/fasong.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/fasong2.png"
+  x: 293
+  y: 168
+  Width: 90
+  Height: 30
+  
+KButton: 
+  #按钮ID
+  id: "id_11"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/fasong.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/fasong2.png"
+  x: 175
+  y: 250
+  Width: 110
+  Height: 45
+  
+KButton2: 
+  #按钮ID
+  id: "id_12"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/fasong.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/fasong2.png"
+  x: 293
+  y: 168
+  Width: 90
+  Height: 30

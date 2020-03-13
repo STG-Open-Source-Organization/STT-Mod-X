@@ -1,0 +1,44 @@
+#选择语言
+language: zh_cn
+#选择数据库类型FILE或者MYSQL
+database: file
+#配置MYSQL
+mysql:
+  host: localhost
+  port: 3306
+  user: root
+  password: password
+  database: calendar
+#签到命令设置
+commands:
+  #每一次签到都会执行的命令
+  daily:
+    - "[CONSOLE]eco give %player% 100"
+  #每个星期（从周日开始）累计签到执行的命令
+  week:
+    #累计签到7次
+    7:
+    - "[CONSOLE]give %player% apple 1"
+  #每个月（从1号开始）累计签到执行的命令
+  month:
+    #累计签到28次
+    28:
+    - "[CONSOLE]give %player% diamond 1"
+#日历日期格式
+date_format: "yyyy年M月d日"
+#日历年月选择器格式
+month_format: "yyyy年M月"
+#补签卡
+replenish_card: 
+  #补签卡显示名
+  name: "&6&l补签卡"
+  #补签卡材料
+  material: NAME_TAG
+  #补签卡数据值
+  data: 0
+  #补签卡lore
+  lore: 
+  - "&a右键打开签到界面"
+  - "&a每补签一次消耗一张补签卡"
+#进服后是否自动打开GUI，是为true，否为false
+open_gui_on_join: true

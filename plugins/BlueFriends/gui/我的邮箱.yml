@@ -1,0 +1,105 @@
+x: -1
+y: -1
+url: '[local]BlueFriends/GUI.png'
+w: 200
+h: 300
+
+components:
+  标题横栏:
+    type: 'image'
+    x: 0
+    y: 0
+    w: 200
+    h: 12
+    url: '[local]BlueFriends/横栏(灰色).png'  
+  icon:
+    type: 'image'
+    x: 2
+    y: 1
+    w: 10
+    h: 10
+    url: '[local]BlueFriends/icon.png'
+  标题:
+    type: 'text'
+    x: 13
+    y: 2
+    contents:
+      - '我的邮箱'
+  关闭按钮:
+    type: 'button'
+    x: 182
+    y: 1
+    w: 17
+    h: 10
+    url1: '[local]BlueFriends/按钮/关闭按钮.png'
+    url2: '[local]BlueFriends/按钮/关闭按钮_悬浮.png'
+    commands:
+      - 'close'
+  返回按钮:
+    type: 'button'
+    x: 169
+    y: 1
+    w: 13
+    h: 10
+    url1: '[local]BlueFriends/按钮/返回按钮.png'
+    url2: '[local]BlueFriends/按钮/返回按钮_悬浮.png'
+    commands:
+      - 'back'
+  邮件列表:
+    type: 'mail_box'
+    x: 3
+    y: 13
+    w: 195
+    h: 284
+    interval: 32
+    components:
+      邮件:
+        type: 'text'
+        x: 0
+        y: 0
+        omit: 40
+        contents:
+          - '主题:%mail_subject%(%mail_read%)'
+          - '发送日期:%mail_date%'
+      查看:
+        type: 'button'
+        name: '&8查看'
+        x: 5
+        y: 21
+        w: 19
+        h: 10
+        url1: '[local]BlueFriends/按钮/透明按钮.png'
+        url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+        commands:
+          - 'person mail view %mail_uuid%'
+      删除:
+        type: 'button'
+        name: '&8删除'
+        x: 25
+        y: 21
+        w: 19
+        h: 10
+        url1: '[local]BlueFriends/按钮/透明按钮.png'
+        url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+        commands:
+          - 'person mail delete %mail_uuid%'
+          - 'bfopen 我的邮箱.yml'
+      标记为已读:
+        type: 'button'
+        name: '&8标记为已读'
+        x: 45
+        y: 21
+        w: 50
+        h: 10
+        url1: '[local]BlueFriends/按钮/透明按钮.png'
+        url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+        commands:
+          - 'person mail read %mail_uuid%'
+          - 'bfopen 我的邮箱.yml'
+      分界线:
+        type: 'image'
+        x: 0
+        y: 31
+        w: 200
+        h: 1
+        url: '[local]BlueFriends/分界线(半透明).png'   

@@ -1,0 +1,351 @@
+#请不要修改Version
+Version: 1
+
+# 清理掉落物品
+ClearItem:
+  #是否开启
+  Enable: true
+  #不清理的世界名字
+  NoClearItemWorld:
+  - 'noclearworld'
+  #清理周期
+  Delay: 900
+  #不清理的物品ID，如贵重物品
+  NoClearItemIDList:
+  #钻石铲
+  - 277
+  #钻石锄
+  - 293
+  #钻石稿
+  - 278
+  #钻石斧
+  - 279
+  #钻石剑
+  - 276
+  #钻石头盔
+  - 310
+  #钻石胸甲
+  - 311
+  #钻石裤
+  - 312
+  #钻石鞋
+  - 313
+  #铁套
+  - 256
+  - 257
+  - 258
+  - 267
+  - 292
+  - 306
+  - 307
+  - 308
+  - 309
+  #金套
+  - 283
+  - 314
+  - 315
+  - 316
+  - 317
+  #弓
+  - 261
+  #锁链套
+  - 302
+  - 303
+  - 304
+  - 305
+  #附魔书
+  - 403
+  #信标
+  - 138
+  #钻石
+  - 264
+  - 57
+  #铁
+  - 265
+  - 42
+  #金
+  - 266
+  - 41
+  #绿宝石
+  - 388
+  #是否清理展示框
+  ClearItemFrame: false
+  #是否清理船
+  Boat: fasle
+  #是否清理经验球
+  ExpBall: true
+  #是否清理正在坠落的方块
+  FallingBlock: true
+  #是否清理画
+  Painting: false
+  #是否清理矿车
+  Minecart: false
+  #是否清理箭头
+  Arrow: true
+  #是否清理雪球
+  Snowball: true
+  #清理时的提示信息
+  Message: '&b[服务器娘]&a哎哟，这次清理了 &c%COUNT%个 &a垃圾，我感觉自己萌萌哒~'
+  #清理前的提示
+  PreMessage: '&b[服务器娘]&a地上的掉落物将在 &e%TIME%秒 &a后清除！'
+
+#实体清理
+ClearEntity:
+  #是否开启
+  Enable: true
+  #清理周期
+  Delay: 1200
+  #是否仅到达数量上限才清理
+  OnlyClearWhenLimit: true
+  #限制数量
+  Limit: 1200
+  #是否清理动物
+  Animals: false
+  #是否清理怪物
+  Monster: true
+  #是否清理鱿鱼
+  Squid: true
+  #是否清理村民
+  Villager: false
+  #清理时的提示信息
+  Message: '&b[服务器娘]&a嗯哼，这次成功拐骗了 &c%COUNT%个 &a怪叔叔，我觉得自己棒棒哒~'
+
+#红石类
+RedStone:
+  #是否开启高频红石检测
+  Enable: true
+  #高频红石阀值
+  Limit: 240
+  #检测周期
+  Time: 10
+  #清理的物品ID
+  Clear:
+  #红石线
+  - 55
+  #红石块
+  - 152
+  #红石火把
+  - 75
+  - 76
+  #是否掉落物品
+  Drop: false
+  #是否公告
+  IsMessage: true
+  #公告消息内容
+  Message: '&b[服务器娘]&a发现&c高频&a红石，系统已自动清理，请不要&c恶意&a使用高频红石，否则可能被系统&c自动封号！&c位置为：%Location%， 附近玩家： %Player%'
+
+#区块类
+Chunk:
+  #Spawn区块是否不常驻内存
+  #若使用了多世界插件，开启本功能可以有效减少内存的占用
+  NoSpawnChunk: true
+
+#保护农田不被踩踏
+#防御熊孩子在他人领地农田跳跃破坏农田
+ProtectFarm:
+  Enable: true
+
+#爆炸不破坏方块、物品
+#关闭爆炸破坏可以有效减少爆炸产生的计算力以及避免地形被破坏
+AntiExplode:
+  Enable: true
+
+#防御小号爆服
+AntiBot:
+  Enable: true
+  #限制一个IP在额定时间内能登录的帐号数量
+  Limit: 3
+  #限制一个IP在多少时间能登录额定的帐号数量
+  Time: 180
+  #IP白名单
+  WhiteList:
+  - '127.0.0.1'
+  Message: '&b您在短时间内登录了太多小号，喝杯茶休息片刻吧，请稍后再试。'
+
+#防御Motd/Ping压测蹦服
+#低于1.8的版本强烈推荐开启
+AntiMotdPing:
+  Enable: true
+
+#防止实体农场（密集）
+#定时检测1X1大小内的实体数量，如果大于阀值则清理
+#防止大量实体在狭小空间内可以有效解决刷怪笼自动化和挂机导致的卡顿
+#该功能也能有效防御恶意实体密集的卡服行为
+AntiFarmMob:
+  Enable: true
+  Time: 30
+  Limit: 5
+
+#限制实体总数量
+MobLimit:
+  Enable: true
+  #总实体数量超过设定则不再生成动物
+  Animal: 1500
+  #总实体数量超过设定则不再生成怪物
+  Monster: 2000
+  #区块怪物实体超过设定数量，刷怪笼不工作
+  SpawnerMobChunkNum: 6
+
+#限制使用命令和聊天的频率
+ChatCommandRate:
+  Enable: true
+  #聊天间隔时间（秒）
+  ChatDelay: 2
+  #使用命令间隔时间（秒）
+  CommandDelay: 3
+  #命令超频的提示语
+  CommandMessage: '&e[服务器娘]&b您输入指令的速度太快了，喝杯茶休息几秒吧:)' 
+  ChatMessage: '&e[服务器娘]&b人家都要被你刷屏了，速度慢一点啦~'
+  Message: '&e[服务器娘]&b请不要在人家服务器里打小广告！'
+  #命令白名单，在该白名单的命令无视间隔时间
+  #仅需添加命令的开头部分。例如/res tp，仅需添加/res
+  #不需要考虑大小写的问题
+  CommandWhiteList:
+  - '/spawn'
+  - '/back'
+  - '/res'
+
+#限制刷怪速率
+#设置为100则不做限制，设置为0则直接禁止，单位是百分比
+#本功能主要用于平衡、禁止自动化建筑，如刷铁塔、刷金塔、刷萤石、红石塔等
+SpawnRate:
+  Enable: true
+  #设置特殊区块（女巫、史莱姆）的刷怪速度，单位为百分比
+  ChunkRate: 100
+  #刷怪笼生成怪物速度
+  SpawnerRate: 100
+  #村庄生成铁傀儡的速度，设置为0可以禁止刷铁塔等不平衡的自动化建筑
+  IronRate: 80
+  #普通、自然条件的生成速度
+  CommonRate: 100
+  #传送门的生成速度，设置为0可以禁止猪人通过传送门，防止建造刷金塔
+  PortalRate: 0
+  #是否限制刷怪笼刷出的怪掉落物品
+  AntiDropFromSpawner: false
+  #是否限制刷怪笼刷出的怪掉落经验
+  AntiDropExpFromSpawner: false
+
+#防御容器漏洞刷物品
+AntiChestBug:
+  Enable: true
+  Message: '&b[服务器娘]&e这个物品还在使用，你无法破坏。'
+
+#是否防御门作弊
+#门的漏洞存在于所有版本的服务端，强烈建议打开本功能
+#该漏洞可以在领地等限制权限的地区无限刷甘蔗、仙人掌
+AntiDoorCheat:
+  Enable: true
+
+#是否防御骨粉作弊
+#骨粉漏洞仅存在于1.6.4~1.7.10的MCPC+服务端，其他版本无需开启本功能
+#可以自行添加MOD中的物品ID，如暮色树苗
+AntiBonemealCheat:
+  Enable: false
+  BlackList:
+  #树苗
+  - 6
+  #红色蘑菇
+  - 39
+  #灰色蘑菇
+  - 40
+
+#是否防御地狱漏斗作弊
+#禁止地狱的漏斗运行，防止利用bug刷物品
+#建议全版本服务器开启本功能
+AntiNetherHopperCheat:
+  Enable: true
+
+#是否开启防御矿车作弊
+#开启本功能后，漏斗矿车、矿车、TNT矿车等所有矿车无法通过传送门
+#从而防御地狱门刷物品作弊，地狱门刷物品bug几乎通杀所有版本，虽成功率不高，但建议打开本功能
+AntiMinecraft:
+  Enable: true
+
+#防御一些其他插件的漏洞
+#目前防御的有：
+#signshop非法执行任意命令
+#chestshop无限刷钱
+FixPluginBug:
+  Enable: true
+
+#是否开启防御无限物品bug
+#该bug覆盖1.6.4~1.8，通过特殊手法可以导致某些物品的数量小于0，从而实现该物品的无限使用
+#若使用了某些MOD，利用该bug使得物品的数量小于0，更是会导致服务器崩溃，存档损坏，重启报错导致无法开服
+#强烈建议开启本功能
+AntiCountBug:
+  Enable: true
+
+#是否开启防御粘液块制作的永动机蹦服
+#仅有1.8+的服务器才需开启
+AntiPMM:
+  Enable: true
+
+#是否开启防御快捷商店大箱子刷钱的bug
+#没有安装QuickShop可以不用开启
+FixQuickShop:
+  Enable: true
+  Message: '&b[服务器娘]&e快捷商店禁止使用大箱子！'
+
+#是否开启防御牌子蹦服的bug
+#建议所有版本的服务端开启
+AntiCrashSign:
+  Enable: true
+  Message: '&b[服务器娘]&e你的牌子内容包含非法字符或内容过长。'
+
+#是否开启防御聊天发送特殊代码崩掉客户端
+#只有部分客户端才会有这个bug，但是强烈建议开启
+AntCrashChat:
+  Enable: true
+
+#是否开启防御无限刷铁轨
+AntiRail:
+  Enable: true
+
+#是否开启防御背包编辑器（例如ALL-U-WANT）
+#如果有创造服或者有玩家拥有创造，强烈建议打开
+#某则玩家不但可以制造神器，还可以用来卡服蹦服
+#本功能兼容全版本，但需要前置插件
+AntiInvEditor:
+  Enable: true
+
+#是否防御作弊MOD
+#感谢fromgate为本功能提供核心代码
+#原理为在用户进入服务器时发送特定的代码，让作弊MOD自行关闭
+#你可以根据需要自行增减Code下面的代码
+#给用户添加 NeverLag.NoCheck 权限，则不对该用户进行MOD作弊防御
+AntiCheatMod:
+  Enable: true
+  Code:
+  # CJB Xray 防御CJB透视
+  - '&3 &9 &2 &0 &0 &2 '
+  # CJB Fly 防御CJB作弊飞行
+  - '&3 &9 &2 &0 &0 &1 '
+  # CJB Radar 防御CJB雷达
+  - '&3 &9 &2 &0 &0 &3 '
+  # Rei's Minimap 防御Rei小地图
+  - '&0&0&1&e&f'
+  - '&0&0&2&3&4&5&6&7&e&f'
+  # Zan MiniMap 防御Zan小地图
+  - '&3 &6 &3 &6 &3 &6 &e'
+  - '&3 &6 &3 &6 &3 &6 &d'
+  # Automap 防御AutoMap
+  - '&0&0&1&f&e'
+  - '&0&0&2&f&e'
+  - '&0&0&3&4&5&6&7&8&f&e'
+  # SmartMove 防御灵活动作作弊
+  - '&0&1&0&1&2&f&f'
+  - '&0&1&3&4&f&f'
+  - '&0&1&5&f&f'
+  - '&0&1&6&f&f'
+  - '&0&1&7&f&f'
+  - '&0&1&8&9&a&b&f&f'
+  # Zombe 防御Zombe秒破坏和飞行等作弊
+  - '&f &f &2 &0 &4 &8 '
+  - '&f &f &4 &0 &9 &6 '
+  - '&f &f &1 &0 &2 &4 '
+  # Schematica 防御Schematica模组
+  # 强烈建议所有服务器都开启对它的防御
+  # 该模组可以盗取服务器里的任何建筑
+  - '&0&2&0&0&e&f'
+  - '&0&2&1&0&e&f'
+  - '&0&2&1&1&e&f'

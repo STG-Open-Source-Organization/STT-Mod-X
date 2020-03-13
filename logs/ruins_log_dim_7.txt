@@ -1,0 +1,7 @@
+
+Loading options from: E:\STT工业整合服务端1.12.2-3.1.2940 Build-9130 forge1.12.2-14.23.5.2847\world\DIM7
+tries_per_chunk_normal = 6
+chance_to_spawn_normal = 10.0
+templateInstancesMinDistance = 256.0
+anyRuinsMinDistance = 64.0
+Ruins mod loaded successfully for world .\world\DIM7, template files: 31

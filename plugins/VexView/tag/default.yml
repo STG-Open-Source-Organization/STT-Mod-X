@@ -1,0 +1,26 @@
+#这是一个自定义Tag配置文件
+#什么是Tag？它可以让你在3D世界中显示图片、文本等
+#此Tag的id，它可以是任意字符串
+id: 'default'
+#此Tag类型
+#IMAGE表示图片、TEXT表示文本、GIF表示gif图片
+#TEXT类型只会显示该text列表的第一行文本
+type: IMAGE
+#对应文件夹下的文件名称
+#请注意，图片的长宽在这里是以游戏内的一格方块宽度为单位！
+#例如image文件夹下的图片example.yml在这里就这样填写:
+file: 'example'
+#以下选项控制tag的方向
+direction: 
+   #这是此tag在不同坐标轴上的旋转角度，注意，是角度
+  rotate: 
+     x: 0
+     y: 0
+     z: 0
+   #是否跟随视线，开启后以上旋转配置无效
+   #此Tag将自动旋转并永远朝向玩家，无论玩家视线方向如何
+  for_player: false
+  #若此Tag添加到玩家身上，该玩家自己是否可以看见这个Tag
+  player_can_see: true
+  #若此Tag为文本类型，是否为其隐藏淡黑色背景
+  text_back: false

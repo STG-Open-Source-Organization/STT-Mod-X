@@ -1,0 +1,43 @@
+#按钮的ID，每一个按钮的ID必须不相同，否则会出现不可预料的后果
+#ID of the button, the ID of each button must be different, otherwise it will appear unpredictable consequences
+id: 0
+#按钮上显示的文字
+#Text displayed on the button
+name: '    确认'
+#一号按钮贴图的URL链接（鼠标未移动至按钮上时的图片）
+#URL1 mapping for button image
+url: '[local]button.png'
+#二号按钮贴图的URL链接（鼠标移动至按钮上时的图片）
+#URL2 mapping for button image
+url2: '[local]button_.png'
+#按钮显示的x轴坐标
+#以GUI界面右上角为原点
+#Button to display the x-axis coordinates
+#Use the upper right corner of the GUI interface as the origin
+x: 76
+#按钮显示的y轴坐标
+#以GUI界面右上角为原点
+#Button to display the y-axis coordinates
+#Use the upper right corner of the GUI interface as the origin
+y: 80
+#按钮贴图的宽度以及按钮的宽度
+#Button image width and button width
+width: 68
+#按钮贴图的高度以及按钮的高度
+#Button image height and button height
+high: 16
+#按下按钮后执行的命令，可以多个
+#The command executed after pressing the button can be multiple, you can use %player% variable instead of player name
+commands:
+- 'help'
+#是否绕过执行上面指令的权限执行
+# Whether to bypass the premission of command
+asop: false
+#按下按钮后是否关闭GUI
+#Whether to close the GUI after pressing the button
+close: true
+#按下按钮后转入另一个GUI界面 (设置为 - 则不启用)
+# Press the button to go to another GUI interface (set to - to disable)
+to: '-'
+#按下按钮后打开的网页链接（必须附带http或https，留空则不设置）
+click_url: 'https://www.baidu.com'

@@ -1,0 +1,159 @@
+x: -1
+y: -1
+url: '[local]BlueFriends/GUI.png'
+w: 200
+h: 300
+
+components:
+  标题横栏:
+    type: 'image'
+    x: 0
+    y: 0
+    w: 200
+    h: 12
+    url: '[local]BlueFriends/横栏(灰色).png'  
+  icon:
+    type: 'image'
+    x: 2
+    y: 1
+    w: 10
+    h: 10
+    url: '[local]BlueFriends/icon.png'
+  标题:
+    type: 'text'
+    x: 13
+    y: 2
+    contents:
+      - '好友申请'
+  关闭按钮:
+    type: 'button'
+    x: 182
+    y: 1
+    w: 17
+    h: 10
+    url1: '[local]BlueFriends/按钮/关闭按钮.png'
+    url2: '[local]BlueFriends/按钮/关闭按钮_悬浮.png'
+    commands:
+      - 'close'
+  返回按钮:
+    type: 'button'
+    x: 169
+    y: 1
+    w: 13
+    h: 10
+    url1: '[local]BlueFriends/按钮/返回按钮.png'
+    url2: '[local]BlueFriends/按钮/返回按钮_悬浮.png'
+    commands:
+      - 'back'
+
+  玩家头像边框:
+    type: 'image'
+    x: 5
+    y: 14
+    url: '%bluefriends_head_border%'
+    w: 30
+    h: 30
+  玩家头像:
+    type: 'image'
+    x: 7
+    y: 16
+    url: '%bluefriends_head%'
+    w: 26
+    h: 26
+  玩家名称和玩家在线情况:
+    type: 'text'
+    x: 40
+    y: 14
+    contents:
+      - '&b%player_name%&b(&8昵称:%bluefriends_nickname%&b) %bluefriends_bc_online%'
+  个性签名:
+    type: 'text'
+    x: 40
+    y: 24
+    omit: 40
+    contents:
+      - '&e%bluefriends_signature%'
+  分界线1:
+    type: 'image'
+    x: 0
+    y: 46
+    w: 200
+    h: 1
+    url: '[local]BlueFriends/分界线(半透明).png'
+  分界线2:
+    type: 'image'
+    x: 0
+    y: 60
+    w: 200
+    h: 1
+    url: '[local]BlueFriends/分界线(半透明).png'
+  申请人数:
+    type: 'text'
+    x: 4
+    y: 49
+    contents:
+      - '&8有%bluefriends_requesters_number%位玩家申请添加你为好友'
+  申请列表:
+    type: 'requester_list'
+    x: 3
+    y: 61
+    w: 195
+    h: 236
+    interval: 35
+    components:
+      玩家头像边框:
+        type: 'image'
+        x: 5
+        y: 1
+        url: '%bluefriends_head_border%'
+        w: 30
+        h: 30
+      玩家头像:
+        type: 'image'
+        x: 7
+        y: 3
+        url: '%bluefriends_head%'
+        w: 26
+        h: 26        
+      玩家名称和玩家在线情况:
+        type: 'text'
+        x: 40
+        y: 1
+        contents:
+          - '&b%bluefriends_name%&b(&8昵称:%bluefriends_nickname%&b) %bluefriends_bc_online%'
+      个性签名:
+        type: 'text'
+        x: 40
+        y: 11
+        omit: 32
+        contents:
+          - '&e%bluefriends_signature%'
+      分界线:
+        type: 'image'
+        x: 0
+        y: 33
+        w: 200
+        h: 1
+        url: '[local]BlueFriends/分界线(半透明).png'
+      同意:
+        type: 'button'
+        name: '&8拒绝'
+        x: 40
+        y: 23
+        w: 18
+        h: 10
+        url1: '[local]BlueFriends/按钮/返回按钮.png'
+        url2: '[local]BlueFriends/按钮/返回按钮_悬浮.png'
+        commands:
+          - 'friend accept %bluefriends_name%'
+      拒绝:
+        type: 'button'
+        name: '&8拒绝'
+        x: 58
+        y: 23
+        w: 18
+        h: 10
+        url1: '[local]BlueFriends/按钮/返回按钮.png'
+        url2: '[local]BlueFriends/按钮/返回按钮_悬浮.png'
+        commands:
+          - 'friend reject %bluefriends_name%'

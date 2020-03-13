@@ -1,0 +1,97 @@
+x: -1
+y: -1
+url: '[local]BlueFriends/GUI.png'
+w: 200
+h: 300
+
+components:
+  标题横栏:
+    type: 'image'
+    x: 0
+    y: 0
+    w: 200
+    h: 12
+    url: '[local]BlueFriends/横栏(灰色).png'  
+  icon:
+    type: 'image'
+    x: 2
+    y: 1
+    w: 10
+    h: 10
+    url: '[local]BlueFriends/icon.png'
+  标题:
+    type: 'text'
+    x: 13
+    y: 2
+    contents:
+      - '玩家信息:%bluefriends_name%'
+  关闭按钮:
+    type: 'button'
+    x: 182
+    y: 1
+    w: 17
+    h: 10
+    url1: '[local]BlueFriends/按钮/关闭按钮.png'
+    url2: '[local]BlueFriends/按钮/关闭按钮_悬浮.png'
+    commands:
+      - 'close'
+  返回按钮:
+    type: 'button'
+    x: 169
+    y: 1
+    w: 13
+    h: 10
+    url1: '[local]BlueFriends/按钮/返回按钮.png'
+    url2: '[local]BlueFriends/按钮/返回按钮_悬浮.png'
+    commands:
+      - 'back'
+
+  玩家头像边框:
+    type: 'image'
+    x: 50
+    y: 14
+    url: '%bluefriends_head_border%'
+    w: 100
+    h: 100
+  玩家头像:
+    type: 'image'
+    x: 52
+    y: 16
+    url: '%bluefriends_head%'
+    w: 96
+    h: 96
+  添加好友:
+    type: 'button'
+    name: '&8添加好友'
+    x: 50
+    y: 115
+    w: 100
+    h: 12
+    url1: '[local]BlueFriends/按钮/透明按钮.png'
+    url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+    commands:
+      - 'friend apply %bluefriends_name%'
+  分界线1:
+    type: 'image'
+    x: 0
+    y: 128
+    w: 200
+    h: 1
+    url: '[local]BlueFriends/分界线(半透明).png'
+  属性:
+    type: 'text'
+    x: 5
+    y: 130
+    linefeed: 40
+    contents:
+      - '玩家名:%bluefriends_name%'
+      - ''
+      - '昵称:%bluefriends_nickname%'
+      - ''
+      - '电子邮箱:%bluefriends_email%'
+      - ''
+      - 'QQ:%bluefriends_qq%'
+      - ''
+      - '性别:%bluefriends_sex%'
+      - ''
+      - '个性签名:%bluefriends_signature%'

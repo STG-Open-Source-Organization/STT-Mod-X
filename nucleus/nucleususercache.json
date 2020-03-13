@@ -1,0 +1,13 @@
+{
+  "node": {
+    "7b90f7e8-1f00-309c-a067-f0819762b637": {
+      "ipAddress": "127.0.0.1",
+      "isMuted": false
+    },
+    "9fa3a992-90a2-3e98-8124-1c0a3159b2d0": {
+      "ipAddress": "127.0.0.1",
+      "isMuted": false
+    }
+  },
+  "version": 1
+}

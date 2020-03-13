@@ -1,0 +1,13 @@
+#是否开启背包侧边栏（需要重启服务器）
+enable: true
+#侧边栏宽度
+width: 100
+#侧边栏高度
+height: 170
+#侧边栏贴图URL
+url: '[local]inv.png'
+#侧边栏所含有的页面（在pages文件夹下编辑）
+#注意，这里是有顺序的
+pages:
+- 'example' 
+- 'example2'

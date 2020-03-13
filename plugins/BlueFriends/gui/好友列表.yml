@@ -1,0 +1,214 @@
+x: -1
+y: -1
+url: '[local]BlueFriends/GUI.png'
+w: 200
+h: 300
+
+components:
+  标题横栏:
+    type: 'image'
+    x: 0
+    y: 0
+    w: 200
+    h: 12
+    url: '[local]BlueFriends/横栏(灰色).png'  
+  icon:
+    type: 'image'
+    x: 2
+    y: 1
+    w: 10
+    h: 10
+    url: '[local]BlueFriends/icon.png'
+  标题:
+    type: 'text'
+    x: 13
+    y: 2
+    contents:
+      - '好友列表'
+  关闭按钮:
+    type: 'button'
+    x: 182
+    y: 1
+    w: 17
+    h: 10
+    url1: '[local]BlueFriends/按钮/关闭按钮.png'
+    url2: '[local]BlueFriends/按钮/关闭按钮_悬浮.png'
+    commands:
+      - 'close'
+  返回按钮:
+    type: 'button'
+    x: 169
+    y: 1
+    w: 13
+    h: 10
+    url1: '[local]BlueFriends/按钮/返回按钮.png'
+    url2: '[local]BlueFriends/按钮/返回按钮_悬浮.png'
+    commands:
+      - 'back'
+
+  玩家头像边框:
+    type: 'image'
+    x: 5
+    y: 14
+    url: '%bluefriends_head_border%'
+    w: 30
+    h: 30
+  玩家头像:
+    type: 'image'
+    x: 7
+    y: 16
+    url: '%bluefriends_head%'
+    w: 26
+    h: 26
+  玩家名称和玩家在线情况:
+    type: 'text'
+    x: 40
+    y: 14
+    contents:
+      - '&b%player_name%&b(&8昵称:%bluefriends_nickname%&b) %bluefriends_bc_online%'
+  个性签名:
+    type: 'text'
+    x: 40
+    y: 24
+    omit: 40
+    contents:
+      - '&e%bluefriends_signature%'
+  分界线1:
+    type: 'image'
+    x: 0
+    y: 46
+    w: 200
+    h: 1
+    url: '[local]BlueFriends/分界线(半透明).png'
+  分界线2:
+    type: 'image'
+    x: 0
+    y: 60
+    w: 200
+    h: 1
+    url: '[local]BlueFriends/分界线(半透明).png'
+  编辑信息:
+    type: 'button'
+    name: '&8编辑信息'
+    x: 39
+    y: 34
+    w: 38
+    h: 10
+    url1: '[local]BlueFriends/按钮/透明按钮.png'
+    url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+    commands:
+      - 'bfopen 编辑信息.yml'
+  我的邮箱:
+    type: 'button'
+    name: '&8我的邮箱'
+    x: 76
+    y: 34
+    w: 38
+    h: 10
+    url1: '[local]BlueFriends/按钮/透明按钮.png'
+    url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+    commands:
+      - 'bfopen 我的邮箱.yml'
+  系统消息:
+    type: 'button'
+    name: '&8系统消息'
+    x: 114
+    y: 34
+    w: 38
+    h: 10
+    url1: '[local]BlueFriends/按钮/透明按钮.png'
+    url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+    commands:
+      - 'bfopen 系统消息.yml'
+  好友申请:
+    type: 'button'
+    name: '&8好友申请'
+    x: 152
+    y: 34
+    w: 38
+    h: 10
+    url1: '[local]BlueFriends/按钮/透明按钮.png'
+    url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+    commands:
+      - 'bfopen 好友申请.yml'
+  好友数:
+    type: 'text'
+    x: 4
+    y: 49
+    contents:
+      - '&8在线好友:%bluefriends_online_friends_number%/%bluefriends_friends_number%'
+  添加好友按钮:
+    type: 'button'
+    name: ''
+    x: 187
+    y: 48
+    w: 10
+    h: 10
+    url1: '[local]BlueFriends/按钮/添加好友按钮.png'
+    url2: '[local]BlueFriends/按钮/添加好友按钮_悬浮.png'
+    commands:
+      - 'bfopen 查询好友.yml'    
+  好友列表:
+    type: 'friend_list'
+    x: 3
+    y: 61
+    w: 195
+    h: 236
+    interval: 35
+    components:
+      玩家头像边框:
+        type: 'image'
+        x: 5
+        y: 1
+        url: '%bluefriends_head_border%'
+        w: 30
+        h: 30
+      玩家头像:
+        type: 'image'
+        x: 7
+        y: 3
+        url: '%bluefriends_head%'
+        w: 26
+        h: 26        
+      玩家名称和玩家在线情况:
+        type: 'text'
+        x: 40
+        y: 1
+        contents:
+          - '&b%bluefriends_name%&b(&8昵称:%bluefriends_nickname%&b) %bluefriends_bc_online%'
+      查看信息按钮:
+        type: 'button'
+        name: '&8查看信息'
+        x: 43
+        y: 22
+        w: 38
+        h: 10
+        url1: '[local]BlueFriends/按钮/透明按钮.png'
+        url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+        commands:
+          - 'friend query %bluefriends_name%'    
+      删除好友按钮:
+        type: 'button'
+        name: '&8删除好友'
+        x: 82
+        y: 22
+        w: 38
+        h: 10
+        url1: '[local]BlueFriends/按钮/透明按钮.png'
+        url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+        commands:
+          - 'friend delete %bluefriends_name%'  
+      个性签名:
+        type: 'text'
+        x: 40
+        y: 11
+        omit: 32
+        contents:
+          - '&e%bluefriends_signature%'
+      好友分界线:
+        type: 'image'
+        x: 0
+        y: 33
+        w: 200
+        h: 1
+        url: '[local]BlueFriends/分界线(半透明).png'      

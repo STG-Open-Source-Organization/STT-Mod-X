@@ -1,0 +1,33 @@
+#是否使用自定义的登录界面
+#需要AuthMe作为前置
+#Whether to use a custom login interface
+#Requires AuthMe or other login plugins as frontends
+login: false
+#密码输入框颜色
+# password input box color
+#BLUE/RED/YELLOW/BLACK/GREEN/WHITE/PURPLE
+textfieldcolor: BLUE
+#密码输入框是否半透明
+# Is the password input box translucent?
+textfieldalpha: true
+#自定义登录界面的背景图片URL
+#Custom login screen background image URL
+url: '[local]login.png'
+#自定义背景图片显示的X坐标
+#The X coordinate of the custom background image display
+x: 0
+#自定义背景图片显示的Y坐标
+#The Y coordinate of the custom background image display
+y: 0
+#背景图片的实际宽度
+#The actual width of the background image
+xSize: 694
+#背景图片的实际高度
+#The actual height of the background image
+ySize: 434
+#背景图片的显示宽度
+#Display width of background image
+xShow: 694
+#背景图片的显示高度
+#Display height of background image
+yShow: 434

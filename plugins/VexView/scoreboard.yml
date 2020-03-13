@@ -1,0 +1,19 @@
+#是否使用自定义计分板
+scoreboard: false
+#每个世界的计分板内容
+#格式<世界名称:计分板文件>
+#不设置则此世界不开启计分板
+worlds: 
+- 'world:default'
+#计分板的刷新频率(以tick为单位，20tick=1秒)
+refresh: 100
+#计分板贴图URL地址
+url: '[local]test.png'
+#计分板贴图实际宽度
+xSize: 20
+#计分板贴图实际高度
+ySize: 32
+#计分板贴图显示宽度
+xShow: 80
+#计分板贴图显示高度
+yShow: 128

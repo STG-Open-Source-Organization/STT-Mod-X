@@ -1,0 +1,135 @@
+x: -1
+y: -1
+url: '[local]BlueFriends/GUI.png'
+w: 200
+h: 300
+
+components:
+  标题横栏:
+    type: 'image'
+    x: 0
+    y: 0
+    w: 200
+    h: 12
+    url: '[local]BlueFriends/横栏(灰色).png'  
+  icon:
+    type: 'image'
+    x: 2
+    y: 1
+    w: 10
+    h: 10
+    url: '[local]BlueFriends/icon.png'
+  标题:
+    type: 'text'
+    x: 13
+    y: 2
+    contents:
+      - '全服邮件列表'
+  关闭按钮:
+    type: 'button'
+    x: 182
+    y: 1
+    w: 17
+    h: 10
+    url1: '[local]BlueFriends/按钮/关闭按钮.png'
+    url2: '[local]BlueFriends/按钮/关闭按钮_悬浮.png'
+    commands:
+      - 'close'
+  返回按钮:
+    type: 'button'
+    x: 169
+    y: 1
+    w: 13
+    h: 10
+    url1: '[local]BlueFriends/按钮/返回按钮.png'
+    url2: '[local]BlueFriends/按钮/返回按钮_悬浮.png'
+    commands:
+      - 'back'
+  邮件列表:
+    type: 'server_mail_list'
+    x: 3
+    y: 13
+    w: 195
+    h: 284
+    interval: 32
+    components:
+      邮件:
+        type: 'text'
+        x: 0
+        y: 0
+        omit: 40
+        contents:
+          - '主题:%mail_subject%'
+          - '发送日期:%mail_date%'
+      导入:
+        type: 'button'
+        name: '&8导入'
+        x: 5
+        y: 21
+        w: 19
+        h: 10
+        url1: '[local]BlueFriends/按钮/透明按钮.png'
+        url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+        commands:
+          - 'bfadmin maileditor load %mail_uuid%'
+          - 'bfadmin maileditor'
+      删除:
+        type: 'button'
+        name: '&8删除'
+        x: 25
+        y: 21
+        w: 19
+        h: 10
+        url1: '[local]BlueFriends/按钮/透明按钮.png'
+        url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+        commands:
+          - 'bfadmin mail delete %mail_uuid%'
+          - 'bfopen 邮件列表.yml'
+      发送给:
+        type: 'text'
+        x: 42
+        y: 21
+        w: 19
+        h: 10
+        contents:
+          - '&a发送给:'
+      全体玩家:
+        type: 'button'
+        name: '&8全体玩家'
+        x: 76
+        y: 21
+        w: 38
+        h: 10
+        url1: '[local]BlueFriends/按钮/透明按钮.png'
+        url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+        commands:
+          - 'bfadmin mail sendall %mail_uuid%'
+      特定玩家:
+        type: 'button'
+        name: '&8特定玩家'
+        x: 114
+        y: 21
+        w: 38
+        h: 10
+        url1: '[local]BlueFriends/按钮/透明按钮.png'
+        url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+        commands:
+          - 'person editbox 发送邮件给特定玩家 请输入接收条件 bfadmin%%mail%%sendIf%%%text%%blank%%mail_uuid%'   
+      某一玩家:
+        type: 'button'
+        name: '&8某一玩家'
+        x: 152
+        y: 21
+        w: 38
+        h: 10
+        url1: '[local]BlueFriends/按钮/透明按钮.png'
+        url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+        commands:
+          - 'person editbox 发送邮件给某一玩家 请输入玩家名称 bfadmin%%mail%%sendTo%%%text%%blank%%mail_uuid%'        
+      分界线:
+        type: 'image'
+        x: 0
+        y: 31
+        w: 200
+        h: 1
+        url: '[local]BlueFriends/分界线(半透明).png'   

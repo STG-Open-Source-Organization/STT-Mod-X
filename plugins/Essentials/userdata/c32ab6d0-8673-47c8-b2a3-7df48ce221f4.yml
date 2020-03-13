@@ -1,0 +1,22 @@
+logoutlocation:
+  world: world
+  x: -338.00748996630733
+  y: 96.0
+  z: -135.40855297749602
+  yaw: 350.05054
+  pitch: 20.674225
+timestamps:
+  logout: 1579442278543
+  login: 1579441765747
+  lastteleport: 1577592816157
+afk: false
+lastAccountName: YuukiSkniro
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -239.23779673144395
+  y: 92.0
+  z: -211.32076266772776
+  yaw: 202.46515
+  pitch: 18.17902
+money: '200'

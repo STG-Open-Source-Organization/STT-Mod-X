@@ -1,0 +1,11 @@
+#选用的gui（新建一个gui请在VexView\gui文件夹内编辑）
+#Which GUI file to use (Please edit any gui file in plugins\VexView\gui)
+gui: 'normal'
+#是否启用进服公告功能，如果下方AuthMe支持开启，则在玩家登录后显示一个GUI
+#如果下方AutheMe功能未开启，则在验证完成后显示一个GUI
+# Whether to enable the admission announcement function, if the AuthMe support is enabled below, a GUI is displayed after the player logs in
+# If the below AutheMe function is not enabled, a GUI is displayed after the verification is completed
+enable: false
+#是否开启Authme支持，开启后，玩家登陆后显示GUI
+#Whether to open AuthMe hook ,if true ,the GUI will not be displayed until the player login.
+authme: false

@@ -1,0 +1,10 @@
+#是否启用自定义游戏菜单（玩家按下ESC时的界面）
+enable: true
+#您的服务器官网链接（没有则填none）
+url: 'www.sttsakara.top'
+#您的服务器名称
+name: 'STT多模组工业服'
+#服务器公告内容
+text:
+- '更新信息链接https://www.sttsakara.top/stt_ic2_updata.html'
+- '下载链接https://pan.baidu.com/s/16xFrPl--AzCbw43I2UqQgA#list/path=%2F'

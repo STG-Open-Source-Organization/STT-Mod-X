@@ -1,0 +1,32 @@
+#%lunar_today%——今日农历年份和日期（年份+日期）
+#%lunar_year%——今日农历年份（天干+地支+生肖）
+#%lunar_month%——今日农历日期（年份+日期）
+#%lunar_solar_terms%——今日节气，若无则不返回值
+#%lunar_festival%——今日节日，若无则不返回值
+#版本号，请勿手贱修改
+version: "1.2"
+#插件前缀
+prefix: "&1[农历]"
+#输入/lunar custom日期格式不正确的信息
+usage: "&e用法: &c/lunar test <年份> <月份> <日期>"
+#重载的信息
+reload: "&e配置文件已更新"
+#没有权限的信息
+noperm: "&c您没有权限"
+#农历日期显示
+lunar:
+  header: "&e======&1[农历]&e======"
+  year: "&e年份: &c%year%"
+  date: "&e日期: &c%date%"
+  festival: "&e节日: &c%festival%"
+  solar_terms: "&e节气: &c%solar_terms%"
+  footer:  "&e=================="
+#帮助内容
+help:
+  header: "&e======&1[农历]&e======"
+  date: "&c%year% &b%date%"
+  help: "&e/lunar help &c帮助页面"
+  today: "&e/lunar today &c解析今天的农历日期"
+  test: "&e/lunar custom <日期> &c解析指定的农历日期"
+  reload: "&e/lunar reload &c重新加载配置文件"
+  footer:  "&e=================="

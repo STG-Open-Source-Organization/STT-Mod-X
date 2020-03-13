@@ -1,0 +1,14 @@
+mysql: 
+  #是否启用MySQL数据库存储数据
+  #跨服请请一定使用MySQL数据库并开启此选项
+  #否则可能会出现一些不同步的问题
+  enable: false
+  info: 
+    databasename: test
+    username: root
+    password: lk.test
+    port: 3306
+    ip: localhost
+messages:
+  sync: '> 正在同步VexView的内容...'
+  finish: '> 完成同步！'

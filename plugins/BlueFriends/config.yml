@@ -1,0 +1,68 @@
+#配置文件版本
+version: '1.0'
+#数据库相关设置
+Database:
+  #数据库的类型,可选MYSQL或SQLite
+  type: 'SQLite'
+  #若数据库类型为SQLite以下均不用设置
+  #数据库地址,带端口
+  url: 'localhost:3306'
+  #数据库的用户名
+  user: 'root'
+  #数据库的密码
+  password: ''
+
+#玩家的一些默认属性
+DefaultAttributes:
+  email: '未知'
+  qq: '未知'
+  sex: '未知'
+  signature: '给时间以生命，而非给生命以时间。'
+  head: '[local]BlueFriends/Head.png'
+  head_border: '[local]BlueFriends/HeadBorder.png'
+  #注意不是填玩家的名称，是填玩家的UUID!!!!!!!!!!!!!!!!
+  #格式可以是一般的一行一个"- 'uuid1'"...
+  #也可以是['uuid1','uuid2','uuid3']
+  #默认为空就填"[]"
+  friend_list: []
+  #填消息的UUID
+  #消息的UUID在数据库中查看
+  message_list: []
+  #填头像的地址
+  head_list: ['[local]BlueFriends/Head.png']
+  #填头像边框的地址
+  head_border_list: ['[local]BlueFriends/HeadBorder.png']
+  #填邮件的UUID
+  mail_box: []
+
+#文本替换相关设置
+Replacement:
+  #日期的格式
+  #替换全局变量%bluefriends_date%
+  #变量: 年%year% 月%month% 日%day% 小时%hour% 分钟%minute% 秒%second%
+  date_format: '%year%年%month%月%day%日 %hour%:%minute%:%second%'
+  #在邮件已读的情况下替换%read%
+  read: '&8已读'
+  #在邮件未读的情况下替换%read%
+  not_read: '&a未读'
+  #在玩家在线的情况下替换%bluefriends_online%
+  online: '&a●在线'
+  #在玩家不在线的情况下替换%bluefriends_online%
+  offline: '&8●离线'
+  #在玩家在线(群组服的任意一个子服)的情况下替换%bluefriends_bc_online%
+  bc_online: '&a●在线'
+  #在玩家在线(群组服的任意一个子服)的情况下替换%bluefriends_bc_online%
+  bc_offline: '&8●离线'
+
+#其他设置
+Settings:
+  #是否为群组服
+  #务必根据实际情况填写,否则有可能报错
+  bungeecord: false
+  #服务器的名称
+  #用于在群组服中显示玩家位于哪个子服
+  #可以不与BC端配置的一致
+  #替换%bluefriends_server_name%变量
+  server_name: 'Default Server'
+  #弹出消息的GUI文件名或映射名
+  message_box: 'MessageBox.yml'

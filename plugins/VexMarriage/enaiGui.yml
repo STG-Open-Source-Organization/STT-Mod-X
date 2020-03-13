@@ -1,0 +1,203 @@
+#恩爱一级礼包线，达到线后可以领取礼包
+enai1: 100
+#恩爱二级礼包线，达到线后可以领取礼包
+enai2: 200
+#恩爱三级礼包线，达到线后可以领取礼包
+enai3: 300
+#恩爱四级礼包线，达到线后可以领取礼包
+enai4: 500
+#恩爱五级礼包线，达到线后可以领取礼包
+enai5: 800
+Gui: 
+  #GUI信息填写
+  url: "[local]Marry/enaiGui.png"
+  x: -1
+  y: -1
+  Width: 600
+  Height: 300
+  w: 600
+  h: 300
+  
+Textenai: 
+  #文本信息填写
+  msg: "&6你的恩爱值为：&d%enai%"
+  x: 190
+  y: 50
+  #此为文字放大倍数
+  Beishu: 1
+  
+Text1: 
+  #文本信息填写
+  Lore: 
+    - "&b奖励1"
+    - "&b金币:&a1000"
+  x: 60
+  y: 100
+  #此为文字放大倍数
+  Beishu: 1
+  
+Text2: 
+  #文本信息填写
+  Lore: 
+    - "&b奖励2"
+    - "&b金币:&a2000"
+  x: 163
+  y: 100
+  #此为文字放大倍数
+  Beishu: 1
+  
+Text3: 
+  #文本信息填写
+  Lore: 
+    - "&b奖励3"
+    - "&b金币:&a3000"
+  x: 263
+  y: 100
+  #此为文字放大倍数
+  Beishu: 1
+  
+Text4: 
+  #文本信息填写
+  Lore: 
+    - "&b奖励4"
+    - "&b金币:&a4000"
+  x: 363
+  y: 100
+  #此为文字放大倍数
+  Beishu: 1
+  
+Text5: 
+  #文本信息填写
+  Lore: 
+    - "&b奖励5"
+    - "&b金币:&a5000"
+  x: 463
+  y: 100
+  #此为文字放大倍数
+  Beishu: 1
+  
+OKButton: 
+  #已领取的按钮贴图
+  url : "[local]YiLingQu.png"
+  x: 50
+  y: 245
+  Width: 85
+  Height: 25
+  
+OKButton2: 
+  url : "[local]YiLingQu.png"
+  x: 154
+  y: 245
+  Width: 85
+  Height: 25
+  
+OKButton3: 
+  url : "[local]YiLingQu.png"
+  x: 255
+  y: 245
+  Width: 85
+  Height: 25
+  
+OKButton4: 
+  url : "[local]YiLingQu.png"
+  x: 355
+  y: 245
+  Width: 85
+  Height: 25
+  
+OKButton5: 
+  url : "[local]YiLingQu.png"
+  x: 455
+  y: 245
+  Width: 85
+  Height: 25
+  
+Button1: 
+  #一级礼包按钮按钮信息填写
+  #按钮ID
+  id: "id_1"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/lingqu.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/lingqu2.png"
+  x: 50
+  y: 245
+  Width: 85
+  Height: 25
+  Commands: 
+  #一级礼包点击领取后需要执行的命令
+    - "eco give %player% 1000"
+    
+Button2: 
+  #二级礼包按钮按钮信息填写
+  #按钮ID
+  id: "id_2"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/lingqu.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/lingqu2.png"
+  x: 154
+  y: 245
+  Width: 85
+  Height: 25
+  Commands: 
+  #二级礼包点击领取后需要执行的命令
+    - "eco give %player% 1000"
+    
+Button3: 
+  #三级礼包按钮按钮信息填写
+  #按钮ID
+  id: "id_3"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/lingqu.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/lingqu2.png"
+  x: 255
+  y: 245
+  Width: 85
+  Height: 25
+  Commands: 
+  #三级礼包点击领取后需要执行的命令
+    - "eco give %player% 1000"
+    
+Button4: 
+  #四级礼包按钮按钮信息填写
+  #按钮ID
+  id: "id_4"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/lingqu.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/lingqu2.png"
+  x: 355
+  y: 245
+  Width: 85
+  Height: 25
+  Commands: 
+  #四级礼包点击领取后需要执行的命令
+    - "eco give %player% 1000"
+    
+Button5: 
+  #五级礼包按钮按钮信息填写
+  #按钮ID
+  id: "id_5"
+  #按钮上面显示的文字
+  name: ""
+  #按钮链接
+  url1: "[local]Marry/lingqu.png"
+  #按钮悬浮链接
+  url2: "[local]Marry/lingqu2.png"
+  x: 455
+  y: 245
+  Width: 85
+  Height: 25
+  Commands: 
+  #五级礼包点击领取后需要执行的命令
+    - "eco give %player% 1000"

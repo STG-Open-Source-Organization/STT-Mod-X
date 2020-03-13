@@ -1,0 +1,1753 @@
+[20:50:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:50:55] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:50:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:50:55] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.8888 for Minecraft 1.12.2 loading
+[20:50:55] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_241, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_241
+[20:50:56] [main/WARN] [FML]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
+[20:50:56] [main/WARN] [FML]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
+[20:50:56] [main/WARN] [FML]: The coremod CatCorePlugin (catserver.server.CatCorePlugin) is not signed!
+[20:50:56] [main/INFO] [FML]: Searching E:\STT工业整合服务端1.12.2-3.1.2940 Build-9130 forge1.12.2-14.23.5.2847\.\mods for mods
+[20:50:56] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in [AC]AcademyCraft-1.1.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:50:56] [main/WARN] [FML]: The coremod cn.lambdalib2.CorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:50:56] [main/WARN] [FML]: The coremod CorePlugin (cn.lambdalib2.CorePlugin) is not signed!
+[20:50:56] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in [CTM]连接材质CTM-MC1.12.2-1.0.1.30.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:50:56] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:50:56] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[20:50:56] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in [R键整理]InventoryTweaks-1.63.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:50:56] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:50:56] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in [新版内容]future-mc-0.1.13.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:50:56] [main/WARN] [FML]: The coremod FutureMC (thedarkcolour.futuremc.asm.CoreLoader) is not signed!
+[20:50:56] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in [泡沫修复]foamfix-0.10.9-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:50:56] [main/WARN] [FML]: The coremod pl.asie.foamfix.coremod.FoamFixCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:50:56] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in [静谧四季]SereneSeasons-1.12.2-1.2.18-universal.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:50:56] [main/WARN] [FML]: The coremod sereneseasons.asm.SSLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:50:56] [main/WARN] [FML]: The coremod SSLoadingPlugin (sereneseasons.asm.SSLoadingPlugin) is not signed!
+[20:50:56] [main/INFO] [FML]: Loading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from BetterFps-1.4.8.jar
+[20:50:56] [main/INFO] [FML]: Loading tweaker codechicken.asm.internal.Tweaker from ChickenASM-1.12-1.0.2.7.jar
+[20:50:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:50:56] [main/INFO] [LaunchWrapper]: Loading tweak class name guichaguri.betterfps.tweaker.BetterFpsTweaker
+[20:50:56] [main/INFO] [LaunchWrapper]: Loading tweak class name codechicken.asm.internal.Tweaker
+[20:50:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:50:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:50:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:50:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:50:56] [main/FATAL] [FML]: The binary patch set is missing, things are not going to work!
+[20:50:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:50:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:50:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:50:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:50:57] [main/INFO] [LaunchWrapper]: Calling tweak class codechicken.asm.internal.Tweaker
+[20:50:57] [main/INFO] [STDOUT]: [codechicken.asm.internal.Tweaker:injectIntoClassLoader:30]: false
+[20:50:57] [main/INFO] [LaunchWrapper]: Calling tweak class guichaguri.betterfps.tweaker.BetterFpsTweaker
+[20:50:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:50:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:50:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:50:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:50:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:50:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:50:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:50:57] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:98]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[20:50:57] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:135]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[20:50:57] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:62]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[20:50:57] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[20:50:58] [main/INFO] [BetterFps]: Patching net.minecraft.block.Block... (aow)
+[20:50:58] [main/INFO] [BetterFps]: Patching math utils with "RIVENS_HALF" algorithm
+[20:50:59] [main/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityBeacon... (avh)
+[20:50:59] [main/INFO] [BetterFps]: Patching net.minecraft.block.BlockHopper... (arl)
+[20:50:59] [main/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityHopper... (avw)
+[20:51:00] [main/INFO] [BetterFps]: Patching net.minecraft.server.dedicated.DedicatedServer... (nz)
+[20:51:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[20:51:00] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.8888 Initialized
+[20:51:00] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[20:51:00] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[20:51:00] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[20:51:01] [Server thread/WARN] [FML]: Enabling removal of erroring Entities - USE AT YOUR OWN RISK
+[20:51:01] [Server thread/INFO] [FML]: Searching E:\STT工业整合服务端1.12.2-3.1.2940 Build-9130 forge1.12.2-14.23.5.2847\.\mods for mods
+[20:51:01] [Server thread/INFO] [FML]: Mod lambdalib2 is missing the required element 'name'. Substituting lambdalib2
+[20:51:02] [Server thread/WARN] [FML]: Mod cookingforblockheads is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 6.4.71
+[20:51:02] [Server thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[20:51:02] [Server thread/INFO] [FML]: Disabling mod ctm it is client side only.
+[20:51:02] [Server thread/INFO] [FML]: Disabling mod torohealthmod it is client side only.
+[20:51:02] [Server thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
+[20:51:02] [Server thread/INFO] [FML]: Disabling mod ambientsounds it is client side only.
+[20:51:03] [Server thread/WARN] [FML]: Mod nmsot is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.2.1-mc1.12
+[20:51:03] [Server thread/INFO] [FML]: Disabling mod wailaharvestability it is client side only.
+[20:51:03] [Server thread/INFO] [FML]: Forge Mod Loader has identified 49 mods to load
+[20:51:03] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[20:51:03] [Server thread/WARN] [FML]: Missing English translation for lambdalib2: assets/lambdalib2/lang/en_us.lang
+[20:51:03] [Server thread/WARN] [FML]: Missing English translation for buildcraftbuilders: assets/buildcraftbuilders/lang/en_us.lang
+[20:51:03] [Server thread/WARN] [FML]: Missing English translation for buildcraftcore: assets/buildcraftcore/lang/en_us.lang
+[20:51:03] [Server thread/WARN] [FML]: Missing English translation for buildcraftenergy: assets/buildcraftenergy/lang/en_us.lang
+[20:51:03] [Server thread/WARN] [FML]: Missing English translation for buildcraftfactory: assets/buildcraftfactory/lang/en_us.lang
+[20:51:03] [Server thread/WARN] [FML]: Missing English translation for buildcraftrobotics: assets/buildcraftrobotics/lang/en_us.lang
+[20:51:03] [Server thread/WARN] [FML]: Missing English translation for buildcraftsilicon: assets/buildcraftsilicon/lang/en_us.lang
+[20:51:03] [Server thread/WARN] [FML]: Missing English translation for buildcrafttransport: assets/buildcrafttransport/lang/en_us.lang
+[20:51:03] [Server thread/WARN] [FML]: Missing English translation for codechickenlib: assets/codechickenlib/lang/en_us.lang
+[20:51:03] [Server thread/WARN] [FML]: Missing English translation for ic2: assets/ic2/lang/en_us.lang
+[20:51:03] [Server thread/WARN] [FML]: Missing English translation for unidict: assets/unidict/lang/en_us.lang
+[20:51:03] [Server thread/WARN] [FML]: Missing English translation for foamfix: assets/foamfix/lang/en_us.lang
+[20:51:03] [Server thread/WARN] [FML]: Missing English translation for nmsot: assets/nmsot/lang/en_us.lang
+[20:51:03] [Server thread/WARN] [FML]: Missing English translation for ruins: assets/ruins/lang/en_us.lang
+[20:51:03] [Server thread/INFO] [FML]: FML has found a non-mod file [CTM]连接材质CTM-MC1.12.2-1.0.1.30.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[20:51:03] [Server thread/INFO] [FML]: FML has found a non-mod file [伤害显示]torohealth-1.12-11.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[20:51:03] [Server thread/INFO] [FML]: FML has found a non-mod file [自然音效]AmbientSounds_v3.0.9_mc1.12.2.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[20:51:03] [Server thread/INFO] [FML]: FML has found a non-mod file WailaHarvestability-mc1.12-1.1.12.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[20:51:03] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, LambdaLib|Core, foamfixcore, futuremccore, academy, lambdalib2, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, cookingforblockheads, codechickenlib, forestry, ic2, jei, nei, inventorytweaks, unidict, chisel, torcherino, recipehandler, bedrockores, bibliocraft, minecraftfuture, journeymap, twilightforest, ironchest, foamfix, harvestcraft, chinjufumod, sereneseasons, wawla, advanced_solar_panels, waila, netherportalfix, nmsot, ruins, superores, bspkrscore, treecapitator, wanionlib] at CLIENT
+[20:51:03] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, LambdaLib|Core, foamfixcore, futuremccore, academy, lambdalib2, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, cookingforblockheads, codechickenlib, forestry, ic2, jei, nei, inventorytweaks, unidict, chisel, torcherino, recipehandler, bedrockores, bibliocraft, minecraftfuture, journeymap, twilightforest, ironchest, foamfix, harvestcraft, chinjufumod, sereneseasons, wawla, advanced_solar_panels, waila, netherportalfix, nmsot, ruins, superores, bspkrscore, treecapitator, wanionlib] at SERVER
+[20:51:03] [Server thread/INFO] [LambdaLib|Core]: LambdaLib2|Core is loading.
+[20:51:03] [Server thread/INFO] []: [LL2] Find registry mod: cn.academy.AcademyCraft
+[20:51:03] [Server thread/INFO] []: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[20:51:03] [Server thread/INFO] []: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[20:51:05] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[20:51:05] [Server thread/INFO] [FML]: Found 1647 ObjectHolder annotations
+[20:51:05] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[20:51:05] [Server thread/INFO] [FML]: Found 2 ItemStackHolder annotations
+[20:51:05] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[20:51:05] [Server thread/INFO] []: Spliced in METHOD: net.minecraftforge.common.property.ExtendedBlockState.createState
+[20:51:05] [Server thread/INFO] [lambdalib2]: EntityData baked, network participants: [cn.academy.ability.develop.DevelopData, cn.academy.ability.develop.PortableDevData, cn.academy.ability.vanilla.teleporter.skill.LocTeleportData, cn.academy.datapart.AbilityData, cn.academy.datapart.CPData, cn.academy.datapart.CooldownData, cn.academy.datapart.PresetData, cn.academy.misc.media.MediaAcquireData, cn.academy.terminal.TerminalData, cn.academy.tutorial.TutorialData, cn.lambdalib2.datapart.PlayerDataTag]
+[20:51:05] [Server thread/INFO] [AcademyCraft]: Starting AcademyCraft
+[20:51:05] [Server thread/INFO] [AcademyCraft]: Copyright (c) Lambda Innovation, 2013-2018
+[20:51:05] [Server thread/INFO] [AcademyCraft]: https://ac.li-dev.cn/
+[20:51:06] [Server thread/INFO] [BuildCraft]: 
+[20:51:06] [Server thread/INFO] [BuildCraft]: Starting BuildCraft 7.99.24.3
+[20:51:06] [Server thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2018
+[20:51:06] [Server thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+[20:51:06] [Server thread/INFO] [BuildCraft]: Detailed Build Information:
+[20:51:06] [Server thread/INFO] [BuildCraft]:   Branch HEAD
+[20:51:06] [Server thread/INFO] [BuildCraft]:   Commit 30b0e64721b09b51e884707c87bfd5ed10686f1f
+[20:51:06] [Server thread/INFO] [BuildCraft]:     Bump version for 7.99.24.3 release.
+[20:51:06] [Server thread/INFO] [BuildCraft]:     committed by AlexIIL
+[20:51:06] [Server thread/INFO] [BuildCraft]: 
+[20:51:06] [Server thread/INFO] [BuildCraft]: Loaded Modules:
+[20:51:06] [Server thread/INFO] [BuildCraft]:   - lib
+[20:51:06] [Server thread/INFO] [BuildCraft]:   - core
+[20:51:06] [Server thread/INFO] [BuildCraft]:   - builders
+[20:51:06] [Server thread/INFO] [BuildCraft]:   - energy
+[20:51:06] [Server thread/INFO] [BuildCraft]:   - factory
+[20:51:06] [Server thread/INFO] [BuildCraft]:   - robotics
+[20:51:06] [Server thread/INFO] [BuildCraft]:   - silicon
+[20:51:06] [Server thread/INFO] [BuildCraft]:   - transport
+[20:51:06] [Server thread/INFO] [BuildCraft]:   - compat
+[20:51:06] [Server thread/INFO] [BuildCraft]: Missing Modules:
+[20:51:06] [Server thread/INFO] [BuildCraft]: 
+[20:51:06] [Server thread/INFO] [BuildCraft]: [debugger] Not a dev environment!
+[20:51:06] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[20:51:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `advanced_solar_panels` for name `molecular_transformer`, expected `ic2`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `advanced_solar_panels` for name `quantum_generator`, expected `ic2`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `advanced_solar_panels` for name `advanced_solar_panel`, expected `ic2`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `advanced_solar_panels` for name `hybrid_solar_panel`, expected `ic2`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `advanced_solar_panels` for name `ultimate_solar_panel`, expected `ic2`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `advanced_solar_panels` for name `quantum_solar_panel`, expected `ic2`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:11] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 352 out of 352 recipes for shaped recipes
+[20:51:11] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 79 out of 79 recipes for shapeless recipes
+[20:51:11] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 41 out of 41 recipes for solid uu recipes
+[20:51:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 27 out of 27 recipes for furnace recipes
+[20:51:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for blast furnace recipes
+[20:51:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for block cutter recipes
+[20:51:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 51 out of 51 recipes for compressor recipes
+[20:51:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 12 out of 12 recipes for extractor recipes
+[20:51:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 74 out of 74 recipes for macerator recipes
+[20:51:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for metal former cutting recipes
+[20:51:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 10 out of 10 recipes for metal former extruding recipes
+[20:51:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for metal former rolling recipes
+[20:51:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 8 out of 8 recipes for ore washing recipes
+[20:51:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 26 out of 26 recipes for thermal centrifuge recipes
+[20:51:12] [Server thread/INFO] [forestry]: Module EnderIO Module failed to load: EnderIO not found
+[20:51:12] [Server thread/INFO] [forestry]: Module Extra Utilities Module failed to load: Extra Utilities not found
+[20:51:12] [Server thread/INFO] [forestry]: Module ImmersiveEngineering Module failed to load: ImmersiveEngineering not found
+[20:51:12] [Server thread/INFO] [forestry]: Module Mystical Agriculture Module failed to load: Mystical Agriculture not found
+[20:51:12] [Server thread/INFO] [forestry]: Module Natura Module failed to load: Natura not found
+[20:51:12] [Server thread/INFO] [forestry]: Module Actually Additions Module failed to load: Actually Additions not found
+[20:51:12] [Server thread/INFO] [forestry]: Module Better With Mods Module failed to load: Better With Mods not found
+[20:51:12] [Server thread/INFO] [forestry]: Module TechReborn Module failed to load: TechReborn not found
+[20:51:12] [Server thread/INFO] [forestry]: Module BiomesOPlenty Module failed to load: BiomesOPlenty not found
+[20:51:12] [Server thread/INFO] [forestry]: Module Roots Module failed to load: Roots not found
+[20:51:12] [Server thread/INFO] [forestry]: Module rustic Module failed to load: Rustic not found
+[20:51:13] [Server thread/INFO] [BuildCraft]: 
+[20:51:13] [Server thread/INFO] [BuildCraft]: Starting BuildCraftCompat 7.99.24.3
+[20:51:13] [Server thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2017
+[20:51:13] [Server thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+[20:51:13] [Server thread/INFO] [BuildCraft]: Detailed Build Information:
+[20:51:13] [Server thread/INFO] [BuildCraft]:   Branch 8.0.x-1.12.2
+[20:51:13] [Server thread/INFO] [BuildCraft]:   Commit 30bd1928813b741018bf0988f0453591382e135e
+[20:51:13] [Server thread/INFO] [BuildCraft]:     Update buildcraft to 7.99.24.3 release.
+[20:51:13] [Server thread/INFO] [BuildCraft]:     committed by AlexIIL
+[20:51:13] [Server thread/INFO] [BuildCraft]: 
+[20:51:13] [Server thread/INFO] [BuildCraft]: [compat] Module list:
+[20:51:13] [Server thread/INFO] [BuildCraft]: [compat]   + forestry
+[20:51:13] [Server thread/INFO] [BuildCraft]: [compat]   x theoneprobe (It cannot load)
+[20:51:13] [Server thread/INFO] [BuildCraft]: [compat]   x crafttweaker (It cannot load)
+[20:51:13] [Server thread/INFO] [FML]: Applying holder lookups
+[20:51:13] [Server thread/INFO] [FML]: Holder lookups applied
+[20:51:13] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Baubles.
+[20:51:13] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Chisel.
+[20:51:13] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Forestry.
+[20:51:13] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Immersive Engineering.
+[20:51:13] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Just Enough Items.
+[20:51:13] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Tinkers' Construct.
+[20:51:13] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Thaumcraft.
+[20:51:13] [Server thread/INFO] [foamfix]: Removing LaunchWrapper package manifest map...
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `apple`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `wheat`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `potato`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `carrot`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `melon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beef`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_beef`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `chicken`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_chicken`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `porkchop`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_porkchop`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rabbit`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_rabbit`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mutton`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_mutton`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cod`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_cod`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `salmon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_salmon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `clownfish`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pufferfish`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mushroom_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cookie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `baked_potato`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rabbit_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot_soup`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `season_sensor`, expected `sereneseasons`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/INFO] [advanced_solar_panels]: Loading ASP Config from E:\STT工业整合服务端1.12.2-3.1.2940 Build-9130 forge1.12.2-14.23.5.2847\config\advanced_solar_panels.cfg
+[20:51:14] [Server thread/INFO] [advanced_solar_panels]: Loading MT Recipes from E:\STT工业整合服务端1.12.2-3.1.2940 Build-9130 forge1.12.2-14.23.5.2847\config\advanced_solar_panels_MTRecipes.cfg
+[20:51:14] [Server thread/INFO] [Treecapitator]: Proceeding to load tree/mod configs from file.
+[20:51:14] [Server thread/INFO] [Chisel]: Loading blocks...
+[20:51:14] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[20:51:14] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[20:51:14] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[20:51:14] [Server thread/INFO] [Chisel]: 72 Feature's blocks loaded.
+[20:51:14] [Server thread/INFO] [Chisel]: Loading Tile Entities...
+[20:51:14] [Server thread/INFO] [Chisel]: Tile Entities loaded.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bookcase`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `shelf`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `markerpole`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `clipboard`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bibliolight`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `furniturepaneler`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `potionshelf`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `toolrack`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `label`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `desk`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `table`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `seat`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fancysign`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fancyworkbench`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `framedchest`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mapframe`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `case`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `clock`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `paintingframeborderless`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `paintingframefancy`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `paintingframeflat`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `paintingframemiddle`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `paintingframesimple`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `paintingpress`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `armorstand`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `typesettingtable`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `printingpress`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cookiejar`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dinnerplate`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `discrack`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `swordpedestal`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bell`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `typewriter`, expected `bibliocraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.dirtchest9000`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:14] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:16] [Server thread/INFO] []: oreAluminum has no ore found!!
+[20:51:16] [Server thread/INFO] []: oreNickel has no ore found!!
+[20:51:16] [Server thread/INFO] []: oreOsmium has no ore found!!
+[20:51:16] [Server thread/INFO] []: orePlatinum has no ore found!!
+[20:51:16] [Server thread/INFO] []: oreArdite has no ore found!!
+[20:51:16] [Server thread/INFO] []: oreCobalt has no ore found!!
+[20:51:16] [Server thread/INFO] []: oreIridium has no ore found!!
+[20:51:16] [Server thread/INFO] []: oreYellorite has no ore found!!
+[20:51:16] [Server thread/INFO] []: oreCertusQuartz has no ore found!!
+[20:51:16] [Server thread/INFO] [lambdalib2]: LL2: Executing 3 block registry callbacks...
+[20:51:16] [Server thread/INFO] [FML]: Applying holder lookups
+[20:51:16] [Server thread/INFO] [FML]: Holder lookups applied
+[20:51:16] [Server thread/INFO] [Chisel]: Loading items...
+[20:51:16] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[20:51:16] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[20:51:16] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[20:51:16] [Server thread/INFO] [Chisel]: 72 Feature's items loaded.
+[20:51:16] [Server thread/INFO] [lambdalib2]: LL2: Executing 5 item registry callbacks...
+[20:51:16] [Server thread/INFO] [FML]: Applying holder lookups
+[20:51:16] [Server thread/INFO] [FML]: Holder lookups applied
+[20:51:17] [Server thread/INFO] [FML]: Applying holder lookups
+[20:51:17] [Server thread/INFO] [FML]: Holder lookups applied
+[20:51:17] [Server thread/INFO] [FML]: Applying holder lookups
+[20:51:17] [Server thread/INFO] [FML]: Holder lookups applied
+[20:51:17] [Server thread/INFO] [FML]: Injecting itemstacks
+[20:51:17] [Server thread/INFO] [FML]: Itemstack injection complete
+[20:51:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[20:51:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[20:51:17] [Server thread/INFO] [Minecraft]: This server is running CatServer version git-CatServer-1.12.2-2019-11-27 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[20:51:17] [Server thread/INFO] []: FakePlayer Permissions:
+[20:51:17] [Server thread/INFO] []: essentials.build
+[20:51:17] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[20:51:17] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[20:51:17] [Server thread/INFO] []: Server Ping Player Sample Count: 12
+[20:51:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[20:51:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[20:51:17] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[20:51:18] [Server thread/INFO] [Chisel]: Loading recipes...
+[20:51:18] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[20:51:18] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[20:51:18] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[20:51:18] [Server thread/INFO] [Chisel]: 72 Feature's recipes loaded.
+[20:51:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:18] [Server thread/WARN] [FML]: Unable to find recipe for minecraft:rabbit_stew
+[20:51:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot_soup`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mushroom_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cookie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:18] [Server thread/WARN] [FML]: Unable to find recipe for minecraft:baked_potato
+[20:51:18] [Server thread/INFO] [FML]: Applying holder lookups
+[20:51:18] [Server thread/INFO] [FML]: Holder lookups applied
+[20:51:18] [Server thread/INFO] [AcademyCraft]: IC2 API Support has been loaded.
+[20:51:19] [Server thread/INFO] [torcherino]: class com.sci.torcherino.blocks.tiles.TileTorcherino
+[20:51:19] [Server thread/INFO] [foamfix]: Deduplicated 863 property sets.
+[20:51:19] [Server thread/INFO] [foamfix]: Weakening LaunchWrapper resource cache...
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:ocean;OCEAN;0.5;false;false;false;[OCEAN, WATER]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:plains;MEDIUM;0.8;false;false;false;[PLAINS]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:desert;WARM;2.0;false;false;false;[DRY, HOT, SANDY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:extreme_hills;MEDIUM;0.2;false;false;false;[MOUNTAIN, HILLS]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:forest;MEDIUM;0.7;false;false;false;[FOREST]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:taiga;MEDIUM;0.25;false;false;false;[FOREST, CONIFEROUS, COLD]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:swampland;MEDIUM;0.8;true;false;false;[SWAMP, WET]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:river;MEDIUM;0.5;false;false;false;[RIVER, WATER]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:hell;WARM;2.0;false;false;false;[DRY, HOT, NETHER]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:sky;MEDIUM;0.5;false;false;false;[END, COLD, DRY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:frozen_ocean;OCEAN;0.0;false;false;true;[COLD, OCEAN, WATER, SNOWY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:frozen_river;COLD;0.0;false;false;true;[COLD, RIVER, WATER, SNOWY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:ice_flats;COLD;0.0;false;false;true;[WASTELAND, COLD, SNOWY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:ice_mountains;COLD;0.0;false;false;true;[MOUNTAIN, COLD, SNOWY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mushroom_island;MEDIUM;0.9;true;false;false;[RARE, MUSHROOM]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mushroom_island_shore;MEDIUM;0.9;true;false;false;[BEACH, RARE, MUSHROOM]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:beaches;MEDIUM;0.8;false;false;false;[BEACH]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:desert_hills;WARM;2.0;false;false;false;[DRY, HOT, SANDY, HILLS]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:forest_hills;MEDIUM;0.7;false;false;false;[FOREST, HILLS]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:taiga_hills;MEDIUM;0.25;false;false;false;[FOREST, CONIFEROUS, COLD, HILLS]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:smaller_extreme_hills;MEDIUM;0.2;false;false;false;[MOUNTAIN]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:jungle;MEDIUM;0.95;true;false;false;[DENSE, HOT, WET, JUNGLE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:jungle_hills;MEDIUM;0.95;true;false;false;[DENSE, HOT, WET, HILLS, JUNGLE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:jungle_edge;MEDIUM;0.95;false;false;false;[FOREST, RARE, HOT, WET, JUNGLE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:deep_ocean;OCEAN;0.5;false;false;false;[OCEAN, WATER]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:stone_beach;MEDIUM;0.2;false;false;false;[BEACH]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:cold_beach;COLD;0.05;false;false;true;[BEACH, COLD, SNOWY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:birch_forest;MEDIUM;0.6;false;false;false;[FOREST]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:birch_forest_hills;MEDIUM;0.6;false;false;false;[FOREST, HILLS]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:roofed_forest;MEDIUM;0.7;false;false;false;[FOREST, DENSE, SPOOKY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:taiga_cold;COLD;-0.5;false;false;true;[FOREST, CONIFEROUS, COLD, SNOWY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:taiga_cold_hills;COLD;-0.5;false;false;true;[FOREST, CONIFEROUS, COLD, SNOWY, HILLS]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:redwood_taiga;MEDIUM;0.3;false;false;false;[FOREST, CONIFEROUS, COLD]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:redwood_taiga_hills;MEDIUM;0.3;false;false;false;[FOREST, CONIFEROUS, COLD, HILLS]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:extreme_hills_with_trees;MEDIUM;0.2;false;false;false;[FOREST, MOUNTAIN, SPARSE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:savanna;WARM;1.2;false;false;false;[SAVANNA, PLAINS, HOT, SPARSE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:savanna_rock;WARM;1.0;false;false;false;[SAVANNA, PLAINS, RARE, HOT, SPARSE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mesa;WARM;2.0;false;false;false;[MESA, DRY, SANDY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mesa_rock;WARM;2.0;false;false;false;[MESA, DRY, SANDY, SPARSE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mesa_clear_rock;WARM;2.0;false;false;false;[MESA, DRY, SANDY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:void;MEDIUM;0.5;false;false;false;[VOID]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_plains;MEDIUM;0.8;false;true;false;[PLAINS, RARE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_desert;WARM;2.0;false;true;false;[RARE, DRY, HOT, SANDY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_extreme_hills;MEDIUM;0.2;false;true;false;[MOUNTAIN, RARE, SPARSE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_forest;MEDIUM;0.7;false;true;false;[FOREST, RARE, HILLS]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_taiga;MEDIUM;0.25;false;true;false;[FOREST, MOUNTAIN, RARE, CONIFEROUS, COLD]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_swampland;MEDIUM;0.8;true;true;false;[SWAMP, RARE, WET, HILLS]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_ice_flats;COLD;0.0;false;true;true;[RARE, COLD, SNOWY, HILLS]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_jungle;MEDIUM;0.95;true;true;false;[MOUNTAIN, RARE, DENSE, HOT, WET, JUNGLE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_jungle_edge;MEDIUM;0.95;false;true;false;[RARE, HOT, SPARSE, HILLS, JUNGLE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_birch_forest;MEDIUM;0.6;false;true;false;[FOREST, RARE, DENSE, HILLS]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_birch_forest_hills;MEDIUM;0.6;false;true;false;[FOREST, MOUNTAIN, RARE, DENSE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_roofed_forest;MEDIUM;0.7;false;true;false;[FOREST, MOUNTAIN, RARE, DENSE, SPOOKY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_taiga_cold;COLD;-0.5;false;true;true;[FOREST, MOUNTAIN, RARE, CONIFEROUS, COLD, SNOWY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_redwood_taiga;MEDIUM;0.25;false;true;false;[FOREST, RARE, DENSE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_redwood_taiga_hills;MEDIUM;0.25;false;true;false;[FOREST, RARE, DENSE, HILLS]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_extreme_hills_with_trees;MEDIUM;0.2;false;true;false;[MOUNTAIN, RARE, SPARSE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_savanna;WARM;1.1;false;true;false;[SAVANNA, MOUNTAIN, RARE, DRY, HOT, SPARSE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_savanna_rock;WARM;1.0;false;true;false;[SAVANNA, RARE, DRY, HOT, SPARSE, HILLS]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_mesa;WARM;2.0;false;true;false;[MOUNTAIN, RARE, DRY, HOT, SPARSE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_mesa_rock;WARM;2.0;false;true;false;[RARE, DRY, HOT, SPARSE, HILLS]
+[20:51:19] [Server thread/INFO] [harvestcraft]: minecraft:mutated_mesa_clear_rock;WARM;2.0;false;true;false;[MOUNTAIN, RARE, DRY, HOT, SPARSE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: buildcraftenergy:oil_ocean;OCEAN;0.5;false;false;false;[OCEAN, WATER]
+[20:51:19] [Server thread/INFO] [harvestcraft]: buildcraftenergy:oil_desert;WARM;2.0;false;false;false;[DRY, HOT, SANDY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_lake;MEDIUM;0.66;true;false;false;[TWILIGHT, OCEAN, WATER]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_forest;MEDIUM;0.5;false;false;false;[FOREST, TWILIGHT]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:dense_twilight_forest;MEDIUM;0.7;false;false;false;[FOREST, DENSE, TWILIGHT]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_highlands;MEDIUM;0.4;false;false;false;[FOREST, MOUNTAIN, CONIFEROUS, TWILIGHT]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:mushroom_forest;MEDIUM;0.8;false;false;false;[FOREST, TWILIGHT, MUSHROOM]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_swamp;MEDIUM;0.8;true;false;false;[SWAMP, TWILIGHT, WET]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_stream;MEDIUM;0.5;false;false;false;[TWILIGHT, RIVER, WATER]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:snowy_forest;COLD;0.09;true;false;false;[FOREST, CONIFEROUS, COLD, TWILIGHT, SNOWY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_glacier;COLD;0.0;false;false;false;[WASTELAND, COLD, TWILIGHT, SNOWY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_clearing;MEDIUM;0.8;false;false;false;[PLAINS, TWILIGHT, SPARSE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:oak_savannah;MEDIUM;0.9;false;false;false;[FOREST, TWILIGHT, SPARSE]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:firefly_forest;MEDIUM;0.5;true;false;false;[FOREST, TWILIGHT, LUSH]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:deep_mushroom_forest;MEDIUM;0.8;true;false;false;[FOREST, TWILIGHT, MUSHROOM]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:dark_forest;MEDIUM;0.7;true;false;false;[FOREST, DENSE, TWILIGHT, SPOOKY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:enchanted_forest;MEDIUM;0.5;false;false;false;[FOREST, TWILIGHT, MAGICAL]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:fire_swamp;WARM;1.0;false;false;false;[SWAMP, WASTELAND, TWILIGHT, HOT]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:dark_forest_center;MEDIUM;0.5;true;false;false;[FOREST, DENSE, TWILIGHT, SPOOKY, MAGICAL]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:highlands_center;MEDIUM;0.3;false;false;false;[WASTELAND, DEAD, MESA, TWILIGHT, DRY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:thornlands;MEDIUM;0.3;false;false;false;[WASTELAND, DEAD, TWILIGHT, DRY, HILLS]
+[20:51:19] [Server thread/INFO] [harvestcraft]: twilightforest:spooky_forest;MEDIUM;0.5;true;false;false;[FOREST, DEAD, DENSE, TWILIGHT, SPOOKY]
+[20:51:19] [Server thread/INFO] [harvestcraft]: Registering drops for shadedGarden.
+[20:51:19] [Server thread/INFO] [harvestcraft]: Registering drops for tropicalGarden.
+[20:51:19] [Server thread/INFO] [harvestcraft]: Registering drops for windyGarden.
+[20:51:19] [Server thread/INFO] [harvestcraft]: Registering drops for frostGarden.
+[20:51:19] [Server thread/INFO] [harvestcraft]: Registering drops for aridGarden.
+[20:51:19] [Server thread/INFO] [harvestcraft]: Registering drops for soggyGarden.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamapiary`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pammarket`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamshippingbin`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pampresser`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamgroundtrap`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamwatertrap`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamwaterfilter`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamgrinder`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sumi_to_coal`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kusa_to_clay`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `yakkyou_to_ingot`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kouzai_to_ingot`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `drum_to_coal`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `block_to_alumi`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `top_to_chimney`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sakekasu_to_dye`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tawara_to_komefukuro`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `present_to_apple`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `present_to_book`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `present_to_daiamond`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `present_to_lapis`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `present_to_blaze`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `yakkyoumiddle_to_nugget`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `yakkyousmall_to_nugget`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sakura_to_oak`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ichoh_to_oak`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kaede_to_oak`, expected `chinjufumod`. This could be a intended override, but in most cases indicates a broken mod.
+[20:51:20] [Server thread/INFO] [advanced_solar_panels]: Loading Molecular Transformer recipes from file
+[20:51:20] [Server thread/WARN] [advanced_solar_panels]: Skipping line 23 as the output (OreDict:gemSapphire) cannot be resolved
+[20:51:20] [Server thread/WARN] [advanced_solar_panels]: Skipping line 24 as the output (OreDict:gemRuby) cannot be resolved
+[20:51:20] [Server thread/WARN] [advanced_solar_panels]: Skipping line 27 as the output (OreDict:dustChrome) cannot be resolved
+[20:51:20] [Server thread/WARN] [advanced_solar_panels]: Skipping line 28 as the output (OreDict:ingotChrome) cannot be resolved
+[20:51:20] [Server thread/WARN] [advanced_solar_panels]: Skipping line 29 as the output (OreDict:gemCertusQuartz) cannot be resolved
+[20:51:20] [Server thread/WARN] [advanced_solar_panels]: Skipping line 30 as the output (OreDict:ingotNickel) cannot be resolved
+[20:51:20] [Server thread/WARN] [advanced_solar_panels]: Skipping line 33 as the output (OreDict:ingotPlatinum) cannot be resolved
+[20:51:20] [Server thread/INFO] [advanced_solar_panels]: Load complete, successfully loaded 15 out of 22.
+[20:51:20] [Server thread/INFO] [nmsot]: Now parsing woodlogs    # This line disables mob spawning on all types of wood logs.
+[20:51:20] [Server thread/INFO] [nmsot]: Now parsing block:minecraft:brown_mushroom_block || block:minecraft:red_mushroom_block
+[20:51:20] [Server thread/INFO] [nmsot]: Now parsing # The above line disables mob spawning on mushroom blocks.
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [oak_stairs;stone_stairs;brick_stairs;stone_brick_stairs;nether_brick_stairs;sandstone_stairs;spruce_stairs;birch_stairs;jungle_stairs;quartz_stairs;dark_oak_stairs;acacia_stairs]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[0] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[1] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[2] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[3] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[4] TO[6]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[5] TO[7]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[6] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[7] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[0] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[1] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[2] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[3] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[4] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[5] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[6] TO[7]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[7] TO[6]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[0] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[1] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[2] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[3] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[4] TO[7]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[5] TO[6]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[6] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[7] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [sticky_piston;piston;ladder;wall_sign;lit_furnace;furnace;chest;dispenser;dropper;hopper;trapped_chest]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[2] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[5] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[3] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[4] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[10] TO[13]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[13] TO[11]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[11] TO[12]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[12] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[2] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[5] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[3] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[4] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[10] TO[11]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[13] TO[12]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[11] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[12] TO[13]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[4] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[5] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[2] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[3] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[12] TO[11]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[13] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[10] TO[12]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[11] TO[13]
+
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [brown_mushroom_block;red_mushroom_block]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[0] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[1] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[2] TO[6]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[3] TO[9]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[4] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[5] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[6] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[7] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[8] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[9] TO[7]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[10] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[0] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[1] TO[9]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[2] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[3] TO[7]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[4] TO[6]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[5] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[6] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[7] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[8] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[9] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[10] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[0] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[1] TO[7]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[2] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[3] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[4] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[5] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[6] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[7] TO[9]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[8] TO[6]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[9] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[10] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [skull]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[2] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[4] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[3] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[5] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[2] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[4] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[3] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[5] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[2] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[4] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[3] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[5] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [quartz_block]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[3] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[4] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[3] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[4] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [hay_block;bone_block]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[4] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[8] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[4] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[8] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [pixelmon:PC Block;pixelmon:PokeHealer;pixelmon:Fossil Machine Block;pixelmon:Moltres Shrine;pixelmon:Zapdos Shrine;pixelmon:Articuno Shrine]
+
+[20:51:20] [Server thread/INFO] []: [pixelmon:PC Block] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [pixelmon:PokeHealer] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [pixelmon:Fossil Machine Block] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [pixelmon:Moltres Shrine] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [pixelmon:Zapdos Shrine] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [pixelmon:Articuno Shrine] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[0] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[1] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[2] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[3] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[0] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[1] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[2] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[3] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[0] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[1] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[2] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[3] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [pixelmon:Trading Machine;pixelmon:CloningMachine]
+
+[20:51:20] [Server thread/INFO] []: [pixelmon:Trading Machine] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [pixelmon:CloningMachine] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[0] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[1] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[2] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[3] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[9] TO[11]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[11] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[10] TO[12]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[12] TO[9]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[0] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[1] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[2] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[3] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[9] TO[12]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[12] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[10] TO[11]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[11] TO[9]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[0] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[1] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[2] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[3] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[9] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[10] TO[9]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[11] TO[12]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[12] TO[11]
+
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [command_block]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[2] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[4] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[3] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[5] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[2] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[4] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[3] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[5] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[2] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[4] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[3] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[5] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [fence_gate;spruce_fence_gate;birch_fence_gate;jungle_fence_gate;dark_oak_fence_gate;acacia_fence_gate;wooden_door;spruce_door;birch_door;jungle_door;dark_oak_door;acacia_door]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[0] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[1] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[2] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[3] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[4] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[5] TO[6]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[6] TO[7]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[7] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[0] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[1] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[2] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[3] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[4] TO[6]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[5] TO[7]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[6] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[7] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[0] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[1] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[2] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[3] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[4] TO[7]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[5] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[6] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[7] TO[6]
+
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [white_glazed_terracotta;orange_glazed_terracotta;magenta_glazed_terracotta;light_blue_glazed_terracotta;yellow_glazed_terracotta;lime_glazed_terracotta;pink_glazed_terracotta;gray_glazed_terracotta;silver_glazed_terracotta;cyan_glazed_terracotta;purple_glazed_terracotta;blue_glazed_terracotta;brown_glazed_terracotta;green_glazed_terracotta;red_glazed_terracotta;black_glazed_terracotta]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[0] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[1] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[2] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[3] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[0] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[1] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[2] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[3] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[0] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[1] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[2] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[3] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [biomesoplenty:log_0;biomesoplenty:log_1;biomesoplenty:log_2;biomesoplenty:log_3;biomesoplenty:log_4]
+
+[20:51:20] [Server thread/INFO] []: [biomesoplenty:log_0] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [biomesoplenty:log_1] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [biomesoplenty:log_2] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [biomesoplenty:log_3] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [biomesoplenty:log_4] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[0] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[1] TO[9]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[2] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[3] TO[11]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[8] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[9] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[10] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[11] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[0] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[1] TO[9]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[2] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[3] TO[11]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[8] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[9] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[10] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[11] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [cookingforblockheads:fridge;cookingforblockheads:counter;cookingforblockheads:sink]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[0] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[1] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[2] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[3] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[8] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[9] TO[11]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[10] TO[9]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[11] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[0] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[1] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[2] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[3] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[8] TO[9]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[9] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[10] TO[11]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[11] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[0] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[1] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[2] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[3] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[8] TO[11]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[9] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[10] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[11] TO[9]
+
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [cookingforblockheads:oven;cookingforblockheads:cooking_table;cookingforblockheads:corner;cookingforblockheads:tool_rack;cookingforblockheads:spice_rack;harvestcraft:presser]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[2] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[3] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[4] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[5] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[2] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[3] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[4] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[5] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[2] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[3] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[4] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[5] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [pokecube:pc;pokecube:tradingtable;pokecube:pokecenter]
+
+[20:51:20] [Server thread/INFO] []: [pokecube:pc] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [pokecube:tradingtable] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [pokecube:pokecenter] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[2] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[3] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[4] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[5] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[10] TO[13]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[11] TO[12]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[12] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[13] TO[11]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[2] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[3] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[4] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[5] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[10] TO[11]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[11] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[12] TO[13]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[13] TO[12]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[2] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[3] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[4] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[5] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[10] TO[12]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[11] TO[13]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[12] TO[11]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[13] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [pokecube_adventures:cloner]
+
+[20:51:20] [Server thread/INFO] []: [pokecube_adventures:cloner] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[9] TO[13]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[13] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[1] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[5] TO[9]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[10] TO[14]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[14] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[2] TO[6]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[6] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[8] TO[12]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[12] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[0] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[4] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[9] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[13] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[1] TO[9]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[5] TO[13]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[10] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[14] TO[6]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[2] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[6] TO[14]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[8] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[12] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[0] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[4] TO[12]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[9] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[13] TO[9]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[1] TO[13]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[5] TO[9]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[10] TO[6]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[14] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[2] TO[14]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[6] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[8] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[12] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[0] TO[12]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[4] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [quark:stained_planks_blue_stairs;quark:stone_andesite_stairs;quark:stained_clay_tiles_magenta_stairs;quark:stone_marble_stairs;quark:bark_dark_oak_stairs;quark:bark_oak_stairs;quark:stone_stairs;quark:hardened_clay_tiles_stairs;quark:stained_clay_tiles_light_blue_stairs;quark:stained_clay_tiles_orange_stairs;quark:stained_planks_brown_stairs;quark:prismarine_bricks_stairs;quark:stone_limestone_bricks_stairs;quark:stone_basalt_stairs;quark:sandy_bricks_stairs;quark:stained_planks_silver_stairs;quark:stained_clay_tiles_yellow_stairs;quark:biotite_stairs;quark:stained_clay_tiles_brown_stairs;quark:stained_clay_tiles_cyan_stairs;quark:stained_planks_black_stairs;quark:stained_planks_gray_stairs;quark:snow_bricks_stairs;quark:stained_clay_tiles_green_stairs;quark:prismarine_stairs;quark:stained_planks_magenta_stairs;biomesoplenty:eucalyptus_stairs;quark:prismarine_dark_stairs;quark:duskbound_block_stairs;quark:stained_planks_red_stairs;quark:stained_planks_white_stairs;quark:reed_block_stairs;quark:stained_planks_green_stairs;quark:charred_nether_brick_stairs;quark:stained_planks_pink_stairs;quark:polished_netherrack_bricks_stairs;quark:stained_clay_tiles_red_stairs;quark:icy_stone_stairs;quark:bark_birch_stairs;quark:stained_clay_tiles_blue_stairs;quark:stained_planks_purple_stairs;quark:stone_marble_bricks_stairs;quark:stained_planks_light_blue_stairs;quark:stained_planks_lime_stairs;quark:stained_planks_yellow_stairs;quark:red_nether_brick_stairs;quark:stone_limestone_stairs;quark:stone_andesite_bricks_stairs;quark:bark_acacia_stairs;quark:stained_clay_tiles_silver_stairs;quark:stained_clay_tiles_lime_stairs;quark:bark_spruce_stairs;quark:soul_sandstone_stairs;quark:bark_jungle_stairs;quark:sandstone_bricks_stairs;quark:stone_diorite_bricks_stairs;quark:stone_basalt_bricks_stairs;quark:stained_clay_tiles_gray_stairs;quark:stained_clay_tiles_purple_stairs;quark:stained_clay_tiles_white_stairs;quark:soul_sandstone_bricks_stairs;quark:stone_granite_bricks_stairs;quark:red_sandstone_bricks_stairs;quark:thatch_stairs;quark:stained_clay_tiles_black_stairs;quark:stained_planks_cyan_stairs;quark:stone_diorite_stairs;quark:end_bricks_stairs;quark:stained_clay_tiles_pink_stairs;quark:fire_stone_stairs;quark:stone_granite_stairs;quark:iron_plate_stairs;quark:stained_planks_orange_stairs]
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_planks_blue_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stone_andesite_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_clay_tiles_magenta_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stone_marble_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:bark_dark_oak_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:bark_oak_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stone_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:hardened_clay_tiles_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_clay_tiles_light_blue_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_clay_tiles_orange_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_planks_brown_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:prismarine_bricks_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stone_limestone_bricks_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stone_basalt_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:sandy_bricks_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_planks_silver_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_clay_tiles_yellow_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:biotite_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_clay_tiles_brown_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_clay_tiles_cyan_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_planks_black_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_planks_gray_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:snow_bricks_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_clay_tiles_green_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:prismarine_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_planks_magenta_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [biomesoplenty:eucalyptus_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:prismarine_dark_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:duskbound_block_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_planks_red_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_planks_white_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:reed_block_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_planks_green_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:charred_nether_brick_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_planks_pink_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:polished_netherrack_bricks_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_clay_tiles_red_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:icy_stone_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:bark_birch_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_clay_tiles_blue_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_planks_purple_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stone_marble_bricks_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_planks_light_blue_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_planks_lime_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_planks_yellow_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:red_nether_brick_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stone_limestone_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stone_andesite_bricks_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:bark_acacia_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_clay_tiles_silver_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_clay_tiles_lime_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:bark_spruce_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:soul_sandstone_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:bark_jungle_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:sandstone_bricks_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stone_diorite_bricks_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stone_basalt_bricks_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_clay_tiles_gray_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_clay_tiles_purple_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_clay_tiles_white_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:soul_sandstone_bricks_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stone_granite_bricks_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:red_sandstone_bricks_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:thatch_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_clay_tiles_black_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_planks_cyan_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stone_diorite_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:end_bricks_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_clay_tiles_pink_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:fire_stone_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stone_granite_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:iron_plate_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:stained_planks_orange_stairs] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[0] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[1] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[2] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[3] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[4] TO[6]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[5] TO[7]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[6] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[7] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[0] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[1] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[2] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[3] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[4] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[5] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[6] TO[7]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[7] TO[6]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[0] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[1] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[2] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[3] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[4] TO[7]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[5] TO[6]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[6] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[7] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [quark:midori_pillar]
+
+[20:51:20] [Server thread/INFO] []: [quark:midori_pillar] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[4] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[8] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[4] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[8] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Now reading mappings for [quark:acacia_trapdoor;minecraft:iron_trapdoor;quark:dark_oak_trapdoor;quark:birch_trapdoor;quark:spruce_trapdoor;quark:jungle_trapdoor;minecraft:trapdoor]
+
+[20:51:20] [Server thread/INFO] []: [quark:acacia_trapdoor] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:dark_oak_trapdoor] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:birch_trapdoor] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:spruce_trapdoor] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: [quark:jungle_trapdoor] was determined to be an invalid blockRegistry key?! FIX THIS
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[0] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[1] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[2] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[3] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[4] TO[7]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[5] TO[6]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[6] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[7] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[8] TO[11]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[9] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[10] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[11] TO[9]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[12] TO[15]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[13] TO[14]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[14] TO[12]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[1] FROM[15] TO[13]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[0] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[1] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[2] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[3] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[4] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[5] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[6] TO[7]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[7] TO[6]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[8] TO[9]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[9] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[10] TO[11]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[11] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[12] TO[13]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[13] TO[12]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[14] TO[15]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[2] FROM[15] TO[14]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[0] TO[2]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[1] TO[3]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[2] TO[1]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[3] TO[0]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[4] TO[6]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[5] TO[7]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[6] TO[5]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[7] TO[4]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[8] TO[10]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[9] TO[11]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[10] TO[9]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[11] TO[8]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[12] TO[14]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[13] TO[15]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[14] TO[13]
+
+[20:51:20] [Server thread/INFO] []: Saving Mapping DIR[3] FROM[15] TO[12]
+
+[20:51:20] [Server thread/INFO] [Chisel]: Received 52 IMC messages from mod twilightforest.
+[20:51:20] [Server thread/INFO] [FML]: Injecting itemstacks
+[20:51:20] [Server thread/INFO] [FML]: Itemstack injection complete
+[20:51:20] [Server thread/INFO] [ic2.Uu]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
+[20:51:20] [Server thread/INFO] [ic2.General]: ic2 version 2.8.170-ex112 loaded.
+[20:51:20] [Server thread/INFO] [bedrockores]: Found JSON config files, skipping extraction of example file.
+[20:51:20] [Server thread/INFO] [bedrockores]: Done loading ore config, got 102 ores. Filtering...
+[20:51:20] [Server thread/INFO] [bedrockores]: After removing disabled and unavailable ores, got 15 ores.
+[20:51:20] [Server thread/INFO] [bedrockores]: After removing duplicate ores, got 13 ores.
+[20:51:20] [Server thread/INFO] [bedrockores]: Unknown dimension type 'miningworld', ignoring.
+[20:51:20] [Server thread/INFO] [bedrockores]: Unknown dimension type 'miningworld', ignoring.
+[20:51:20] [Server thread/INFO] [bedrockores]: Unknown dimension type 'miningworld', ignoring.
+[20:51:20] [Server thread/INFO] [bedrockores]: Unknown dimension type 'miningworld', ignoring.
+[20:51:20] [Server thread/INFO] [bedrockores]: Unknown dimension type 'miningworld', ignoring.
+[20:51:20] [Server thread/INFO] [bedrockores]: Unknown dimension type 'miningworld', ignoring.
+[20:51:20] [Server thread/INFO] [bedrockores]: Unknown dimension type 'miningworld', ignoring.
+[20:51:20] [Server thread/INFO] [bedrockores]: Unknown dimension type 'miningworld', ignoring.
+[20:51:20] [Server thread/INFO] [bedrockores]: Unknown dimension type 'miningworld', ignoring.
+[20:51:20] [Server thread/INFO] [bedrockores]: Unknown dimension type 'miningworld', ignoring.
+[20:51:20] [Server thread/INFO] [bedrockores]: Unknown dimension type 'miningworld', ignoring.
+[20:51:20] [Server thread/INFO] [Treecapitator]: Prioritizing User and IMC mod configs...
+[20:51:20] [Server thread/INFO] [Treecapitator]: Registering items and trees...
+[20:51:20] [Server thread/INFO] [wanionlib]: UniDict: Initializing Module: Integration, Side: Server
+[20:51:21] [Server thread/INFO] [wanionlib]: Crafting Integration: Why so many recipes? I had to deal with at least 48 recipes.
+[20:51:21] [Server thread/INFO] [wanionlib]: Furnace Integration: Some things that you smelted appear to be different now.
+[20:51:21] [Server thread/INFO] [wanionlib]: Forestry Integration: All these bees... they can hurt, you know?
+[20:51:21] [Server thread/INFO] [wanionlib]: Industrial Craft 2 Integration: The world appears to be entirely industrialized.
+[20:51:21] [Server thread/INFO] [wanionlib]: UniDict: All 4 Integrations took 32ms to finish. at load stage PostInit
+[20:51:21] [Server thread/INFO] [Waila]: Starting Waila...
+[20:51:21] [Server thread/INFO] [Waila]: Gathering annotated plugins...
+[20:51:21] [Server thread/INFO] [Waila]: Gathering wrapped IMC plugins...
+[20:51:21] [Server thread/INFO] [Waila]: Registering plugins...
+[20:51:21] [Server thread/INFO] [Waila]: Registering plugin at mcp.mobius.waila.addons.core.PluginCore
+[20:51:21] [Server thread/INFO] [Waila]: Registering plugin at mcp.mobius.waila.addons.capability.PluginCapability
+[20:51:21] [Server thread/INFO] [Waila]: Registering plugin at buildcraft.compat.module.waila.HWYLAPlugin
+[20:51:21] [Server thread/INFO] [Waila]: Registering plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[20:51:21] [Server thread/INFO] [Waila]: Registering plugin at net.blay09.mods.cookingforblockheads.compat.WailaProvider
+[20:51:21] [Server thread/INFO] [Waila]: Registering plugin at net.darkhax.wawla.engine.waila.EntityProvider
+[20:51:21] [Server thread/INFO] [Waila]: Registering plugin at net.darkhax.wawla.engine.waila.TileProvider
+[20:51:21] [Server thread/INFO] [Waila]: Registering plugin at team.chisel.common.integration.waila.ChiselDataHandler
+[20:51:21] [Server thread/INFO] [Waila]: Starting Waila took 61.88 ms
+[20:51:21] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 49 mods
+[20:51:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[20:51:24] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.4
+[20:51:24] [Server thread/INFO] [pw.yumc.Yum.Yum]: [Yum] Loading Yum v2.9.0-git-37fb899e955eb1e5ff153931783357bc5ff6a186
+[20:51:24] [Server thread/INFO] []: [网络管理] 注入网络管理系统 将托管服务器网络!
+[20:51:24] [Server thread/INFO] [cn.mxcymc.www.Lunar]: [Lunar] Loading Lunar v1.2
+[20:51:24] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] Loading Vault v1.7.2-b107
+[20:51:24] [Server thread/INFO] [lk.vexview.Main]: [VexView] Loading VexView v2.4
+[20:51:24] [Server thread/INFO] [com.comphenix.protocol.ProtocolLib]: [ProtocolLib] Loading ProtocolLib v4.4.0
+[20:51:25] [Server thread/INFO] [cn.mxcymc.calendar.Main]: [Calendar] Loading Calendar v0.2
+[20:51:25] [Server thread/INFO] [cn.mcres.imiPet.ImiPet]: [imiPet] Loading imiPet v0.5.2
+[20:51:25] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Loading Essentials v2.0.1-b604
+[20:51:25] [Server thread/INFO] [org.Serverct.Dream.Main]: [VexMarriage] Loading VexMarriage v1.0
+[20:51:25] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat]: [EssentialsChat] Loading EssentialsChat v2.0.1-b604
+[20:51:25] [Server thread/INFO] [jiongjionger.NeverLag]: [NeverLag] Loading NeverLag v1.3.0
+[20:51:25] [Server thread/INFO] [cn.bluesadi.bluefriends.BlueFriends]: [BlueFriends] Loading BlueFriends v1.0.4
+[20:51:25] [Server thread/INFO] [net.andylizi.colormotdreremake.bukkit.BukkitMain]: [ColorMOTD] Loading ColorMOTD-Reremake v1.0
+[20:51:25] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn]: [EssentialsSpawn] Loading EssentialsSpawn v2.0.1-b604
+[20:51:25] [Server thread/INFO] [pw.yumc.Yum.Yum]: [Yum] Enabling Yum v2.9.0-git-37fb899e955eb1e5ff153931783357bc5ff6a186
+[20:51:25] [Server thread/INFO] []: [Yum] 服务端未注入安全拦截器 关闭功能...
+[20:51:25] [Server thread/INFO] []: [Yum] 网络管理系统已启用...
+[20:51:25] [Server thread/INFO] []: [Yum] 线程管理系统已启用...
+[20:51:25] [Server thread/INFO] []: [Yum] 性能监控系统已启用...
+[20:51:25] [Server thread/INFO] []: [Yum] I O 管理系统已启用...
+[20:51:25] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] Enabling Vault v1.7.2-b107
+[20:51:25] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] [Economy] Essentials Economy found: Waiting
+[20:51:25] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:51:25] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] Enabled Version 1.7.2-b107
+[20:51:25] [Server thread/INFO] [com.comphenix.protocol.ProtocolLib]: [ProtocolLib] Enabling ProtocolLib v4.4.0
+[20:51:25] [Server thread/INFO] [com.comphenix.protocol.ProtocolLib]: [ProtocolLib] Started structure compiler thread.
+[20:51:25] [Server thread/INFO] [net.andylizi.colormotdreremake.bukkit.BukkitMain]: [ColorMOTD] Enabling ColorMOTD-Reremake v1.0
+[20:51:25] [Server thread/INFO] [net.andylizi.colormotdreremake.bukkit.BukkitMain]: [ColorMOTD] Loaded ProtocolLib v4.4.0
+[20:51:25] [Server thread/INFO] [Minecraft]: -------- World Settings For [world] --------
+[20:51:25] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
+[20:51:25] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
+[20:51:25] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
+[20:51:25] [Server thread/INFO] [Minecraft]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[20:51:25] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
+[20:51:25] [Server thread/INFO] [Minecraft]: View Distance: 10
+[20:51:25] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
+[20:51:25] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:51:25] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:51:25] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200
+[20:51:25] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 4
+[20:51:25] [Server thread/INFO] [Minecraft]: Random Lighting Updates: false
+[20:51:25] [Server thread/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:51:25] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
+[20:51:25] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
+[20:51:25] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
+[20:51:25] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
+[20:51:25] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
+[20:51:25] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
+[20:51:25] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
+[20:51:25] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
+[20:51:25] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
+[20:51:25] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
+[20:51:25] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
+[20:51:25] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[20:51:25] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[20:51:25] [Server thread/INFO] [Minecraft]: Structure Info Saving: true
+[20:51:26] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@6f17623b)
+[20:51:26] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 761 advancements
+[20:51:26] [Server thread/INFO] []: Spliced in METHOD: net.minecraft.world.chunk.BlockStateContainer.func_186018_a
+[20:51:26] [Server thread/INFO] [twilightforest]: Loaded a world with the tfEnforcedProgression game rule not defined. Defining it.
+[20:51:26] [Server thread/INFO] [Minecraft]: -------- World Settings For [DIM-1] --------
+[20:51:26] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
+[20:51:26] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
+[20:51:26] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
+[20:51:26] [Server thread/INFO] [Minecraft]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[20:51:26] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
+[20:51:26] [Server thread/INFO] [Minecraft]: View Distance: 10
+[20:51:26] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
+[20:51:26] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:51:26] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:51:26] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200
+[20:51:26] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 4
+[20:51:26] [Server thread/INFO] [Minecraft]: Random Lighting Updates: false
+[20:51:26] [Server thread/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:51:26] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
+[20:51:26] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[20:51:26] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[20:51:26] [Server thread/INFO] [Minecraft]: Structure Info Saving: true
+[20:51:26] [Server thread/INFO] [FML]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@6f17623b)
+[20:51:26] [Server thread/INFO] [twilightforest]: Loaded a world with the tfEnforcedProgression game rule not defined. Defining it.
+[20:51:26] [Server thread/INFO] [Minecraft]: -------- World Settings For [DIM1] --------
+[20:51:26] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
+[20:51:26] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
+[20:51:26] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
+[20:51:26] [Server thread/INFO] [Minecraft]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[20:51:26] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
+[20:51:26] [Server thread/INFO] [Minecraft]: View Distance: 10
+[20:51:26] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
+[20:51:26] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:51:26] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:51:26] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200
+[20:51:26] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 4
+[20:51:26] [Server thread/INFO] [Minecraft]: Random Lighting Updates: false
+[20:51:26] [Server thread/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:51:26] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
+[20:51:26] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
+[20:51:26] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[20:51:26] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[20:51:26] [Server thread/INFO] [Minecraft]: Structure Info Saving: true
+[20:51:26] [Server thread/INFO] [FML]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@6f17623b)
+[20:51:27] [Server thread/INFO] [twilightforest]: Loaded a world with the tfEnforcedProgression game rule not defined. Defining it.
+[20:51:27] [Server thread/INFO] [Minecraft]: -------- World Settings For [DIM7] --------
+[20:51:27] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
+[20:51:27] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
+[20:51:27] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
+[20:51:27] [Server thread/INFO] [Minecraft]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[20:51:27] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
+[20:51:27] [Server thread/INFO] [Minecraft]: View Distance: 10
+[20:51:27] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
+[20:51:27] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:51:27] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:51:27] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200
+[20:51:27] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 4
+[20:51:27] [Server thread/INFO] [Minecraft]: Random Lighting Updates: false
+[20:51:27] [Server thread/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:51:27] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
+[20:51:27] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
+[20:51:27] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
+[20:51:27] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
+[20:51:27] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
+[20:51:27] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
+[20:51:27] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
+[20:51:27] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
+[20:51:27] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
+[20:51:27] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
+[20:51:27] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
+[20:51:27] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[20:51:27] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[20:51:27] [Server thread/INFO] [Minecraft]: Structure Info Saving: true
+[20:51:27] [Server thread/INFO] [FML]: Loading dimension 7 (DIM7) (net.minecraft.server.dedicated.DedicatedServer@6f17623b)
+[20:51:27] [Server thread/INFO] [twilightforest]: Loaded a world with the tfEnforcedProgression game rule not defined. Defining it.
+[20:51:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0 (Seed: 421111635062975611)
+[20:51:28] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [-12, -6] in dimension 0 (overworld) while populating chunk [-11, -6], causing cascading worldgen lag.
+[20:51:28] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[20:51:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 4%
+[20:51:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 14%
+[20:51:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 27%
+[20:51:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 41%
+[20:51:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 53%
+[20:51:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 69%
+[20:51:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 85%
+[20:51:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 1 (Seed: 421111635062975611)
+[20:51:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 2 (Seed: 421111635062975611)
+[20:51:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 3 (Seed: 421111635062975611)
+[20:51:35] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.4
+[20:51:35] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Fetching available expansion information...
+[20:51:35] [Server thread/INFO] [cn.mxcymc.www.Lunar]: [Lunar] Enabling Lunar v1.2
+[20:51:35] [Server thread/INFO] []: [农历]插件已启动!
+[20:51:35] [Server thread/INFO] []: [农历]读取config.yml
+[20:51:35] [Server thread/INFO] []: [农历]成功加载config
+[20:51:35] [Server thread/INFO] []: [农历]正在兼容PlaceholderAPI
+[20:51:35] [Server thread/INFO] []: [农历]已兼容PlaceholderAPI
+[20:51:35] [Server thread/INFO] [lk.vexview.Main]: [VexView] Enabling VexView v2.4
+[20:51:35] [Server thread/INFO] []: ====== VexView > 开始启动 ======
+[20:51:35] [Server thread/INFO] []: > 欢迎使用VexView！
+[20:51:35] [Server thread/INFO] []: > 已将您的语言设置为：中国 (zh_CN)
+[20:51:35] [Server thread/INFO] []: > 当前服务器版本： 1.12.2 (已兼容)
+[20:51:35] [Server thread/INFO] []: > 检测到未启用数据库
+[20:51:35] [Server thread/INFO] []: > AuthMe 插件未安装，跳过兼容！
+[20:51:35] [Server thread/INFO] []: > BetonQuest 插件未安装，跳过兼容！
+[20:51:35] [Server thread/INFO] []: > Cronus 插件未安装，跳过兼容！
+[20:51:35] [Server thread/INFO] []: > PlaceholderAPI 插件成功兼容！
+[20:51:35] [Server thread/INFO] []: > 作者 LK520 | 版本: 2.4
+[20:51:35] [Server thread/INFO] []: ====== VexView > 启动完成 ======
+[20:51:35] [Server thread/INFO] [cn.mxcymc.calendar.Main]: [Calendar] Enabling Calendar v0.2
+[20:51:35] [Server thread/INFO] [cn.mcres.imiPet.ImiPet]: [imiPet] Enabling imiPet v0.5.2
+[20:51:35] [Server thread/INFO] []: ┍ 正在加载插件
+[20:51:35] [Server thread/INFO] []: ┝ 欢迎使用
+[20:51:35] [Server thread/INFO] []: ┝ 插件当前版本：0.5.2
+[20:51:35] [Server thread/INFO] []: ┝ 提示：兼容1.8-1.14
+[20:51:35] [Server thread/INFO] []: ┝ 访问 www.imipet.com 关注本插件
+[20:51:35] [Server thread/INFO] []: ┝ 正在检查...
+[20:51:35] [Server thread/INFO] []: ┝ 已安装插件：VexView
+[20:51:35] [Server thread/INFO] []: ┝ 未安装插件：MXBukkitLib
+[20:51:35] [Server thread/INFO] []: ┝ 已安装插件：PlaceholderAPI
+[20:51:35] [Server thread/INFO] []: ┝ 已安装插件：Vault
+[20:51:35] [Server thread/INFO] []: ┝ 存储数据方式：YAML
+[20:51:35] [Server thread/INFO] []: ┝ 检查完毕
+[20:51:35] [Server thread/INFO] []: ┕ 插件正常运行
+[20:51:36] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Enabling Essentials v2.0.1-b604
+[20:51:36] [Server thread/INFO] [Essentials]: Attempting to convert old kits in config.yml to new kits.yml
+[20:51:36] [Server thread/INFO] [Essentials]: No kits found to migrate.
+[20:51:36] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[20:51:36] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Using Reflection based provider as spawn egg provider.
+[20:51:36] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[20:51:36] [Server thread/INFO] [Essentials]: Using locale zh_CN
+[20:51:37] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Using Spigot 1.7.10+ ServerListPingEvent iterator
+[20:51:37] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:51:37] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[20:51:37] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Using superperms-based permissions.
+[20:51:37] [Server thread/INFO] [org.Serverct.Dream.Main]: [VexMarriage] Enabling VexMarriage v1.0
+[20:51:37] [Server thread/INFO] []: PlaceholderAPI插件      已经成功兼容！
+[20:51:37] [Server thread/INFO] []: VexView插件      已经成功兼容！
+[20:51:37] [Server thread/INFO] []: Vault插件      已经成功兼容！
+[20:51:37] [Server thread/INFO] []: 未找到PlayerPointsw插件     可能部分功能无法使用！
+[20:51:37] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat]: [EssentialsChat] Enabling EssentialsChat v2.0.1-b604
+[20:51:37] [Server thread/INFO] [jiongjionger.NeverLag]: [NeverLag] Enabling NeverLag v1.3.0
+[20:51:37] [Server thread/WARN] [Minecraft]: [ProtocolLib] [PacketFilterManager] [NeverLag] Unsupported client packet in current Minecraft version: Dynamic-de8fce16-b390-4079-8470-6bd9a55f91aa[LEGACY, CLIENT, -1, classNames: [] (unregistered)]
+[20:51:37] [Server thread/INFO] [cn.bluesadi.bluefriends.BlueFriends]: [BlueFriends] Enabling BlueFriends v1.0.4
+[20:51:37] [Server thread/INFO] [Minecraft]: > 开始加载BlueFriends-Reload!
+[20:51:37] [Server thread/INFO] [Minecraft]: > 正在检查前置插件是否齐全...
+[20:51:37] [Server thread/INFO] [Minecraft]: > VexView已装载!
+[20:51:37] [Server thread/INFO] [Minecraft]: > ProtocolLib已装载!
+[20:51:37] [Server thread/INFO] [Minecraft]: > PlaceholderAPI已装载!
+[20:51:37] [Server thread/INFO] [Minecraft]: > 正在加载插件配置文件...
+[20:51:37] [Server thread/INFO] [Minecraft]: > 正在连接数据库...
+[20:51:37] [Server thread/INFO] [Minecraft]: > 检测到数据库类型为:SQLite
+[20:51:37] [Server thread/INFO] [Minecraft]: > 正在注册插件指令...
+[20:51:37] [Server thread/INFO] [Minecraft]: > 正在注册插件监听器...
+[20:51:37] [Server thread/INFO] [Minecraft]: > 正在注册PlaceholderAPI变量
+[20:51:37] [Server thread/INFO] [Minecraft]: > 正在导入GUI界面
+[20:51:37] [Server thread/INFO] [Minecraft]: > BlueFriends-Reload加载完毕!
+[20:51:37] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn]: [EssentialsSpawn] Enabling EssentialsSpawn v2.0.1-b604
+[20:51:37] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[20:51:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (16.359s)! For help, type "help" or "?"
+[20:51:37] [Server thread/INFO] [FML]: 已将注册的Forge指令权限输出到forgePermission.log
+[20:51:37] [Craft Scheduler Thread - 1/INFO] []: [Yum] [Yum 网络管理] 插件 PlaceholderAPI 尝试访问网络 请注意服务器网络安全!
+[20:51:37] [Craft Scheduler Thread - 0/INFO] []: [Yum] [Yum 网络管理] 插件 PlaceholderAPI 尝试访问网络 请注意服务器网络安全!
+[20:51:37] [Craft Scheduler Thread - 5/INFO] []: [Yum] [Yum 网络管理] 插件 VexView 尝试访问网络 请注意服务器网络安全!
+[20:51:37] [Craft Scheduler Thread - 0/INFO] []: [Yum] [Yum 网络管理] 地址: https://api.spigotmc.org/legacy/update.php?resource=6245
+[20:51:37] [Craft Scheduler Thread - 1/INFO] []: [Yum] [Yum 网络管理] 地址: http://api.extendedclip.com/v2/
+[20:51:37] [Craft Scheduler Thread - 5/INFO] []: [Yum] [Yum 网络管理] 地址: https://lk520.coding.me/VexView/update.txt
+[20:51:37] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:51:38] [Craft Scheduler Thread - 4/INFO] [net.milkbowl.vault.Vault]: [Vault] Checking for Updates ... 
+[20:51:38] [Craft Scheduler Thread - 6/INFO] []: [Yum] [Yum 网络管理] 插件 imiPet 尝试访问网络 请注意服务器网络安全!
+[20:51:38] [Craft Scheduler Thread - 6/INFO] []: [Yum] [Yum 网络管理] 地址: http://www.imipet.com/updatecheck.html
+[20:51:38] [Craft Scheduler Thread - 6/INFO] []: [imiPet] 发现新版本更新：http://www.imipet.com/resources/2/
+[20:51:38] [Craft Scheduler Thread - 3/INFO] []: 仓库: Yum官方仓库 更新成功!
+[20:51:38] [Craft Scheduler Thread - 3/INFO] []: 仓库: Yum代理仓库 更新成功!
+[20:51:38] [Craft Scheduler Thread - 3/INFO] []: 仓库: Yum代理仓库 更新成功!
+[20:51:38] [Thread-15/INFO] []: [Yum] [Yum 网络管理] 插件 ProtocolLib 尝试访问网络 请注意服务器网络安全!
+[20:51:38] [Thread-15/INFO] []: [Yum] [Yum 网络管理] 地址: https://servermods.forgesvc.net/servermods/files?projectIds=45564
+[20:51:38] [Craft Scheduler Thread - 3/INFO] []: 仓库: Yum源仓库 更新成功!
+[20:51:39] [Craft Scheduler Thread - 3/INFO] []: 仓库: Yum收费仓库 更新成功!
+[20:51:39] [Craft Scheduler Thread - 3/INFO] []: 仓库: MengCraft仓库 更新成功!
+[20:51:39] [Craft Scheduler Thread - 3/INFO] []: 仓库: SUM香港仓库 更新成功!
+[20:51:39] [Craft Scheduler Thread - 3/INFO] []: 仓库: ProtocolLib仓库 更新成功!
+[20:51:39] [Craft Scheduler Thread - 3/INFO] []: 源: Yum中心源 更新成功!
+[20:51:39] [Server thread/ERROR] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] VexMarriage is currently using a deprecated method to hook into PlaceholderAPI. Placeholders for that plugin no longer work. Please consult [论坛ID:xiao_sgyg] and urge them to update it ASAP.
+[20:51:39] [Server thread/ERROR] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Lunar is currently using a deprecated method to hook into PlaceholderAPI. Placeholders for that plugin no longer work. Please consult [Paukist] and urge them to update it ASAP.
+[20:51:39] [Thread-16/INFO] []: [Yum] [Yum 网络管理] 插件 ProtocolLib 尝试访问网络 请注意服务器网络安全!
+[20:51:39] [Thread-16/INFO] []: [Yum] [Yum 网络管理] 地址: https://servermods.forgesvc.net/servermods/files?projectIds=45564
+[20:51:40] [Craft Scheduler Thread - 4/INFO] [net.milkbowl.vault.Vault]: [Vault] There was an issue attempting to check for the latest version.
+[20:51:40] [Craft Scheduler Thread - 4/INFO] [net.milkbowl.vault.Vault]: [Vault] No new version available
+[20:51:40] [Thread-17/INFO] []: [Yum] [Yum 网络管理] 插件 ProtocolLib 尝试访问网络 请注意服务器网络安全!
+[20:51:40] [Thread-17/INFO] []: [Yum] [Yum 网络管理] 地址: https://servermods.forgesvc.net/servermods/files?projectIds=45564
+[20:51:51] [Craft Scheduler Thread - 1/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] 168 placeholder expansions are available on the cloud.
+[20:51:59] [BetterFps Update Checker/WARN] [BetterFps]: Could not check for updates: Connection timed out: connect
+[21:05:38] [Server thread/INFO] []: [服务器娘]地上的掉落物将在 60秒 后清除！
+[21:06:08] [Server thread/INFO] []: [服务器娘]地上的掉落物将在 30秒 后清除！
+[21:06:28] [Server thread/INFO] []: [服务器娘]地上的掉落物将在 10秒 后清除！
+[21:06:38] [Server thread/INFO] []: [服务器娘]哎哟，这次清理了 462个 垃圾，我感觉自己萌萌哒~

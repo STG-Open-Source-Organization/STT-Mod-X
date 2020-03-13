@@ -1,0 +1,92 @@
+x: -1
+y: -1
+url: '[local]BlueFriends/GUI.png'
+w: 200
+h: 300
+
+components:
+  标题横栏:
+    type: 'image'
+    x: 0
+    y: 0
+    w: 200
+    h: 12
+    url: '[local]BlueFriends/横栏(灰色).png'  
+  icon:
+    type: 'image'
+    x: 2
+    y: 1
+    w: 10
+    h: 10
+    url: '[local]BlueFriends/icon.png'
+  标题:
+    type: 'text'
+    x: 13
+    y: 2
+    contents:
+      - '系统消息'
+  关闭按钮:
+    type: 'button'
+    x: 182
+    y: 1
+    w: 17
+    h: 10
+    url1: '[local]BlueFriends/按钮/关闭按钮.png'
+    url2: '[local]BlueFriends/按钮/关闭按钮_悬浮.png'
+    commands:
+      - 'close'
+  返回按钮:
+    type: 'button'
+    x: 169
+    y: 1
+    w: 13
+    h: 10
+    url1: '[local]BlueFriends/按钮/返回按钮.png'
+    url2: '[local]BlueFriends/按钮/返回按钮_悬浮.png'
+    commands:
+      - 'back'
+  系统消息列表:
+    type: 'message_list'
+    x: 3
+    y: 13
+    w: 195
+    h: 284
+    interval: 32
+    components:
+      消息:
+        type: 'text'
+        x: 0
+        y: 0
+        omit: 40
+        contents:
+          - '内容:%content%'
+          - '发送日期:%date%'
+      查看:
+        type: 'button'
+        name: '&8查看'
+        x: 5
+        y: 21
+        w: 19
+        h: 10
+        url1: '[local]BlueFriends/按钮/透明按钮.png'
+        url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+        commands:
+          - 'person message view %message_uuid%'
+      删除:
+        type: 'button'
+        name: '&8删除'
+        x: 25
+        y: 21
+        w: 19
+        h: 10
+        url1: '[local]BlueFriends/按钮/透明按钮.png'
+        url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+        commands:
+          - 'person message delete %message_uuid%'
+      分界线:
+        type: 'image'
+        x: 0
+        y: 31
+        w: 200
+        h: 1
+        url: '[local]BlueFriends/分界线(半透明).png'   

@@ -1,0 +1,163 @@
+x: -1
+y: -1
+url: '[local]BlueFriends/GUI.png'
+w: 200
+h: 300
+
+components:
+  标题横栏:
+    type: 'image'
+    x: 0
+    y: 0
+    w: 200
+    h: 12
+    url: '[local]BlueFriends/横栏(灰色).png'  
+  icon:
+    type: 'image'
+    x: 2
+    y: 1
+    w: 10
+    h: 10
+    url: '[local]BlueFriends/icon.png'
+  标题:
+    type: 'text'
+    x: 13
+    y: 2
+    contents:
+      - '编辑信息:%player_name%'
+  关闭按钮:
+    type: 'button'
+    x: 182
+    y: 1
+    w: 17
+    h: 10
+    url1: '[local]BlueFriends/按钮/关闭按钮.png'
+    url2: '[local]BlueFriends/按钮/关闭按钮_悬浮.png'
+    commands:
+      - 'close'
+  返回按钮:
+    type: 'button'
+    x: 169
+    y: 1
+    w: 13
+    h: 10
+    url1: '[local]BlueFriends/按钮/返回按钮.png'
+    url2: '[local]BlueFriends/按钮/返回按钮_悬浮.png'
+    commands:
+      - 'back'
+
+  玩家头像边框:
+    type: 'image'
+    x: 50
+    y: 14
+    url: '%bluefriends_head_border%'
+    w: 100
+    h: 100
+  玩家头像:
+    type: 'image'
+    x: 52
+    y: 16
+    url: '%bluefriends_head%'
+    w: 96
+    h: 96
+  修改头像按钮:
+    type: 'button'
+    name: '&8修改头像'
+    x: 50
+    y: 115
+    w: 50
+    h: 12
+    url1: '[local]BlueFriends/按钮/透明按钮.png'
+    url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+    commands:
+      - 'person editbox 修改头像 请在下方输入新的头像地址 person%%set%%head%%%text%'
+  修改头像边框:
+    type: 'button'
+    name: '&8修改边框'
+    x: 100
+    y: 115
+    w: 50
+    h: 12
+    url1: '[local]BlueFriends/按钮/透明按钮.png'
+    url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+    commands:
+      - 'person editbox 修改头像边框 请在下方输入新的头像边框地址 person%%set%%headborder%%%text%'
+  分界线1:
+    type: 'image'
+    x: 0
+    y: 128
+    w: 200
+    h: 1
+    url: '[local]BlueFriends/分界线(半透明).png'
+  属性:
+    type: 'text'
+    x: 5
+    y: 130
+    linefeed: 40
+    contents:
+      - '玩家名:%bluefriends_name%'
+      - ''
+      - '昵称:%bluefriends_nickname%'
+      - ''
+      - '电子邮箱:%bluefriends_email%'
+      - ''
+      - 'QQ:%bluefriends_qq%'
+      - ''
+      - '性别:%bluefriends_sex%'
+      - ''
+      - '个性签名:%bluefriends_signature%'
+  修改昵称按钮:
+    type: 'button'
+    name: '&8点击修改昵称'
+    x: 5
+    y: 150
+    w: 190
+    h: 10
+    url1: '[local]BlueFriends/按钮/透明按钮.png'
+    url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+    commands:
+      - 'person editbox 修改昵称 请在下方输入新的昵称 person%%set%%nickname%%%text%'
+  修改电子邮箱按钮:
+    type: 'button'
+    name: '&8点击修改电子邮箱'
+    x: 5
+    y: 170
+    w: 190
+    h: 10
+    url1: '[local]BlueFriends/按钮/透明按钮.png'
+    url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+    commands:
+      - 'person editbox 修改电子邮箱 请在下方输入新的电子邮箱 person%%set%%email%%%text%'
+  修改QQ:
+    type: 'button'
+    name: '&8点击修改QQ'
+    x: 5
+    y: 190
+    w: 190
+    h: 10
+    url1: '[local]BlueFriends/按钮/透明按钮.png'
+    url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+    commands:
+      - 'person editbox 修改QQ 请在下方输入新的QQ号码 person%%set%%qq%%%text%'
+  修改性别:
+    type: 'button'
+    name: '&8点击修改性别'
+    x: 5
+    y: 210
+    w: 190
+    h: 10
+    url1: '[local]BlueFriends/按钮/透明按钮.png'
+    url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+    commands:
+      - 'person editbox 修改性别 请在下方输入性别 person%%set%%sex%%%text%'
+  修改个性签名:
+    type: 'button'
+    name: '&8点击修改个性签名'
+    x: 5
+    y: 230
+    w: 190
+    h: 65
+    url1: '[local]BlueFriends/按钮/透明按钮.png'
+    url2: '[local]BlueFriends/按钮/透明按钮_悬浮.png'
+    commands:
+      - 'person editbox 修改个性签名 请在下方输入新的个性签名 person%%set%%signature%%%text%'

@@ -1,0 +1,3276 @@
+2020-1-18 19:02:51[Yum 事件监控] 插件 Calendar 处理 PlayerJoinEvent 事件时发生异常!
+2020-1-18 19:02:51异常名称: java.lang.NullPointerException
+2020-1-18 19:02:51异常说明: null
+2020-1-18 19:02:51简易错误信息如下:
+2020-1-18 19:02:51    位于 org.bukkit.ChatColor.translateAlternateColorCodes(ChatColor.java:324)
+2020-1-18 19:02:51    位于 cn.mxcymc.calendar.Lang.getMessage(Lang.java:18)
+2020-1-18 19:02:51    位于 cn.mxcymc.calendar.Main.Message(Main.java:78)
+2020-1-18 19:02:51    位于 cn.mxcymc.calendar.CalendarGui.openGui(CalendarGui.java:141)
+2020-1-18 19:02:51    位于 cn.mxcymc.calendar.Main.openGui(Main.java:87)
+2020-1-18 19:04:22[Yum 事件监控] 插件 Calendar 处理 PlayerJoinEvent 事件时发生异常!
+2020-1-18 19:04:22异常名称: java.lang.NullPointerException
+2020-1-18 19:04:22异常说明: null
+2020-1-18 19:04:22简易错误信息如下:
+2020-1-18 19:04:22    位于 org.bukkit.ChatColor.translateAlternateColorCodes(ChatColor.java:324)
+2020-1-18 19:04:22    位于 cn.mxcymc.calendar.Lang.getMessage(Lang.java:18)
+2020-1-18 19:04:22    位于 cn.mxcymc.calendar.Main.Message(Main.java:78)
+2020-1-18 19:04:22    位于 cn.mxcymc.calendar.CalendarGui.openGui(CalendarGui.java:141)
+2020-1-18 19:04:22    位于 cn.mxcymc.calendar.Main.openGui(Main.java:87)
+2020-1-18 19:06:31[Yum 事件监控] 插件 Calendar 处理 PlayerJoinEvent 事件时发生异常!
+2020-1-18 19:06:31异常名称: java.lang.NullPointerException
+2020-1-18 19:06:31异常说明: null
+2020-1-18 19:06:31简易错误信息如下:
+2020-1-18 19:06:31    位于 org.bukkit.ChatColor.translateAlternateColorCodes(ChatColor.java:324)
+2020-1-18 19:06:31    位于 cn.mxcymc.calendar.Lang.getMessage(Lang.java:18)
+2020-1-18 19:06:31    位于 cn.mxcymc.calendar.Main.Message(Main.java:78)
+2020-1-18 19:06:31    位于 cn.mxcymc.calendar.CalendarGui.openGui(CalendarGui.java:141)
+2020-1-18 19:06:31    位于 cn.mxcymc.calendar.Main.openGui(Main.java:87)
+2020-1-18 19:06:52[Yum 事件监控] 插件 Calendar 处理 PlayerJoinEvent 事件时发生异常!
+2020-1-18 19:06:52异常名称: java.lang.NullPointerException
+2020-1-18 19:06:52异常说明: null
+2020-1-18 19:06:52简易错误信息如下:
+2020-1-18 19:06:52    位于 org.bukkit.ChatColor.translateAlternateColorCodes(ChatColor.java:324)
+2020-1-18 19:06:52    位于 cn.mxcymc.calendar.Lang.getMessage(Lang.java:18)
+2020-1-18 19:06:52    位于 cn.mxcymc.calendar.Main.Message(Main.java:78)
+2020-1-18 19:06:52    位于 cn.mxcymc.calendar.CalendarGui.openGui(CalendarGui.java:141)
+2020-1-18 19:06:52    位于 cn.mxcymc.calendar.Main.openGui(Main.java:87)
+2020-1-18 19:07:25[Yum 事件监控] 插件 Calendar 处理 PlayerJoinEvent 事件时发生异常!
+2020-1-18 19:07:25异常名称: java.lang.NullPointerException
+2020-1-18 19:07:25异常说明: null
+2020-1-18 19:07:25简易错误信息如下:
+2020-1-18 19:07:25    位于 org.bukkit.ChatColor.translateAlternateColorCodes(ChatColor.java:324)
+2020-1-18 19:07:25    位于 cn.mxcymc.calendar.Lang.getMessage(Lang.java:18)
+2020-1-18 19:07:25    位于 cn.mxcymc.calendar.Main.Message(Main.java:78)
+2020-1-18 19:07:25    位于 cn.mxcymc.calendar.CalendarGui.openGui(CalendarGui.java:141)
+2020-1-18 19:07:25    位于 cn.mxcymc.calendar.Main.openGui(Main.java:87)
+2020-1-18 20:25:35[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:35异常名称: java.lang.NullPointerException
+2020-1-18 20:25:35异常说明: null
+2020-1-18 20:25:35简易错误信息如下:
+2020-1-18 20:25:35    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:35    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:35    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:35    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:35    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:35[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:35异常名称: java.lang.NullPointerException
+2020-1-18 20:25:35异常说明: null
+2020-1-18 20:25:35简易错误信息如下:
+2020-1-18 20:25:35    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:35    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:35    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:35    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:35    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:36[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:36异常名称: java.lang.NullPointerException
+2020-1-18 20:25:36异常说明: null
+2020-1-18 20:25:36简易错误信息如下:
+2020-1-18 20:25:36    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:36    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:36    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:36    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:36    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:36[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:36异常名称: java.lang.NullPointerException
+2020-1-18 20:25:36异常说明: null
+2020-1-18 20:25:36简易错误信息如下:
+2020-1-18 20:25:36    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:36    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:36    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:36    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:36    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:36[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:36异常名称: java.lang.NullPointerException
+2020-1-18 20:25:36异常说明: null
+2020-1-18 20:25:36简易错误信息如下:
+2020-1-18 20:25:36    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:36    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:36    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:36    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:36    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:37[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:37异常名称: java.lang.NullPointerException
+2020-1-18 20:25:37异常说明: null
+2020-1-18 20:25:37简易错误信息如下:
+2020-1-18 20:25:37    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:37    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:37    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:37    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:37    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:37[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:37异常名称: java.lang.NullPointerException
+2020-1-18 20:25:37异常说明: null
+2020-1-18 20:25:37简易错误信息如下:
+2020-1-18 20:25:37    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:37    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:37    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:37    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:37    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:37[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:37异常名称: java.lang.NullPointerException
+2020-1-18 20:25:37异常说明: null
+2020-1-18 20:25:37简易错误信息如下:
+2020-1-18 20:25:37    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:37    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:37    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:37    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:37    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:38[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:38异常名称: java.lang.NullPointerException
+2020-1-18 20:25:38异常说明: null
+2020-1-18 20:25:38简易错误信息如下:
+2020-1-18 20:25:38    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:38    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:38    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:38    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:38    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:38[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:38异常名称: java.lang.NullPointerException
+2020-1-18 20:25:38异常说明: null
+2020-1-18 20:25:38简易错误信息如下:
+2020-1-18 20:25:38    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:38    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:38    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:38    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:38    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:38[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:38异常名称: java.lang.NullPointerException
+2020-1-18 20:25:38异常说明: null
+2020-1-18 20:25:38简易错误信息如下:
+2020-1-18 20:25:38    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:38    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:38    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:38    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:38    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:39[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:39异常名称: java.lang.NullPointerException
+2020-1-18 20:25:39异常说明: null
+2020-1-18 20:25:39简易错误信息如下:
+2020-1-18 20:25:39    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:39    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:39    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:39    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:39    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:39[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:39异常名称: java.lang.NullPointerException
+2020-1-18 20:25:39异常说明: null
+2020-1-18 20:25:39简易错误信息如下:
+2020-1-18 20:25:39    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:39    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:39    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:39    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:39    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:39[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:39异常名称: java.lang.NullPointerException
+2020-1-18 20:25:39异常说明: null
+2020-1-18 20:25:39简易错误信息如下:
+2020-1-18 20:25:39    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:39    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:39    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:39    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:39    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:40[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:40异常名称: java.lang.NullPointerException
+2020-1-18 20:25:40异常说明: null
+2020-1-18 20:25:40简易错误信息如下:
+2020-1-18 20:25:40    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:40    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:40    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:40    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:40    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:40[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:40异常名称: java.lang.NullPointerException
+2020-1-18 20:25:40异常说明: null
+2020-1-18 20:25:40简易错误信息如下:
+2020-1-18 20:25:40    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:40    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:40    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:40    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:40    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:40[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:40异常名称: java.lang.NullPointerException
+2020-1-18 20:25:40异常说明: null
+2020-1-18 20:25:40简易错误信息如下:
+2020-1-18 20:25:40    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:40    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:40    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:40    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:40    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:41[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:41异常名称: java.lang.NullPointerException
+2020-1-18 20:25:41异常说明: null
+2020-1-18 20:25:41简易错误信息如下:
+2020-1-18 20:25:41    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:41    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:41    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:41    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:41    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:41[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:41异常名称: java.lang.NullPointerException
+2020-1-18 20:25:41异常说明: null
+2020-1-18 20:25:41简易错误信息如下:
+2020-1-18 20:25:41    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:41    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:41    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:41    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:41    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:41[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:41异常名称: java.lang.NullPointerException
+2020-1-18 20:25:41异常说明: null
+2020-1-18 20:25:41简易错误信息如下:
+2020-1-18 20:25:41    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:41    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:41    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:41    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:41    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:42[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:42异常名称: java.lang.NullPointerException
+2020-1-18 20:25:42异常说明: null
+2020-1-18 20:25:42简易错误信息如下:
+2020-1-18 20:25:42    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:42    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:42    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:42    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:42    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:42[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:42异常名称: java.lang.NullPointerException
+2020-1-18 20:25:42异常说明: null
+2020-1-18 20:25:42简易错误信息如下:
+2020-1-18 20:25:42    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:42    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:42    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:42    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:42    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:42[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:42异常名称: java.lang.NullPointerException
+2020-1-18 20:25:42异常说明: null
+2020-1-18 20:25:42简易错误信息如下:
+2020-1-18 20:25:42    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:42    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:42    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:42    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:42    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:43[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:43异常名称: java.lang.NullPointerException
+2020-1-18 20:25:43异常说明: null
+2020-1-18 20:25:43简易错误信息如下:
+2020-1-18 20:25:43    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:43    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:43    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:43    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:43    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:43[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:43异常名称: java.lang.NullPointerException
+2020-1-18 20:25:43异常说明: null
+2020-1-18 20:25:43简易错误信息如下:
+2020-1-18 20:25:43    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:43    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:43    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:43    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:43    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:43[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:43异常名称: java.lang.NullPointerException
+2020-1-18 20:25:43异常说明: null
+2020-1-18 20:25:43简易错误信息如下:
+2020-1-18 20:25:43    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:43    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:43    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:43    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:43    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:44[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:44异常名称: java.lang.NullPointerException
+2020-1-18 20:25:44异常说明: null
+2020-1-18 20:25:44简易错误信息如下:
+2020-1-18 20:25:44    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:44    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:44    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:44    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:44    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:44[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:44异常名称: java.lang.NullPointerException
+2020-1-18 20:25:44异常说明: null
+2020-1-18 20:25:44简易错误信息如下:
+2020-1-18 20:25:44    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:44    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:44    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:44    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:44    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:44[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:44异常名称: java.lang.NullPointerException
+2020-1-18 20:25:44异常说明: null
+2020-1-18 20:25:44简易错误信息如下:
+2020-1-18 20:25:44    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:44    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:44    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:44    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:44    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:45[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:45异常名称: java.lang.NullPointerException
+2020-1-18 20:25:45异常说明: null
+2020-1-18 20:25:45简易错误信息如下:
+2020-1-18 20:25:45    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:45    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:45    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:45    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:45    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:45[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:45异常名称: java.lang.NullPointerException
+2020-1-18 20:25:45异常说明: null
+2020-1-18 20:25:45简易错误信息如下:
+2020-1-18 20:25:45    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:45    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:45    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:45    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:45    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:45[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:45异常名称: java.lang.NullPointerException
+2020-1-18 20:25:45异常说明: null
+2020-1-18 20:25:45简易错误信息如下:
+2020-1-18 20:25:45    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:45    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:45    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:45    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:45    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:46[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:46异常名称: java.lang.NullPointerException
+2020-1-18 20:25:46异常说明: null
+2020-1-18 20:25:46简易错误信息如下:
+2020-1-18 20:25:46    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:46    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:46    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:46    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:46    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:46[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:46异常名称: java.lang.NullPointerException
+2020-1-18 20:25:46异常说明: null
+2020-1-18 20:25:46简易错误信息如下:
+2020-1-18 20:25:46    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:46    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:46    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:46    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:46    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:46[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:46异常名称: java.lang.NullPointerException
+2020-1-18 20:25:46异常说明: null
+2020-1-18 20:25:46简易错误信息如下:
+2020-1-18 20:25:46    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:46    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:46    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:46    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:46    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:47[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:47异常名称: java.lang.NullPointerException
+2020-1-18 20:25:47异常说明: null
+2020-1-18 20:25:47简易错误信息如下:
+2020-1-18 20:25:47    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:47    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:47    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:47    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:47    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:47[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:47异常名称: java.lang.NullPointerException
+2020-1-18 20:25:47异常说明: null
+2020-1-18 20:25:47简易错误信息如下:
+2020-1-18 20:25:47    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:47    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:47    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:47    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:47    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:47[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:47异常名称: java.lang.NullPointerException
+2020-1-18 20:25:47异常说明: null
+2020-1-18 20:25:47简易错误信息如下:
+2020-1-18 20:25:47    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:47    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:47    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:47    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:47    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:48[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:48异常名称: java.lang.NullPointerException
+2020-1-18 20:25:48异常说明: null
+2020-1-18 20:25:48简易错误信息如下:
+2020-1-18 20:25:48    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:48    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:48    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:48    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:48    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:48[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:48异常名称: java.lang.NullPointerException
+2020-1-18 20:25:48异常说明: null
+2020-1-18 20:25:48简易错误信息如下:
+2020-1-18 20:25:48    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:48    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:48    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:48    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:48    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:48[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:48异常名称: java.lang.NullPointerException
+2020-1-18 20:25:48异常说明: null
+2020-1-18 20:25:48简易错误信息如下:
+2020-1-18 20:25:48    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:48    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:48    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:48    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:48    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:49[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:49异常名称: java.lang.NullPointerException
+2020-1-18 20:25:49异常说明: null
+2020-1-18 20:25:49简易错误信息如下:
+2020-1-18 20:25:49    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:49    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:49    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:49    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:49    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:49[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:49异常名称: java.lang.NullPointerException
+2020-1-18 20:25:49异常说明: null
+2020-1-18 20:25:49简易错误信息如下:
+2020-1-18 20:25:49    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:49    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:49    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:49    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:49    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:49[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:49异常名称: java.lang.NullPointerException
+2020-1-18 20:25:49异常说明: null
+2020-1-18 20:25:49简易错误信息如下:
+2020-1-18 20:25:49    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:49    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:49    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:49    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:49    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:50[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:50异常名称: java.lang.NullPointerException
+2020-1-18 20:25:50异常说明: null
+2020-1-18 20:25:50简易错误信息如下:
+2020-1-18 20:25:50    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:50    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:50    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:50    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:50    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:50[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:50异常名称: java.lang.NullPointerException
+2020-1-18 20:25:50异常说明: null
+2020-1-18 20:25:50简易错误信息如下:
+2020-1-18 20:25:50    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:50    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:50    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:50    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:50    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:50[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:50异常名称: java.lang.NullPointerException
+2020-1-18 20:25:50异常说明: null
+2020-1-18 20:25:50简易错误信息如下:
+2020-1-18 20:25:50    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:50    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:50    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:50    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:50    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:50[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:50异常名称: java.lang.NullPointerException
+2020-1-18 20:25:50异常说明: null
+2020-1-18 20:25:50简易错误信息如下:
+2020-1-18 20:25:50    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:50    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:50    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:50    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:50    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:51[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:51异常名称: java.lang.NullPointerException
+2020-1-18 20:25:51异常说明: null
+2020-1-18 20:25:51简易错误信息如下:
+2020-1-18 20:25:51    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:51    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:51    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:51    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:51    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:51[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:51异常名称: java.lang.NullPointerException
+2020-1-18 20:25:51异常说明: null
+2020-1-18 20:25:51简易错误信息如下:
+2020-1-18 20:25:51    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:51    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:51    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:51    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:51    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:51[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:51异常名称: java.lang.NullPointerException
+2020-1-18 20:25:51异常说明: null
+2020-1-18 20:25:51简易错误信息如下:
+2020-1-18 20:25:51    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:51    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:51    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:51    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:51    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:52[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:52异常名称: java.lang.NullPointerException
+2020-1-18 20:25:52异常说明: null
+2020-1-18 20:25:52简易错误信息如下:
+2020-1-18 20:25:52    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:52    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:52    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:52    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:52    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:52[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:52异常名称: java.lang.NullPointerException
+2020-1-18 20:25:52异常说明: null
+2020-1-18 20:25:52简易错误信息如下:
+2020-1-18 20:25:52    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:52    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:52    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:52    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:52    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:52[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:52异常名称: java.lang.NullPointerException
+2020-1-18 20:25:52异常说明: null
+2020-1-18 20:25:52简易错误信息如下:
+2020-1-18 20:25:52    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:52    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:52    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:52    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:52    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:53[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:53异常名称: java.lang.NullPointerException
+2020-1-18 20:25:53异常说明: null
+2020-1-18 20:25:53简易错误信息如下:
+2020-1-18 20:25:53    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:53    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:53    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:53    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:53    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:53[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:53异常名称: java.lang.NullPointerException
+2020-1-18 20:25:53异常说明: null
+2020-1-18 20:25:53简易错误信息如下:
+2020-1-18 20:25:53    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:53    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:53    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:53    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:53    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:53[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:53异常名称: java.lang.NullPointerException
+2020-1-18 20:25:53异常说明: null
+2020-1-18 20:25:53简易错误信息如下:
+2020-1-18 20:25:53    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:53    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:53    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:53    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:53    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:54[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:54异常名称: java.lang.NullPointerException
+2020-1-18 20:25:54异常说明: null
+2020-1-18 20:25:54简易错误信息如下:
+2020-1-18 20:25:54    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:54    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:54    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:54    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:54    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:54[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:54异常名称: java.lang.NullPointerException
+2020-1-18 20:25:54异常说明: null
+2020-1-18 20:25:54简易错误信息如下:
+2020-1-18 20:25:54    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:54    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:54    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:54    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:54    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:54[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:54异常名称: java.lang.NullPointerException
+2020-1-18 20:25:54异常说明: null
+2020-1-18 20:25:54简易错误信息如下:
+2020-1-18 20:25:54    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:54    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:54    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:54    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:54    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:55[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:55异常名称: java.lang.NullPointerException
+2020-1-18 20:25:55异常说明: null
+2020-1-18 20:25:55简易错误信息如下:
+2020-1-18 20:25:55    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:55    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:55    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:55    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:55    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:55[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:55异常名称: java.lang.NullPointerException
+2020-1-18 20:25:55异常说明: null
+2020-1-18 20:25:55简易错误信息如下:
+2020-1-18 20:25:55    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:55    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:55    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:55    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:55    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:55[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:55异常名称: java.lang.NullPointerException
+2020-1-18 20:25:55异常说明: null
+2020-1-18 20:25:55简易错误信息如下:
+2020-1-18 20:25:55    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:55    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:55    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:55    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:55    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:56[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:56异常名称: java.lang.NullPointerException
+2020-1-18 20:25:56异常说明: null
+2020-1-18 20:25:56简易错误信息如下:
+2020-1-18 20:25:56    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:56    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:56    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:56    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:56    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:56[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:56异常名称: java.lang.NullPointerException
+2020-1-18 20:25:56异常说明: null
+2020-1-18 20:25:56简易错误信息如下:
+2020-1-18 20:25:56    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:56    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:56    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:56    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:56    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:56[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:56异常名称: java.lang.NullPointerException
+2020-1-18 20:25:56异常说明: null
+2020-1-18 20:25:56简易错误信息如下:
+2020-1-18 20:25:56    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:56    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:56    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:56    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:56    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:57[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:57异常名称: java.lang.NullPointerException
+2020-1-18 20:25:57异常说明: null
+2020-1-18 20:25:57简易错误信息如下:
+2020-1-18 20:25:57    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:57    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:57    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:57    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:57    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:57[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:57异常名称: java.lang.NullPointerException
+2020-1-18 20:25:57异常说明: null
+2020-1-18 20:25:57简易错误信息如下:
+2020-1-18 20:25:57    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:57    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:57    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:57    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:57    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:57[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:57异常名称: java.lang.NullPointerException
+2020-1-18 20:25:57异常说明: null
+2020-1-18 20:25:57简易错误信息如下:
+2020-1-18 20:25:57    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:57    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:57    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:57    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:57    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:58[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:58异常名称: java.lang.NullPointerException
+2020-1-18 20:25:58异常说明: null
+2020-1-18 20:25:58简易错误信息如下:
+2020-1-18 20:25:58    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:58    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:58    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:58    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:58    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:58[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:58异常名称: java.lang.NullPointerException
+2020-1-18 20:25:58异常说明: null
+2020-1-18 20:25:58简易错误信息如下:
+2020-1-18 20:25:58    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:58    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:58    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:58    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:58    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:58[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:58异常名称: java.lang.NullPointerException
+2020-1-18 20:25:58异常说明: null
+2020-1-18 20:25:58简易错误信息如下:
+2020-1-18 20:25:58    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:58    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:58    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:58    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:58    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:59[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:59异常名称: java.lang.NullPointerException
+2020-1-18 20:25:59异常说明: null
+2020-1-18 20:25:59简易错误信息如下:
+2020-1-18 20:25:59    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:59    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:59    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:59    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:59    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:59[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:59异常名称: java.lang.NullPointerException
+2020-1-18 20:25:59异常说明: null
+2020-1-18 20:25:59简易错误信息如下:
+2020-1-18 20:25:59    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:59    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:59    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:59    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:59    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:59[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:59异常名称: java.lang.NullPointerException
+2020-1-18 20:25:59异常说明: null
+2020-1-18 20:25:59简易错误信息如下:
+2020-1-18 20:25:59    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:59    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:59    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:59    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:59    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:25:59[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:25:59异常名称: java.lang.NullPointerException
+2020-1-18 20:25:59异常说明: null
+2020-1-18 20:25:59简易错误信息如下:
+2020-1-18 20:25:59    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:25:59    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:25:59    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:25:59    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:25:59    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:00[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:00异常名称: java.lang.NullPointerException
+2020-1-18 20:26:00异常说明: null
+2020-1-18 20:26:00简易错误信息如下:
+2020-1-18 20:26:00    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:00    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:00    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:00    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:00    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:00[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:00异常名称: java.lang.NullPointerException
+2020-1-18 20:26:00异常说明: null
+2020-1-18 20:26:00简易错误信息如下:
+2020-1-18 20:26:00    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:00    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:00    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:00    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:00    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:00[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:00异常名称: java.lang.NullPointerException
+2020-1-18 20:26:00异常说明: null
+2020-1-18 20:26:00简易错误信息如下:
+2020-1-18 20:26:00    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:00    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:00    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:00    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:00    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:01[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:01异常名称: java.lang.NullPointerException
+2020-1-18 20:26:01异常说明: null
+2020-1-18 20:26:01简易错误信息如下:
+2020-1-18 20:26:01    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:01    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:01    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:01    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:01    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:01[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:01异常名称: java.lang.NullPointerException
+2020-1-18 20:26:01异常说明: null
+2020-1-18 20:26:01简易错误信息如下:
+2020-1-18 20:26:01    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:01    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:01    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:01    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:01    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:01[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:01异常名称: java.lang.NullPointerException
+2020-1-18 20:26:01异常说明: null
+2020-1-18 20:26:01简易错误信息如下:
+2020-1-18 20:26:01    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:01    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:01    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:01    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:01    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:02[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:02异常名称: java.lang.NullPointerException
+2020-1-18 20:26:02异常说明: null
+2020-1-18 20:26:02简易错误信息如下:
+2020-1-18 20:26:02    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:02    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:02    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:02    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:02    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:02[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:02异常名称: java.lang.NullPointerException
+2020-1-18 20:26:02异常说明: null
+2020-1-18 20:26:02简易错误信息如下:
+2020-1-18 20:26:02    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:02    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:02    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:02    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:02    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:02[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:02异常名称: java.lang.NullPointerException
+2020-1-18 20:26:02异常说明: null
+2020-1-18 20:26:02简易错误信息如下:
+2020-1-18 20:26:02    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:02    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:02    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:02    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:02    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:03[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:03异常名称: java.lang.NullPointerException
+2020-1-18 20:26:03异常说明: null
+2020-1-18 20:26:03简易错误信息如下:
+2020-1-18 20:26:03    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:03    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:03    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:03    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:03    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:03[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:03异常名称: java.lang.NullPointerException
+2020-1-18 20:26:03异常说明: null
+2020-1-18 20:26:03简易错误信息如下:
+2020-1-18 20:26:03    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:03    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:03    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:03    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:03    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:03[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:03异常名称: java.lang.NullPointerException
+2020-1-18 20:26:03异常说明: null
+2020-1-18 20:26:03简易错误信息如下:
+2020-1-18 20:26:03    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:03    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:03    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:03    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:03    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:04[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:04异常名称: java.lang.NullPointerException
+2020-1-18 20:26:04异常说明: null
+2020-1-18 20:26:04简易错误信息如下:
+2020-1-18 20:26:04    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:04    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:04    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:04    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:04    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:04[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:04异常名称: java.lang.NullPointerException
+2020-1-18 20:26:04异常说明: null
+2020-1-18 20:26:04简易错误信息如下:
+2020-1-18 20:26:04    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:04    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:04    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:04    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:04    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:04[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:04异常名称: java.lang.NullPointerException
+2020-1-18 20:26:04异常说明: null
+2020-1-18 20:26:04简易错误信息如下:
+2020-1-18 20:26:04    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:04    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:04    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:04    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:04    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:05[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:05异常名称: java.lang.NullPointerException
+2020-1-18 20:26:05异常说明: null
+2020-1-18 20:26:05简易错误信息如下:
+2020-1-18 20:26:05    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:05    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:05    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:05    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:05    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:05[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:05异常名称: java.lang.NullPointerException
+2020-1-18 20:26:05异常说明: null
+2020-1-18 20:26:05简易错误信息如下:
+2020-1-18 20:26:05    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:05    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:05    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:05    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:05    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:05[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:05异常名称: java.lang.NullPointerException
+2020-1-18 20:26:05异常说明: null
+2020-1-18 20:26:05简易错误信息如下:
+2020-1-18 20:26:05    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:05    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:05    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:05    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:05    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:05[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:05异常名称: java.lang.NullPointerException
+2020-1-18 20:26:05异常说明: null
+2020-1-18 20:26:05简易错误信息如下:
+2020-1-18 20:26:05    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:05    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:05    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:05    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:05    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:06[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:06异常名称: java.lang.NullPointerException
+2020-1-18 20:26:06异常说明: null
+2020-1-18 20:26:06简易错误信息如下:
+2020-1-18 20:26:06    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:06    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:06    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:06    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:06    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:06[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:06异常名称: java.lang.NullPointerException
+2020-1-18 20:26:06异常说明: null
+2020-1-18 20:26:06简易错误信息如下:
+2020-1-18 20:26:06    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:06    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:06    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:06    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:06    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:06[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:06异常名称: java.lang.NullPointerException
+2020-1-18 20:26:06异常说明: null
+2020-1-18 20:26:06简易错误信息如下:
+2020-1-18 20:26:06    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:06    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:06    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:06    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:06    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:07[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:07异常名称: java.lang.NullPointerException
+2020-1-18 20:26:07异常说明: null
+2020-1-18 20:26:07简易错误信息如下:
+2020-1-18 20:26:07    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:07    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:07    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:07    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:07    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:07[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:07异常名称: java.lang.NullPointerException
+2020-1-18 20:26:07异常说明: null
+2020-1-18 20:26:07简易错误信息如下:
+2020-1-18 20:26:07    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:07    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:07    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:07    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:07    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:07[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:07异常名称: java.lang.NullPointerException
+2020-1-18 20:26:07异常说明: null
+2020-1-18 20:26:07简易错误信息如下:
+2020-1-18 20:26:07    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:07    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:07    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:07    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:07    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:08[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:08异常名称: java.lang.NullPointerException
+2020-1-18 20:26:08异常说明: null
+2020-1-18 20:26:08简易错误信息如下:
+2020-1-18 20:26:08    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:08    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:08    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:08    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:08    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:08[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:08异常名称: java.lang.NullPointerException
+2020-1-18 20:26:08异常说明: null
+2020-1-18 20:26:08简易错误信息如下:
+2020-1-18 20:26:08    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:08    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:08    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:08    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:08    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:08[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:08异常名称: java.lang.NullPointerException
+2020-1-18 20:26:08异常说明: null
+2020-1-18 20:26:08简易错误信息如下:
+2020-1-18 20:26:08    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:08    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:08    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:08    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:08    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:09[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:09异常名称: java.lang.NullPointerException
+2020-1-18 20:26:09异常说明: null
+2020-1-18 20:26:09简易错误信息如下:
+2020-1-18 20:26:09    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:09    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:09    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:09    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:09    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:09[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:09异常名称: java.lang.NullPointerException
+2020-1-18 20:26:09异常说明: null
+2020-1-18 20:26:09简易错误信息如下:
+2020-1-18 20:26:09    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:09    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:09    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:09    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:09    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:09[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:09异常名称: java.lang.NullPointerException
+2020-1-18 20:26:09异常说明: null
+2020-1-18 20:26:09简易错误信息如下:
+2020-1-18 20:26:09    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:09    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:09    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:09    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:09    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:10[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:10异常名称: java.lang.NullPointerException
+2020-1-18 20:26:10异常说明: null
+2020-1-18 20:26:10简易错误信息如下:
+2020-1-18 20:26:10    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:10    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:10    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:10    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:10    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:10[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:10异常名称: java.lang.NullPointerException
+2020-1-18 20:26:10异常说明: null
+2020-1-18 20:26:10简易错误信息如下:
+2020-1-18 20:26:10    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:10    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:10    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:10    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:10    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:10[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:10异常名称: java.lang.NullPointerException
+2020-1-18 20:26:10异常说明: null
+2020-1-18 20:26:10简易错误信息如下:
+2020-1-18 20:26:10    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:10    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:10    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:10    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:10    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:11[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:11异常名称: java.lang.NullPointerException
+2020-1-18 20:26:11异常说明: null
+2020-1-18 20:26:11简易错误信息如下:
+2020-1-18 20:26:11    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:11    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:11    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:11    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:11    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:11[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:11异常名称: java.lang.NullPointerException
+2020-1-18 20:26:11异常说明: null
+2020-1-18 20:26:11简易错误信息如下:
+2020-1-18 20:26:11    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:11    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:11    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:11    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:11    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:11[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:11异常名称: java.lang.NullPointerException
+2020-1-18 20:26:11异常说明: null
+2020-1-18 20:26:11简易错误信息如下:
+2020-1-18 20:26:11    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:11    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:11    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:11    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:11    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:12[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:12异常名称: java.lang.NullPointerException
+2020-1-18 20:26:12异常说明: null
+2020-1-18 20:26:12简易错误信息如下:
+2020-1-18 20:26:12    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:12    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:12    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:12    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:12    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:12[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:12异常名称: java.lang.NullPointerException
+2020-1-18 20:26:12异常说明: null
+2020-1-18 20:26:12简易错误信息如下:
+2020-1-18 20:26:12    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:12    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:12    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:12    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:12    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:12[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:12异常名称: java.lang.NullPointerException
+2020-1-18 20:26:12异常说明: null
+2020-1-18 20:26:12简易错误信息如下:
+2020-1-18 20:26:12    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:12    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:12    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:12    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:12    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:13[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:13异常名称: java.lang.NullPointerException
+2020-1-18 20:26:13异常说明: null
+2020-1-18 20:26:13简易错误信息如下:
+2020-1-18 20:26:13    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:13    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:13    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:13    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:13    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:13[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:13异常名称: java.lang.NullPointerException
+2020-1-18 20:26:13异常说明: null
+2020-1-18 20:26:13简易错误信息如下:
+2020-1-18 20:26:13    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:13    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:13    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:13    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:13    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:13[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:13异常名称: java.lang.NullPointerException
+2020-1-18 20:26:13异常说明: null
+2020-1-18 20:26:13简易错误信息如下:
+2020-1-18 20:26:13    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:13    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:13    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:13    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:13    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:13[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:13异常名称: java.lang.NullPointerException
+2020-1-18 20:26:13异常说明: null
+2020-1-18 20:26:13简易错误信息如下:
+2020-1-18 20:26:13    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:13    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:13    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:13    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:13    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:14[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:14异常名称: java.lang.NullPointerException
+2020-1-18 20:26:14异常说明: null
+2020-1-18 20:26:14简易错误信息如下:
+2020-1-18 20:26:14    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:14    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:14    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:14    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:14    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:14[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:14异常名称: java.lang.NullPointerException
+2020-1-18 20:26:14异常说明: null
+2020-1-18 20:26:14简易错误信息如下:
+2020-1-18 20:26:14    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:14    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:14    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:14    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:14    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:14[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:14异常名称: java.lang.NullPointerException
+2020-1-18 20:26:14异常说明: null
+2020-1-18 20:26:14简易错误信息如下:
+2020-1-18 20:26:14    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:14    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:14    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:14    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:14    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:15[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:15异常名称: java.lang.NullPointerException
+2020-1-18 20:26:15异常说明: null
+2020-1-18 20:26:15简易错误信息如下:
+2020-1-18 20:26:15    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:15    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:15    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:15    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:15    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:15[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:15异常名称: java.lang.NullPointerException
+2020-1-18 20:26:15异常说明: null
+2020-1-18 20:26:15简易错误信息如下:
+2020-1-18 20:26:15    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:15    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:15    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:15    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:15    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:15[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:15异常名称: java.lang.NullPointerException
+2020-1-18 20:26:15异常说明: null
+2020-1-18 20:26:15简易错误信息如下:
+2020-1-18 20:26:15    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:15    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:15    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:15    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:15    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:16[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:16异常名称: java.lang.NullPointerException
+2020-1-18 20:26:16异常说明: null
+2020-1-18 20:26:16简易错误信息如下:
+2020-1-18 20:26:16    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:16    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:16    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:16    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:16    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:16[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:16异常名称: java.lang.NullPointerException
+2020-1-18 20:26:16异常说明: null
+2020-1-18 20:26:16简易错误信息如下:
+2020-1-18 20:26:16    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:16    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:16    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:16    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:16    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:16[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:16异常名称: java.lang.NullPointerException
+2020-1-18 20:26:16异常说明: null
+2020-1-18 20:26:16简易错误信息如下:
+2020-1-18 20:26:16    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:16    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:16    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:16    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:16    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:17[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:17异常名称: java.lang.NullPointerException
+2020-1-18 20:26:17异常说明: null
+2020-1-18 20:26:17简易错误信息如下:
+2020-1-18 20:26:17    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:17    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:17    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:17    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:17    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:17[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:17异常名称: java.lang.NullPointerException
+2020-1-18 20:26:17异常说明: null
+2020-1-18 20:26:17简易错误信息如下:
+2020-1-18 20:26:17    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:17    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:17    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:17    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:17    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:17[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:17异常名称: java.lang.NullPointerException
+2020-1-18 20:26:17异常说明: null
+2020-1-18 20:26:17简易错误信息如下:
+2020-1-18 20:26:17    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:17    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:17    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:17    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:17    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:18[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:18异常名称: java.lang.NullPointerException
+2020-1-18 20:26:18异常说明: null
+2020-1-18 20:26:18简易错误信息如下:
+2020-1-18 20:26:18    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:18    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:18    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:18    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:18    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:18[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:18异常名称: java.lang.NullPointerException
+2020-1-18 20:26:18异常说明: null
+2020-1-18 20:26:18简易错误信息如下:
+2020-1-18 20:26:18    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:18    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:18    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:18    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:18    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:18[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:18异常名称: java.lang.NullPointerException
+2020-1-18 20:26:18异常说明: null
+2020-1-18 20:26:18简易错误信息如下:
+2020-1-18 20:26:18    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:18    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:18    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:18    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:18    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:19[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:19异常名称: java.lang.NullPointerException
+2020-1-18 20:26:19异常说明: null
+2020-1-18 20:26:19简易错误信息如下:
+2020-1-18 20:26:19    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:19    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:19    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:19    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:19    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:19[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:19异常名称: java.lang.NullPointerException
+2020-1-18 20:26:19异常说明: null
+2020-1-18 20:26:19简易错误信息如下:
+2020-1-18 20:26:19    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:19    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:19    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:19    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:19    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:19[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:19异常名称: java.lang.NullPointerException
+2020-1-18 20:26:19异常说明: null
+2020-1-18 20:26:19简易错误信息如下:
+2020-1-18 20:26:19    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:19    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:19    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:19    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:19    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:20[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:20异常名称: java.lang.NullPointerException
+2020-1-18 20:26:20异常说明: null
+2020-1-18 20:26:20简易错误信息如下:
+2020-1-18 20:26:20    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:20    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:20    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:20    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:20    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:20[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:20异常名称: java.lang.NullPointerException
+2020-1-18 20:26:20异常说明: null
+2020-1-18 20:26:20简易错误信息如下:
+2020-1-18 20:26:20    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:20    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:20    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:20    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:20    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:20[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:20异常名称: java.lang.NullPointerException
+2020-1-18 20:26:20异常说明: null
+2020-1-18 20:26:20简易错误信息如下:
+2020-1-18 20:26:20    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:20    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:20    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:20    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:20    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:21[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:21异常名称: java.lang.NullPointerException
+2020-1-18 20:26:21异常说明: null
+2020-1-18 20:26:21简易错误信息如下:
+2020-1-18 20:26:21    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:21    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:21    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:21    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:21    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:21[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:21异常名称: java.lang.NullPointerException
+2020-1-18 20:26:21异常说明: null
+2020-1-18 20:26:21简易错误信息如下:
+2020-1-18 20:26:21    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:21    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:21    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:21    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:21    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:21[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:21异常名称: java.lang.NullPointerException
+2020-1-18 20:26:21异常说明: null
+2020-1-18 20:26:21简易错误信息如下:
+2020-1-18 20:26:21    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:21    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:21    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:21    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:21    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:22[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:22异常名称: java.lang.NullPointerException
+2020-1-18 20:26:22异常说明: null
+2020-1-18 20:26:22简易错误信息如下:
+2020-1-18 20:26:22    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:22    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:22    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:22    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:22    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:22[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:22异常名称: java.lang.NullPointerException
+2020-1-18 20:26:22异常说明: null
+2020-1-18 20:26:22简易错误信息如下:
+2020-1-18 20:26:22    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:22    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:22    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:22    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:22    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:22[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:22异常名称: java.lang.NullPointerException
+2020-1-18 20:26:22异常说明: null
+2020-1-18 20:26:22简易错误信息如下:
+2020-1-18 20:26:22    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:22    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:22    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:22    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:22    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:23[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:23异常名称: java.lang.NullPointerException
+2020-1-18 20:26:23异常说明: null
+2020-1-18 20:26:23简易错误信息如下:
+2020-1-18 20:26:23    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:23    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:23    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:23    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:23    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:23[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:23异常名称: java.lang.NullPointerException
+2020-1-18 20:26:23异常说明: null
+2020-1-18 20:26:23简易错误信息如下:
+2020-1-18 20:26:23    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:23    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:23    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:23    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:23    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:23[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:23异常名称: java.lang.NullPointerException
+2020-1-18 20:26:23异常说明: null
+2020-1-18 20:26:23简易错误信息如下:
+2020-1-18 20:26:23    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:23    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:23    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:23    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:23    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:24[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:24异常名称: java.lang.NullPointerException
+2020-1-18 20:26:24异常说明: null
+2020-1-18 20:26:24简易错误信息如下:
+2020-1-18 20:26:24    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:24    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:24    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:24    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:24    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:24[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:24异常名称: java.lang.NullPointerException
+2020-1-18 20:26:24异常说明: null
+2020-1-18 20:26:24简易错误信息如下:
+2020-1-18 20:26:24    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:24    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:24    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:24    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:24    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:24[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:24异常名称: java.lang.NullPointerException
+2020-1-18 20:26:24异常说明: null
+2020-1-18 20:26:24简易错误信息如下:
+2020-1-18 20:26:24    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:24    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:24    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:24    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:24    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:24[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:24异常名称: java.lang.NullPointerException
+2020-1-18 20:26:24异常说明: null
+2020-1-18 20:26:24简易错误信息如下:
+2020-1-18 20:26:24    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:24    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:24    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:24    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:24    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:25[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:25异常名称: java.lang.NullPointerException
+2020-1-18 20:26:25异常说明: null
+2020-1-18 20:26:25简易错误信息如下:
+2020-1-18 20:26:25    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:25    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:25    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:25    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:25    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:25[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:25异常名称: java.lang.NullPointerException
+2020-1-18 20:26:25异常说明: null
+2020-1-18 20:26:25简易错误信息如下:
+2020-1-18 20:26:25    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:25    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:25    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:25    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:25    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:25[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:25异常名称: java.lang.NullPointerException
+2020-1-18 20:26:25异常说明: null
+2020-1-18 20:26:25简易错误信息如下:
+2020-1-18 20:26:25    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:25    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:25    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:25    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:25    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:26[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:26异常名称: java.lang.NullPointerException
+2020-1-18 20:26:26异常说明: null
+2020-1-18 20:26:26简易错误信息如下:
+2020-1-18 20:26:26    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:26    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:26    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:26    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:26    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:26[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:26异常名称: java.lang.NullPointerException
+2020-1-18 20:26:26异常说明: null
+2020-1-18 20:26:26简易错误信息如下:
+2020-1-18 20:26:26    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:26    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:26    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:26    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:26    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:26[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:26异常名称: java.lang.NullPointerException
+2020-1-18 20:26:26异常说明: null
+2020-1-18 20:26:26简易错误信息如下:
+2020-1-18 20:26:26    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:26    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:26    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:26    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:26    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:27[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:27异常名称: java.lang.NullPointerException
+2020-1-18 20:26:27异常说明: null
+2020-1-18 20:26:27简易错误信息如下:
+2020-1-18 20:26:27    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:27    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:27    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:27    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:27    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:27[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:27异常名称: java.lang.NullPointerException
+2020-1-18 20:26:27异常说明: null
+2020-1-18 20:26:27简易错误信息如下:
+2020-1-18 20:26:27    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:27    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:27    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:27    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:27    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:27[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:27异常名称: java.lang.NullPointerException
+2020-1-18 20:26:27异常说明: null
+2020-1-18 20:26:27简易错误信息如下:
+2020-1-18 20:26:27    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:27    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:27    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:27    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:27    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:28[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:28异常名称: java.lang.NullPointerException
+2020-1-18 20:26:28异常说明: null
+2020-1-18 20:26:28简易错误信息如下:
+2020-1-18 20:26:28    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:28    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:28    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:28    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:28    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:28[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:28异常名称: java.lang.NullPointerException
+2020-1-18 20:26:28异常说明: null
+2020-1-18 20:26:28简易错误信息如下:
+2020-1-18 20:26:28    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:28    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:28    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:28    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:28    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:28[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:28异常名称: java.lang.NullPointerException
+2020-1-18 20:26:28异常说明: null
+2020-1-18 20:26:28简易错误信息如下:
+2020-1-18 20:26:28    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:28    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:28    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:28    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:28    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:29[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:29异常名称: java.lang.NullPointerException
+2020-1-18 20:26:29异常说明: null
+2020-1-18 20:26:29简易错误信息如下:
+2020-1-18 20:26:29    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:29    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:29    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:29    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:29    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:29[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:29异常名称: java.lang.NullPointerException
+2020-1-18 20:26:29异常说明: null
+2020-1-18 20:26:29简易错误信息如下:
+2020-1-18 20:26:29    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:29    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:29    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:29    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:29    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:29[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:29异常名称: java.lang.NullPointerException
+2020-1-18 20:26:29异常说明: null
+2020-1-18 20:26:29简易错误信息如下:
+2020-1-18 20:26:29    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:29    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:29    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:29    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:29    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:30[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:30异常名称: java.lang.NullPointerException
+2020-1-18 20:26:30异常说明: null
+2020-1-18 20:26:30简易错误信息如下:
+2020-1-18 20:26:30    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:30    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:30    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:30    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:30    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:30[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:30异常名称: java.lang.NullPointerException
+2020-1-18 20:26:30异常说明: null
+2020-1-18 20:26:30简易错误信息如下:
+2020-1-18 20:26:30    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:30    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:30    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:30    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:30    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:30[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:30异常名称: java.lang.NullPointerException
+2020-1-18 20:26:30异常说明: null
+2020-1-18 20:26:30简易错误信息如下:
+2020-1-18 20:26:30    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:30    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:30    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:30    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:30    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:31[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:31异常名称: java.lang.NullPointerException
+2020-1-18 20:26:31异常说明: null
+2020-1-18 20:26:31简易错误信息如下:
+2020-1-18 20:26:31    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:31    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:31    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:31    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:31    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:31[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:31异常名称: java.lang.NullPointerException
+2020-1-18 20:26:31异常说明: null
+2020-1-18 20:26:31简易错误信息如下:
+2020-1-18 20:26:31    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:31    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:31    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:31    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:31    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:31[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:31异常名称: java.lang.NullPointerException
+2020-1-18 20:26:31异常说明: null
+2020-1-18 20:26:31简易错误信息如下:
+2020-1-18 20:26:31    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:31    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:31    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:31    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:31    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:32[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:32异常名称: java.lang.NullPointerException
+2020-1-18 20:26:32异常说明: null
+2020-1-18 20:26:32简易错误信息如下:
+2020-1-18 20:26:32    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:32    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:32    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:32    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:32    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:32[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:32异常名称: java.lang.NullPointerException
+2020-1-18 20:26:32异常说明: null
+2020-1-18 20:26:32简易错误信息如下:
+2020-1-18 20:26:32    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:32    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:32    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:32    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:32    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:32[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:32异常名称: java.lang.NullPointerException
+2020-1-18 20:26:32异常说明: null
+2020-1-18 20:26:32简易错误信息如下:
+2020-1-18 20:26:32    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:32    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:32    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:32    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:32    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:33[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:33异常名称: java.lang.NullPointerException
+2020-1-18 20:26:33异常说明: null
+2020-1-18 20:26:33简易错误信息如下:
+2020-1-18 20:26:33    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:33    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:33    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:33    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:33    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:33[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:33异常名称: java.lang.NullPointerException
+2020-1-18 20:26:33异常说明: null
+2020-1-18 20:26:33简易错误信息如下:
+2020-1-18 20:26:33    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:33    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:33    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:33    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:33    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:33[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:33异常名称: java.lang.NullPointerException
+2020-1-18 20:26:33异常说明: null
+2020-1-18 20:26:33简易错误信息如下:
+2020-1-18 20:26:33    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:33    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:33    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:33    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:33    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:34[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:34异常名称: java.lang.NullPointerException
+2020-1-18 20:26:34异常说明: null
+2020-1-18 20:26:34简易错误信息如下:
+2020-1-18 20:26:34    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:34    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:34    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:34    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:34    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-18 20:26:34[Yum 任务监控] 插件 imiPet 处理 a 任务时发生异常!
+2020-1-18 20:26:34异常名称: java.lang.NullPointerException
+2020-1-18 20:26:34异常说明: null
+2020-1-18 20:26:34简易错误信息如下:
+2020-1-18 20:26:34    位于 catserver.server.remapper.ReflectionMethods.getDeclaredMethods(ReflectionMethods.java:97)
+2020-1-18 20:26:34    位于 cn.mcres.imiPet.cn.b(A:536)
+2020-1-18 20:26:34    位于 cn.mcres.imiPet.cn.a(A:48)
+2020-1-18 20:26:34    位于 cn.mcres.imiPet.cw.<init>(A:788)
+2020-1-18 20:26:34    位于 cn.mcres.imiPet.cn.<init>(A:226)
+2020-1-19 13:09:12[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:12异常名称: java.lang.NullPointerException
+2020-1-19 13:09:12异常说明: null
+2020-1-19 13:09:12简易错误信息如下:
+2020-1-19 13:09:12    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:12    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:12    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:12    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:12    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:12[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:12异常名称: java.lang.NullPointerException
+2020-1-19 13:09:12异常说明: null
+2020-1-19 13:09:12简易错误信息如下:
+2020-1-19 13:09:12    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:12    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:12    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:12    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:12    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:12[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:12异常名称: java.lang.NullPointerException
+2020-1-19 13:09:12异常说明: null
+2020-1-19 13:09:12简易错误信息如下:
+2020-1-19 13:09:12    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:12    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:12    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:12    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:12    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:12[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:12异常名称: java.lang.NullPointerException
+2020-1-19 13:09:12异常说明: null
+2020-1-19 13:09:12简易错误信息如下:
+2020-1-19 13:09:12    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:12    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:12    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:12    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:12    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:12[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:12异常名称: java.lang.NullPointerException
+2020-1-19 13:09:12异常说明: null
+2020-1-19 13:09:12简易错误信息如下:
+2020-1-19 13:09:12    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:12    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:12    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:12    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:12    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:12[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:12异常名称: java.lang.NullPointerException
+2020-1-19 13:09:12异常说明: null
+2020-1-19 13:09:12简易错误信息如下:
+2020-1-19 13:09:12    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:12    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:12    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:12    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:12    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:13异常名称: java.lang.NullPointerException
+2020-1-19 13:09:13异常说明: null
+2020-1-19 13:09:13简易错误信息如下:
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:14[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:14异常名称: java.lang.NullPointerException
+2020-1-19 13:09:14异常说明: null
+2020-1-19 13:09:14简易错误信息如下:
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:14    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:14    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:14    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:15[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:15异常名称: java.lang.NullPointerException
+2020-1-19 13:09:15异常说明: null
+2020-1-19 13:09:15简易错误信息如下:
+2020-1-19 13:09:15    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:15    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:15    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:15    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:15    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:15[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:15异常名称: java.lang.NullPointerException
+2020-1-19 13:09:15异常说明: null
+2020-1-19 13:09:15简易错误信息如下:
+2020-1-19 13:09:15    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:15    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:15    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:15    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:15    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:15[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:15异常名称: java.lang.NullPointerException
+2020-1-19 13:09:15异常说明: null
+2020-1-19 13:09:15简易错误信息如下:
+2020-1-19 13:09:15    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:15    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:15    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:15    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:15    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:15[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:15异常名称: java.lang.NullPointerException
+2020-1-19 13:09:15异常说明: null
+2020-1-19 13:09:15简易错误信息如下:
+2020-1-19 13:09:15    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:15    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:15    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:15    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:15    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:15[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:15异常名称: java.lang.NullPointerException
+2020-1-19 13:09:15异常说明: null
+2020-1-19 13:09:15简易错误信息如下:
+2020-1-19 13:09:15    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:15    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:15    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:15    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:15    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:15[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:15异常名称: java.lang.NullPointerException
+2020-1-19 13:09:15异常说明: null
+2020-1-19 13:09:15简易错误信息如下:
+2020-1-19 13:09:15    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:15    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:15    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:15    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:15    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:17[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:17异常名称: java.lang.NullPointerException
+2020-1-19 13:09:17异常说明: null
+2020-1-19 13:09:17简易错误信息如下:
+2020-1-19 13:09:17    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:17    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:17    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:17    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:17    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:17[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:17异常名称: java.lang.NullPointerException
+2020-1-19 13:09:17异常说明: null
+2020-1-19 13:09:17简易错误信息如下:
+2020-1-19 13:09:17    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:17    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:17    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:17    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:17    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:17[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:17异常名称: java.lang.NullPointerException
+2020-1-19 13:09:17异常说明: null
+2020-1-19 13:09:17简易错误信息如下:
+2020-1-19 13:09:17    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:17    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:17    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:17    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:17    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:17[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:17异常名称: java.lang.NullPointerException
+2020-1-19 13:09:17异常说明: null
+2020-1-19 13:09:17简易错误信息如下:
+2020-1-19 13:09:17    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:17    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:17    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:17    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:17    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:17[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:17异常名称: java.lang.NullPointerException
+2020-1-19 13:09:17异常说明: null
+2020-1-19 13:09:17简易错误信息如下:
+2020-1-19 13:09:17    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:17    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:17    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:17    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:17    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:17[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:17异常名称: java.lang.NullPointerException
+2020-1-19 13:09:17异常说明: null
+2020-1-19 13:09:17简易错误信息如下:
+2020-1-19 13:09:17    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:17    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:17    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:17    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:17    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:18[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:18异常名称: java.lang.NullPointerException
+2020-1-19 13:09:18异常说明: null
+2020-1-19 13:09:18简易错误信息如下:
+2020-1-19 13:09:18    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:18    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:18    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:18    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:18    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:18[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:18异常名称: java.lang.NullPointerException
+2020-1-19 13:09:18异常说明: null
+2020-1-19 13:09:18简易错误信息如下:
+2020-1-19 13:09:18    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:18    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:18    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:18    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:18    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:18[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:18异常名称: java.lang.NullPointerException
+2020-1-19 13:09:18异常说明: null
+2020-1-19 13:09:18简易错误信息如下:
+2020-1-19 13:09:18    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:18    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:18    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:18    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:18    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:18[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:18异常名称: java.lang.NullPointerException
+2020-1-19 13:09:18异常说明: null
+2020-1-19 13:09:18简易错误信息如下:
+2020-1-19 13:09:18    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:18    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:18    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:18    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:18    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:18[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:18异常名称: java.lang.NullPointerException
+2020-1-19 13:09:18异常说明: null
+2020-1-19 13:09:18简易错误信息如下:
+2020-1-19 13:09:18    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:18    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:18    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:18    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:18    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:09:18[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:09:18异常名称: java.lang.NullPointerException
+2020-1-19 13:09:18异常说明: null
+2020-1-19 13:09:18简易错误信息如下:
+2020-1-19 13:09:18    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:09:18    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:09:18    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:09:18    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:09:18    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:11:33[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:11:33异常名称: java.lang.NullPointerException
+2020-1-19 13:11:33异常说明: null
+2020-1-19 13:11:33简易错误信息如下:
+2020-1-19 13:11:33    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:11:33    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:11:33    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:11:33    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:11:33    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:11:33[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:11:33异常名称: java.lang.NullPointerException
+2020-1-19 13:11:33异常说明: null
+2020-1-19 13:11:33简易错误信息如下:
+2020-1-19 13:11:33    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:11:33    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:11:33    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:11:33    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:11:33    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:11:33[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:11:33异常名称: java.lang.NullPointerException
+2020-1-19 13:11:33异常说明: null
+2020-1-19 13:11:33简易错误信息如下:
+2020-1-19 13:11:33    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:11:33    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:11:33    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:11:33    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:11:33    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:11:33[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:11:33异常名称: java.lang.NullPointerException
+2020-1-19 13:11:33异常说明: null
+2020-1-19 13:11:33简易错误信息如下:
+2020-1-19 13:11:33    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:11:33    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:11:33    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:11:33    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:11:33    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:11:33[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:11:33异常名称: java.lang.NullPointerException
+2020-1-19 13:11:33异常说明: null
+2020-1-19 13:11:33简易错误信息如下:
+2020-1-19 13:11:33    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:11:33    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:11:33    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:11:33    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:11:33    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:11:33[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:11:33异常名称: java.lang.NullPointerException
+2020-1-19 13:11:33异常说明: null
+2020-1-19 13:11:33简易错误信息如下:
+2020-1-19 13:11:33    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:11:33    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:11:33    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:11:33    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:11:33    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:11:52[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:11:52异常名称: java.lang.NullPointerException
+2020-1-19 13:11:52异常说明: null
+2020-1-19 13:11:52简易错误信息如下:
+2020-1-19 13:11:52    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:11:52    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:11:52    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:11:52    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:11:52    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:11:52[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:11:52异常名称: java.lang.NullPointerException
+2020-1-19 13:11:52异常说明: null
+2020-1-19 13:11:52简易错误信息如下:
+2020-1-19 13:11:52    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:11:52    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:11:52    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:11:52    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:11:52    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:11:52[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:11:52异常名称: java.lang.NullPointerException
+2020-1-19 13:11:52异常说明: null
+2020-1-19 13:11:52简易错误信息如下:
+2020-1-19 13:11:52    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:11:52    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:11:52    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:11:52    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:11:52    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:11:52[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:11:52异常名称: java.lang.NullPointerException
+2020-1-19 13:11:52异常说明: null
+2020-1-19 13:11:52简易错误信息如下:
+2020-1-19 13:11:52    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:11:52    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:11:52    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:11:52    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:11:52    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:11:52[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:11:52异常名称: java.lang.NullPointerException
+2020-1-19 13:11:52异常说明: null
+2020-1-19 13:11:52简易错误信息如下:
+2020-1-19 13:11:52    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:11:52    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:11:52    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:11:52    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:11:52    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:11:52[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:11:52异常名称: java.lang.NullPointerException
+2020-1-19 13:11:52异常说明: null
+2020-1-19 13:11:52简易错误信息如下:
+2020-1-19 13:11:52    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:11:52    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:11:52    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:11:52    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:11:52    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:14:19[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:14:19异常名称: java.lang.NullPointerException
+2020-1-19 13:14:19异常说明: null
+2020-1-19 13:14:19简易错误信息如下:
+2020-1-19 13:14:19    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:14:19    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:14:19    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:14:19    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:14:19    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:14:19[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:14:19异常名称: java.lang.NullPointerException
+2020-1-19 13:14:19异常说明: null
+2020-1-19 13:14:19简易错误信息如下:
+2020-1-19 13:14:19    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:14:19    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:14:19    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:14:19    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:14:19    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:14:19[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:14:19异常名称: java.lang.NullPointerException
+2020-1-19 13:14:19异常说明: null
+2020-1-19 13:14:19简易错误信息如下:
+2020-1-19 13:14:19    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:14:19    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:14:19    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:14:19    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:14:19    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:14:19[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:14:19异常名称: java.lang.NullPointerException
+2020-1-19 13:14:19异常说明: null
+2020-1-19 13:14:19简易错误信息如下:
+2020-1-19 13:14:19    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:14:19    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:14:19    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:14:19    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:14:19    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:14:19[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:14:19异常名称: java.lang.NullPointerException
+2020-1-19 13:14:19异常说明: null
+2020-1-19 13:14:19简易错误信息如下:
+2020-1-19 13:14:19    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:14:19    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:14:19    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:14:19    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:14:19    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:14:19[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:14:19异常名称: java.lang.NullPointerException
+2020-1-19 13:14:19异常说明: null
+2020-1-19 13:14:19简易错误信息如下:
+2020-1-19 13:14:19    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:14:19    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:14:19    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:14:19    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:14:19    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:06[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:06异常名称: java.lang.NullPointerException
+2020-1-19 13:16:06异常说明: null
+2020-1-19 13:16:06简易错误信息如下:
+2020-1-19 13:16:06    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:06    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:06    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:06    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:06    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:06[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:06异常名称: java.lang.NullPointerException
+2020-1-19 13:16:06异常说明: null
+2020-1-19 13:16:06简易错误信息如下:
+2020-1-19 13:16:06    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:06    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:06    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:06    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:06    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:06[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:06异常名称: java.lang.NullPointerException
+2020-1-19 13:16:06异常说明: null
+2020-1-19 13:16:06简易错误信息如下:
+2020-1-19 13:16:06    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:06    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:06    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:06    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:06    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:07[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:07异常名称: java.lang.NullPointerException
+2020-1-19 13:16:07异常说明: null
+2020-1-19 13:16:07简易错误信息如下:
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:07    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:07    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:07[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:07异常名称: java.lang.NullPointerException
+2020-1-19 13:16:07异常说明: null
+2020-1-19 13:16:07简易错误信息如下:
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:07    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:07    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:07[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:07异常名称: java.lang.NullPointerException
+2020-1-19 13:16:07异常说明: null
+2020-1-19 13:16:07简易错误信息如下:
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:07    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:07    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:07[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:07异常名称: java.lang.NullPointerException
+2020-1-19 13:16:07异常说明: null
+2020-1-19 13:16:07简易错误信息如下:
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:07    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:07    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:07[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:07异常名称: java.lang.NullPointerException
+2020-1-19 13:16:07异常说明: null
+2020-1-19 13:16:07简易错误信息如下:
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:07    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:07    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:07[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:07异常名称: java.lang.NullPointerException
+2020-1-19 13:16:07异常说明: null
+2020-1-19 13:16:07简易错误信息如下:
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:07    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:07    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:07[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:07异常名称: java.lang.NullPointerException
+2020-1-19 13:16:07异常说明: null
+2020-1-19 13:16:07简易错误信息如下:
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:07    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:07    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:07    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:08[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:08异常名称: java.lang.NullPointerException
+2020-1-19 13:16:08异常说明: null
+2020-1-19 13:16:08简易错误信息如下:
+2020-1-19 13:16:08    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:08    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:08    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:08    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:08    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:08[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:08异常名称: java.lang.NullPointerException
+2020-1-19 13:16:08异常说明: null
+2020-1-19 13:16:08简易错误信息如下:
+2020-1-19 13:16:08    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:08    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:08    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:08    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:08    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:13异常名称: java.lang.NullPointerException
+2020-1-19 13:16:13异常说明: null
+2020-1-19 13:16:13简易错误信息如下:
+2020-1-19 13:16:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:13[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:13异常名称: java.lang.NullPointerException
+2020-1-19 13:16:13异常说明: null
+2020-1-19 13:16:13简易错误信息如下:
+2020-1-19 13:16:13    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:13    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:13    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:13    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:13    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:15[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:15异常名称: java.lang.NullPointerException
+2020-1-19 13:16:15异常说明: null
+2020-1-19 13:16:15简易错误信息如下:
+2020-1-19 13:16:15    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:15    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:15    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:15    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:15    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:21[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:21异常名称: java.lang.NullPointerException
+2020-1-19 13:16:21异常说明: null
+2020-1-19 13:16:21简易错误信息如下:
+2020-1-19 13:16:21    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:21    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:21    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:21    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:21    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:21[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:21异常名称: java.lang.NullPointerException
+2020-1-19 13:16:21异常说明: null
+2020-1-19 13:16:21简易错误信息如下:
+2020-1-19 13:16:21    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:21    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:21    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:21    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:21    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:22[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:22异常名称: java.lang.NullPointerException
+2020-1-19 13:16:22异常说明: null
+2020-1-19 13:16:22简易错误信息如下:
+2020-1-19 13:16:22    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:22    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:22    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:22    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:22    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:22[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:22异常名称: java.lang.NullPointerException
+2020-1-19 13:16:22异常说明: null
+2020-1-19 13:16:22简易错误信息如下:
+2020-1-19 13:16:22    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:22    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:22    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:22    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:22    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:22[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:22异常名称: java.lang.NullPointerException
+2020-1-19 13:16:22异常说明: null
+2020-1-19 13:16:22简易错误信息如下:
+2020-1-19 13:16:22    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:22    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:22    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:22    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:22    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:22[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:22异常名称: java.lang.NullPointerException
+2020-1-19 13:16:22异常说明: null
+2020-1-19 13:16:22简易错误信息如下:
+2020-1-19 13:16:22    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:22    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:22    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:22    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:22    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:23[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:23异常名称: java.lang.NullPointerException
+2020-1-19 13:16:23异常说明: null
+2020-1-19 13:16:23简易错误信息如下:
+2020-1-19 13:16:23    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:23    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:23    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:23    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:23    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:23[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:23异常名称: java.lang.NullPointerException
+2020-1-19 13:16:23异常说明: null
+2020-1-19 13:16:23简易错误信息如下:
+2020-1-19 13:16:23    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:23    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:23    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:23    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:23    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:23[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:23异常名称: java.lang.NullPointerException
+2020-1-19 13:16:23异常说明: null
+2020-1-19 13:16:23简易错误信息如下:
+2020-1-19 13:16:23    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:23    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:23    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:23    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:23    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:23[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:23异常名称: java.lang.NullPointerException
+2020-1-19 13:16:23异常说明: null
+2020-1-19 13:16:23简易错误信息如下:
+2020-1-19 13:16:23    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:23    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:23    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:23    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:23    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:23[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:16:23异常名称: java.lang.NullPointerException
+2020-1-19 13:16:23异常说明: null
+2020-1-19 13:16:23简易错误信息如下:
+2020-1-19 13:16:23    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:16:23    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:16:23    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:16:23    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:16:23    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:16:29[Yum 命令监控] 玩家 YuukiSkniro 执行 imiPet 插件 imipet open 命令时发生异常!
+2020-1-19 13:16:29异常名称: java.lang.NullPointerException
+2020-1-19 13:16:29异常说明: null
+2020-1-19 13:16:29简易错误信息如下:
+2020-1-19 13:16:29    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:16:29    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:16:29    位于 cn.mcres.imiPet.api.vexgui.VexHomeCore.addCompToVg(A:28)
+2020-1-19 13:16:29    位于 cn.mcres.imiPet.s.a(A:90)
+2020-1-19 13:16:29    位于 cn.mcres.imiPet.q.onCommand(A:11)
+2020-1-19 13:17:27[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:17:27异常名称: java.lang.NullPointerException
+2020-1-19 13:17:27异常说明: null
+2020-1-19 13:17:27简易错误信息如下:
+2020-1-19 13:17:27    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:17:27    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:17:27    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:17:27    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:17:27    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:17:28[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:17:28异常名称: java.lang.NullPointerException
+2020-1-19 13:17:28异常说明: null
+2020-1-19 13:17:28简易错误信息如下:
+2020-1-19 13:17:28    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:17:28    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:17:28    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:17:28    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:17:28    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:17:33[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:17:33异常名称: java.lang.NullPointerException
+2020-1-19 13:17:33异常说明: null
+2020-1-19 13:17:33简易错误信息如下:
+2020-1-19 13:17:33    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:17:33    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:17:33    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:17:33    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:17:33    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:17:34[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:17:34异常名称: java.lang.NullPointerException
+2020-1-19 13:17:34异常说明: null
+2020-1-19 13:17:34简易错误信息如下:
+2020-1-19 13:17:34    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:17:34    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:17:34    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:17:34    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:17:34    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:17:39[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:17:39异常名称: java.lang.NullPointerException
+2020-1-19 13:17:39异常说明: null
+2020-1-19 13:17:39简易错误信息如下:
+2020-1-19 13:17:39    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:17:39    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:17:39    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:17:39    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:17:39    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:17:41[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:17:41异常名称: java.lang.NullPointerException
+2020-1-19 13:17:41异常说明: null
+2020-1-19 13:17:41简易错误信息如下:
+2020-1-19 13:17:41    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:17:41    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:17:41    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:17:41    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:17:41    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:17:43[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:17:43异常名称: java.lang.NullPointerException
+2020-1-19 13:17:43异常说明: null
+2020-1-19 13:17:43简易错误信息如下:
+2020-1-19 13:17:43    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:17:43    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:17:43    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:17:43    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:17:43    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:17:44[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:17:44异常名称: java.lang.NullPointerException
+2020-1-19 13:17:44异常说明: null
+2020-1-19 13:17:44简易错误信息如下:
+2020-1-19 13:17:44    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:17:44    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:17:44    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:17:44    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:17:44    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:17:45[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:17:45异常名称: java.lang.NullPointerException
+2020-1-19 13:17:45异常说明: null
+2020-1-19 13:17:45简易错误信息如下:
+2020-1-19 13:17:45    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:17:45    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:17:45    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:17:45    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:17:45    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:17:45[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:17:45异常名称: java.lang.NullPointerException
+2020-1-19 13:17:45异常说明: null
+2020-1-19 13:17:45简易错误信息如下:
+2020-1-19 13:17:45    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:17:45    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:17:45    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:17:45    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:17:45    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:17:45[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:17:45异常名称: java.lang.NullPointerException
+2020-1-19 13:17:45异常说明: null
+2020-1-19 13:17:45简易错误信息如下:
+2020-1-19 13:17:45    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:17:45    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:17:45    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:17:45    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:17:45    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:17:46[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:17:46异常名称: java.lang.NullPointerException
+2020-1-19 13:17:46异常说明: null
+2020-1-19 13:17:46简易错误信息如下:
+2020-1-19 13:17:46    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:17:46    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:17:46    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:17:46    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:17:46    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:17:49[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:17:49异常名称: java.lang.NullPointerException
+2020-1-19 13:17:49异常说明: null
+2020-1-19 13:17:49简易错误信息如下:
+2020-1-19 13:17:49    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:17:49    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:17:49    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:17:49    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:17:49    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:17[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:17异常名称: java.lang.NullPointerException
+2020-1-19 13:18:17异常说明: null
+2020-1-19 13:18:17简易错误信息如下:
+2020-1-19 13:18:17    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:18:17    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:18:17    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:17    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:17    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:20[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:20异常名称: java.lang.NullPointerException
+2020-1-19 13:18:20异常说明: null
+2020-1-19 13:18:20简易错误信息如下:
+2020-1-19 13:18:20    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:18:20    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:18:20    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:20    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:20    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:21[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:21异常名称: java.lang.NullPointerException
+2020-1-19 13:18:21异常说明: null
+2020-1-19 13:18:21简易错误信息如下:
+2020-1-19 13:18:21    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:18:21    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:18:21    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:21    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:21    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:22[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:22异常名称: java.lang.NullPointerException
+2020-1-19 13:18:22异常说明: null
+2020-1-19 13:18:22简易错误信息如下:
+2020-1-19 13:18:22    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:18:22    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:18:22    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:22    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:22    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:22[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:22异常名称: java.lang.NullPointerException
+2020-1-19 13:18:22异常说明: null
+2020-1-19 13:18:22简易错误信息如下:
+2020-1-19 13:18:22    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 13:18:22    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 13:18:22    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:22    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:22    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:39[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:39异常名称: java.lang.NullPointerException
+2020-1-19 13:18:39异常说明: null
+2020-1-19 13:18:39简易错误信息如下:
+2020-1-19 13:18:39    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:18:39    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:18:39    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:39    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:39    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:43[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:43异常名称: java.lang.NullPointerException
+2020-1-19 13:18:43异常说明: null
+2020-1-19 13:18:43简易错误信息如下:
+2020-1-19 13:18:43    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:18:43    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:18:43    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:43    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:43    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:45[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:45异常名称: java.lang.NullPointerException
+2020-1-19 13:18:45异常说明: null
+2020-1-19 13:18:45简易错误信息如下:
+2020-1-19 13:18:45    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:18:45    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:18:45    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:45    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:45    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:45[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:45异常名称: java.lang.NullPointerException
+2020-1-19 13:18:45异常说明: null
+2020-1-19 13:18:45简易错误信息如下:
+2020-1-19 13:18:45    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:18:45    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:18:45    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:45    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:45    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:46[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:46异常名称: java.lang.NullPointerException
+2020-1-19 13:18:46异常说明: null
+2020-1-19 13:18:46简易错误信息如下:
+2020-1-19 13:18:46    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:18:46    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:18:46    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:46    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:46    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:46[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:46异常名称: java.lang.NullPointerException
+2020-1-19 13:18:46异常说明: null
+2020-1-19 13:18:46简易错误信息如下:
+2020-1-19 13:18:46    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:18:46    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:18:46    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:46    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:46    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:47[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:47异常名称: java.lang.NullPointerException
+2020-1-19 13:18:47异常说明: null
+2020-1-19 13:18:47简易错误信息如下:
+2020-1-19 13:18:47    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:18:47    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:18:47    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:47    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:47    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:47[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:47异常名称: java.lang.NullPointerException
+2020-1-19 13:18:47异常说明: null
+2020-1-19 13:18:47简易错误信息如下:
+2020-1-19 13:18:47    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:18:47    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:18:47    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:47    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:47    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:48[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:48异常名称: java.lang.NullPointerException
+2020-1-19 13:18:48异常说明: null
+2020-1-19 13:18:48简易错误信息如下:
+2020-1-19 13:18:48    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:18:48    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:18:48    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:48    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:48    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:48[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:48异常名称: java.lang.NullPointerException
+2020-1-19 13:18:48异常说明: null
+2020-1-19 13:18:48简易错误信息如下:
+2020-1-19 13:18:48    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:18:48    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:18:48    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:48    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:48    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:48[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:48异常名称: java.lang.NullPointerException
+2020-1-19 13:18:48异常说明: null
+2020-1-19 13:18:48简易错误信息如下:
+2020-1-19 13:18:48    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:18:48    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:18:48    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:48    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:48    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:48[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:48异常名称: java.lang.NullPointerException
+2020-1-19 13:18:48异常说明: null
+2020-1-19 13:18:48简易错误信息如下:
+2020-1-19 13:18:48    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:18:48    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:18:48    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:48    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:48    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:49[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:49异常名称: java.lang.NullPointerException
+2020-1-19 13:18:49异常说明: null
+2020-1-19 13:18:49简易错误信息如下:
+2020-1-19 13:18:49    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:18:49    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:18:49    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:49    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:49    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:18:49[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:18:49异常名称: java.lang.NullPointerException
+2020-1-19 13:18:49异常说明: null
+2020-1-19 13:18:49简易错误信息如下:
+2020-1-19 13:18:49    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:18:49    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:18:49    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:18:49    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:18:49    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 13:57:26[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 13:57:26异常名称: java.lang.NullPointerException
+2020-1-19 13:57:26异常说明: null
+2020-1-19 13:57:26简易错误信息如下:
+2020-1-19 13:57:26    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 13:57:26    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 13:57:26    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 13:57:26    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 13:57:26    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 14:00:28[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 14:00:28异常名称: java.lang.NullPointerException
+2020-1-19 14:00:28异常说明: null
+2020-1-19 14:00:28简易错误信息如下:
+2020-1-19 14:00:28    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 14:00:28    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 14:00:28    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 14:00:28    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 14:00:28    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 14:01:32[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 14:01:32异常名称: java.lang.NullPointerException
+2020-1-19 14:01:32异常说明: null
+2020-1-19 14:01:32简易错误信息如下:
+2020-1-19 14:01:32    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 14:01:32    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 14:01:32    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 14:01:32    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 14:01:32    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 14:01:33[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 14:01:33异常名称: java.lang.NullPointerException
+2020-1-19 14:01:33异常说明: null
+2020-1-19 14:01:33简易错误信息如下:
+2020-1-19 14:01:33    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 14:01:33    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 14:01:33    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 14:01:33    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 14:01:33    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 14:01:48[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 14:01:48异常名称: java.lang.NullPointerException
+2020-1-19 14:01:48异常说明: null
+2020-1-19 14:01:48简易错误信息如下:
+2020-1-19 14:01:48    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 14:01:48    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 14:01:48    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 14:01:48    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 14:01:48    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 14:01:49[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 14:01:49异常名称: java.lang.NullPointerException
+2020-1-19 14:01:49异常说明: null
+2020-1-19 14:01:49简易错误信息如下:
+2020-1-19 14:01:49    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 14:01:49    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 14:01:49    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 14:01:49    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 14:01:49    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 14:02:34[Yum 事件监控] 插件 VexView 处理 ButtonClickEvent 事件时发生异常!
+2020-1-19 14:02:34异常名称: java.lang.NullPointerException
+2020-1-19 14:02:34异常说明: null
+2020-1-19 14:02:34简易错误信息如下:
+2020-1-19 14:02:34    位于 cn.mcres.imiPet.ah.a(A:44)
+2020-1-19 14:02:34    位于 cn.mcres.imiPet.ak.a(A:28)
+2020-1-19 14:02:34    位于 cn.mcres.imiPet.ai.a(A:38)
+2020-1-19 14:02:34    位于 lk.vexview.listener.?L.onClick(za:48)
+2020-1-19 14:02:34    位于 catserver.server.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35)
+2020-1-19 15:14:29[Yum 命令监控] 玩家 YuukiSkniro 执行 imiPet 插件 imipet open 命令时发生异常!
+2020-1-19 15:14:29异常名称: java.lang.NullPointerException
+2020-1-19 15:14:29异常说明: null
+2020-1-19 15:14:29简易错误信息如下:
+2020-1-19 15:14:29    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 15:14:29    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 15:14:29    位于 cn.mcres.imiPet.api.vexgui.VexHomeCore.addCompToVg(A:28)
+2020-1-19 15:14:29    位于 cn.mcres.imiPet.s.a(A:90)
+2020-1-19 15:14:29    位于 cn.mcres.imiPet.q.onCommand(A:11)
+2020-1-19 15:15:31[Yum 命令监控] 玩家 YuukiSkniro 执行 imiPet 插件 imipet open 命令时发生异常!
+2020-1-19 15:15:31异常名称: java.lang.NullPointerException
+2020-1-19 15:15:31异常说明: null
+2020-1-19 15:15:31简易错误信息如下:
+2020-1-19 15:15:31    位于 lk.vexview.gui.components.VexText.?(kb:206)
+2020-1-19 15:15:31    位于 lk.vexview.api.VexViewAPI.openGui(vc:205)
+2020-1-19 15:15:31    位于 cn.mcres.imiPet.api.vexgui.VexHomeCore.addCompToVg(A:28)
+2020-1-19 15:15:31    位于 cn.mcres.imiPet.s.a(A:90)
+2020-1-19 15:15:31    位于 cn.mcres.imiPet.q.onCommand(A:11)

@@ -1,0 +1,475 @@
+pet:
+  # 模型唯一ID
+  #版本：1.0.1
+  #modelId: "default:pet"
+  modelId: "imipet:maidbrunette"
+  # 贴图名
+  #texture: "petTexture"
+  texture: "maidbrunette"
+  imageShowBig: "http://www.imipet.com/attachments/97/?hash=fc5ba70437bed722413de516a9d13923"
+  imageShowSmall: "http://www.imipet.com/attachments/96/?hash=fc5ba70437bed722413de516a9d13923"
+  addExpByPlayer: "(Math.random()*(add_exp*0.2))+(add_exp*0.1)"
+  levelExpFormula: "30*(level*level*level+5*level)-10"
+  addMinAttackFormula: "min_damage+2"
+  addMaxAttackFormula: "max_damage+3"
+  addFoodFormula: "max_food+10"
+  cureHP:
+    requirement:
+      money: 0.1
+      potion: false
+  evolution:
+    enable: false
+    requirement:
+      level: 10
+      money: 300
+    text:
+      - "&f                                            "
+      - "&f..."
+      - "&f"
+      - "&6進化條件"
+      - "&f需要達到 &c%imipet_evolutionlevel% &f級"
+      - "&f"
+      - "&6如果滿足條件，請問，是否確定進化"
+      - "&f"
+      - "&7&l[&a點擊確定&7&l]"
+      - "&f"
+    newModelId: "null:aaa"
+  food:
+    enable: true
+    requirement:
+      money: 0.1
+  basis:
+    display:
+      show: true
+      height: 1.2
+      format: "&7[&6主人：&f%imipet_owner%&7] &f%imipet_name%"
+      name: "黑髮小女僕"
+    gravity: true
+    HP: 20
+    minDamage: 2
+    maxDamage: 6
+    food: 20
+    exp: 100
+    level: 100
+  animationList:
+    idle: true
+    walk: true
+    attack: true
+  part:
+    #頭
+    head:
+      itemName: "§p§e§t§0§0§0§2§0§0"
+      isHead: true
+      isBody: false
+      isAddToSkeleton: false
+      skeleton: "body"
+      addBox:
+        offsetX: 0
+        offsetY: 0.85
+        offsetZ: 0
+        eulerAngleX: 0
+        eulerAngleY: 0
+        eulerAngleZ: 0
+      animationIdle:
+        isAnimation: true
+        keyFrame:
+          1:
+            second: 0
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          2:
+            second: 30
+            eulerAngleX: 1
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          3:
+            second: 60
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+      animationWalk:
+        isAnimation: true
+        keyFrame:
+          1:
+            second: 0
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          2:
+            second: 20
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+    #身體
+    body:
+      itemName: "§p§e§t§0§0§0§2§1§0"
+      isHead: false
+      isBody: true
+      isAddToSkeleton: false
+      skeleton: "body"
+      addBox:
+        offsetX: 0
+        offsetY: 1
+        offsetZ: 0
+        eulerAngleX: 0
+        eulerAngleY: 0
+        eulerAngleZ: 0
+      animationIdle:
+        isAnimation: true
+        keyFrame:
+          1:
+            second: 0
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          2:
+            second: 30
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: -0.125
+            offsetZ: 0
+          3:
+            second: 60
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+    #左手
+    lefthand:
+      itemName: "§p§e§t§0§0§0§2§3§0"
+      isHead: false
+      isBody: false
+      isAddToSkeleton: true
+      skeleton: "body"
+      addBox:
+        offsetX: 0.2
+        offsetY: -0.2
+        offsetZ: 0
+        eulerAngleX: 0
+        eulerAngleY: 0
+        eulerAngleZ: 0
+      animationIdle:
+        isAnimation: true
+        keyFrame:
+          1:
+            second: 0
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: -30
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          2:
+            second: 30
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: -30
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          3:
+            second: 60
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: -30
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+      animationWalk:
+        isAnimation: true
+        keyFrame:
+          1:
+            second: 0
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: -30
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          2:
+            second: 10
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: -30
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          3:
+            second: 20
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: -30
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          4:
+            second: 30
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: -30
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+    #右手
+    righthand:
+      itemName: "§p§e§t§0§0§0§2§4§0"
+      isHead: false
+      isBody: false
+      isAddToSkeleton: true
+      skeleton: "body"
+      addBox:
+      #-往右+往左
+        offsetX: -0.2
+        offsetY: -0.2
+        offsetZ: 0
+        eulerAngleX: 0
+        eulerAngleY: 0
+        eulerAngleZ: 0
+      animationIdle:
+        isAnimation: true
+        keyFrame:
+          1:
+            second: 0
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 30
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          2:
+            second: 30
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 30
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          3:
+            second: 60
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 30
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+      animationAttack:
+        isAnimation: true
+        keyFrame:
+          1:
+            second: 0
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 30
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          2:
+            second: 5
+            eulerAngleX: -45
+            eulerAngleY: 0
+            eulerAngleZ: 30
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          3:
+            second: 8
+            eulerAngleX: -90
+            eulerAngleY: 0
+            eulerAngleZ: 30
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+      animationWalk:
+        isAnimation: true
+        keyFrame:
+          1:
+            second: 0
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 30
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          2:
+            second: 10
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 30
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          3:
+            second: 20
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 30
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          4:
+            second: 30
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 30
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+    #左腳
+    leftleg:
+      itemName: "§p§e§t§0§0§0§2§5§0"
+      isHead: false
+      isBody: false
+      isAddToSkeleton: true
+      skeleton: "body"
+      addBox:
+        offsetX: 0.085
+        offsetY: -0.6
+        offsetZ: 0
+        eulerAngleX: 0
+        eulerAngleY: 0
+        eulerAngleZ: 0
+      animationIdle:
+        isAnimation: true
+        keyFrame:
+          1:
+            second: 0
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          2:
+            second: 30
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          3:
+            second: 60
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+      animationWalk:
+        isAnimation: true
+        keyFrame:
+          1:
+            second: 0
+            eulerAngleX: -20
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          2:
+            second: 10
+            eulerAngleX: 20
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          3:
+            second: 20
+            eulerAngleX: -20
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+    #右腳
+    righleg:
+      itemName: "§p§e§t§0§0§0§2§6§0"
+      isHead: false
+      isBody: false
+      isAddToSkeleton: true
+      skeleton: "body"
+      addBox:
+        offsetX: -0.085
+        offsetY: -0.6
+        offsetZ: 0
+        eulerAngleX: 0
+        eulerAngleY: 0
+        eulerAngleZ: 0
+      animationIdle:
+        isAnimation: true
+        keyFrame:
+          1:
+            second: 0
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          2:
+            second: 30
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          3:
+            second: 60
+            eulerAngleX: 0
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+      animationWalk:
+        isAnimation: true
+        keyFrame:
+          1:
+            second: 0
+            eulerAngleX: 20
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          2:
+            second: 10
+            eulerAngleX: -20
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0
+          3:
+            second: 20
+            eulerAngleX: 20
+            eulerAngleY: 0
+            eulerAngleZ: 0
+            offsetX: 0
+            offsetY: 0
+            offsetZ: 0

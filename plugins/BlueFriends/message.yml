@@ -1,0 +1,88 @@
+#配置文件版本
+version: '1.1'
+#------------------------变量提示------------------------#
+#以下指令中%player%均代表玩家名称,但含义各不相同,请自行揣摩
+#%gui%代表玩家输入的指令中,表示GUI文件名或映射名的参数
+#%uuid%均代表UUID
+#其余变量均为PlaceholderAPI变量,解析的主体为输入指令的玩家
+
+#---------------------------------------以下消息涉及所有指令
+#当玩家没有权限使用某指令时发送的消息
+no_permission: '&b提示&8>> &c你没有权限使用这个指令'
+#当玩家输入的指令错误时发送的消息
+arguments_wrong: '&b提示&8>> &c你输入的指令参数有误,请重新输入'
+#当控制台尝试输入一个只能由玩家执行的指令时发送的消息
+player_only: '&b提示&8>> &c这个指令只允许玩家使用'
+#当玩家输入的参数中,代表玩家名称的一个参数无效时发送的指令
+player_not_exists: '&b提示&8>> &c玩家&e%player%&c不存在,请检查你的输入'
+#当玩家输入的参数中,代表邮件UUID的一个参数无效时发送的指令
+mail_not_exists: '&b提示&8>> &c邮件&e%uuid%&c不存在,请检查你的输入'
+#当玩家输入的参数中,代表系统消息UUID的一个参数无效时发送的指令
+system_message_not_exists: '&b提示&8>> &c系统消息&e%uuid%&c不存在,请检查你的输入'
+
+#---------------------------------------以下消息涉及指令:/bfreload
+#使用/bfreload指令重载插件后发送的消息
+reload_completed: '&b提示&8>> &aBlueFriends-Reload重载完毕'
+
+#---------------------------------------以下消息涉及指令:/friend
+#当玩家使用/friend apply指令重复向某玩家发送好友申请时发送的消息
+has_been_requester: '&b提示&8>> &c你已经提交过一次好友申请了,请不要重复提交'
+#当玩家使用/friend apply指令向已经成为好友的玩家发送好友申请时发送的消息
+has_been_friend: '&b提示&8>> &c你们已经是好友了,请不要重复申请'
+#当玩家使用/friend apply指令成功向某玩家发送好友申请后发送的消息
+send_friend_request: '&b提示&8>> &a成功向玩家&e%player%&a发送好友申请'
+#当玩家收到好友请求时收到的消息
+receive_friend_request: '&b提示&8>> &a玩家&e%player%申请添加你为好友'
+#当玩家使用/friend accept [玩家]指令,且该玩家并没有申请添加好友时发送的消息
+player_not_request: '&b提示&8>> &c玩家&e%player%&c没有申请添加你为好友'
+#当玩家使用/friend accept [玩家]指令同意添加某玩家为好友时发送的消息
+accept_friend_request: '&b提示&8>> &a你同意了玩家&e%player%&a的好友申请'
+#当玩家使用/friend accept [玩家]指令拒绝添加某玩家为好友时发送的消息
+reject_friend_request: '&b提示&8>> &a你拒绝了玩家&e%player%&a的好友申请'
+#当玩家的好友申请被同意时发送的消息
+friend_request_accepted: '&b提示&8>> &a玩家&e%player%&a同意了你的好友申请'
+#当玩家的好友申请被拒绝时发送的消息
+friend_request_rejected: '&b提示&8>> &a玩家&e%player%&a拒绝了你的好友申请'
+#当玩家使用/friend delete [玩家]删除好友,但该玩家并不是好友时发送的消息
+delete_player_no_friend: '&b提示&8>> &c玩家&e%player%&c不是你的好友'
+#当玩家使用/friend delete [玩家]删除一名好友时发送的消息
+delete_friend_success: '&b提示&8>> &a你已成功删除好友&e%player%'
+#当玩家被好友删除时发送的消息
+deleted_by_friend: '&b提示&8>> &a你的好友&e%player%&a已将你删除'
+#当玩家尝试添加自己为好友时发送的消息
+cant_apply_self: '&b提示&8>> &c你不能添加自己为好友'
+
+#---------------------------------------以下消息涉及指令:/bfopen
+#当玩家使用/bfopen [GUI]指令打开一个并不存在的GUI时发送的消息
+gui_not_found: '&b提示&8>> &c无法找到GUI:&e%gui%'
+
+#---------------------------------------以下消息涉及指令:/bfadmin
+send_system_message_success: '&b提示&8>> &a你成功向玩家&e%player%&a发送了一条系统消息'
+receive_system_message: '&b提示&8>> &a你收到了一封系统消息'
+send_mail_success: '&b提示&8>> &a你成功发送了一封系统邮件'
+receive_mail: '&b提示&8>> &a你收到了一封系统邮件'
+create_fake_player_success: '&b提示&8>> &a你成功创建了一个假人'
+remove_fake_player_success: '&b提示&8>> &a你删除了一个假人'
+fake_player_existed: '&b提示&8>> &a这个假人已经被创建过了'
+fake_player_not_existed: '&b提示&8>> &c这个假人不存在,请检查你的输入'
+save_mail_success: '&b提示&8>> &a保存邮件成功'
+condition_wrong: '&b提示&8>>邮件接收条件格式错误，请重新输入'
+
+#---------------------------------------以下消息涉及指令:/person
+set_email_success: '&b提示&8>> &a修改电子邮箱成功'
+set_qq_success: '&b提示&8>> &a修改QQ成功'
+set_sex_success: '&b提示&8>> &a修改性别成功'
+set_signature_success: '&b提示&8>> &a修改个性签名成功'
+set_nickname_success: '&b提示&8>> &a修改昵称成功'
+set_head_success: '&b提示&8>> &a修改头像成功'
+set_headborder_success: '&b提示&8>> &a修改头像边框成功'
+no_enough_space: '&b提示&8>> &a你的背包没有足够的空间，请清理后再领取附件'
+get_items_success: '&b提示&8>> &a领取附件成功'
+get_items_fail: '&b提示&8>> &c这个邮件没有可以领取的附件'
+
+#---------------------------------------其他
+#可使用PlaceholderAPI变量
+#玩家加入游戏时向玩家发送的信息
+join:
+  - '&b提示&8>> &a你还有%bluefriends_messages_number%条消息没有处理'
+  - '&b提示&8>> &a有%bluefriends_requesters_number%个玩家请求添加你为好友'

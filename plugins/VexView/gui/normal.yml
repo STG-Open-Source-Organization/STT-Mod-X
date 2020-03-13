@@ -1,0 +1,40 @@
+#设置Gui的贴图
+#URL of image
+gui: '[local]gui.png'
+#设置gui的X坐标（设置为-1则默认居中）
+#GUI X location（Set to -1 to center）
+x: -1
+#设置gui的Y坐标（设置为-1则默认居中）
+#GUI Y location（Set to -1 to center）
+y: -1
+#设置gui的贴图实际宽度
+#The actual width of the picture
+width: 240
+#设置gui的贴图实际高度
+#The actual height of the picture
+high: 158
+#设置贴图的显示宽度
+#Picture display width
+xshow: 240
+#设置贴图的显示高度
+#Picture display height
+yshow: 158
+#自定义图片文件
+#Picture displayed on GUI (Please edit any image file in plugins\VexView\image)
+image: 
+- example
+#自定义gif图片文件
+image: 
+- 'example'
+#自定义消息文件
+#Custom text message content (Please edit any text file in plugins\VexView\text)
+text: 
+- 'text'
+#自定义按钮文件
+#Custom button (Please edit any button file in plugins\VexView\button)
+buttons: 
+- 'test'
+#自定义物品槽
+#Custom slots
+slot:
+- 'apple'
