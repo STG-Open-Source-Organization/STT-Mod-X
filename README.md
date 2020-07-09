@@ -14,3 +14,4 @@ VexView Ver 2.4
 [伤害显示]torohealth-1.12-11.jar
 [镇守府]ChinjufuMod[1.12.2]3.2.2.jar
 [自然音效]AmbientSounds_v3.0.9_mc1.12.2.jar
+1.12.2
