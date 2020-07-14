@@ -1,11 +1,11 @@
-Started at: 2020-01-19T18:37:36.635
+Started at: 2020-07-14T22:12:21.348
 #############
 #
 # Loading
 #
 #############
 
-# Found pack: E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\mods\1.12.2\[BC]buildcraft-all-7.99.24.3.jar
+# Found pack: L:\sttmodx\.minecraft\mods\[BC]buildcraft-all-7.99.24.3.jar
 
 Found script: buildcrafttransport/compat/buildcraft/guide.txt
 
@@ -35,7 +35,7 @@ Adding buildcraftenergy:block/engine_iron as ItemStackValueFilter: Matching meta
 Adding buildcraftcore:item/gear_iron as ItemStackValueFilter: 1xitem.ironGearItem@0
 Adding buildcrafttransport:pipe/wood_item as ItemStackValueFilter: 1xitem.PipeItemsWood@0
 Adding buildcraftenergy:block/engine_stone as ItemStackValueFilter: Matching meta of 1xtile.engineBlock@1
-Adding buildcraftcore:trigger/always_on as TriggerTrue: buildcraft.core.statements.TriggerTrue@7ac0273
+Adding buildcraftcore:trigger/always_on as TriggerTrue: buildcraft.core.statements.TriggerTrue@392db4db
 Adding buildcraftfactory:block/distiller as ItemStackValueFilter: 1xtile.distiller@0
 Adding buildcraftsilicon:item/plug_facade as ItemStackValueFilter: 1xitem.Facade@0
 Adding buildcraftlib:config/guide_page_format as String: Guide Page File Format§r
@@ -56,4 +56,4 @@ Adding buildcraftfactory:block/autoworkbench_item as ItemStackValueFilter: 1xtil
 Adding buildcraftcore:item/marker_connector as ItemStackValueFilter: 1xitem.markerConnector@0
 Adding buildcraftcore:block/engine_wood as ItemStackValueFilter: Matching meta of 1xtile.engineBlock@0
 Adding buildcraftcore:block/engine_creative as ItemStackValueFilter: Matching meta of 1xtile.engineBlock@1
-Finished at: 2020-01-19T18:37:36.683, took 48ms
+Finished at: 2020-07-14T22:12:21.434, took 86ms

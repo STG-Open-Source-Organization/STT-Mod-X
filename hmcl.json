@@ -1,0 +1,88 @@
+{
+  "last": "Default",
+  "backgroundType": "DEFAULT",
+  "commonDirType": "DEFAULT",
+  "commonpath": "C:\\Users\\T\\AppData\\Roaming\\.minecraft",
+  "hasProxy": false,
+  "hasProxyAuth": false,
+  "proxyType": "HTTP",
+  "proxyPort": 0,
+  "width": 834.0,
+  "height": 514.0,
+  "theme": "#5c6bc0",
+  "localization": "def",
+  "downloadType": "bmclapi",
+  "configurations": {
+    "Default": {
+      "global": {
+        "usesGlobal": true,
+        "javaArgs": "",
+        "minecraftArgs": "",
+        "maxMemory": 10240,
+        "permSize": "",
+        "width": 854,
+        "height": 480,
+        "javaDir": "",
+        "precalledCommand": "",
+        "serverIp": "",
+        "java": "1.8.0_251",
+        "wrapper": "",
+        "fullscreen": false,
+        "noJVMArgs": false,
+        "notCheckGame": false,
+        "notCheckJVM": false,
+        "showLogs": false,
+        "gameDir": "",
+        "launcherVisibility": 2,
+        "gameDirType": 0,
+        "defaultJavaPath": "C:\\Program Files\\Java\\jre1.8.0_251\\bin\\java.exe"
+      },
+      "gameDir": ".minecraft",
+      "useRelativePath": true,
+      "selectedMinecraftVersion": "1.12.2"
+    },
+    "Home": {
+      "global": {
+        "usesGlobal": false,
+        "javaArgs": "",
+        "minecraftArgs": "",
+        "maxMemory": 10240,
+        "permSize": "",
+        "width": 854,
+        "height": 480,
+        "javaDir": "",
+        "precalledCommand": "",
+        "serverIp": "",
+        "java": "",
+        "wrapper": "",
+        "fullscreen": false,
+        "noJVMArgs": false,
+        "notCheckGame": false,
+        "notCheckJVM": false,
+        "showLogs": false,
+        "gameDir": "",
+        "launcherVisibility": 1,
+        "gameDirType": 0,
+        "defaultJavaPath": ""
+      },
+      "gameDir": "C:\\Users\\T\\AppData\\Roaming\\.minecraft",
+      "useRelativePath": false,
+      "selectedMinecraftVersion": ""
+    }
+  },
+  "accounts": [
+    {
+      "uuid": "75f41576c9ae3be19e5af6091a7fa867",
+      "username": "123",
+      "type": "offline",
+      "selected": true
+    }
+  ],
+  "fontFamily": "Consolas",
+  "fontSize": 12.0,
+  "logLines": 500,
+  "authlibInjectorServers": [],
+  "updateChannel": "STABLE",
+  "_version": 0,
+  "uiVersion": 0
+}

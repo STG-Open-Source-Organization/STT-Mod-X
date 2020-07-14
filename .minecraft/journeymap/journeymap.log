@@ -1,7 +1,9 @@
-[18:37:35] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[18:37:35] [Client thread/INFO] [JourneymapClient] initialize ENTER
-[18:37:35] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.5.5, built with Forge 14.23.5.2768
-Forge: 14.23.5.2847
+[22:12:18] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[22:12:18] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[22:12:18] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[22:12:18] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[22:12:18] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.7.1, built with Forge 14.23.5.2768
+Forge: 14.23.5.2854
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=zh_cn, locale=zh_cn
 Features: 
 	RadarPlayers : singleplayer = true , multiplayer = true
@@ -11,97 +13,48 @@ Features:
 	MapTopo : singleplayer = true , multiplayer = true
 	MapSurface : singleplayer = true , multiplayer = true
 	MapCaves : singleplayer = true , multiplayer = true
-MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.5.5, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=指向北方, shape=圆形, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=罗盘模式, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=屏幕右上, info1Label=Blank, fontScale=2}
-MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.5.5, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=指向北方, shape=矩形, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=罗盘模式, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=屏幕右上, info1Label=Blank, fontScale=2}
-FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.5.5, mobDisplay=Small Dots, zoomLevel=4, showPlayers=true, showSelf=true, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showKeys=true, showWaypointLabels=true, locationFormatVerbose=true, showMobs=true, showPets=true, fontScale=2, preferredMapType=day}
-WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.5.5, createDeathpoints=false, showName=true, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, boldLabel=false, textureSmall=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
-WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.5.5, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, googleMapApiDomain=.com, preferredMapType=day}
-CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.5.5, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=5.5.5, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=圆形, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.5.5, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
-[18:37:35] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
-[18:37:35] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[18:37:35] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
-[18:37:37] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[18:37:37] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
-[18:37:37] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
-[18:37:37] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
-[18:37:37] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
-[18:37:37] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
-[18:37:37] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
-[18:37:37] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
-[18:37:37] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
-[18:37:37] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
-[18:37:37] [Client thread/ERROR] [FileHandler] Couldn't locate icons for Default: E:\STT工业整合精简验证客户端1.12.2-3.0.2440%20Build-7230%20forge1.12.2-14.23.5.2847\.minecraft\mods\1.12.2\%5B旅行地图%5Djourneymap-1.12.2-5.5.5.jar\assets\journeymap\icon\entity
-[18:37:37] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
-[18:37:37] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
-[18:37:37] [Client thread/ERROR] [FileHandler] Couldn't locate icons for flat: E:\STT工业整合精简验证客户端1.12.2-3.0.2440%20Build-7230%20forge1.12.2-14.23.5.2847\.minecraft\mods\1.12.2\%5B旅行地图%5Djourneymap-1.12.2-5.5.5.jar\assets\journeymap\theme\flat
-[18:37:37] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 0
-[18:37:37] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r238.15§8ms§r
-[18:37:40] [JM-VersionCheck-1/INFO] [VersionCheck$1] Newer version online: JourneyMap 5.5.6.jar for Minecraft 1.12.2 on http://minecraft.curseforge.com/projects/journeymap/files/2844789
-[19:37:12] [Client thread/INFO] [StateTickHandler] YuukiSkniro died at BlockPos{x=-244, y=69, z=-90}. Deathpoints enabled: false. Deathpoint created: true
-[19:37:13] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for bibliocraft
-[19:37:14] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[19:37:14] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 3336MB total, 1132MB free 
-[19:37:14] [Client thread/INFO] [ChatLog] JourneyMap: 按下[J]键
-[19:38:29] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[19:39:44] [Client thread/INFO] [StateTickHandler] YuukiSkniro died at BlockPos{x=-244, y=69, z=-90}. Deathpoints enabled: false. Deathpoint created: true
-[19:39:49] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[19:39:49] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 3634MB total, 1148MB free 
-[19:43:03] [Client thread/INFO] [StateTickHandler] YuukiSkniro died at BlockPos{x=-252, y=69, z=-104}. Deathpoints enabled: false. Deathpoint created: true
-[19:43:29] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[19:51:08] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[19:51:08] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 3672MB total, 2368MB free 
-[19:51:19] [Client thread/INFO] [StateTickHandler] YuukiSkniro died at BlockPos{x=-241, y=70, z=-105}. Deathpoints enabled: false. Deathpoint created: true
-[19:52:02] [Client thread/INFO] [StateTickHandler] YuukiSkniro died at BlockPos{x=-255, y=69, z=-82}. Deathpoints enabled: false. Deathpoint created: true
-[19:52:26] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[19:52:35] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[19:52:35] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 3653MB total, 2571MB free 
-[19:52:52] [Client thread/INFO] [StateTickHandler] YuukiSkniro died at BlockPos{x=-252, y=69, z=-104}. Deathpoints enabled: false. Deathpoint created: true
-[19:55:51] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[19:56:23] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[19:56:23] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 3658MB total, 2672MB free 
-[19:56:43] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[19:56:49] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[19:56:49] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 3646MB total, 2637MB free 
-[19:56:59] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[19:57:42] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[19:57:42] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 3588MB total, 2511MB free 
-[19:58:35] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[19:59:18] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[19:59:18] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 3686MB total, 2615MB free 
-[19:59:36] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[20:07:30] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[20:07:30] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 3638MB total, 2533MB free 
-[20:07:51] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[20:10:20] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[20:10:20] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 3703MB total, 2588MB free 
-[20:12:59] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[20:13:52] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[20:13:52] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 3696MB total, 2327MB free 
-[20:18:31] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[20:18:59] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[20:18:59] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 3704MB total, 2270MB free 
-[20:27:58] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[20:28:31] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[20:28:31] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 3017MB total, 1832MB free 
-[21:34:21] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[21:36:08] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[21:36:08] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 3846MB total, 2178MB free 
-[21:37:26] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[21:37:54] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[21:37:54] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 4011MB total, 2682MB free 
-[21:38:43] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[21:39:22] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[21:39:22] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 4176MB total, 2617MB free 
-[21:41:09] [Client thread/INFO] [StateTickHandler] YuukiSkniro died at BlockPos{x=-525, y=48, z=-484}. Deathpoints enabled: false. Deathpoint created: true
-[21:43:43] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[21:43:53] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[21:43:53] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 4070MB total, 2495MB free 
-[21:44:41] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[21:46:28] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[21:46:28] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 3916MB total, 2550MB free 
-[21:48:48] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
-[21:49:26] [Client thread/INFO] [WaypointStore] Loaded 12 waypoints from E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[21:49:26] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 4146MB total, 2717MB free 
-[21:55:23] [Client thread/INFO] [StateTickHandler] YuukiSkniro died at BlockPos{x=-271, y=86, z=-111}. Deathpoints enabled: false. Deathpoint created: true
-[21:56:42] [Client thread/INFO] [StateTickHandler] YuukiSkniro died at BlockPos{x=-240, y=92, z=-212}. Deathpoints enabled: false. Deathpoint created: true
-[21:57:58] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合精简验证客户端1.12.2-3.0.2440 Build-7230 forge1.12.2-14.23.5.2847\.minecraft\journeymap\data\mp\Minecraft~\DIM0
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.7.1, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=指向北方, systemTimeRealFormat=HH:mm:ss, shape=圆形, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=罗盘模式, gameTimeRealFormat=HH:mm:ss, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=屏幕右上, info1Label=Blank, fontScale=2}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.7.1, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=指向北方, systemTimeRealFormat=HH:mm:ss, shape=矩形, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=罗盘模式, gameTimeRealFormat=HH:mm:ss, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=屏幕右上, info1Label=Blank, fontScale=2}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.7.1, mobDisplay=Small Dots, zoomLevel=0, showPlayers=true, showSelf=true, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showKeys=true, showWaypointLabels=true, locationFormatVerbose=true, showMobs=true, showPets=true, fontScale=2, preferredMapType=day}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.7.1, autoRemoveDeathpointDistance=2, createDeathpoints=true, showName=true, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, timeFormat=HH:mm:ss, boldLabel=false, textureSmall=true, showDeathpointlabel=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.7.1, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, preferredMapType=day}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.7.1, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=圆形, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
+[22:12:18] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
+[22:12:18] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[22:12:18] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
+[22:12:22] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[22:12:23] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
+[22:12:23] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
+[22:12:23] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
+[22:12:23] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
+[22:12:23] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
+[22:12:23] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
+[22:12:23] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
+[22:12:23] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
+[22:12:23] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
+[22:12:23] [Client thread/ERROR] [FileHandler] Couldn't locate icons for Default: L:\sttmodx\.minecraft\mods\%5B旅行地图%5Djourneymap-1.12.2-5.7.1.jar\assets\journeymap\icon\entity
+[22:12:23] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[22:12:23] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
+[22:12:23] [Client thread/ERROR] [FileHandler] Couldn't locate icons for flat: L:\sttmodx\.minecraft\mods\%5B旅行地图%5Djourneymap-1.12.2-5.7.1.jar\assets\journeymap\theme\flat
+[22:12:23] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 0
+[22:12:23] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r305.66§8ms§r
+[22:13:12] [Server thread/INFO] [PropertiesBase] global (FirstLoaded) Setting config file to version "5.7.1": journeymap.server.global.config
+[22:13:12] [Server thread/INFO] [PropertiesBase] global (Valid) Creating config file: L:\sttmodx\.minecraft\journeymap\server\5.7\journeymap.server.global.config
+[22:13:12] [Server thread/INFO] [PropertiesBase] default (FirstLoaded) Setting config file to version "5.7.1": journeymap.server.default.config
+[22:13:12] [Server thread/INFO] [PropertiesBase] default (Valid) Creating config file: L:\sttmodx\.minecraft\journeymap\server\5.7\journeymap.server.default.config
+[22:13:12] [Server thread/INFO] [PropertiesBase] dim0 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim0.config
+[22:13:12] [Server thread/INFO] [PropertiesBase] dim0 (Valid) Creating config file: L:\sttmodx\.minecraft\journeymap\server\5.7\journeymap.server.dim0.config
+[22:13:12] [Server thread/INFO] [PropertiesBase] dim-1 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim-1.config
+[22:13:12] [Server thread/INFO] [PropertiesBase] dim-1 (Valid) Creating config file: L:\sttmodx\.minecraft\journeymap\server\5.7\journeymap.server.dim-1.config
+[22:13:12] [Server thread/INFO] [PropertiesBase] dim1 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim1.config
+[22:13:12] [Server thread/INFO] [PropertiesBase] dim1 (Valid) Creating config file: L:\sttmodx\.minecraft\journeymap\server\5.7\journeymap.server.dim1.config
+[22:13:12] [Server thread/INFO] [PropertiesBase] dim7 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim7.config
+[22:13:12] [Server thread/INFO] [PropertiesBase] dim7 (Valid) Creating config file: L:\sttmodx\.minecraft\journeymap\server\5.7\journeymap.server.dim7.config
+[22:13:12] [Server thread/INFO] [PropertiesBase] dim2 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim2.config
+[22:13:12] [Server thread/INFO] [PropertiesBase] dim2 (Valid) Creating config file: L:\sttmodx\.minecraft\journeymap\server\5.7\journeymap.server.dim2.config
+[22:13:20] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[22:13:20] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[22:13:20] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for bibliocraft
+[22:13:21] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from L:\sttmodx\.minecraft\journeymap\data\sp\新的世界\waypoints
+[22:13:21] [Client thread/INFO] [JourneymapClient] Mapping started in L:\sttmodx\.minecraft\journeymap\data\sp\新的世界\DIM0. Memory: 7072MB total, 5492MB free 
+[22:13:24] [Client thread/INFO] [JourneymapClient] Mapping halted in L:\sttmodx\.minecraft\journeymap\data\sp\新的世界\DIM0

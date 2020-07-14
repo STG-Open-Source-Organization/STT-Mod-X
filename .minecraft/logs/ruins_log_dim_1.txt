@@ -1,7 +1,9 @@
 
-Loading options from: D:\多mod\.minecraft\saves\新的世界--\DIM1
+Loading options from: L:\sttmodx\.minecraft\saves\新的世界\DIM1
 tries_per_chunk_normal = 6
 chance_to_spawn_normal = 10.0
 templateInstancesMinDistance = 256.0
 anyRuinsMinDistance = 64.0
-Ruins mod loaded successfully for world D:\多mod\.minecraft\saves\新的世界--\DIM1, template files: 31
+anySpawnMinDistance = 32
+anySpawnMaxDistance = 2147483647
+Ruins mod loaded successfully for world L:\sttmodx\.minecraft\saves\新的世界\DIM1, template files: 31

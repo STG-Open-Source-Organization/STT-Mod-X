@@ -1,0 +1,31 @@
+/Use:<crop>=<temperature>
+/Possible types: EXTREME_COLD, COLD, Normal, WARM, EXTREME_WARM
+/When not set, NORMAL, croptemperature is set to NORMAL
+blaze=EXTREME_WARM
+cactus=WARM
+chorus=COLD
+cocoa_bean=WARM
+drowned=COLD
+enderdragon=EXTREME_WARM
+endstone=COLD
+fish=COLD
+ghast=EXTREME_WARM
+glowstone=EXTREME_WARM
+guardian=COLD
+husk=WARM
+lava=EXTREME_WARM
+magma_cube=EXTREME_WARM
+netherrack=EXTREME_WARM
+nether_wart=EXTREME_WARM
+parrot=WARM
+polarbear=EXTREME_COLD
+prismarin=COLD
+quartz=EXTREME_WARM
+shulker=COLD
+snow=EXTREME_COLD
+soulsand=EXTREME_WARM
+sponge=COLD
+squid=COLD
+stray=COLD
+wither_skeleton=EXTREME_WARM
+zombie_pigman=EXTREME_WARM
