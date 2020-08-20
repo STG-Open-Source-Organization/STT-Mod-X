@@ -12,7 +12,9 @@ COMMAND_HELP_PLAYER:
 - '&f      /imipet help   &7查看命令帮助'
 - '&f      /imipet admin   &7查看管理命令帮助'
 - '&f      /imipet open   &7打开宠物系统界面'
+- '&f      /imipet skill open   &7打开宠物技能界面'
 - '&f      /imipet packlist   &7查看宠物背包列表'
+- '&f      /imipet whlist   &7查看宠物仓库列表'
 - '&f      /imipet expbox look   &7查看经验存储盒的经验值'
 - '&f      /imipet follow 宠物数位   &7召唤或收回指定宠物 宠物数位为1-6'
 - '&f      /imipet cure 宠物数位 回血量数   &7治疗指定宠物 宠物数位为1-6'
@@ -20,6 +22,10 @@ COMMAND_HELP_PLAYER:
 - '&f      /imipet givepetexp 宠物数位 给定经验数   &7给予经验给指定宠物 宠物数位为1-6'
 - '&f      /imipet rename 宠物数位 新名称   &7为宠物更改新名称 宠物数位为1-6'
 - '&f      /imipet evolution 宠物数位   &7进化指定宠物 宠物数位为1-6'
+- '&f      /imipet ride   &7骑行正在跟随的宠物'
+- '&f      /imipet ride 宠物数位   &7骑行指定宠物 宠物数位为1-6'
+- '&f      /imipet into 仓库宠物数位(无限) 背包宠物数位(1-6/可选填)   &7将指定仓库的宠物放入背包'
+- '&c      /imipet transfer 宠物数位 目标玩家   &7转让指定宠物给指定玩家 宠物数位为1-6'
 - '&c      /imipet release 宠物数位   &7放生指定宠物 宠物数位为1-6'
 - '&f'
 COMMAND_HELP_OP:
@@ -32,6 +38,9 @@ COMMAND_HELP_OP:
 - '&f      /imipet expbox give 玩家 经验值   &7给予指定玩家经验存储盒的经验值'
 - '&f      /imipet expbox del 玩家 经验值   &7扣除指定玩家经验存储盒的经验值'
 - '&f      /imipet expbox set 玩家 经验值   &7设置指定玩家经验存储盒的经验值'
+- '&f      /imipet takeback 玩家   &7强制收回玩家的目标宠物'
+- '&f      /imipet lottery 玩家 模型ID 概率   &7开始宠物抽奖，概率可填0到1之间的数字'
+- '&f      /imipet skill give 目标玩家 技能ID   &7为目标玩家的宠物新增非装载的技能'
 - '&f'
 COMMAND_NO_PERMISSION:
 - '&f'
@@ -74,6 +83,25 @@ COMMAND_EVOLUTION_PET_ERROR_FORMAT:
 - '&f   &c&l正确格式'
 - '&f      /imipet evolution 宠物数位   &7进化指定宠物 宠物数位为1-6'
 - '&f'
+COMMAND_SKILL_GIVE_ERROR_FORMAT:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &c&l正确格式'
+- '&f      /imipet skill give 目标玩家 技能ID   &7为目标玩家的宠物新增非装载的技能'
+- '&f'
+COMMAND_RIDE_PET_ERROR_FORMAT:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &c没有宠物正在跟随'
+- '&f   &c&l请输入'
+- '&f      /imipet ride 宠物数位   &7骑行指定宠物 宠物数位为1-6'
+- '&f'
+COMMAND_INTO_ERROR_FORMAT:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &c&l请输入'
+- '&f      /imipet into 仓库宠物数位(无限) 背包宠物数位(1-6/可选填)   &7将指定仓库的宠物放入背包'
+- '&f'
 COMMAND_EXPBOX_LOOK:
 - '&f'
 - '&f   &7&l[&6&limiPet&7&l]'
@@ -85,6 +113,7 @@ COMMAND_EXPBOX_LOOK_OP:
 - '&f      该玩家经验存储盒当前值： %imipet_expbox%'
 - '&f'
 COMMAND_PET_LIST: '&a宠物背包列表：'
+COMMAND_WAREHOUSE_LIST: '&a宠物仓库列表：'
 TEXT_IS_EMPTY:
 - '&f'
 - '&f   &7&l[&6&limiPet&7&l]'
@@ -180,11 +209,14 @@ PET_HAVE_EVOLVED:
 - '&f   &a该宠物成功进化了'
 - '&f'
 CAN_NOT_EVOLVED_HOVER_TEXT:
-- '&c该宠物不可进化'
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &c该宠物不可进化'
+- '&f'
 EVOLUTION_NOT_ENOUGH_LEVEL:
 - '&f'
 - '&f   &7&l[&6&limiPet&7&l]'
-- '&f   &c该宠物是空的或者没用满足等级要求'
+- '&f   &c该宠物是空的或者没有满足等级要求'
 - '&f'
 PET_LEVEL_IS_FULL:
 - '&f'
@@ -205,12 +237,12 @@ SUCCESSFUL_RELEASE_PET:
 PLAYER_IS_NOT_ONLINE:
 - '&f'
 - '&f   &7&l[&6&limiPet&7&l]'
-- '&f      &c目标玩家不在线'
+- '&f   &c目标玩家不在线'
 - '&f'
 GET_A_PET:
 - '&f'
 - '&f   &7&l[&6&limiPet&7&l]'
-- '&f      &a获得了一只宠物： &f%imipet_name%'
+- '&f   &a获得了一只宠物： &f%imipet_name%'
 - '&f'
 MODELID_DOES_NOT_EXIST:
 - '&f'
@@ -249,3 +281,97 @@ PET_NO_HP:
 - '&f   &7&l[&6&limiPet&7&l]'
 - '&f   &c该宠物血量为零，请为它治疗吧'
 - '&f'
+SUCCESSFULLY_TRANSFER_PET_TO_NEWOWNER:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &a已成功将 &f%imipet_name% &a转交给 &f%newowner_name%'
+- '&f'
+SUCCESSFULLY_TRANSFER_PET_FROM_OLDOWNER:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &a已收到来自 &f%oldowner_name% &a转交给你的宠物 &f%imipet_name%'
+- '&f'
+CAN_NOT_SELF:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &c不能对自己使用'
+- '&f'
+SUCCESSFULLY_GIVE_PET:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &a已给予宠物给 &f%imipet_player%'
+- '&f'
+SUCCESSFULLY_PUT_IN_PACK:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &a已将指定宠物从仓库放入背包'
+- '&f'
+CAN_NOT_RIDE:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &c该宠物不可坐骑'
+- '&f'
+RIDING_PET:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &a你正在骑行宠物'
+- '&f'
+PLEASE_ENTER_TEXT:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &6请在 &f30 &6秒内完成输入'
+- '&f'
+NOT_IS_NUMBER_CHANCE:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &c请输入正确的数字，概率数字为0至1，含小数'
+- '&f'
+LOTTERY_WINNING_PET:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &a恭喜你抽中宠物奖励： &f%imipet_name%'
+- '&f'
+LOTTERY_UNSUCCESSFUL_PET:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &c很遗憾，你未抽中宠物奖励'
+- '&f'
+YOU_NOT_HAVE_FOLLOWING_PET:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &c你没有正在跟随的宠物'
+- '&f'
+PLAYER_NOT_HAVE_FOLLOWING_PET:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &c目标没有正在跟随的宠物'
+- '&f'
+SKILL_NOT_EXIST:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &c技能ID不存在'
+- '&f'
+PLAYER_SUCCESSFUL_ADD_UNSKILL:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &a已成功为 &6玩家&f%imipet_player% &a的 &6宠物&f%imipet_name% &a添加 &6技能%imipet_skill_name%'
+- '&f   &a提示： &f在指定宠物的未装载界面中'
+- '&f'
+SKILL_COOLING:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &c技能&f%imipet_skill_name% 正在冷却'
+- '&c   请等待 &f%imipet_skill_cooldown% &c秒'
+- '&f'
+LOAD_SKILL_GUI_SLOT_FULL:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &c已装载技能界面的槽位已满'
+- '&f'
+DISSATISFY_SKILL_TRIGGER:
+- '&f'
+- '&f   &7&l[&6&limiPet&7&l]'
+- '&f   &c不满足技能触发条件 &f@cause'
+- '&f'
+SKILL_FOOD_SHORT: '&6活力值需求 &f@value'
+SKILL_PERMISSION_SHORT: '&6权限需求 &f@value'

@@ -1,0 +1,19 @@
+# 交互式功能
+interaction:
+  # 显示宠物信息
+  info:
+    # 是否启用
+    enable: true
+    # 优先显示方式 (hd 或 tr 或 cmi)
+    show: tr
+    # 全息
+    hd:
+      # 显示时长 (秒)
+      stayTime: 6
+      stringList:
+        - "&f名称： %imipet_name%"
+        - "&f血量 %imipet_nowhp%&7/&f%imipet_maxhp%"
+      # 全息位置
+      x: 2
+      y: 1
+      z: 1

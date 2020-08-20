@@ -1,0 +1,23 @@
+#是否启用此聊天频道，关闭后需要重启服务器
+enable: true
+#此聊天频道名称
+name: '公会'
+#此聊天频道的聊天格式，支持Papi
+#使用%message%来代替聊天内容
+#使用%player%来代替玩家名字
+format: '&5[公会]&f<%player%> &f%message%'
+#白名单聊天机制
+#开启后若白名单内不含此玩家
+#则该玩家不显示此频道且无法在此频道聊天
+wihtelist:
+  #是否开启白名单
+  enable: false
+  #白名单列表
+  players: 
+  - mimimis
+#黑名单机制
+#当玩家在黑名单中
+#则该玩家不显示此频道且无法在此频道聊天
+blacklist:
+  players: 
+  - tax

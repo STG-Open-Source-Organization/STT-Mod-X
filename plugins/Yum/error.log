@@ -3274,3 +3274,21 @@
 2020-1-19 15:15:31    位于 cn.mcres.imiPet.api.vexgui.VexHomeCore.addCompToVg(A:28)
 2020-1-19 15:15:31    位于 cn.mcres.imiPet.s.a(A:90)
 2020-1-19 15:15:31    位于 cn.mcres.imiPet.q.onCommand(A:11)
+2020-8-13 21:07:46[Yum 命令监控] 玩家 YuukiSkniro 执行 imiPet 插件 imipet reload 命令时发生异常!
+2020-8-13 21:07:46异常名称: java.lang.NullPointerException
+2020-8-13 21:07:46异常说明: null
+2020-8-13 21:07:46简易错误信息如下:
+2020-8-13 21:07:46    位于 java.util.Objects.requireNonNull(未知:-1)
+2020-8-13 21:07:46    位于 cn.mcres.imiPet.dc.o(A:29)
+2020-8-13 21:07:46    位于 cn.mcres.imiPet.ImiPet.doReload(A:49)
+2020-8-13 21:07:46    位于 cn.mcres.imiPet.t.a(A:775)
+2020-8-13 21:07:46    位于 cn.mcres.imiPet.t.a(A:54)
+2020-8-13 21:07:53[Yum 命令监控] 玩家 YuukiSkniro 执行 imiPet 插件 imipet reload 命令时发生异常!
+2020-8-13 21:07:53异常名称: java.lang.RuntimeException
+2020-8-13 21:07:53异常说明: ImiPet is reloading..
+2020-8-13 21:07:53简易错误信息如下:
+2020-8-13 21:07:53    位于 cn.mcres.imiPet.ImiPet.doReload(A:39)
+2020-8-13 21:07:53    位于 cn.mcres.imiPet.t.a(A:775)
+2020-8-13 21:07:53    位于 cn.mcres.imiPet.t.a(A:54)
+2020-8-13 21:07:53    位于 cn.mcres.imiPet.r.onCommand(A:19)
+2020-8-13 21:07:53    位于 pw.yumc.Yum.inject.CommandInjector.onCommand(CommandInjector.java:106)

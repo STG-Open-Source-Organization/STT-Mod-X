@@ -3,7 +3,7 @@ vg:
     # 主界面
     1:
       # url: "[local]imipet/gui_1.png"
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/051204bfdfaf0b01d5f8f8b10bc7814c8d2cd6de/imiPet1.png
+      url: '[local]imipet/1.png'
       x: -1
       y: -1
       w: 500
@@ -11,7 +11,7 @@ vg:
     # 经验库界面
     2:
       # url: "[local]imipet/gui_2.png"
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/051204bfdfaf0b01d5f8f8b10bc7814c8d2cd6de/imiPet1.png
+      url: '[local]imipet/1.png'
       x: -1
       y: -1
       w: 500
@@ -19,18 +19,32 @@ vg:
     # 进化仓界面
     3:
       # url: "[local]imipet/gui_3.png"
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/051204bfdfaf0b01d5f8f8b10bc7814c8d2cd6de/imiPet1.png
+      url: '[local]imipet/1.png'
       x: -1
       y: -1
       w: 500
       h: 300
     # 更新信息界面
     4:
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/051204bfdfaf0b01d5f8f8b10bc7814c8d2cd6de/imiPet1.png
+      url: '[local]imipet/1.png'
       x: -1
       y: -1
       w: 500
       h: 300
+    # 仓库系统界面
+    5:
+      url: '[local]imipet/1.png'
+      x: -1
+      y: -1
+      w: 500
+      h: 300
+    # 转交宠物选择界面
+    6:
+      url: '[local]imipet/1.png'
+      x: -1
+      y: -1
+      w: 300
+      h: 100
   vsl:
     # 界面统一滚动列表
     1:
@@ -39,6 +53,14 @@ vg:
       w: 150
       h: 280
       full: 280
+    # 仓库系统一滚动列表
+    2:
+      x: 10
+      y: 30
+      w: 480
+      h: 260
+      full: 280
+      addFull: 30
   vexTextField:
     # 加血输入框
     1:
@@ -68,24 +90,31 @@ vg:
       y: 212
       w: 66
       h: 16
+    # 转交宠物给目标玩家
+    5:
+      id: 7659
+      x: 20
+      y: 205
+      w: 70
+      h: 20
   image:
     # 主界面-宠物模型背景
     1:
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/5afc6defc1122ef8cefc2c9f96604f2a91bd938a/i-1.png
+      url: '[local]imipet/2.png'
       x: 20
       y: 20
       w: 150
       h: 150
     # 主界面-宠物信息背景
     2:
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/5afc6defc1122ef8cefc2c9f96604f2a91bd938a/i-1.png
+      url: '[local]imipet/2.png'
       x: 185
       y: 20
       w: 130
       h: 200
     # 主界面-已选择宠物的指上
     3:
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/a88594fe31d3618e4aff95e23bd5bd5383872f6d/i-3-i1.png
+      url: '[local]imipet/8.png'
       x: 20
       y: 232
       w: 30
@@ -93,21 +122,21 @@ vg:
       addX: 10
     # 经验库-经验盒主体
     5:
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/68e26718e9b6d5d5b056a5404d2b7f46dc219f32/expBox.png
+      url: '[local]imipet/10.png'
       x: 70
       y: 60
       w: 190
       h: 170
     # 进化仓-选择的宠物背景
     6:
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/323558fce9ce43103dc59a572c66a211fab19770/imipet_image_6.png
+      url: '[local]imipet/11.png'
       x: 10
       y: 10
       w: 220
       h: 140
     # 进化仓-进化的宠物背景
     7:
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/692fa84f26e5fa737bb36ffe9dcd73c0b1b570e5/imipet_image_7.png
+      url: '[local]imipet/12.png'
       x: 105
       y: 149
       w: 220
@@ -126,14 +155,14 @@ vg:
       h: 110
     # 更新信息界面-宠物模型背景
     10:
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/5afc6defc1122ef8cefc2c9f96604f2a91bd938a/i-1.png
+      url: '[local]imipet/2.png'
       x: 20
       y: 20
       w: 150
       h: 150
     # 更新信息界面-宠物信息背景
     11:
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/5afc6defc1122ef8cefc2c9f96604f2a91bd938a/i-1.png
+      url: '[local]imipet/2.png'
       x: 185
       y: 30
       w: 130
@@ -149,8 +178,8 @@ vg:
     1:
       id: -2111
       text: ''
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/18b02d9bbc9eb906df2efb3c9bc73a3e7034c3a1/i-1-b1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/18b02d9bbc9eb906df2efb3c9bc73a3e7034c3a1/i-1-b2.png
+      url1: '[local]imipet/4.png'
+      url2: '[local]imipet/5.png'
       x: 20
       y: 250
       w: 30
@@ -165,8 +194,8 @@ vg:
       - '&f'
       - '&7&l[&a点击切换&7&l]'
       - '&f'
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i2.png
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
       x: 20
       y: 175
       w: 70
@@ -180,8 +209,8 @@ vg:
       - '&f'
       - '&7&l[&a点击&7&l]'
       - '&f'
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i2.png
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
       x: 260
       y: 125
       w: 70
@@ -195,8 +224,8 @@ vg:
       - '&f'
       - '&7&l[&a点击&7&l]'
       - '&f'
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i2.png
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
       x: 260
       y: 155
       w: 70
@@ -212,8 +241,8 @@ vg:
       - '&f'
       - '&7&l[&c点击&7&l]'
       - '&f'
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i2.png
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
       x: 100
       y: 175
       w: 70
@@ -231,8 +260,8 @@ vg:
       - '&f'
       - '&7&l[&a点击确定&7&l]'
       - '&f'
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i2.png
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
       x: 100
       y: 205
       w: 70
@@ -248,8 +277,8 @@ vg:
       - '&f'
       - '&7&l[&c点击确定&7&l]'
       - '&f'
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i2.png
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
       x: 20
       y: 205
       w: 70
@@ -263,8 +292,8 @@ vg:
       - '&f'
       - '&7&l[&c点击取消&7&l]'
       - '&f'
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i2.png
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
       x: 100
       y: 205
       w: 70
@@ -282,8 +311,8 @@ vg:
       - '&f'
       - '&7&l[&a点击确定&7&l]'
       - '&f'
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i2.png
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
       x: 100
       y: 205
       w: 70
@@ -300,8 +329,8 @@ vg:
       - '&f'
       - '&7&l[&a点击确定&7&l]'
       - '&f'
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i2.png
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
       x: 260
       y: 174
       w: 70
@@ -310,8 +339,8 @@ vg:
     13:
       id: 115874
       text: ''
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/18b02d9bbc9eb906df2efb3c9bc73a3e7034c3a1/i-1-b1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/18b02d9bbc9eb906df2efb3c9bc73a3e7034c3a1/i-1-b2.png
+      url1: '[local]imipet/4.png'
+      url2: '[local]imipet/5.png'
       x: 73
       y: 30
       w: 30
@@ -320,8 +349,8 @@ vg:
     14:
       id: 115875
       text: ''
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/18b02d9bbc9eb906df2efb3c9bc73a3e7034c3a1/i-1-b1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/18b02d9bbc9eb906df2efb3c9bc73a3e7034c3a1/i-1-b2.png
+      url1: '[local]imipet/4.png'
+      url2: '[local]imipet/5.png'
       x: 50
       y: 135
       w: 30
@@ -330,8 +359,8 @@ vg:
     15:
       id: 115876
       text: ''
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/18b02d9bbc9eb906df2efb3c9bc73a3e7034c3a1/i-1-b1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/18b02d9bbc9eb906df2efb3c9bc73a3e7034c3a1/i-1-b2.png
+      url1: '[local]imipet/4.png'
+      url2: '[local]imipet/5.png'
       x: 113
       y: 30
       w: 30
@@ -341,8 +370,8 @@ vg:
     16:
       id: 115885
       text: ''
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/18b02d9bbc9eb906df2efb3c9bc73a3e7034c3a1/i-1-b1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/18b02d9bbc9eb906df2efb3c9bc73a3e7034c3a1/i-1-b2.png
+      url1: '[local]imipet/4.png'
+      url2: '[local]imipet/5.png'
       x: 90
       y: 135
       w: 30
@@ -361,8 +390,8 @@ vg:
       - '&f'
       - '&7&l[&a点击确定&7&l]'
       - '&f'
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i2.png
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
       x: 50
       y: 170
       w: 70
@@ -371,8 +400,8 @@ vg:
     18:
       id: 115975
       text: ''
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/18b02d9bbc9eb906df2efb3c9bc73a3e7034c3a1/i-1-b1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/18b02d9bbc9eb906df2efb3c9bc73a3e7034c3a1/i-1-b2.png
+      url1: '[local]imipet/4.png'
+      url2: '[local]imipet/5.png'
       x: 20
       y: 175
       w: 30
@@ -381,8 +410,8 @@ vg:
     19:
       id: 115985
       text: ''
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/18b02d9bbc9eb906df2efb3c9bc73a3e7034c3a1/i-1-b1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/18b02d9bbc9eb906df2efb3c9bc73a3e7034c3a1/i-1-b2.png
+      url1: '[local]imipet/4.png'
+      url2: '[local]imipet/5.png'
       x: 60
       y: 175
       w: 30
@@ -398,8 +427,8 @@ vg:
       - '&f'
       - '&7&l[&6点击进行更改&7&l]'
       - '&f'
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i2.png
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
       x: 20
       y: 210
       w: 70
@@ -414,8 +443,8 @@ vg:
       - '&f'
       - '&7&l[&a点击确认&7&l]'
       - '&f'
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i2.png
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
       x: 165
       y: 210
       w: 70
@@ -424,8 +453,8 @@ vg:
     22:
       id: 116012
       text: 上一页
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i2.png
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
       x: 213
       y: 10
       w: 70
@@ -434,12 +463,57 @@ vg:
     23:
       id: 116013
       text: 下一页
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i2.png
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
       x: 213
       y: 210
       w: 70
       h: 20
+    # 主界面-信息列表-转交宠物
+    24:
+      id: 116014
+      text: 转交宠物
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
+      x: 190
+      y: 185
+      w: 70
+      h: 20
+    25:
+      id: 7505
+      text: '&c确定'
+      hoverText:
+      - '&f                                            '
+      - '&f一旦确认就将该宠物转交给目标玩家'
+      - '&f'
+      - '&7&l[&a点击确定&7&l]'
+      - '&f'
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
+      x: 100
+      y: 205
+      w: 70
+      h: 20
+    26:
+      id: 7506
+      text: 返回主页
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
+      x: 10
+      y: 8
+      w: 70
+      h: 20
+    # 更新信息-宠物选择框 > 6
+    27:
+      id: 116011
+      text: ''
+      url1: '[local]imipet/4.png'
+      url2: '[local]imipet/5.png'
+      x: 35
+      y: 40
+      w: 30
+      h: 30
+      addX: 10
   text:
     # 主界面-宠物信息
     1:
@@ -482,14 +556,37 @@ vg:
       x: 190
       y: 35
       string:
-      - '名称： %imipet_name%'
+      - '名称： %updateinfo_name%'
+    # 将宠物从仓库放入背包的选择提示
+    8:
+      x: -1
+      y: 18
+      string:
+      - '背包已满，请选择需要替换的宠物'
 vsl:
+  vexTextField:
+    1:
+      id: 118971
+      x: 20
+      y: 205
+      w: 70
+      h: 20
+      addY: 30
+  text:
+    1:
+      string:
+      - '宠物名称： %warehouse_name%'
+      - ''
+      - '等级： %warehouse_level%'
+      x: 65
+      y: 9
+      addY: 45
   button:
     1:
       id: 59726
       text: 经验库
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i2.png
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
       x: 45
       y: 53
       w: 80
@@ -497,8 +594,8 @@ vsl:
     2:
       id: 59727
       text: 进化仓
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i2.png
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
       x: 45
       y: 92
       w: 80
@@ -506,8 +603,8 @@ vsl:
     3:
       id: 59728
       text: 主界面
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i2.png
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
       x: 45
       y: 15
       w: 80
@@ -515,67 +612,130 @@ vsl:
     4:
       id: 59729
       text: 更新信息
-      url1: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i1.png
-      url2: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/07d165e1c7a857cd1c77921f27a52d678eab0d2b/i-2-i2.png
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
       x: 45
       y: 131
       w: 80
       h: 20
+    5:
+      id: 59730
+      text: 仓库系统
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
+      x: 45
+      y: 168
+      w: 80
+      h: 20
+    6:
+      id: 59731
+      text: '&f'
+      url1: '[local]imipet/13.png'
+      url2: '[local]imipet/13.png'
+      x: 10
+      y: 3
+      w: 40
+      h: 40
+      addY: 45
+      hoverText:
+      - '&f                                            '
+      - '名称： %warehouse_name%'
+      - ''
+      - '等级： %warehouse_level%'
+      - '经验： %warehouse_nowexp% &7/ &f%warehouse_maxexp%'
+      - ''
+      - '血量： %warehouse_nowhp% &7/ &f%warehouse_maxhp%'
+      - '活力： %warehouse_nowfood% &7/ &f%warehouse_maxfood%'
+      - ''
+      - '攻击： %warehouse_damage%'
+      - '&f'
+    7:
+      id: 59732
+      text: 放入背包
+      url1: '[local]imipet/6.png'
+      url2: '[local]imipet/7.png'
+      x: 315
+      y: 13
+      w: 80
+      h: 20
+      addY: 45
   image:
     # 经验库图标
     1:
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/d62f0eb73f17c7af5c1526deadcce48985cc7c4b/imipet-button-back.png
+      url: '[local]imipet/13.png'
       x: 10
       y: 48
       w: 28
       h: 28
     # 经验库图标
     2:
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/676b4ad07735b34ef22b5c28a680d4710a5027f8/imipet-button-expbox.png
+      url: '[local]imipet/15.png'
       x: 14
       y: 52
       w: 20
       h: 20
     # 进化仓图标
     3:
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/d62f0eb73f17c7af5c1526deadcce48985cc7c4b/imipet-button-back.png
+      url: '[local]imipet/13.png'
       x: 10
       y: 86
       w: 28
       h: 28
     # 进化仓图标
     4:
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/676b4ad07735b34ef22b5c28a680d4710a5027f8/imipet-button-ev.png
+      url: '[local]imipet/14.png'
       x: 14
       y: 90
       w: 20
       h: 20
     # 主界面图标
     5:
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/d62f0eb73f17c7af5c1526deadcce48985cc7c4b/imipet-button-back.png
+      url: '[local]imipet/13.png'
       x: 10
       y: 10
       w: 28
       h: 28
     # 主界面图标
     6:
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/676b4ad07735b34ef22b5c28a680d4710a5027f8/imipet-button-gui.png
+      url: '[local]imipet/16.png'
       x: 14
       y: 14
       w: 20
       h: 20
     # 更新信息图标
     7:
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/d62f0eb73f17c7af5c1526deadcce48985cc7c4b/imipet-button-back.png
+      url: '[local]imipet/13.png'
       x: 10
       y: 124
       w: 28
       h: 28
     # 更新信息图标
     8:
-      url: https://dev.tencent.com/u/inrhINRH/p/tuchuang/git/raw/3c3a7e7378e61eff7da2d2ea1ccde15415dfd1b1/imipet_update.png
+      url: '[local]imipet/17.png'
       x: 14
       y: 128
       w: 20
       h: 20
+    # 仓库系统图标
+    9:
+      url: '[local]imipet/13.png'
+      x: 10
+      y: 162
+      w: 28
+      h: 28
+    # 仓库系统图标
+    10:
+      url: '[local]imipet/18.png'
+      x: 14
+      y: 166
+      w: 20
+      h: 20
+    # 仓库系统列表信息背景
+    11:
+      url: '[local]imipet/1.png'
+      x: 60
+      y: 3
+      w: 250
+      h: 40
+      addY: 45
 

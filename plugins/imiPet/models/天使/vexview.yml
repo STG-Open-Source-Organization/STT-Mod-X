@@ -1,0 +1,90 @@
+# 宠物展示 - 实体绘制
+entityDraw:
+  # 主界面
+  vgHome:
+    big:
+      # 位置
+      x: 95
+      y: 160
+      # 尺寸
+      size: 70
+    # 小(选择框)
+    small:
+      # 位置
+      x: 15
+      y: 28
+      # 选择框递增X坐标(支持负数)
+      addX: 10
+      # 尺寸
+      size: 15
+  # 经验库界面
+  vgExp:
+    # 小(选择框)
+    small:
+      # 位置(已选择框)
+      firstX: 88
+      firstY: 58
+      # 位置(待选择框)
+      x: 15
+      y: 28
+      # 选择框递增X坐标(支持负数)
+      addX: 10
+      # 尺寸
+      size: 15
+  vgTransferPackWarehouse:
+    # 小(选择框)
+    small:
+      # 位置(待选择框)
+      x: 15
+      y: 28
+      # 选择框递增X坐标(支持负数)
+      addX: 10
+      # 尺寸
+      size: 15
+  # 进化仓界面
+  vgEvolution:
+    big:
+      # 位置
+      x: 65
+      y: 110
+      # 尺寸
+      size: 50
+    # 小(选择框)
+    small:
+      # 位置(已选择框)
+      firstX: 65
+      firstY: 163
+      # 位置(待选择框)
+      x: 15
+      y: 28
+      # 选择框递增X坐标(支持负数)
+      addX: 10
+      # 尺寸
+      size: 15
+    # 进化后形态的展示
+    show:
+      # 位置
+      x: 270
+      y: 280
+      # 尺寸
+      size: 50
+  # 更新信息界面
+  vgUpdateInfo:
+    big:
+      # 位置
+      x: 95
+      y: 160
+      # 尺寸
+      size: 70
+    # 小(选择框)
+    small:
+      # 位置(已选择框)
+      firstX: 35
+      firstY: 203
+      # 位置(待选择框)
+      x: 15
+      y: 18
+      # 选择框递增X坐标(支持负数)
+      addX: 10
+      # 尺寸
+      size: 15

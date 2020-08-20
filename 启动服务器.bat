@@ -8,17 +8,6 @@ set tm2=%time:~3,2%
 set tm3=%time:~6,2%
 @echo. 
 echo  现在时间：%date% %tm1%点%TM2%分
-@echo. -----------------------------------------------------------------
-@echo.                         Minecraft服务器                                                                   
-@echo.                         服务器即将开启！
-@echo.
-@echo.           注意:关闭服务器前请在后台输入stop保存玩家数据
-@echo.                      否则可能会出现回档情况
-@echo.
-@echo.                本服务端由MCBBS论坛 酷车手BB弹 搭建
-@echo.                        未经允许禁止转载！
-@echo.                        请勿用于商业用途！
-@echo. -----------------------------------------------------------------
 @echo.
 @echo. 请按下任意键来启动服务器…………
 @echo.
@@ -33,7 +22,7 @@ cls
 @echo. 
 @echo.
 @echo. -----------------------------------------------------------------
-java -Xms4096M -Xmx4096M -XX:+AggressiveOpts -XX:+UseCompressedOops -jar CatServer-1.12.2-2019-11-27-server.jar
+java -Xms10000M -Xmx10000M -XX:+AggressiveOpts -XX:+UseCompressedOops -jar CatServer-27d41d1-universal.jar
 @echo.
 @echo. ----------------------------------------------------------------- 
 @echo.               Minecraft --- 玩家数据保存完毕 已关服

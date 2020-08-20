@@ -1,0 +1,34 @@
+# 交互式功能
+interaction:
+  # 显示宠物信息
+  info:
+    # 是否启用
+    enable: true
+    # 优先显示方式 (hd 或 tr 或 cmi)
+    show: tr
+    # 全息
+    hd:
+      # 显示时长 (秒)
+      stayTime: 6
+      stringList:
+        - "&f名称： %imipet_name%"
+        - "&f血量 %imipet_nowhp%&7/&f%imipet_maxhp%"
+      # 全息位置
+      x: 1
+      y: 1
+      z: 0
+    # 太弱全息
+    tr:
+      # 显示时长 (秒)
+      stayTime: 6
+      stringList:
+        - 'item:<head:%player_name%>'
+        - '&b名称 %animations_glow?normal=&8&l,start=&3&l,middle=&b&l,end=&3&l,size=5_%imipet_name%%<update:3>'
+        - ''
+        - '&c等级 %animations_pulse?color=cyan_%imipet_level%%<update:10>'
+        - ''
+        - '&e%animations_typewriter?pause=3,reverse=true_看什么看，没见过帅锅嘛%<update:5>'
+      # 全息位置
+      x: 1
+      y: 3
+      z: 0

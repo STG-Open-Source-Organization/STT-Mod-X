@@ -1,0 +1,16 @@
+/Use:<crop>=<mod>:<block>,<meta>
+cactus=minecraft:sand,0
+chorus=minecraft:end_stone,0
+coal=minecraft:coal_ore,0
+cocoa_bean=minecraft:log,3
+diamond=minecraft:diamond_ore,0
+emerald=minecraft:emerald_ore,0
+enderdragon=minecraft:bedrock,0
+fish=planttech2:dna_combiner,0
+gold=minecraft:gold_ore,0
+iron=minecraft:iron_ore,0
+lapis=minecraft:lapis_ore,0
+plantium=planttech2:plantium_block,0
+quartz=minecraft:quartz_ore,0
+redstone=minecraft:redstone_ore,0
+wither=minecraft:bedrock,0

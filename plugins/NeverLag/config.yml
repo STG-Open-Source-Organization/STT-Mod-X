@@ -138,7 +138,7 @@ RedStone:
 Chunk:
   #Spawn区块是否不常驻内存
   #若使用了多世界插件，开启本功能可以有效减少内存的占用
-  NoSpawnChunk: true
+  NoSpawnChunk: false
 
 #保护农田不被踩踏
 #防御熊孩子在他人领地农田跳跃破坏农田
@@ -172,7 +172,7 @@ AntiMotdPing:
 #防止大量实体在狭小空间内可以有效解决刷怪笼自动化和挂机导致的卡顿
 #该功能也能有效防御恶意实体密集的卡服行为
 AntiFarmMob:
-  Enable: true
+  Enable: false
   Time: 30
   Limit: 5
 
@@ -215,7 +215,7 @@ SpawnRate:
   #刷怪笼生成怪物速度
   SpawnerRate: 100
   #村庄生成铁傀儡的速度，设置为0可以禁止刷铁塔等不平衡的自动化建筑
-  IronRate: 80
+  IronRate: 100
   #普通、自然条件的生成速度
   CommonRate: 100
   #传送门的生成速度，设置为0可以禁止猪人通过传送门，防止建造刷金塔
@@ -227,7 +227,7 @@ SpawnRate:
 
 #防御容器漏洞刷物品
 AntiChestBug:
-  Enable: true
+  Enable: false
   Message: '&b[服务器娘]&e这个物品还在使用，你无法破坏。'
 
 #是否防御门作弊
@@ -278,7 +278,7 @@ AntiCountBug:
 #是否开启防御粘液块制作的永动机蹦服
 #仅有1.8+的服务器才需开启
 AntiPMM:
-  Enable: true
+  Enable: false
 
 #是否开启防御快捷商店大箱子刷钱的bug
 #没有安装QuickShop可以不用开启
@@ -299,7 +299,7 @@ AntCrashChat:
 
 #是否开启防御无限刷铁轨
 AntiRail:
-  Enable: true
+  Enable: false
 
 #是否开启防御背包编辑器（例如ALL-U-WANT）
 #如果有创造服或者有玩家拥有创造，强烈建议打开
