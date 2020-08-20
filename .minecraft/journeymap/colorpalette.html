@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <!--
- JourneyMap Mod <journeymap.info> for Minecraft
- Copyright (c) 2011-2018  Techbrew Interactive, LLC <techbrew.net>.  All Rights Reserved.
--->
+  ~ JourneyMap mod for Minecraft
+  ~
+  ~ Copyright (C) 2011-2015 Mark Woodman.  All Rights Reserved.
+  ~ This file may not be altered, file-hosted, re-packaged, or distributed in part or in whole
+  ~ without express written permission by Mark Woodman <mwoodman@techbrew.net>.
+  -->
 
 <html>
 <head>
@@ -12,17 +15,14 @@
     <style>
         html, body { height: 100% }
         body{font-family: Helvetica,Arial,sans-serif; font-size:11px}
+        .entry{width:300px;margin-bottom:4px;display:inline-block;text-align:middle}
+        .rgb{display:inline;float:left;height:40px;width:40px;margin-right:5px}
+        .blockName{font-weight:bold;}
+        .blockInfo{font-size:10px;}
+
         #header {text-align: center; border: 1px solid green; background-color: #efefef; padding-bottom: 10px;}
         #description {margin:10px; font-family: monospace; white-space: pre;}
         #generated {font-style: italic;}
-        #toc{display: flex; flex-wrap: wrap; justify-content: center; }
-        #toc h2 {display: flex; margin:10px}
-        a.tocArrow {text-decoration: none; margin-left:10px; width:10px; padding:2px; background-color: #cccccc}
-        .mod{display: flex; flex-flow: row wrap; }
-        .mod h2 {flex: 1 100%;}
-        .entry{flex: 1;padding:8px; border:1px solid transparent;}
-        .entry:hover{border:1px solid black;}
-        .blockInfo{font-size:10px; padding-bottom:4px}
     </style>
 </head>
 <body>
@@ -37,43 +37,53 @@
 
 </div>
 
-<div id="description">与colorpalette.json相同将该文件放入同一目录下以查看调色板。</div>
+<div id="description">与colorpalette.json相同将该文件放入同一目录下以查看调色板.</div>
 
 <div id="contents">
-
-    <h2><span id="colorCount"></span> 基本颜色</h2>
-
-    <h2>资源包:</h2>
-    <div id="resourcePacks"></div>
-
-    <hr/>
 
     <h2>Mods:</h2>
 
     <div id="modNames"></div>
 
-    <div id="toc"></div>
+    <h2>资源包:</h2>
+
+    <div id="resourcePacks"></div>
 
     <hr/>
 
-    <div id="blockColors"></div>
+    <h2>基本颜色:</h2>
+
+    <div id="basicColors"></div>
 </div>
 
 <script src="colorpalette.json"></script>
 
-
 <script language="JavaScript">
 
-  function getContrastYIQ(hexcolor){
-        hexcolor = hexcolor.replace("#","");
-        var r = parseInt(hexcolor.substr(0,2),16);
-        var g = parseInt(hexcolor.substr(2,2),16);
-        var b = parseInt(hexcolor.substr(4,2),16);
-        var yiq = ((r*299)+(g*587)+(b*114))/1000;
-        return (yiq >= 128) ? '#000000' : '#dddddd';
+function createColorSpans(div, list) {
+    for(i = 0; i<list.length; i++) {
+        var blockColor = list[i];
+        var span = createColorSpan(blockColor);
+        div.appendChild(span);
     }
+}
 
-    if(typeof(colorpalette)=='undefined') {
+function createColorSpan(blockColor) {
+    var strippedColor = blockColor.color.split("#")[1];
+    var span = document.createElement("span");
+    span.className='entry';
+    var alphaInfo = (blockColor.alpha) ? ("Alpha: " + blockColor.alpha) : "&nbsp;";
+    var html = "<a target='_rgb' href='http://www.colorcodehex.com/" + strippedColor + "/'>" +
+                     "<span class='rgb' style='background-color:" + blockColor.color +"' title='" + blockColor.color +"'></span></a>" +
+                     "<span class='blockName'>" + blockColor.name + "</span><br/>" +
+                     "<span class='blockInfo'>" + blockColor.uid + " " + blockColor.meta +"</span><br/>" +
+                     "<span class='blockInfo'>" + alphaInfo + "</span>";
+    span.innerHTML = html;
+    return span;
+}
+
+function readData() {
+    if(typeof(basicColors)=='undefined') {
         document.getElementById("overview").innerHTML = "";
         document.getElementById("contents").innerHTML = "";
     } else {
@@ -81,52 +91,26 @@
         document.getElementById("resourcePacks").innerHTML = colorpalette.resourcePacks;
         document.getElementById("modNames").innerHTML = colorpalette.modNames;
         document.getElementById("generated").innerHTML = colorpalette.generated;
-
-        var tocEl = document.getElementById("toc");
-        var tableEl = document.getElementById("blockColors");
-        var count = 0;
-        var table = colorpalette.table;
-
-        for (var mod in table) {
-            var modEl = document.createElement("div");
-            modEl.className = "mod";
-            modEl.innerHTML = "<h2 id='" + mod + "'>" + mod + "<a class='tocArrow' href='#toc'>&uarr;</a></h2>";
-            tableEl.appendChild(modEl);
-
-            var linkEl = document.createElement("h2");
-            linkEl.innerHTML = "<a href='#" + mod + "'>" + mod + "</a>";
-            tocEl.appendChild(linkEl);
-
-            for (var block in table[mod]) {
-                for (var state in table[mod][block]) {
-
-                    var entryEl = document.createElement("span");
-                    entryEl.className='entry';
-                    modEl.appendChild(entryEl);
-
-                    var list = table[mod][block][state];
-                    var blockStateColor = {
-                        "color": list[0],
-                        "alpha": list[1] || 1
-                    }
-
-                    var alphaInfo = (blockStateColor.alpha && blockStateColor.alpha<1) ? (" Alpha: " + blockStateColor.alpha) : "";
-                    var wrapState = "[" + (state.split(",").join(",&#8203;")) + "]";
-                    var labelColor = getContrastYIQ(blockStateColor.color);
-
-                    entryEl.innerHTML = [mod + ":", block, wrapState, alphaInfo].join("&#8203;");
-                    entryEl.style = 'color: ' + labelColor + '; background-color:' + blockStateColor.color;
-                    entryEl.title = blockStateColor.color;
-                    count++;
-                }
-            }
+    
+        var basicColorsDiv = document.getElementById("basicColors");
+        createColorSpans(basicColorsDiv, colorpalette.basicColors);
+    
+        var biomeColorsDiv = document.getElementById("biomeColors");
+        for(biome in colorpalette.biomeColors) {
+            var div = document.createElement("div");
+            div.className = "biome";
+            div.innerHTML = "<h3>" + biome + "</h3>";
+            biomeColorsDiv.appendChild(div);
+            createColorSpans(div, colorpalette.biomeColors[biome]);
         }
-
-        document.getElementById("colorCount").innerHTML = count;
     }
+}
+
+readData();
+
+
 </script>
 
 </body>
 
 </html>
-

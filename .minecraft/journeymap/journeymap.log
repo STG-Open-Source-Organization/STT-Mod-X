@@ -1,60 +1,99 @@
-[22:12:18] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[22:12:18] [Client thread/INFO] [JourneymapClient] initialize ENTER
-[22:12:18] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[22:12:18] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[22:12:18] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.7.1, built with Forge 14.23.5.2768
-Forge: 14.23.5.2854
-Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=zh_cn, locale=zh_cn
-Features: 
+[12:48:58] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[12:48:58] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[12:48:58] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\config\5.1\journeymap.core.config
+[12:48:58] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\config\5.1\journeymap.fullmap.config
+[12:48:58] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\config\5.1\journeymap.minimap.config
+[12:48:58] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\config\5.1\journeymap.minimap2.config
+[12:48:58] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\config\5.1\journeymap.webmap.config
+[12:48:58] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\config\5.1\journeymap.waypoint.config
+[12:48:58] [Client thread/INFO] [?] Version: JourneyMap 5.1.4p2 Unlimited, built with Forge 10.13.4.1558
+Forge: 10.13.4.1614
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=zh_CN, locale=zh_cn
+Unlimited Features: 
 	RadarPlayers : singleplayer = true , multiplayer = true
 	RadarAnimals : singleplayer = true , multiplayer = true
 	RadarMobs : singleplayer = true , multiplayer = true
 	RadarVillagers : singleplayer = true , multiplayer = true
-	MapTopo : singleplayer = true , multiplayer = true
-	MapSurface : singleplayer = true , multiplayer = true
 	MapCaves : singleplayer = true , multiplayer = true
-MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.7.1, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=ָ�򱱷�, systemTimeRealFormat=HH:mm:ss, shape=Բ��, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=����ģʽ, gameTimeRealFormat=HH:mm:ss, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=��Ļ����, info1Label=Blank, fontScale=2}
-MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.7.1, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=ָ�򱱷�, systemTimeRealFormat=HH:mm:ss, shape=����, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=����ģʽ, gameTimeRealFormat=HH:mm:ss, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=��Ļ����, info1Label=Blank, fontScale=2}
-FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.7.1, mobDisplay=Small Dots, zoomLevel=0, showPlayers=true, showSelf=true, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showKeys=true, showWaypointLabels=true, locationFormatVerbose=true, showMobs=true, showPets=true, fontScale=2, preferredMapType=day}
-WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.7.1, autoRemoveDeathpointDistance=2, createDeathpoints=true, showName=true, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, timeFormat=HH:mm:ss, boldLabel=false, textureSmall=true, showDeathpointlabel=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
-WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.7.1, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, preferredMapType=day}
-CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.7.1, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=Բ��, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
-[22:12:18] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
-[22:12:18] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[22:12:18] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
-[22:12:22] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[22:12:23] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
-[22:12:23] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
-[22:12:23] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
-[22:12:23] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
-[22:12:23] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
-[22:12:23] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
-[22:12:23] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
-[22:12:23] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
-[22:12:23] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
-[22:12:23] [Client thread/ERROR] [FileHandler] Couldn't locate icons for Default: L:\sttmodx\.minecraft\mods\%5B���е�ͼ%5Djourneymap-1.12.2-5.7.1.jar\assets\journeymap\icon\entity
-[22:12:23] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
-[22:12:23] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
-[22:12:23] [Client thread/ERROR] [FileHandler] Couldn't locate icons for flat: L:\sttmodx\.minecraft\mods\%5B���е�ͼ%5Djourneymap-1.12.2-5.7.1.jar\assets\journeymap\theme\flat
-[22:12:23] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 0
-[22:12:23] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed��8 count ��r1��8 avg ��r305.66��8ms��r
-[22:13:12] [Server thread/INFO] [PropertiesBase] global (FirstLoaded) Setting config file to version "5.7.1": journeymap.server.global.config
-[22:13:12] [Server thread/INFO] [PropertiesBase] global (Valid) Creating config file: L:\sttmodx\.minecraft\journeymap\server\5.7\journeymap.server.global.config
-[22:13:12] [Server thread/INFO] [PropertiesBase] default (FirstLoaded) Setting config file to version "5.7.1": journeymap.server.default.config
-[22:13:12] [Server thread/INFO] [PropertiesBase] default (Valid) Creating config file: L:\sttmodx\.minecraft\journeymap\server\5.7\journeymap.server.default.config
-[22:13:12] [Server thread/INFO] [PropertiesBase] dim0 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim0.config
-[22:13:12] [Server thread/INFO] [PropertiesBase] dim0 (Valid) Creating config file: L:\sttmodx\.minecraft\journeymap\server\5.7\journeymap.server.dim0.config
-[22:13:12] [Server thread/INFO] [PropertiesBase] dim-1 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim-1.config
-[22:13:12] [Server thread/INFO] [PropertiesBase] dim-1 (Valid) Creating config file: L:\sttmodx\.minecraft\journeymap\server\5.7\journeymap.server.dim-1.config
-[22:13:12] [Server thread/INFO] [PropertiesBase] dim1 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim1.config
-[22:13:12] [Server thread/INFO] [PropertiesBase] dim1 (Valid) Creating config file: L:\sttmodx\.minecraft\journeymap\server\5.7\journeymap.server.dim1.config
-[22:13:12] [Server thread/INFO] [PropertiesBase] dim7 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim7.config
-[22:13:12] [Server thread/INFO] [PropertiesBase] dim7 (Valid) Creating config file: L:\sttmodx\.minecraft\journeymap\server\5.7\journeymap.server.dim7.config
-[22:13:12] [Server thread/INFO] [PropertiesBase] dim2 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim2.config
-[22:13:12] [Server thread/INFO] [PropertiesBase] dim2 (Valid) Creating config file: L:\sttmodx\.minecraft\journeymap\server\5.7\journeymap.server.dim2.config
-[22:13:20] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[22:13:20] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[22:13:20] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for bibliocraft
-[22:13:21] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from L:\sttmodx\.minecraft\journeymap\data\sp\�µ�����\waypoints
-[22:13:21] [Client thread/INFO] [JourneymapClient] Mapping started in L:\sttmodx\.minecraft\journeymap\data\sp\�µ�����\DIM0. Memory: 7072MB total, 5492MB free 
-[22:13:24] [Client thread/INFO] [JourneymapClient] Mapping halted in L:\sttmodx\.minecraft\journeymap\data\sp\�µ�����\DIM0
+MiniMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPets=true, showPlayers=true, showSelf=true, showVillagers=true, showWaypoints=true, zoomLevel=0, fontScale=2, locationFormat=xzyv, locationFormatVerbose=true, showCaves=true, showWaypointLabels=true, showMobHeading=true, showPlayerHeading=true, textureSmall=true, active=true, compassFontScale=2, enabled=true, frameAlpha=100, name=minimap, orientation=North, position=屏幕右上, preferredMapType=day, reticleOrientation=罗盘模式, shape=圆形, showBiome=true, showCompass=true, showFps=false, showLocation=true, showReticle=true, sizePercent=30, terrainAlpha=100}
+MiniMapProperties2{enabled=true, shape=矩形, position=屏幕中上, showFps=false, showBiome=true, showLocation=true, showWaypointLabels=true, sizePercent=30, frameAlpha=60, terrainAlpha=60, orientation=, compassFontScale=2, showCompass=true, showReticle=true, reticleOrientation=罗盘模式, preferredMapType=day, name=minimap2, id=2}
+FullMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPets=true, showPlayers=true, showSelf=true, showVillagers=true, showWaypoints=true, zoomLevel=0, fontScale=2, locationFormat=xzyv, locationFormatVerbose=true, showCaves=true, showWaypointLabels=true, showMobHeading=true, showPlayerHeading=true, textureSmall=true, preferredMapType=day, showGrid=true}
+WaypointProperties{autoHideLabel=true, beaconEnabled=true, boldLabel=false, createDeathpoints=false, fontScale=2, managerEnabled=true, maxDistance=0, name=waypoint, showDistance=true, showName=true, showRotatingBeam=true, showStaticBeam=true, showTexture=true, textureSmall=true}
+WebMapProperties: , enabled=false, port=8080, showMobs=true, showAnimals=true, showVillagers=true, showPets=true, showPlayers=true, showWaypoints=true, entityIconSetName=2D
+CoreProperties{announceMod=true, autoMapPoll=2000, browserPoll=2000, cacheAnimalsData=3100, cacheMobsData=3000, cachePlayerData=1000, cachePlayersData=2000, cacheVillagersData=2200, caveIgnoreGlass=true, isUpdateCheckEnabled=true, renderDelay=2, hideSneakingEntities=true, logLevel=INFO, mapAntialiasing=true, mapBathymetry=false, mapCaveLighting=true, mapCrops=true, mapPlants=false, mapPlantShadows=false, mapSurfaceAboveCaves=true, tileHighDisplayQuality=true, mapTransparency=true, maxAnimalsData=32, maxMobsData=32, maxPlayersData=32, maxVillagersData=32, optionsManagerViewed=5.1.4p2, radarLateralDistance=64, radarVerticalDistance=16, recordCacheStats=false, renderOverlayEventTypeName=ALL, renderOverlayPreEvent=true, renderDistanceCaveMin=3, renderDistanceCaveMax=3, renderDistanceSurfaceMin=4, renderDistanceSurfaceMax=7, revealShape=圆形, themeName=Victorian, tileRenderType=1}
+[12:48:58] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg �ms
+[12:49:01] [Client thread/INFO] [JourneymapClient] postInitialize ENTER
+[12:49:01] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.ChatEventHandler registered in MinecraftForgeBus
+[12:49:01] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.StateTickHandler registered in FMLCommonHandlerBus
+[12:49:01] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.WorldEventHandler registered in MinecraftForgeBus
+[12:49:01] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.ChunkUpdateHandler registered in MinecraftForgeBus
+[12:49:01] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.WaypointBeaconHandler registered in MinecraftForgeBus
+[12:49:01] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.TextureAtlasHandler registered in MinecraftForgeBus
+[12:49:01] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
+[12:49:01] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.MiniMapOverlayHandler registered in MinecraftForgeBus
+[12:49:01] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.KeyEventHandler registered in FMLCommonHandlerBus
+[12:49:01] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
+[12:49:01] [Client thread/TRACE] [ThemeFileHandler] Initializing themes ...
+[12:49:01] [Client thread/DEBUG] [PropertiesBase] Saved journeymap.webmap.config
+[12:49:01] [Client thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r321.94§8ms§r
+[12:49:09] [Client thread/INFO] [ColorManager] Loading blocks and textures...
+[12:49:09] [Client thread/INFO] [BlockMD] Built BlockMD cache (4495) : BlockMD.reset count 1 avg 64.33ms
+[12:49:09] [Client thread/INFO] [ColorHelper_1_7_10] initBlocksTexture: 4096x2048 loaded in 135.9325ms
+[12:49:10] [Client thread/WARN] [ColorPalette] Existing color palette's mods no longer match current loadout.
+[12:49:10] [Client thread/INFO] [ColorPalette] WAS: Academy Craft:1.0.7, Advanced Solar Panels:1.7.10-3.5.1, AgriCraft:1.7.10-1.5.0, Another One Bites The Dust:2.9.2, AppleCore:3.1.1, B0bGary's Growable Ores:2.5.4, BC Builders:7.1.23, BC Energy:7.1.23, BC Factory:7.1.23, BC Robotics:7.1.23, BC Silicon:7.1.23, BC Transport:7.1.23, BiblioCraft:1.11.7, BiblioWoods Natura Edition:1.5, BuildCraft Compat:7.1.7, BuildCraft:7.1.23, Chisel:2.9.5.11, CoFH ASM:000, CoFH Core:1.7.10R3.1.4, CodeChicken Core:1.0.7.47, Cooking for Blockheads:1.0.140, CraftGuide:1.7.1.0, CustomSteve:1.1.1-Beta, Ender IO Addons:0.10.13, Ender IO:1.7.10-2.3.0.429_beta, EnderCore:1.7.10-0.2.0.39_beta, EnderStorage:1.4.7.38, FastCraft:1.25, Forestry for Minecraft:4.2.16.64, Forge Mod Loader:7.10.99.99, IndustrialCraft 2:2.2.827-experimental, InputFix:1.7.10-v5, Inventory Tweaks:1.59-dev-152-cf6e263, Iron Chest:6.0.62.742, JourneyMap:5.1.4p2, LambdaLib:1.2.3, LambdaLib|Core:1.2.3, Mine & Blade Battlegear 2 - Bullseye:1.7.10, Minecraft Coder Pack:9.05, Minecraft Forge:10.13.4.1614, NEI Integration:1.1.2, Nether Portal Fix:1.0, No Mob Spawning on Trees:1.2.0-mc1.7.10, NoMoreRecipeConflict:1.7.10, Not Enough Items:1.0.5.120, NotEnoughIDs:1.4.3.4, Pam's HarvestCraft:1.7.10j, Railcraft:9.12.2.0, Ruins Spawning System:15.4, Serene Seasons:1.2.18, Simply Jetpacks:1.5.3, SlashBlade:mc1.7.10-r88, Sword Art Online UI:1.7.10-1.6.0-Dev1, The Twilight Forest:2.3.7, Torcherino:2.2s, Traincraft:4.4.1_021, Translocator:1.1.2.16, Treecapitator:1.7.2, UniDict:1.7.10-2.9.2, WAILA Plugins:MC1.7.10-0.2.0-25, Waila Harvestability:1.1.6, Waila:1.5.10, WanionLib:1.7.10-1.8, What Are We Looking At:1.3.1, bspkrsCore:6.16, �9MrCrayfish's Furniture Mod:3.4.7
+NOW: Academy Craft:1.0.7, Advanced Solar Panels:1.7.10-3.5.1, AgriCraft:1.7.10-1.5.0, Another One Bites The Dust:2.9.2, AppleCore:3.1.1, B0bGary's Growable Ores:2.5.4, BC Builders:7.1.23, BC Energy:7.1.23, BC Factory:7.1.23, BC Robotics:7.1.23, BC Silicon:7.1.23, BC Transport:7.1.23, BiblioCraft:1.11.7, BiblioWoods Natura Edition:1.5, BuildCraft Compat:7.1.7, BuildCraft:7.1.23, Chisel:2.9.5.11, CoFH ASM:000, CoFH Core:1.7.10R3.1.4, CodeChicken Core:1.0.7.47, Cooking for Blockheads:1.0.140, CraftGuide:1.7.1.0, CustomSteve:1.1.1-Beta, Ender IO Addons:0.10.13, Ender IO:1.7.10-2.3.0.429_beta, EnderCore:1.7.10-0.2.0.39_beta, EnderStorage:1.4.7.38, FastCraft:1.25, Forestry for Minecraft:4.2.16.64, Forge Mod Loader:7.10.99.99, Galacticraft Core:3.0.12, Galacticraft Planets:3.0.12, IndustrialCraft 2:2.2.827-experimental, InputFix:1.7.10-v5, Inventory Tweaks:1.59-dev-152-cf6e263, Iron Chest:6.0.62.742, JourneyMap:5.1.4p2, LambdaLib:1.2.3, LambdaLib|Core:1.2.3, Micdoodle8 Core:, Mine & Blade Battlegear 2 - Bullseye:1.7.10, Minecraft Coder Pack:9.05, Minecraft Forge:10.13.4.1614, More Planets:1.4.4, NEI Integration:1.1.2, Nether Portal Fix:1.0, No Mob Spawning on Trees:1.2.0-mc1.7.10, NoMoreRecipeConflict:1.7.10, Not Enough Items:1.0.5.120, NotEnoughIDs:1.4.3.4, Pam's HarvestCraft:1.7.10j, Railcraft:9.12.2.0, Ruins Spawning System:15.4, Simply Jetpacks:1.5.3, SlashBlade:mc1.7.10-r88, Sword Art Online UI:1.7.10-1.6.0-Dev1, The Twilight Forest:2.3.7, Torcherino:2.2s, Traincraft:4.4.1_021, Translocator:1.1.2.16, Treecapitator:1.7.2, UniDict:1.7.10-2.9.2, WAILA Plugins:MC1.7.10-0.2.0-25, Waila Harvestability:1.1.6, Waila:1.5.10, WanionLib:1.7.10-1.8, What Are We Looking At:1.3.1, bspkrsCore:6.16, �9MrCrayfish's Furniture Mod:3.4.7
+[12:49:10] [Client thread/INFO] [ColorManager] Initialized 4369 block colors from mods and resource packs in 392ms
+[12:49:10] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [GalacticraftCore:tile.viewScreen:0] (Transparency,Error)
+[12:49:10] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [enderioaddons:blockChassis:15] (Transparency,Error)
+[12:49:10] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [chisel:glass_pane:4] (OpenToSky,Transparency,Error,TransparentRoof)
+[12:49:10] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:1] (OpenToSky,Transparency,Error,TransparentRoof)
+[12:49:10] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:3] (OpenToSky,Transparency,Error,TransparentRoof)
+[12:49:10] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:5] (OpenToSky,Transparency,Error,TransparentRoof)
+[12:49:10] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.HugeLilyPad:0] (NoShadow,Transparency,Error,Plant,NoTopo)
+[12:49:10] [Client thread/INFO] [ColorPalette] Color palette file generated with 4364 colors in 60ms for: E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\colorpalette.json
+[12:49:10] [Client thread/INFO] [ColorManager] Updated color palette file: E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\colorpalette.json
+[12:49:22] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
+java.net.ConnectException: Connection timed out: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_261]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476) ~[?:1.8.0_261]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218) ~[?:1.8.0_261]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200) ~[?:1.8.0_261]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162) ~[?:1.8.0_261]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394) ~[?:1.8.0_261]
+	at java.net.Socket.connect(Socket.java:606) ~[?:1.8.0_261]
+	at java.net.Socket.connect(Socket.java:555) ~[?:1.8.0_261]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_261]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_261]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_261]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_261]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_261]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_261]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226) ~[?:1.8.0_261]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162) ~[?:1.8.0_261]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1046) ~[?:1.8.0_261]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1044) ~[?:1.8.0_261]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_261]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784) ~[?:1.8.0_261]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1043) ~[?:1.8.0_261]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990) ~[?:1.8.0_261]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570) ~[?:1.8.0_261]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:92) ~[?:1.8.0_261]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1490) ~[?:1.8.0_261]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1488) ~[?:1.8.0_261]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_261]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784) ~[?:1.8.0_261]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1487) ~[?:1.8.0_261]
+	at java.net.URL.openStream(URL.java:1067) ~[?:1.8.0_261]
+	at journeymap.common.version.VersionCheck$1.run(VersionCheck.java:131) [VersionCheck$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_261]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_261]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_261]
+[13:00:30] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[13:00:38] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
+[13:00:39] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[13:00:39] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[13:00:39] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 1040MB total, 574MB free 
+[13:00:39] [Client thread/INFO] [ChatLog] JourneyMap: 按下[J]键
+[13:07:02] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\data\mp\Minecraft~\DIM0

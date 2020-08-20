@@ -1,0 +1,12 @@
+uniform sampler2D mainTexture;
+uniform sampler2D lightmapTexture;
+uniform sampler2D toonTexture;
+uniform sampler2D spaTexture;
+uniform vec2 lightmapCoord;
+uniform vec3 lightDir;
+uniform bool pureColor;
+uniform bool enableLightmap;
+uniform bool enableToon;
+uniform int enableSpa;
+varying vec3 normal;
+varying vec3 ecPos;

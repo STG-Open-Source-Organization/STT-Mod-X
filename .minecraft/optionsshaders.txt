@@ -1,12 +1,12 @@
-#Sun Dec 01 16:47:03 CST 2019
+#Thu May 03 22:05:40 CST 2018
 shaderPack=OFF
-antialiasingLevel=0
+antialiasingLevel=2
 normalMapEnabled=true
 specularMapEnabled=true
 renderResMul=1.0
 shadowResMul=1.0
 handDepthMul=0.125
-cloudShadow=false
+cloudShadow=true
 oldHandLight=default
 oldLighting=default
 tweakBlockDamage=false

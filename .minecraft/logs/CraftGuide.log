@@ -1,0 +1,20 @@
+CraftGuide: Extracting 'base/base.png' to 'E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\config\CraftGuide\themes\base\base.png'
+CraftGuide: Extracting 'base/readme.txt' to 'E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\config\CraftGuide\themes\base\readme.txt'
+CraftGuide: Extracting 'base/spinner.png' to 'E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\config\CraftGuide\themes\base\spinner.png'
+CraftGuide: Extracting 'base/theme.xml' to 'E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\config\CraftGuide\themes\base\theme.xml'
+CraftGuide: Extracting 'dark/dark.png' to 'E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\config\CraftGuide\themes\dark\dark.png'
+CraftGuide: Extracting 'dark/dark_brew.png' to 'E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\config\CraftGuide\themes\dark\dark_brew.png'
+CraftGuide: Extracting 'dark/dark_craft.png' to 'E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\config\CraftGuide\themes\dark\dark_craft.png'
+CraftGuide: Extracting 'dark/spinner.png' to 'E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\config\CraftGuide\themes\dark\spinner.png'
+CraftGuide: Extracting 'dark/theme.xml' to 'E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\config\CraftGuide\themes\dark\theme.xml'
+CraftGuide: Extracting 'texpack_support/theme.xml' to 'E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\config\CraftGuide\themes\texpack_support\theme.xml'
+(re)loading themes...
+  Trying to load directory: base
+    Found theme.xml
+    Loaded base
+  Trying to load directory: dark
+    Found theme.xml
+    Loaded dark
+  Trying to load directory: texpack_support
+    Found theme.xml
+    Loaded texpack_support

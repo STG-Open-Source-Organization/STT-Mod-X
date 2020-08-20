@@ -1,0 +1,7 @@
+textures:Flandre
+model:Flandre.pmd
+BGM:
+enable:off
+physics:off
+autoreload:off
+hardCALC:off

@@ -1,0 +1,251 @@
+Transformers:
+- cpw.mods.fml.common.asm.transformers.PatchingTransformer
+- cpw.mods.fml.common.asm.transformers.MarkerTransformer
+- cpw.mods.fml.common.asm.transformers.SideTransformer
+- cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+- net.minecraftforge.classloading.FluidIdTransformer
+- codechicken.lib.asm.ClassHeirachyManager
+- codechicken.core.asm.InterfaceDependancyTransformer
+- codechicken.core.asm.TweakTransformer
+- codechicken.core.asm.DelegatedTransformer
+- codechicken.core.asm.DefaultImplementationTransformer
+- mrtjp.relocation.asm.Transformer
+- codechicken.nei.asm.NEITransformer
+- api.player.forge.PlayerAPITransformer
+- coolsquid.squidapi.asm.SquidAPIPlugin
+- cpw.mods.fml.common.asm.transformers.DeobfuscationTransformer
+- cpw.mods.fml.common.asm.transformers.AccessTransformer
+- net.minecraftforge.transformers.ForgeAccessTransformer
+- codechicken.core.asm.CodeChickenAccessTransformer
+- cpw.mods.fml.common.asm.transformers.ModAccessTransformer
+- cpw.mods.fml.common.asm.transformers.ItemStackTransformer
+- squeek.applecore.asm.TransformerModuleHandler
+- com.enderio.core.common.transform.EnderCoreTransformer
+- com.enderio.core.common.transform.EnderCoreTransformerClient
+- fastcraft.J
+- cpw.mods.fml.common.asm.transformers.TerminalTransformer
+- cpw.mods.fml.common.asm.transformers.ModAPITransformer
+
+Transformer exclusions:
+- codechicken.nei.asm.NEICorePlugin
+- cpw.mods.fml.relauncher.FMLCorePlugin
+- cpw.mods.fml.common.patcher.
+- scala
+- cpw.mods.fml.relauncher.
+- ic2.core.coremod.IC2core
+- codechicken.core.launch.CodeChickenCorePlugin
+- org.objectweb.asm.
+- net.minecraftforge.classloading.FMLForgePlugin
+- mrtjp.core.handler.CorePlugin
+- codechicken.obfuscator
+- org.bouncycastle.
+- cpw.mods.fml.common.asm.transformers.
+- coolsquid.squidapi.exception
+- codechicken.lib.config
+- mrtjp.relocation.asm.RelocationPlugin
+- fastcraft
+- codechicken.nei.asm
+- codechicken.core.launch.DepLoader
+- cpw.mods.fml.repackage.
+- squeek.applecore.asm
+- com.enderio.core.common.transform.EnderCorePlugin
+- codechicken.core.asm
+- codechicken.lib.asm
+- net.minecraft.launchwrapper.injector.
+- api.player.forge.PlayerAPIPlugin
+- cpw.mods.fml.common.asm.transformers.deobf.
+- squeek.applecore.AppleCore
+- squeek.asmhelper
+- coolsquid.squidapi.asm.SquidAPIPlugin
+- mrtjp.relocation.asm
+- com.google.common.
+- javax.
+- coolsquid.squidapi.asm
+- argo.
+- api.player.forge
+
+Mod list:
+- Advanced Solar Panels 1.7.10-3.5.1
+- AgriCraft 1.7.10-1.5.0
+- Another One Bites The Dust 2.9.2
+- AppleCore 1.3.8
+- Artifacts 1.1.3
+- Avaritia 1.11
+- B0bGary's Growable Ores 2.1.0
+- BC Builders 7.1.18
+- BC Energy 7.1.18
+- BC Factory 7.1.18
+- BC Robotics 7.1.18
+- BC Silicon 7.1.18
+- BC Transport 7.1.18
+- BD Lib 1.9.4.109
+- BiblioCraft 1.11.5
+- BiblioWoods Natura Edition 1.5
+- BuildCraft 7.1.18
+- BuildCraft Compat 7.1.5
+- Chisel 2.9.5.11
+- CodeChicken Core 1.0.7.47
+- Convenient Recipes 1.3.1
+- Cooking for Blockheads 1.0.140
+- Ender IO 1.7.10-2.3.0.429_beta
+- Ender IO Addons 0.10.11
+- EnderCore 1.7.10-0.2.0.39_beta
+- EnderStorage 1.4.7.37
+- FastCraft 1.23
+- Forge Microblocks 1.2.0.345
+- Forge Mod Loader 7.10.99.99
+- Forge Multipart 1.2.0.345
+- ForgeRelocation 0.0.1.4
+- InGame Info XML 2.8.1.82
+- IndustrialCraft 2 2.2.821-experimental
+- Iron Chest 6.0.60.741
+- JourneyMap 5.1.4p2
+- LunatriusCore 1.1.2.21
+- MCFrames 1.0
+- Minecraft Coder Pack 9.05
+- Minecraft Forge 10.13.4.1614
+- Minecraft Multipart Plugin 1.2.0.345
+- MrTJPCore 1.1.0.33
+- NEI Integration 1.1.2
+- Nether Portal Fix 1.0
+- No Mob Spawning on Trees 1.2.0-mc1.7.10
+- Not Enough Items 1.0.5.120
+- Pam's HarvestCraft 1.7.10j
+- Player API 1.4
+- RelocationFMP 0.0.1.2
+- Ruins Spawning System 13.4
+- Simply Jetpacks 1.5.3
+- SlashBlade mc1.7.10-r77
+- SquidAPI 1.1.14
+- Sword Art Online UI 1.7.10-1.6.0-Dev1
+- The Twilight Forest 2.3.2
+- Torcherino 2.2s
+- Translocator 1.1.2.16
+- UniDict 1.7.10-2.9.2
+- WAILA Plugins MC1.7.10-0.2.0-25
+- Waila 1.5.10
+- Waila Harvestability 1.1.6
+- WanionLib 1.7.10-1.5
+- What Are We Looking At 1.3.1
+- bspkrsCore 6.16
+- ?9MrCrayfish's Furniture Mod 3.4.7
+
+Classpath files:
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/com/google/guava/guava/17.0/guava-17.0.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/com/mojang/netty/1.6/netty-1.6.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/com/mojang/realms/1.3.5/realms-1.3.5.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/java3d/vecmath/1.3.1/vecmath-1.3.1.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/io/netty/netty-all/4.0.10.Final/netty-all-4.0.10.Final.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/com/google/guava/guava/15.0/guava-15.0.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/commons-io/commons-io/2.4/commons-io-2.4.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/commons-codec/commons-codec/1.9/commons-codec-1.9.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/com/mojang/authlib/1.5.21/authlib-1.5.21.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl/2.9.1/lwjgl-2.9.1.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.1/lwjgl_util-2.9.1.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl-platform/2.9.1/lwjgl-platform-2.9.1-natives-windows.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/tv/twitch/twitch/5.16/twitch-5.16.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/tv/twitch/twitch-platform/5.16/twitch-platform-5.16-natives-windows-64.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/libraries/tv/twitch/twitch-external-platform/4.5/twitch-external-platform-4.5-natives-windows-64.jar
+- file:/K:/%removed%%e5%a4%9amod%e7%94%9f%e5%ad%98/.minecraft/versions/1.7.10/1.7.10.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/%5B工业2实验版%5Dindustrialcraft-2-2.2.821-experimental.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/AppleCore苹果核-mc1.7.10-1.3.8.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/CodeChickenCoreNEI前置Mod-1.7.10-1.0.7.47-universal.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/1.7.10/CodeChickenLib-1.7.10-1.1.3.138-universal.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/EnderCore末影接口核心-1.7.10-0.2.0.39_beta.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/fastcraft-1.23.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/1.7.10/ForgeMultipart-1.7.10-1.2.0.345-universal.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/1.7.10/ForgeRelocation-1.7.10-0.0.1.4-universal.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/1.7.10/Mr%removed%JPCore-1.1.0.33-universal.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/NotEnoughItemsNEI-1.7.10-1.0.5.120-universal.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/PlayerAPI玩家API-1.7.10-1.4.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/SquidAPI-1.1.15.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/ic2/EJML-core-0.26.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/mcjtylib前置Mod-1.8.1.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/1.7.10/commons-codec-1.9.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/1.7.10/commons-compress-1.8.1.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/%5B暮色森林%5Dtwilightforest-1.7.10-2.3.2.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/%5B遗迹生成%5DRuins-1.7.10%20-%20副本.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/%5B高级太阳能%5D.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/AgriCraft农业工艺-1.7.10-1.5.0.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/Artifacts独特文物-1.1.3.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/Avaritia-1.11.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/bdlib基因工业前置-1.9.4.109-mc1.7.10.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/BiblioCraft展示架%5Bv1.11.5%5D%5BMC1.7.10%5D.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/BiblioWoods展示架拓展%5BNatura%5D%5Bv1.5%5D.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/buildcraft建筑时代-7.1.18.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/buildcraft-compat建筑时代兼容前置-7.1.5.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/Chisel凿子-2.9.5.11.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/ConvenientRecipes便利合成1.7.10-1.3.1.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/cookingbook烹饪书-mc1.7.10-1.0.140.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/Waila-1.5.10_1.7.10.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/EnderIO末影接口-1.7.10-2.3.0.429_beta.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/EnderIOAddons末影接口扩展-1.7.10-2.3.0.427_beta-0.10.11.54_beta.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/EnderStorage末影储存-1.7.10-1.4.7.37-universal.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/LunatriusCore-1.7.10-1.1.2.21-universal.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/InGameInfoXML游戏内信息显示-1.7.10-2.8.1.82-universal.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/ironchest更多箱子-1.7.10-6.0.60.741-universal.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/journeymap旅行地图-1.7.10-5.1.4p2-unlimited.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/MrCrayfishFurnitureMod家具modv3.4.7(1.7.10).jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/NEIIntegrationNEI拓展-MC1.7.10-1.1.2.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/netherportalfix-下界传送机制修复mc1.7.10-1.1.0.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/NoMobSpawningOn%removed%rees树上不再生成怪物-1.2.0-mc1.7.10.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/Pam's%20HarvestCraft潘马斯工艺%201.7.10k.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/saouiUI美化-1.7.10-1.6.0.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/SimplyJetpacks简易飞行背包-MC1.7.10-1.5.3.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/%removed%ranslocator%20高级传送器-1.7.10-1.1.2.16-universal.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/WailaHarvestability挖掘公举及等级-mc1.7.10-1.1.6.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/WAILAPlugins%20挖掘公举及等级-MC1.7.10-0.2.0-25.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/WanionLib-1.7.10-1.5.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/Wawla高亮显示-1.0.5.120.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/加速火把.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/拔刀剑.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/矿物甘蔗MOD.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/1.7.10/%5B1.7.10%5DbspkrsCore-universal-6.16.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/1.7.10/ForgeRelocationFMP-1.7.10-0.0.1.2-universal.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/AOBD浆果矿物-2.9.2.jar
+- file:/K:/%removed%多mod生存/.minecraft/mods/UniDict矿辞统一-1.7.10-2.9.2.jar
+
+Blackboard:
+- fcimc9afc808c={wrUpdate%removed%ime=0}
+- %removed%weakClasses=[]
+- %removed%weaks=[]
+- fml.deobfuscatedEnvironment=false
+- launchArgs={}
+- ArgumentList=[--uuid, 55d08702-69c3-5be0-b84b-71baba6dbd05, --userProperties, {}, --height, 480, --assetIndex, 1.7.10, --assetsDir, K:\%removed%多mod生存\.minecraft\assets, --width, 854, --gameDir, K:\%removed%多mod生存\.minecraft, --access%removed%oken, %removed%, --version, 1.7.10-Forge10.13.4.1614-1.7.10, --user%removed%ype, Legacy, --username, %removed%]
+- fcVersion=1.23

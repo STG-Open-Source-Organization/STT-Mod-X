@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-|=================================================================|
-| INVENTORY TWEAKS Mod - https://inventory-tweaks.readthedocs.org |
-| Tree configuration                                              |
-|=================================================================|
+|==============================================================|
+| INVENTORY TWEAKS Mod - By Jimeo Wan (jimeo.wan at gmail.com) |
+| Tree configuration                                           |
+|==============================================================|
 
 # Q: WHAT IS THIS?
 # A: This file is used to store all the keywords you can use to create item rules, but also to define the items order.
@@ -16,11 +16,14 @@
 # Q: THE FILE IS BROKEN AND I DON'T KNOW WHAT TO DO =(
 # A: Just delete this file, the default tree will be reloaded next time you sort something!
 
+# FULL DOCUMENTATION
+# http://modding.kalam-alami.net/invtweaks
+
 # CREDITS
 # Thanks to Larandar & Lunaqua for their contributions.
 -->
 <!-- Note: 'stuff' matches everything, even items that don't appear here -->
-<stuff treeVersion="1.12.2">
+<stuff treeVersion="1.7.0">
     <equipment>
         <weapon>
             <sword>
@@ -30,12 +33,9 @@
                 <goldSword id="golden_sword"/>
                 <woodSword id="wooden_sword"/>
             </sword>
-            <shield id="shield"/>
             <munition>
                 <bow id="bow"/>
                 <arrow id="arrow"/>
-                <spectralArrow id="spectral_arrow"/>
-                <tippedArrow id="tipped_arrow"/>
                 <snowball id="snowball"/>
             </munition>
         </weapon>
@@ -86,7 +86,6 @@
                 <ironChestplate id="iron_chestplate"/>
                 <goldChestplate id="golden_chestplate"/>
                 <leatherChestplate id="leather_chestplate"/>
-                <elytra id="elytra"/>
             </chestplate>
             <leggings>
                 <diamondLeggings id="diamond_leggings"/>
@@ -107,31 +106,11 @@
     <block>
         <naturalBlock>
             <stones>
-                <stone>
-                    <rawStone>
-                        <smoothstone id="stone" damage="0"/>
-                        <granite id="stone" damage="1"/>
-                        <diorite id="stone" damage="3"/>
-                        <andesite id="stone" damage="5"/>
-                    </rawStone>
-                    <polishedStone>
-                        <polishedGranite id="stone" damage="2"/>
-                        <polishedDiorite id="stone" damage="4"/>
-                        <polishedAndesite id="stone" damage="6"/>
-                    </polishedStone>
-                </stone>
+                <stone id="stone"/>
                 <cobblestone id="cobblestone"/>
                 <mossStone id="mossy_cobblestone"/>
-                <endStones>
-                    <endStone id="end_stone"/>
-                    <whiteStone id="end_stone"/>
-                </endStones>
-                <prismarine>
-                    <rawPrismarine id="prismarine" damage="0"/>
-                    <prismarineBricks id="prismarine" damage="1"/>
-                    <darkPrismarine id="prismarine" damage="2"/>
-                </prismarine>
-                <purpurBlock id="purpur_block"/>
+                <endStone id="end_stone"/>
+                <whiteStone id="end_stone"/>
             </stones>
             <oreBlock>
                 <coalOreBlock id="coal_ore"/>
@@ -145,7 +124,6 @@
             </oreBlock>
             <dirts>
                 <dirt id="dirt" damage="0"/>
-                <coarseDirt id="dirt" damage="1"/>
                 <grasslessDirt id="dirt" damage="1"/>
                 <podzol id="dirt" damage="2"/>
             </dirts>
@@ -167,9 +145,6 @@
                     <classicSandstone id="sandstone" damage="0"/>
                     <creeperSandstone id="sandstone" damage="1"/>
                     <smoothSandstone id="sandstone" damage="2"/>
-                    <redSandstone id="red_sandstone" damage="0"/>
-                    <chiseledRedSandstone id="red_sandstone" damage="1"/>
-                    <smoothRedSandstone id="red_sandstone" damage="2"/>
                 </sandstone>
             </sands>
             <gravel id="gravel"/>
@@ -184,18 +159,13 @@
             <cobweb id="web"/>
             <monsterSpawner id="mob_spawner"/>
             <bedrock id="bedrock"/>
-            <sponge>
-                <drySponge id="sponge" damage="0"/>
-                <wetSponge id="sponge" damage="1"/>
-            </sponge>
+            <sponge id="sponge"/>
             <grass id="grass"/>
-            <grassPath id="grass_path"/>
             <mycelium id="mycelium"/>
             <mushroomGrass id="mycelium"/>
             <farmland id="farmland"/>
             <snow id="snow"/>
             <ice id="ice"/>
-            <frostedIce id="frosted_ice"/>
             <packedIce id="packed_ice"/>
             <liquid>
                 <water id="flowing_water"/>
@@ -206,7 +176,6 @@
             <portal id="portal"/>
             <airPortal id="end_portal_frame"/>
             <endPortal id="end_portal"/>
-            <endGateway id="end_gateway"/>
             <endPortalFrame id="end_portal_frame"/>
             <air id="air"/>
             <fire id="fire"/>
@@ -217,8 +186,6 @@
             </mushroomBlock>
             <dragonEgg id="dragon_egg"/>
             <hiddenSilverfish id="monster_egg"/>
-            <seaLantern id="sea_lantern"/>
-            <magma id="magma"/>
         </naturalBlock>
         <wool>
             <whiteWool id="wool" damage="0"/>
@@ -243,24 +210,10 @@
         <manufacturedBlock>
             <ladder id="ladder"/>
             <fence>
-                <woodenFence>
-                    <oakFence id="fence"/>
-                    <spruceFence id="spruce_fence"/>
-                    <birchFence id="birch_fence"/>
-                    <jungleFence id="jungle_fence"/>
-                    <darkOakFence id="dark_oak_fence"/>
-                    <acaciaFence id="acacia_fence"/>
-                </woodenFence>
+                <woodenFence id="fence"/>
                 <netherFence id="nether_brick_fence"/>
                 <netherBrickFence id="nether_brick_fence"/>
-                <fenceGate>
-                    <oakFenceGate id="fence_gate"/>
-                    <spruceFenceGate id="spruce_fence_gate"/>
-                    <birchFenceGate id="birch_fence_gate"/>
-                    <jungleFenceGate id="jungle_fence_gate"/>
-                    <darkOakFenceGate id="dark_oak_fence_gate"/>
-                    <acaciaFenceGate id="acacia_fence_gate"/>
-                </fenceGate>
+                <fenceGate id="fence_gate"/>
             </fence>
             <carpet>
                 <whiteCarpet id="carpet" damage="0"/>
@@ -307,12 +260,8 @@
                         <crackedStoneBrick id="stonebrick" damage="2"/>
                         <circleStoneBrick id="stonebrick" damage="3"/>
                         <chiseledStoneBrick id="stonebrick" damage="3"/>
-                        <endStoneBricks id="end_bricks"/>
                     </stoneBricks>
-                    <netherBricks>
-                        <netherBrick id="nether_brick"/>
-                        <redNetherBrick id="red_nether_brick"/>
-                    </netherBricks>
+                    <netherBrick id="nether_brick"/>
                 </bricks>
                 <hardenedClay id="hardened_clay"/>
                 <stainedClay>
@@ -335,64 +284,6 @@
                     <redStainedClay id="stained_hardened_clay" damage="14"/>
                     <blackStainedClay id="stained_hardened_clay" damage="15"/>
                 </stainedClay>
-                <concrete>
-                    <whiteConcrete id="concrete" damage="0"/>
-                    <orangeConcrete id="concrete" damage="1"/>
-                    <magentaConcrete id="concrete" damage="2"/>
-                    <lightBlueConcrete id="concrete" damage="3"/>
-                    <yellowConcrete id="concrete" damage="4"/>
-                    <lightGreenConcrete id="concrete" damage="5"/>
-                    <limeConcrete id="concrete" damage="5"/>
-                    <pinkConcrete id="concrete" damage="6"/>
-                    <grayConcrete id="concrete" damage="7"/>
-                    <lightGrayConcrete id="concrete" damage="8"/>
-                    <cyanConcrete id="concrete" damage="9"/>
-                    <purpleConcrete id="concrete" damage="10"/>
-                    <blueConcrete id="concrete" damage="11"/>
-                    <brownConcrete id="concrete" damage="12"/>
-                    <greenConcrete id="concrete" damage="13"/>
-                    <darkGreenConcrete id="concrete" damage="13"/>
-                    <redConcrete id="concrete" damage="14"/>
-                    <blackConcrete id="concrete" damage="15"/>
-                </concrete>
-                <concretePowder>
-                    <whiteConcretePowder id="concrete_powder" damage="0"/>
-                    <orangeConcretePowder id="concrete_powder" damage="1"/>
-                    <magentaConcretePowder id="concrete_powder" damage="2"/>
-                    <lightBlueConcretePowder id="concrete_powder" damage="3"/>
-                    <yellowConcretePowder id="concrete_powder" damage="4"/>
-                    <lightGreenConcretePowder id="concrete_powder" damage="5"/>
-                    <limeConcretePowder id="concrete_powder" damage="5"/>
-                    <pinkConcretePowder id="concrete_powder" damage="6"/>
-                    <grayConcretePowder id="concrete_powder" damage="7"/>
-                    <lightGrayConcretePowder id="concrete_powder" damage="8"/>
-                    <cyanConcretePowder id="concrete_powder" damage="9"/>
-                    <purpleConcretePowder id="concrete_powder" damage="10"/>
-                    <blueConcretePowder id="concrete_powder" damage="11"/>
-                    <brownConcretePowder id="concrete_powder" damage="12"/>
-                    <greenConcretePowder id="concrete_powder" damage="13"/>
-                    <darkGreenConcretePowder id="concrete_powder" damage="13"/>
-                    <redConcretePowder id="concrete_powder" damage="14"/>
-                    <blackConcretePowder id="concrete_powder" damage="15"/>
-                </concretePowder>
-                <glazedTerracotta>
-                    <whiteGlazedTerracotta id="white_glazed_terracotta"/>
-                    <blackGlazedTerracotta id="black_glazed_terracotta"/>
-                    <redGlazedTerracotta id="red_glazed_terracotta"/>
-                    <greenGlazedTerracotta id="green_glazed_terracotta"/>
-                    <brownGlazedTerracotta id="brown_glazed_terracotta"/>
-                    <blueGlazedTerracotta id="blue_glazed_terracotta"/>
-                    <purpleGlazedTerracotta id="purple_glazed_terracotta"/>
-                    <cyanGlazedTerracotta id="cyan_glazed_terracotta"/>
-                    <silverGlazedTerracotta id="silver_glazed_terracotta"/>
-                    <grayGlazedTerracotta id="gray_glazed_terracotta"/>
-                    <pinkGlazedTerracotta id="pink_glazed_terracotta"/>
-                    <limeGlazedTerracotta id="lime_glazed_terracotta"/>
-                    <yellowGlazedTerracotta id="yellow_glazed_terracotta"/>
-                    <lightBlueGlazedTerracotta id="light_blue_glazed_terracotta"/>
-                    <magentaGlazedTerracotta id="magenta_glazed_terracotta"/>
-                    <orangeGlazedTerracotta id="orange_glazed_terracotta"/>
-                </glazedTerracotta>
                 <glass>
                     <glassBlock id="glass"/>
                     <glassPane id="glass_pane"/>
@@ -457,7 +348,6 @@
                     <netherBrickStairs id="nether_brick_stairs"/>
                     <sandstoneStairs id="sandstone_stairs"/>
                     <quartzStairs id="quartz_stairs"/>
-                    <purpurStairs id="purpur_stairs"/>
                 </stairs>
                 <slabs>
                     <woodenSlabs>
@@ -475,7 +365,6 @@
                     <stoneBrickSlab id="stone_slab" damage="5"/>
                     <netherBrickSlab id="stone_slab" damage="6"/>
                     <quartzSlab id="stone_slab" damage="7"/>
-                    <purpurSlab id="purpur_slab"/>
                     <doubleSlab>
                         <woodenDoubleSlabs>
                             <woodenStoneDoubleSlab id="double_stone_slab" damage="2"/>
@@ -494,7 +383,6 @@
                         <smoothStoneDoubleSlab id="double_stone_slab" damage="8"/>
                         <smoothSandstoneDoubleSlab id="double_stone_slab" damage="9"/>
                         <quartzTileDoubleSlab id="double_stone_slab" damage="10"/>
-                        <purpurDoubleSlab id="purpur_double_slab"/>
                     </doubleSlab>
                 </slabs>
                 <oreBlock>
@@ -510,15 +398,7 @@
                 <hayBale id="hay_block"/>
                 <stick id="stick"/>
                 <stickDict oreDictName="stickWood"/>
-                <purpurPillar id="purpur_pillar"/>
-                <netherWartBlock id="nether_wart_block"/>
-                <boneBlock id="bone_block"/>
             </constructionBlock>
-            <banner>
-                <itemBanner id="banner"/>
-                <standingBanner id="standing_banner"/>
-                <wallBanner id="wall_banner"/>
-            </banner>
             <itemBlock>
                 <cauldronBlock id="cauldron"/>
                 <brewingStandBlock id="brewing_stand"/>
@@ -557,19 +437,13 @@
                 <woodenButton id="wooden_button"/>
             </buttons>
             <doors>
-                <woodenDoor>
-                    <oakDoor id="wooden_door"/>
-                    <spruceDoor id="spruce_door"/>
-                    <birchDoor id="birch_door"/>
-                    <jungleDoor id="jungle_door"/>
-                    <acaciaDoor id="acacia_door"/>
-                    <darkOakDoor id="dark_oak_door"/>
-                </woodenDoor>
+                <doorWood id="wooden_door"/>
+                <woodenDoor id="wooden_door"/>
+                <doorIron id="iron_door"/>
                 <ironDoor id="iron_door"/>
-                <trapdoor>
-                    <woodenTrapdoor id="trapdoor"/>
-                    <ironTrapdoor id="iron_trapdoor"/>
-                </trapdoor>
+                <trapdoor id="trapdoor"/>
+                <woodenDoorBlock id="wooden_door"/>
+                <ironDoorBlock id="wooden_door"/>
             </doors>
             <redstoneWire id="redstone_wire"/>
             <redstoneTorch id="unlit_redstone_torch"/>
@@ -579,12 +453,7 @@
             <redstoneRepeater id="powered_repeater"/>
             <dispenser id="dispenser"/>
             <noteBlock id="noteblock"/>
-            <commandBlocks>
-                <commandBlock id="command_block"/>
-                <repeatingCommandBlock id="repeating_command_block"/>
-                <chainCommandBlock id="chain_command_block"/>
-            </commandBlocks>
-            <observer id="observer"/>
+            <commandBlock id="command_block"/>
             <daylightSensor id="daylight_detector"/>
             <redstoneBlock id="redstone_block"/>
             <hopper id="hopper"/>
@@ -592,10 +461,6 @@
             <redstoneComparator id="comparator"/>
             <redstoneComparator id="unpowered_comparator"/>
             <redstoneComparator id="powered_comparator"/>
-            <slimeBlock id="slime"/>
-            <barrier id="barrier"/>
-            <structureBlock id="structure_block"/>
-            <structureVoid id="structure_void"/>
         </mechanism>
     </block>
     <resources>
@@ -641,7 +506,6 @@
             <egg id="egg"/>
             <bone id="bone"/>
             <leather id="leather"/>
-            <rabbitHide id="rabbit_hide"/>
             <string id="string"/>
             <feather id="feather"/>
             <gunpowder id="gunpowder"/>
@@ -649,14 +513,8 @@
             <enderPearl id="ender_pearl"/>
             <blazeRod id="blaze_rod"/>
             <ghastTear id="ghast_tear"/>
-            <ironNugget id="iron_nugget"/>
             <goldNugget id="gold_nugget"/>
             <netherStar id="nether_star"/>
-            <prismarineCrystals id="prismarine_crystals"/>
-            <prismarineCrystal id="prismarine_crystals"/>
-            <prismarineShard id="prismarine_shard"/>
-            <shulkerShell id="shulker_shell"/>
-            <totemOfUndying id="totem_of_undying"/>
         </huntingResources>
         <farmingResources>
             <milk id="milk_bucket"/>
@@ -664,7 +522,6 @@
             <paper id="paper"/>
             <book id="book"/>
             <sugarCane id="reeds"/>
-            <popChorusFruit id="chorus_fruit_popped"/>
         </farmingResources>
         <dye>
             <boneMeal id="dye" damage="15"/>
@@ -696,7 +553,6 @@
     <item>
         <utility>
             <torch id="torch"/>
-            <endRod id="end_rod"/>
             <flintAndSteel id="flint_and_steel"/>
             <craftingTable id="crafting_table"/>
             <furnace id="furnace"/>
@@ -704,22 +560,6 @@
             <chests>
                 <chest id="chest"/>
                 <enderChest id="ender_chest"/>
-                <whiteShulkerBox id="white_shulker_box"/>
-                <blackShulkerBox id="black_shulker_box"/>
-                <redShulkerBox id="red_shulker_box"/>
-                <greenShulkerBox id="green_shulker_box"/>
-                <brownShulkerBox id="brown_shulker_box"/>
-                <blueShulkerBox id="blue_shulker_box"/>
-                <purpleShulkerBox id="purple_shulker_box"/>
-                <cyanShulkerBox id="cyan_shulker_box"/>
-                <silverShulkerBox id="silver_shulker_box"/>
-                <grayShulkerBox id="gray_shulker_box"/>
-                <pinkShulkerBox id="pink_shulker_box"/>
-                <limeShulkerBox id="lime_shulker_box"/>
-                <yellowShulkerBox id="yellow_shulker_box"/>
-                <lightBlueShulkerBox id="light_blue_shulker_box"/>
-                <magentaShulkerBox id="magenta_shulker_box"/>
-                <orangeShulkerBox id="orange_shulker_box"/>
             </chests>
             <beacon id="beacon"/>
             <anvil id="anvil"/>
@@ -747,7 +587,6 @@
                 <goldHorseArmor id="golden_horse_armor"/>
                 <diamondHorseArmor id="diamond_horse_armor"/>
             </horseArmor>
-            <knoweldgeBook id="knowledge_book"/>
         </utility>
         <bucket>
             <emptyBucket id="bucket"/>
@@ -759,7 +598,6 @@
             <compass id="compass"/>
             <emptyMap id="map"/>
             <map id="filled_map"/>
-            <filledMap id="filled_map"/>
         </instrument>
         <vehicle>
             <boat id="boat"/>
@@ -775,6 +613,10 @@
         </vehicle>
         <decoration>
             <bed id="bed"/>
+            <door>
+                <doorIron id="iron_door"/>
+                <doorWood id="wooden_door"/>
+            </door>
             <painting id="painting"/>
             <sign id="sign"/>
             <bookShelf id="bookshelf"/>
@@ -798,29 +640,21 @@
             </musicDisc>
             <flowerPotBlock id="flower_pot"/>
             <headBlock id="skull"/>
-            <armorStand id="armor_stand"/>
-            <endCrystal id="end_crystal"/>
         </decoration>
         <food>
             <edibleFood>
                 <mushroomStew id="mushroom_stew"/>
-                <beetrootSoup id="beetroot_soup"/>
                 <cookedFood>
                     <cookedPorkchop id="cooked_porkchop"/>
-                    <cookedFish id="cooked_fish" damage="0"/>
-                    <cookedSalmon id="cooked_fish" damage="1"/>
+                    <cookedFish id="cooked_fished" damage="0"/>
+                    <cookedSalmon id="cooked_fished" damage="1"/>
                     <steak id="cooked_beef"/>
                     <cookedChicken id="cooked_chicken"/>
                     <bakedPotato id="baked_potato"/>
-                    <cookedMutton id="cooked_mutton"/>
-                    <cookedRabbit id="cooked_rabbit"/>
-                    <rabbitStew id="rabbit_stew"/>
                 </cookedFood>
                 <bread id="bread"/>
                 <pumpkinPie id="pumpkin_pie"/>
                 <melonSlice id="melon"/>
-                <chorusFruit id="chorus_fruit"/>
-                <beetroot id="beetroot"/>
                 <carrot>
                     <carrot id="carrot"/>
                     <goldenCarrot id="golden_carrot"/>
@@ -838,8 +672,6 @@
                     <rawBeef id="beef"/>
                     <rawChicken id="chicken"/>
                     <potato id="potato"/>
-                    <rawMutton id="mutton"/>
-                    <rawRabbit id="rabbit"/>
                 </rawFood>
             </edibleFood>
             <poisonedFood>
@@ -857,7 +689,6 @@
         </food>
         <plant>
             <flower>
-                <flowerChorus id="chorus_flower"/>
                 <flowerYellow id="yellow_flower"/>
                 <dandelion id="yellow_flower"/>
                 <flowerRed>
@@ -914,7 +745,6 @@
                 <wheatSeed id="wheat_seeds"/>
                 <pumpkinSeed id="pumpkin_seeds"/>
                 <melonSeed id="melon_seeds"/>
-                <beetrootSeeds id="beetroot_seeds"/>
             </seed>
             <netherWart id="nether_wart"/>
             <netherWart id="nether_wart"/>
@@ -937,248 +767,140 @@
             <potatoBlock id="potatoes"/>
             <potatoesBlock id="potatoes"/>
             <lilyPad id="waterlily"/>
-            <chorusPlant id="chorus_plant"/>
         </plant>
         <fireworks id="firework_charge"/>
         <potion>
             <drinkablePotion>
                 <neutralPotion>
-                    <potionEmpty id="potion" data='{Potion:"minecraft:empty"}'/>
-                    <potionWater id="potion" data='{Potion:"minecraft:water"}'/>
-                    <waterBottle id="potion" data='{Potion:"minecraft:water"}'/>
-                    <potionAwkward id="potion" data='{Potion:"minecraft:awkward"}'/>
-                    <potionThick id="potion" data='{Potion:"minecraft:thick"}'/>
-                    <potionMundane id="potion" data='{Potion:"minecraft:mundane"}'/>
+                    <waterBottle id="potion" damage="0"/>
+                    <awkwardPotion id="potion" damage="16"/>
+                    <thickPotion id="potion" damage="32"/>
+                    <mundanePotionExtended id="potion" damage="64"/>
+                    <mundanePotion id="potion" damage="8192"/>
                 </neutralPotion>
                 <positivePotion>
                     <regenerationPotion>
-                        <potionRegeneration id="potion" data='{Potion:"minecraft:regeneration"}'/>
-                        <potionRegenerationEx id="potion" data='{Potion:"minecraft:long_regeneration"}'/>
-                        <potionRegenerationII id="potion" data='{Potion:"minecraft:strong_regeneration"}'/>
+                        <potionRegeneration id="potion" damage="8193"/>
+                        <potionRegenerationEx id="potion" damage="8257"/>
+                        <potionRegenerationII id="potion" damage="8225"/>
                     </regenerationPotion>
                     <swiftnessPotion>
-                        <potionSwiftness id="potion" data='{Potion:"minecraft:swiftness"}'/>
-                        <potionSwiftnessEx id="potion" data='{Potion:"minecraft:long_swiftness"}'/>
-                        <potionSwiftnessII id="potion" data='{Potion:"minecraft:strong_swiftness"}'/>
+                        <potionSwiftness id="potion" damage="8194"/>
+                        <potionSwiftnessEx id="potion" damage="8258"/>
+                        <potionSwiftnessII id="potion" damage="8226"/>
                     </swiftnessPotion>
                     <fireResistancePotion>
-                        <potionFireResistance id="potion" data='{Potion:"minecraft:fire_resistance"}'/>
-                        <potionFireResistanceEx id="potion" data='{Potion:"minecraft:long_fire_resistance"}'/>
+                        <potionFireResistance id="potion" damage="8195"/>
+                        <potionFireResistanceEx id="potion" damage="8259"/>
+                        <potionFireResistanceII id="potion" damage="8227"/>
                     </fireResistancePotion>
                     <healingPotion>
-                        <potionHealing id="potion" data='{Potion:"minecraft:healing"}'/>
-                        <potionHealingII id="potion" data='{Potion:"minecraft:strong_healing"}'/>
+                        <potionHealing id="potion" damage="8197"/>
+                        <potionHealingEx id="potion" damage="8261"/>
+                        <potionHealingII id="potion" damage="8229"/>
                     </healingPotion>
                     <strengthPotion>
-                        <potionStrength id="potion" data='{Potion:"minecraft:strength"}'/>
-                        <potionStrengthEx id="potion" data='{Potion:"minecraft:long_strength"}'/>
-                        <potionStrengthII id="potion" data='{Potion:"minecraft:strong_strength"}'/>
+                        <potionStrength id="potion" damage="8201"/>
+                        <potionStrengthEx id="potion" damage="8265"/>
+                        <potionStrengthII id="potion" damage="8233"/>
                     </strengthPotion>
                     <nightVisionPotion>
-                        <potionNightVision id="potion" data='{Potion:"minecraft:night_vision"}'/>
-                        <potionNightVisionEx id="potion" data='{Potion:"minecraft:long_night_vision"}'/>
+                        <potionNightVision id="potion" damage="8230"/>
+                        <potionNightVisionEx id="potion" damage="8262"/>
                     </nightVisionPotion>
                     <invisibilityPotion>
-                        <potionInvisibility id="potion" data='{Potion:"minecraft:invisibility"}'/>
-                        <potionInvisibilityEx id="potion" data='{Potion:"minecraft:long_invisibility"}'/>
+                        <potionInvisibility id="potion" damage="8238"/>
+                        <potionInvisibilityEx id="potion" damage="8270"/>
                     </invisibilityPotion>
-                    <leapingPotion>
-                        <potionLeaping id="potion" data='{Potion:"minecraft:leaping"}'/>
-                        <potionLeapingEx id="potion" data='{Potion:"minecraft:long_leaping"}'/>
-                        <potionLeapingII id="potion" data='{Potion:"minecraft:strong_leaping"}'/>
-                    </leapingPotion>
-                    <waterBreahingPotion>
-                        <potionWaterBreathing id="potion" data='{Potion:"minecraft:water_breathing"}'/>
-                        <potionWaterBreathingEx id="potion" data='{Potion:"minecraft:long_water_breathing"}'/>
-                    </waterBreahingPotion>
-                    <luckPotion>
-                        <potionLuck id="potion" data='{Potion:"minecraft:luck"}'/>
-                    </luckPotion>
                 </positivePotion>
                 <negativePotion>
                     <poisonPotion>
-                        <potionPoison id="potion" data='{Potion:"minecraft:poison"}'/>
-                        <potionPoisonEx id="potion" data='{Potion:"minecraft:long_poison"}'/>
-                        <potionPoisonII id="potion" data='{Potion:"minecraft:strong_poison"}'/>
+                        <potionPoison id="potion" damage="8196"/>
+                        <potionPoisonEx id="potion" damage="8260"/>
+                        <potionPoisonII id="potion" damage="8228"/>
                     </poisonPotion>
                     <weaknessPotion>
-                        <potionWeakness id="potion" data='{Potion:"minecraft:weakness"}'/>
-                        <potionWeaknessEx id="potion" data='{Potion:"minecraft:long_weakness"}'/>
+                        <potionWeakness id="potion" damage="8200"/>
+                        <potionWeaknessEx id="potion" damage="8264"/>
+                        <potionWeaknessII id="potion" damage="8232"/>
                     </weaknessPotion>
                     <slownessPotion>
-                        <potionSlowness id="potion" data='{Potion:"minecraft:slowness"}'/>
-                        <potionSlownessEx id="potion" data='{Potion:"minecraft:long_slowness"}'/>
+                        <potionSlowness id="potion" damage="8202"/>
+                        <potionSlownessEx id="potion" damage="8266"/>
+                        <potionSlownessII id="potion" damage="8234"/>
                     </slownessPotion>
                     <harmingPotion>
-                        <potionHarming id="potion" data='{Potion:"minecraft:harming"}'/>
-                        <potionHarmingII id="potion" data='{Potion:"minecraft:strong_harming"}'/>
+                        <potionHarming id="potion" damage="8204"/>
+                        <potionHarmingEx id="potion" damage="8268"/>
+                        <potionHarmingII id="potion" damage="8236"/>
                     </harmingPotion>
                 </negativePotion>
             </drinkablePotion>
             <splashPotion>
-                <neutralSplashPotion>
-                    <splashPotionEmpty id="splash_potion" data='{Potion:"minecraft:empty"}'/>
-                    <splashPotionWater id="splash_potion" data='{Potion:"minecraft:water"}'/>
-                    <splashWaterBottle id="splash_potion" data='{Potion:"minecraft:water"}'/>
-                    <splashPotionAwkward id="splash_potion" data='{Potion:"minecraft:awkward"}'/>
-                    <splashPotionThick id="splash_potion" data='{Potion:"minecraft:thick"}'/>
-                    <splashPotionMundane id="splash_potion" data='{Potion:"minecraft:mundane"}'/>
-                </neutralSplashPotion>
+                <splashMundanePotion id="potion" damage="16384"/>
                 <positiveSplashPotion>
                     <regenerationSplashPotion>
-                        <splashPotionRegeneration id="splash_potion" data='{Potion:"minecraft:regeneration"}'/>
-                        <splashPotionRegenerationEx id="splash_potion" data='{Potion:"minecraft:long_regeneration"}'/>
-                        <splashPotionRegenerationII id="splash_potion" data='{Potion:"minecraft:strong_regeneration"}'/>
+                        <splashPotionRegeneration id="potion" damage="16385"/>
+                        <splashPotionRegenerationEx id="potion" damage="16449"/>
+                        <splashPotionRegenerationII id="potion" damage="16417"/>
                     </regenerationSplashPotion>
                     <swiftnessSplashPotion>
-                        <splashPotionSwiftness id="splash_potion" data='{Potion:"minecraft:swiftness"}'/>
-                        <splashPotionSwiftnessEx id="splash_potion" data='{Potion:"minecraft:long_swiftness"}'/>
-                        <splashPotionSwiftnessII id="splash_potion" data='{Potion:"minecraft:strong_swiftness"}'/>
+                        <splashPotionSwiftness id="potion" damage="16386"/>
+                        <splashPotionSwiftnessEx id="potion" damage="16450"/>
+                        <splashPotionSwiftnessII id="potion" damage="16418"/>
                     </swiftnessSplashPotion>
                     <fireResistanceSplashPotion>
-                        <splashPotionFireResistance id="splash_potion" data='{Potion:"minecraft:fire_resistance"}'/>
-                        <splashPotionFireResistanceEx id="splash_potion"
-                                                      data='{Potion:"minecraft:long_fire_resistance"}'/>
+                        <splashPotionFireResistance id="potion" damage="16387"/>
+                        <splashPotionFireResistanceEx id="potion" damage="16451"/>
+                        <splashPotionFireResistanceII id="potion" damage="16419"/>
                     </fireResistanceSplashPotion>
                     <healingSplashPotion>
-                        <splashPotionHealing id="splash_potion" data='{Potion:"minecraft:healing"}'/>
-                        <splashPotionHealingII id="splash_potion" data='{Potion:"minecraft:strong_healing"}'/>
+                        <splashPotionHealing id="potion" damage="16389"/>
+                        <splashPotionHealingEx id="potion" damage="16453"/>
+                        <splashPotionHealingII id="potion" damage="16421"/>
                     </healingSplashPotion>
                     <strengthSplashPotion>
-                        <splashPotionStrength id="splash_potion" data='{Potion:"minecraft:strength"}'/>
-                        <splashPotionStrengthEx id="splash_potion" data='{Potion:"minecraft:long_strength"}'/>
-                        <splashPotionStrengthII id="splash_potion" data='{Potion:"minecraft:strong_strength"}'/>
+                        <splashPotionStrength id="potion" damage="16393"/>
+                        <splashPotionStrengthEx id="potion" damage="16457"/>
+                        <splashPotionStrengthII id="potion" damage="16425"/>
                     </strengthSplashPotion>
                     <nightVisionSplashPotion>
-                        <splashPotionNightVision id="splash_potion" data='{Potion:"minecraft:night_vision"}'/>
-                        <splashPotionNightVisionEx id="splash_potion" data='{Potion:"minecraft:long_night_vision"}'/>
+                        <splashPotionNightVision id="potion" damage="16422"/>
+                        <splashPotionNightVisionEx id="potion" damage="16454"/>
                     </nightVisionSplashPotion>
                     <invisibilitySplashPotion>
-                        <splashPotionInvisibility id="splash_potion" data='{Potion:"minecraft:invisibility"}'/>
-                        <splashPotionInvisibilityEx id="splash_potion" data='{Potion:"minecraft:long_invisibility"}'/>
+                        <splashPotionInvisibility id="potion" damage="16430"/>
+                        <splashPotionInvisibilityEx id="potion" damage="16462"/>
                     </invisibilitySplashPotion>
-                    <leapingSplashPotion>
-                        <splashPotionLeaping id="splash_potion" data='{Potion:"minecraft:leaping"}'/>
-                        <splashPotionLeapingEx id="splash_potion" data='{Potion:"minecraft:long_leaping"}'/>
-                        <splashPotionLeapingII id="splash_potion" data='{Potion:"minecraft:strong_leaping"}'/>
-                    </leapingSplashPotion>
-                    <waterBreahingSplashPotion>
-                        <splashPotionWaterBreathing id="splash_potion" data='{Potion:"minecraft:water_breathing"}'/>
-                        <splashPotionWaterBreathingEx id="splash_potion"
-                                                      data='{Potion:"minecraft:long_water_breathing"}'/>
-                    </waterBreahingSplashPotion>
-                    <luckSplashPotion>
-                        <splashPotionLuck id="splash_potion" data='{Potion:"minecraft:luck"}'/>
-                    </luckSplashPotion>
                 </positiveSplashPotion>
                 <negativeSplashPotion>
                     <poisonSplashPotion>
-                        <splashPotionPoison id="splash_potion" data='{Potion:"minecraft:poison"}'/>
-                        <splashPotionPoisonEx id="splash_potion" data='{Potion:"minecraft:long_poison"}'/>
-                        <splashPotionPoisonII id="splash_potion" data='{Potion:"minecraft:strong_poison"}'/>
+                        <splashPotionPoison id="potion" damage="16388"/>
+                        <splashPotionPoisonEx id="potion" damage="16452"/>
+                        <splashPotionPoisonII id="potion" damage="16420"/>
                     </poisonSplashPotion>
                     <weaknessSplashPotion>
-                        <splashPotionWeakness id="splash_potion" data='{Potion:"minecraft:weakness"}'/>
-                        <splashPotionWeaknessEx id="splash_potion" data='{Potion:"minecraft:long_weakness"}'/>
+                        <splashPotionWeakness id="potion" damage="16392"/>
+                        <splashPotionWeaknessEx id="potion" damage="16456"/>
+                        <splashPotionWeaknessII id="potion" damage="16424"/>
                     </weaknessSplashPotion>
                     <slownessSplashPotion>
-                        <splashPotionSlowness id="splash_potion" data='{Potion:"minecraft:slowness"}'/>
-                        <splashPotionSlownessEx id="splash_potion" data='{Potion:"minecraft:long_slowness"}'/>
+                        <splashPotionSlowness id="potion" damage="16394"/>
+                        <splashPotionSlownessEx id="potion" damage="16458"/>
+                        <splashPotionSlownessII id="potion" damage="16426"/>
                     </slownessSplashPotion>
                     <harmingSplashPotion>
-                        <splashPotionHarming id="splash_potion" data='{Potion:"minecraft:harming"}'/>
-                        <splashPotionHarmingII id="splash_potion" data='{Potion:"minecraft:strong_harming"}'/>
+                        <splashPotionHarming id="potion" damage="16396"/>
+                        <splashPotionHarmingEx id="potion" damage="16460"/>
+                        <splashPotionHarmingII id="potion" damage="16428"/>
                     </harmingSplashPotion>
                 </negativeSplashPotion>
             </splashPotion>
-            <lingeringPotion>
-                <neutralLingeringPotion>
-                    <lingeringPotionEmpty id="lingering_potion" data='{Potion:"minecraft:empty"}'/>
-                    <lingeringPotionWater id="lingering_potion" data='{Potion:"minecraft:water"}'/>
-                    <lingeringWaterBottle id="lingering_potion" data='{Potion:"minecraft:water"}'/>
-                    <lingeringPotionAwkward id="lingering_potion" data='{Potion:"minecraft:awkward"}'/>
-                    <lingeringPotionThick id="lingering_potion" data='{Potion:"minecraft:thick"}'/>
-                    <lingeringPotionMundane id="lingering_potion" data='{Potion:"minecraft:mundane"}'/>
-                </neutralLingeringPotion>
-                <positiveLingeringPotion>
-                    <regenerationLingeringPotion>
-                        <lingeringPotionRegeneration id="lingering_potion" data='{Potion:"minecraft:regeneration"}'/>
-                        <lingeringPotionRegenerationEx id="lingering_potion"
-                                                       data='{Potion:"minecraft:long_regeneration"}'/>
-                        <lingeringPotionRegenerationII id="lingering_potion"
-                                                       data='{Potion:"minecraft:strong_regeneration"}'/>
-                    </regenerationLingeringPotion>
-                    <swiftnessLingeringPotion>
-                        <lingeringPotionSwiftness id="lingering_potion" data='{Potion:"minecraft:swiftness"}'/>
-                        <lingeringPotionSwiftnessEx id="lingering_potion" data='{Potion:"minecraft:long_swiftness"}'/>
-                        <lingeringPotionSwiftnessII id="lingering_potion" data='{Potion:"minecraft:strong_swiftness"}'/>
-                    </swiftnessLingeringPotion>
-                    <fireResistanceLingeringPotion>
-                        <lingeringPotionFireResistance id="lingering_potion"
-                                                       data='{Potion:"minecraft:fire_resistance"}'/>
-                        <lingeringPotionFireResistanceEx id="lingering_potion"
-                                                         data='{Potion:"minecraft:long_fire_resistance"}'/>
-                    </fireResistanceLingeringPotion>
-                    <healingLingeringPotion>
-                        <lingeringPotionHealing id="lingering_potion" data='{Potion:"minecraft:healing"}'/>
-                        <lingeringPotionHealingII id="lingering_potion" data='{Potion:"minecraft:strong_healing"}'/>
-                    </healingLingeringPotion>
-                    <strengthLingeringPotion>
-                        <lingeringPotionStrength id="lingering_potion" data='{Potion:"minecraft:strength"}'/>
-                        <lingeringPotionStrengthEx id="lingering_potion" data='{Potion:"minecraft:long_strength"}'/>
-                        <lingeringPotionStrengthII id="lingering_potion" data='{Potion:"minecraft:strong_strength"}'/>
-                    </strengthLingeringPotion>
-                    <nightVisionLingeringPotion>
-                        <lingeringPotionNightVision id="lingering_potion" data='{Potion:"minecraft:night_vision"}'/>
-                        <lingeringPotionNightVisionEx id="lingering_potion"
-                                                      data='{Potion:"minecraft:long_night_vision"}'/>
-                    </nightVisionLingeringPotion>
-                    <invisibilityLingeringPotion>
-                        <lingeringPotionInvisibility id="lingering_potion" data='{Potion:"minecraft:invisibility"}'/>
-                        <lingeringPotionInvisibilityEx id="lingering_potion"
-                                                       data='{Potion:"minecraft:long_invisibility"}'/>
-                    </invisibilityLingeringPotion>
-                    <leapingLingeringPotion>
-                        <lingeringPotionLeaping id="lingering_potion" data='{Potion:"minecraft:leaping"}'/>
-                        <lingeringPotionLeapingEx id="lingering_potion" data='{Potion:"minecraft:long_leaping"}'/>
-                        <lingeringPotionLeapingII id="lingering_potion" data='{Potion:"minecraft:strong_leaping"}'/>
-                    </leapingLingeringPotion>
-                    <waterBreahingLingeringPotion>
-                        <lingeringPotionWaterBreathing id="lingering_potion"
-                                                       data='{Potion:"minecraft:water_breathing"}'/>
-                        <lingeringPotionWaterBreathingEx id="lingering_potion"
-                                                         data='{Potion:"minecraft:long_water_breathing"}'/>
-                    </waterBreahingLingeringPotion>
-                    <luckLingeringPotion>
-                        <lingeringPotionLuck id="lingering_potion" data='{Potion:"minecraft:luck"}'/>
-                    </luckLingeringPotion>
-                </positiveLingeringPotion>
-                <negativeLingeringPotion>
-                    <poisonLingeringPotion>
-                        <lingeringPotionPoison id="lingering_potion" data='{Potion:"minecraft:poison"}'/>
-                        <lingeringPotionPoisonEx id="lingering_potion" data='{Potion:"minecraft:long_poison"}'/>
-                        <lingeringPotionPoisonII id="lingering_potion" data='{Potion:"minecraft:strong_poison"}'/>
-                    </poisonLingeringPotion>
-                    <weaknessLingeringPotion>
-                        <lingeringPotionWeakness id="lingering_potion" data='{Potion:"minecraft:weakness"}'/>
-                        <lingeringPotionWeaknessEx id="lingering_potion" data='{Potion:"minecraft:long_weakness"}'/>
-                    </weaknessLingeringPotion>
-                    <slownessLingeringPotion>
-                        <lingeringPotionSlowness id="lingering_potion" data='{Potion:"minecraft:slowness"}'/>
-                        <lingeringPotionSlownessEx id="lingering_potion" data='{Potion:"minecraft:long_slowness"}'/>
-                    </slownessLingeringPotion>
-                    <harmingLingeringPotion>
-                        <lingeringPotionHarming id="lingering_potion" data='{Potion:"minecraft:harming"}'/>
-                        <lingeringPotionHarmingII id="lingering_potion" data='{Potion:"minecraft:strong_harming"}'/>
-                    </harmingLingeringPotion>
-                </negativeLingeringPotion>
-            </lingeringPotion>
             <bottleOEnchanting id="experience_bottle"/>
             <bottleEnchanting id="experience_bottle"/>
         </potion>
         <glassBottle id="glass_bottle"/>
         <potionIngredient>
-            <dragonsBreath id="dragon_breath"/>
             <netherWart id="nether_wart"/>
             <redstone id="redstone"/>
             <glowstoneDust id="glowstone_dust"/>
@@ -1189,8 +911,6 @@
             <blazePowder id="blaze_powder"/>
             <magmaCream id="magma_cream"/>
             <glisteringMelon id="speckled_melon"/>
-            <rabbitsFoot id="rabbit_foot"/>
-            <rabbitFoot id="rabbit_foot"/>
         </potionIngredient>
     </item>
 </stuff>
