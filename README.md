@@ -1,17 +1,3 @@
-#STTmodX LTS
-1.12.2-3.1.2940 Build-9130
-本次更新插件部分有部分bug请腐竹慎重更新
-更新内容，服务端加入 
-VexView Ver 2.4
-客户端更新
-[高清修复]OptiFine_1.12.2_HD_U_F5.jar
-客户端&服务端加入
-[R键整理]InventoryTweaks-1.63.jar
-[材质修复]TexFix+V-1.12-4.0.jar
-[光照优化]phosphor-1.12.2-0.2.6+build50-universal.jar
-[合成冲突消除]NoMoreRecipeConflict-0.13(1.12.2).jar
-[静谧四季]SereneSeasons-1.12.2-1.2.18-universal.jar
-[伤害显示]torohealth-1.12-11.jar
-[镇守府]ChinjufuMod[1.12.2]3.2.2.jar
-[自然音效]AmbientSounds_v3.0.9_mc1.12.2.jar
-1.12.2
+STT工业整合包
+LTS Version 1.12.2
+Support minecraft 1.7.10 1.8.9 1.9.4 1.10.2 1.11.2 1.12.2 1.15.2 1.16.1 1.16.2
