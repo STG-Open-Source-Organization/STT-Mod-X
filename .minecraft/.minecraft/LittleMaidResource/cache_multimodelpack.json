@@ -1,0 +1,21 @@
+{
+  "Orign": "firis.lmmm.builtin.model.ModelLittleMaid_Orign",
+  "Stef": "firis.lmlib.multimodel.ModelMulti_Stef",
+  "Archetype": "firis.lmmm.builtin.model.ModelLittleMaid_Archetype",
+  "Angel": "yamanta.ModelLittleMaid_Angel",
+  "Beverly7": "voms.ModelLittleMaid_Beverly7",
+  "DressYukari": "yamanta.ModelLittleMaid_DressYukari",
+  "DogAngel": "yamanta.ModelLittleMaid_DogAngel",
+  "Utsuho": "yamanta.ModelLittleMaid_Utsuho",
+  "Tenshi": "yamanta.ModelLittleMaid_Tenshi",
+  "Aug": "firis.lmmm.builtin.model.ModelLittleMaid_Aug",
+  "SR2": "firis.lmmm.builtin.model.ModelLittleMaid_SR2",
+  "NM1": "aky.ModelLittleMaid_NM1",
+  "Steve": "firis.lmlib.multimodel.ModelMulti_Steve",
+  "Chloe2": "voms.ModelLittleMaid_Chloe2",
+  "Yomu": "yamanta.ModelLittleMaid_Yomu",
+  "DogAngel2": "yamanta.ModelLittleMaid_DogAngel2",
+  "NM": "aky.ModelLittleMaid_NM",
+  "Elsa5": "voms.ModelLittleMaid_Elsa5",
+  "ChibiNeko": "yamanta.ModelLittleMaid_ChibiNeko"
+}

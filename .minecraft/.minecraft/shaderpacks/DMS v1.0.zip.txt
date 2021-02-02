@@ -1,0 +1,17 @@
+#Sun Jul 23 00:19:10 CST 2017
+multiSampleMotionBlur=true
+lensGlare=true
+ambientOcclusion=true
+dynamicLensFlare=true
+detailOctaves=2
+godrays=true
+waterCaustics=true
+lightRefraction=true
+lensDust=true
+compositeBlurPasses=3
+shadowMapResolution=2048
+parallaxWaves=true
+globalIllumination=true
+chromaticAberration=true
+motionBlur=true
+lensFlares=true

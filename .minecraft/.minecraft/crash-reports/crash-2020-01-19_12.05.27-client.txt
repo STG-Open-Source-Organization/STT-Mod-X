@@ -1,0 +1,110 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 1/19/20 12:05 PM
+Description: Unexpected error
+
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at java.util.concurrent.CopyOnWriteArrayList.get(Unknown Source)
+	at java.util.concurrent.CopyOnWriteArrayList.get(Unknown Source)
+	at t.t.h.iiiiiIIIii.pcdlk(xb:285)
+	at t.t.h.IIIIIiIiIi.func_73866_w_(hb:157)
+	at net.minecraft.client.gui.GuiScreen.func_146280_a(GuiScreen.java:478)
+	at net.minecraft.client.Minecraft.func_147108_a(Minecraft.java:1018)
+	at net.minecraft.client.Minecraft.func_184117_aA(Minecraft.java:2175)
+	at net.minecraft.client.Minecraft.func_184118_az(Minecraft.java:2020)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1808)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1098)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at java.util.concurrent.CopyOnWriteArrayList.get(Unknown Source)
+	at java.util.concurrent.CopyOnWriteArrayList.get(Unknown Source)
+	at t.t.h.iiiiiIIIii.pcdlk(xb:285)
+	at t.t.h.IIIIIiIiIi.func_73866_w_(hb:157)
+	at net.minecraft.client.gui.GuiScreen.func_146280_a(GuiScreen.java:478)
+	at net.minecraft.client.Minecraft.func_147108_a(Minecraft.java:1018)
+	at net.minecraft.client.Minecraft.func_184117_aA(Minecraft.java:2175)
+	at net.minecraft.client.Minecraft.func_184118_az(Minecraft.java:2020)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['YuukiSkniro'/261, l='MpServer', x=-279.32, y=65.00, z=7.04]]
+	Chunk stats: MultiplayerChunkCache: 415, 415
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (-245,64,-97), Chunk: (at 11,4,15 in -16,-7; contains blocks -256,0,-112 to -241,255,-97), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Level time: 22411 game time, 22411 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 28 total; [EntitySkeleton['骷髅'/262, l='MpServer', x=-282.32, y=64.00, z=54.92], EntityCreeper['爬行者'/263, l='MpServer', x=-287.50, y=66.00, z=33.50], EntitySpider['蜘蛛'/264, l='MpServer', x=-292.50, y=65.00, z=48.50], EntitySkeleton['骷髅'/265, l='MpServer', x=-290.50, y=64.00, z=54.50], EntitySkeleton['骷髅'/266, l='MpServer', x=-267.11, y=64.00, z=48.94], EntityZombie['僵尸'/269, l='MpServer', x=-306.50, y=63.00, z=34.50], EntitySkeleton['骷髅'/270, l='MpServer', x=-306.50, y=63.00, z=42.50], EntityHusk['尸壳'/86, l='MpServer', x=-287.50, y=63.00, z=-26.50], EntityRabbit['兔子'/87, l='MpServer', x=-281.12, y=67.00, z=14.88], EntityRabbit['兔子'/88, l='MpServer', x=-287.21, y=67.00, z=7.30], EntityPlayerSP['YuukiSkniro'/261, l='MpServer', x=-279.32, y=65.00, z=7.04], EntitySpider['蜘蛛'/101, l='MpServer', x=-263.50, y=32.00, z=10.50], EntitySpider['蜘蛛'/38, l='MpServer', x=-324.50, y=67.00, z=-18.50], EntityZombie['僵尸'/46, l='MpServer', x=-308.50, y=65.00, z=-33.50], EntityHusk['尸壳'/47, l='MpServer', x=-313.50, y=67.00, z=-8.50], EntitySquid['鱿鱼'/111, l='MpServer', x=-246.60, y=60.00, z=-33.60], EntityHusk['尸壳'/48, l='MpServer', x=-305.30, y=67.00, z=3.39], EntityCreeper['爬行者'/112, l='MpServer', x=-243.50, y=47.00, z=19.50], EntityCreeper['爬行者'/49, l='MpServer', x=-314.50, y=67.00, z=0.50], EntitySquid['鱿鱼'/50, l='MpServer', x=-311.42, y=62.40, z=19.40], EntitySpider['蜘蛛'/51, l='MpServer', x=-303.00, y=68.00, z=8.03], EntityCreeper['爬行者'/121, l='MpServer', x=-234.50, y=63.00, z=-18.50], EntitySkeleton['骷髅'/59, l='MpServer', x=-288.50, y=35.00, z=-35.50], EntityHusk['尸壳'/60, l='MpServer', x=-300.32, y=65.00, z=-13.22], EntityWitch['女巫'/61, l='MpServer', x=-301.34, y=67.00, z=13.65], EntitySpider['蜘蛛'/253, l='MpServer', x=-308.50, y=65.00, z=-40.50], EntityWitch['女巫'/62, l='MpServer', x=-300.49, y=67.00, z=12.74], EntityCreeper['爬行者'/63, l='MpServer', x=-303.26, y=64.00, z=26.49]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:420)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2741)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:427)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_241, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1056932632 bytes (1007 MB) / 2043674624 bytes (1949 MB) up to 7635730432 bytes (7282 MB)
+	JVM Flags: 2 total; -Xmx8192m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID        | Version      | Source                        | Signature |
+	|:------ |:--------- |:------------ |:----------------------------- |:--------- |
+	| LCHIJA | minecraft | 1.12.2       | minecraft.jar                 | None      |
+	| LCHIJA | mcp       | 9.42         | minecraft.jar                 | None      |
+	| LCHIJA | FML       | 8.0.99.99    | forge-1.12.2-14.23.5.2847.jar | None      |
+	| LCHIJA | forge     | 14.23.5.2847 | forge-1.12.2-14.23.5.2847.jar | None      |
+	| LCHIJA | vexview   | 2.5          | VexView_ForgeMOD_1.12+.jar    | None      |
+
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 430.86' Renderer: 'GeForce GTX 1080/PCIe/SSE2'
+	Launched Version: 1.12.2-forge1.12.2-14.23.5.2847
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 1080/PCIe/SSE2 GL version 4.6.0 NVIDIA 430.86, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: 简体中文 (中国)
+	Profiler Position: N/A (disabled)
+	CPU: 16x AMD Ryzen 7 2700X Eight-Core Processor 

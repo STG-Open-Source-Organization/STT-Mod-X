@@ -1,0 +1,14 @@
+/Use:<crop>
+/When blacklisted, crops can not be crossbreeded and will not appear in the guides
+aluminum
+ardite
+black_quartz
+certus_quartz
+cobalt
+copper
+lead
+nickel
+platinum
+silver
+tin
+uranium

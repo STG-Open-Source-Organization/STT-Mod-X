@@ -1,0 +1,3 @@
+#Tue Jul 25 14:30:49 CST 2017
+shadowDistance=512
+DISTANT_BLUR=true

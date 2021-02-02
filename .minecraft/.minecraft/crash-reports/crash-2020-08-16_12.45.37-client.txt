@@ -1,0 +1,204 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 2020-08-16 12:45:37 CST
+Description: Initializing game
+
+net.minecraftforge.fml.common.LoaderException: java.lang.ClassNotFoundException: buildcraft.lib.BCLibProxy$ServerProxy
+    at net.minecraftforge.fml.common.ProxyInjector.inject(ProxyInjector.java:102)
+    at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:611)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+    at java.lang.reflect.Method.invoke(Unknown Source)
+    at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+    at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+    at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+    at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+    at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+    at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+    at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+    at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+    at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+    at java.lang.reflect.Method.invoke(Unknown Source)
+    at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+    at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+    at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+    at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+    at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+    at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+    at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+    at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+    at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:595)
+    at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232)
+    at net.minecraft.client.Minecraft.init(Minecraft.java:467)
+    at net.minecraft.client.Minecraft.run(Minecraft.java:3931)
+    at net.minecraft.client.main.Main.main(SourceFile:123)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+    at java.lang.reflect.Method.invoke(Unknown Source)
+    at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+    at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+Caused by: java.lang.ClassNotFoundException: buildcraft.lib.BCLibProxy$ServerProxy
+    at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+    at java.lang.ClassLoader.loadClass(Unknown Source)
+    at java.lang.ClassLoader.loadClass(Unknown Source)
+    at net.minecraftforge.fml.common.ModClassLoader.loadClass(ModClassLoader.java:75)
+    at java.lang.Class.forName0(Native Method)
+    at java.lang.Class.forName(Unknown Source)
+    at net.minecraftforge.fml.common.ProxyInjector.inject(ProxyInjector.java:85)
+    ... 37 more
+Caused by: net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerException: Exception in class transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer@15f54ceb from coremod FMLCorePlugin
+    at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:260)
+    at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279)
+    at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176)
+    ... 43 more
+Caused by: java.lang.RuntimeException: Attempted to load class buildcraft/lib/BCLibProxy$ServerProxy for invalid side CLIENT
+    at net.minecraftforge.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:62)
+    at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:256)
+    ... 45 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 10 (amd64) version 10.0
+  Java Version: 1.8.0_251, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 142137768 bytes (135 MB) / 687865856 bytes (656 MB) up to 10485760000 bytes (10000 MB)
+  JVM Flags: 11 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx10000m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+  IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+  FML: MCP 9.42 Powered by Forge 14.23.5.2854 Optifine OptiFine_1.12.2_HD_U_F5 75 mods loaded, 75 mods active
+       States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+       
+       | State | ID                    | Version                  | Source                                                                    | Signature                                |
+       |:----- |:--------------------- |:------------------------ |:------------------------------------------------------------------------- |:---------------------------------------- |
+       | LC    | minecraft             | 1.12.2                   | minecraft.jar                                                             | None                                     |
+       | LC    | mcp                   | 9.42                     | minecraft.jar                                                             | None                                     |
+       | LC    | FML                   | 8.0.99.99                | forge-1.12.2-14.23.5.2854.jar                                             | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+       | LC    | forge                 | 14.23.5.2854             | forge-1.12.2-14.23.5.2854.jar                                             | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+       | LC    | LambdaLib|Core        | 0.2.0                    | minecraft.jar                                                             | None                                     |
+       | LC    | creativecoredummy     | 1.0.0                    | minecraft.jar                                                             | None                                     |
+       | LC    | foamfixcore           | 7.7.4                    | minecraft.jar                                                             | None                                     |
+       | LC    | lambdalib2            | 0.2.0                    | [AC]AcademyCraft-1.1.3.jar                                                | None                                     |
+       | LC    | academy               | 1.1.3                    | [AC]AcademyCraft-1.1.3.jar                                                | None                                     |
+       | LC    | aiimprovements        | 0.0.1.3                  | [AI改进]AIImprovements-1.12-0.0.1b3.jar                                     | None                                     |
+       | LE    | buildcraftlib         | 7.99.24.6                | [BC]buildcraft-all-7.99.24.6.jar                                          | None                                     |
+       | L     | buildcraftcore        | 7.99.24.6                | [BC]buildcraft-all-7.99.24.6.jar                                          | None                                     |
+       | L     | buildcraftbuilders    | 7.99.24.6                | [BC]buildcraft-all-7.99.24.6.jar                                          | None                                     |
+       | L     | buildcrafttransport   | 7.99.24.6                | [BC]buildcraft-all-7.99.24.6.jar                                          | None                                     |
+       | L     | buildcraftsilicon     | 7.99.24.6                | [BC]buildcraft-all-7.99.24.6.jar                                          | None                                     |
+       | L     | buildcraftenergy      | 7.99.24.6                | [BC]buildcraft-all-7.99.24.6.jar                                          | None                                     |
+       | L     | ic2                   | 2.8.220-ex112            | [IC2]工业时代2industrialcraft-2-2.8.220-ex112.jar                             | None                                     |
+       | L     | jei                   | 4.15.0.297               | [JEI]JEI物品管理器jei_1.12.2-4.15.0.297.jar                                    | None                                     |
+       | L     | forestry              | 5.8.2.422                | [FR]林业forestry_1.12.2-5.8.2.422.jar                                       | None                                     |
+       | L     | buildcraftcompat      | 7.99.24.6                | [BC]buildcraft-all-7.99.24.6.jar                                          | None                                     |
+       | L     | buildcraftfactory     | 7.99.24.6                | [BC]buildcraft-all-7.99.24.6.jar                                          | None                                     |
+       | L     | buildcraftrobotics    | 7.99.24.6                | [BC]buildcraft-all-7.99.24.6.jar                                          | None                                     |
+       | L     | cookingforblockheads  | 6.5.0                    | [CB]懒人厨房CookingForBlockheads_1.12.2-6.5.0.jar                             | None                                     |
+       | L     | appliedenergistics2   | rv6-stable-7             | [Latest][AE2]应用能源2appliedenergistics2-rv6-stable-7-1.12.2.jar             | None                                     |
+       | L     | codechickenlib        | 3.2.3.358                | [Latest][CCL]CodeChickenLib-CodeChickenLib-1.12.2-3.2.3.358-universal.jar | None                                     |
+       | L     | nei                   | 2.4.3                    | [Latest][NEI]NEI物品管理器-NotEnoughItems-1.12.2-2.4.3.245-universal.jar       | None                                     |
+       | L     | bspkrscore            | 7.6.0.1                  | [Latest][前置][1.12]bspkrsCore-universal-7.6.0.1.jar                        | None                                     |
+       | L     | treecapitator         | 1.43.0                   | [Latest][一键砍树][1.12]TreeCapitator-client-1.43.0.jar                       | None                                     |
+       | L     | baubles               | 1.5.2                    | [Latest][前置]Baubles-1.12-1.5.2.jar                                        | None                                     |
+       | L     | forgelin              | 1.8.4                    | [Latest][前置]Forgelin-1.8.4.jar                                            | None                                     |
+       | L     | placebo               | 1.6.0                    | [Latest][前置]Placebo-1.12.2-1.6.0.jar                                      | None                                     |
+       | L     | wanionlib             | 1.12.2-2.4               | [Latest][前置]WanionLib-1.12.2-2.4.jar                                      | None                                     |
+       | L     | torcherino            | 7.6                      | [Latest][加速火把]torcherino-7.6.jar                                          | None                                     |
+       | L     | recipehandler         | 0.13                     | [Latest][合成冲突消除]NoMoreRecipeConflict-0.13(1.12.2).jar                     | None                                     |
+       | L     | netherportalfix       | 5.3.17                   | [Latest][地狱传送修复]NetherPortalFix_1.12.1-5.3.17.jar                         | None                                     |
+       | L     | bedrockores           | 1.2.7.42                 | [Latest][基岩矿簇]Bedrock+Ores-MC1.12-1.2.7.42.jar                            | None                                     |
+       | L     | cfm                   | 6.3.1                    | [Latest][家具]furniture-6.3.1-1.12.2.jar                                    | None                                     |
+       | L     | foamfix               | 0.10.10-1.12.2           | [Latest][泡沫修复]foamfix-0.10.10-1.12.2.jar                                  | None                                     |
+       | L     | harvestcraft          | 1.12.2zb                 | [Latest][潘马斯农场]Pam's+HarvestCraft+1.12.2zg.jar                            | None                                     |
+       | L     | ruins                 | 17.1                     | [Latest][遗迹]Ruins-1.12.2.jar                                              | None                                     |
+       | L     | nmsot                 | 1.2.2-mc1.12.2           | [Latest][防止怪物树上生成]NoMobSpawningOnTrees-1.2.2-mc1.12.2.jar                 | None                                     |
+       | L     | sereneseasons         | 1.2.18                   | [Latest][静谧四季]SereneSeasons-1.12.2-1.2.18-universal.jar                   | None                                     |
+       | L     | waila                 | 1.8.26                   | [Latest][高亮显示]Hwyla-1.8.26-B41_1.12.2.jar                                 | None                                     |
+       | L     | mcwbridges            | 1.0.4                    | [Macaw的吊桥]mcw-bridges-1.0.4-mc1.12.2.jar                                  | None                                     |
+       | L     | inventorytweaks       | 1.63+release.109.220f184 | [R键整理]InventoryTweaks-1.63.jar                                            | None                                     |
+       | L     | vanillafix            | 1.0.10-150               | [VF]原版修复VanillaFix-1.0.10-150.jar                                         | None                                     |
+       | L     | bettermineshafts      | 1.12.2-1.3               | [YUNG的矿井优化]BetterMineshaftsForge-1.12.2-1.3.jar                           | None                                     |
+       | L     | chisel                | MC1.12.2-1.0.2.45        | [凿子]Chisel-MC1.12.2-1.0.2.45.jar                                          | None                                     |
+       | L     | creativecore          | 1.10.0                   | [前置]CreativeCore_v1.10.16_mc1.12.2.jar                                    | None                                     |
+       | L     | vexview               | 2.6.10                   | [前置]VexView_ForgeMod_1.12+-2.6.10.jar                                     | None                                     |
+       | L     | neid                  | 1.5.4.4                  | [增加id上限]NotEnoughIDs-1.5.4.4-1.12.2.jar                                   | None                                     |
+       | L     | patchouli             | 1.0-20                   | [帕秋莉手册]Patchouli-1.0-20.jar                                               | None                                     |
+       | L     | bibliocraft           | 2.4.5                    | [收藏馆]BiblioCraft[v2.4.5][MC1.12.2].jar                                    | None                                     |
+       | L     | futuremc              | 0.2.3                    | [新版内容]future-mc-1.12.2-0.2.3.2.jar                                        | None                                     |
+       | L     | journeymap            | 1.12.2-5.7.1             | [旅行地图]journeymap-1.12.2-5.7.1.jar                                         | None                                     |
+       | L     | armourers_workshop    | 1.12.2-0.50.3            | [时装工坊]Armourers-Workshop-1.12.2-0.50.3.jar                                | None                                     |
+       | L     | twilightforest        | 3.11.1019                | [暮色森林]twilightforest-1.12.2-3.11.1019-universal.jar                       | None                                     |
+       | L     | ironchest             | 1.12.2-7.0.67.844        | [更多箱子]ironchest-1.12.2-7.0.72.847.jar                                     | None                                     |
+       | L     | betterburning         | 0.9.2                    | [更好的燃烧机制]BetterBurning-1.12.2-0.9.2.jar                                   | None                                     |
+       | L     | planttech2            | 1.0.8                    | [植物科技2]planttech2-1.0.9.jar                                               | None                                     |
+       | L     | botania               | r1.10-363                | [植物魔法]Botania+r1.10-363.jar                                               | None                                     |
+       | L     | surge                 | 2.0.77                   | [潮涌][优化]Surge-1.12.2-2.0.77.jar                                           | None                                     |
+       | L     | fastfurnace           | 1.3.1                    | [熔炉性能优化]FastFurnace-1.12.2-1.3.1.jar                                      | None                                     |
+       | L     | apotheosis            | 1.12.4                   | [神化]Apotheosis-1.12.2-1.12.5.jar                                          | None                                     |
+       | L     | comforts              | 1.4.1.3                  | [舒适用品]comforts-1.12.2-1.4.1.3.jar                                         | None                                     |
+       | L     | teastory              | 3.3.3-B33.418-1.12.2     | [茶风·纪事]TeaStory-3.3.3-B33.418-1.12.2.jar                                  | None                                     |
+       | L     | superores             | 1.8.4_1.12               | [超级矿石]superores-1.8.4_1.12.jar                                            | None                                     |
+       | L     | chinjufumod           | 3.2.2                    | [镇守府]ChinjufuMod[1.12.2]3.2.2.jar                                         | None                                     |
+       | L     | wawla                 | 2.6.275                  | [高亮显示]Wawla-1.12.2-2.6.275.jar                                            | None                                     |
+       | L     | advanced_solar_panels | 4.3.0                    | [高级太阳能]Advanced+Solar+Panels-4.3.0.1.jar                                  | None                                     |
+       | L     | mahoutsukai           | 1.12.2-v1.19.18          | [魔法使]mahoutsukai-1.12.2-v1.19.18.jar                                      | None                                     |
+       | L     | futureminecraf        | 1.3.0.2                  | FutureVersions+v1.3.0.2.jar                                               | None                                     |
+       | L     | tickthreading         | 0.0.1                    | TickThreading-0.0.1-core.jar                                              | None                                     |
+       | L     | phosphor-lighting     | 1.12.2-0.2.7             | [Latest][照明优化]phosphor-forge-mc1.12.2-0.2.7-universal.jar                 | None                                     |
+       | L     | unidict               | 1.12.2-2.9.6             | [UD]矿辞统一UniDict-1.12.2-2.9.6.jar                                          | None                                     |
+  Loaded coremods (and transformers): LibLoader (# LibLoader.jar)
+                                        
+                                      TickThreadingCore (TickThreading-0.0.1-core.jar)
+                                        
+                                      PhosphorFMLLoadingPlugin ([Latest][照明优化]phosphor-forge-mc1.12.2-0.2.7-universal.jar)
+                                        
+                                      SurgeLoadingPlugin ([潮涌][优化]Surge-1.12.2-2.0.77.jar)
+                                        
+                                      VanillaFixLoadingPlugin ([VF]原版修复VanillaFix-1.0.10-150.jar)
+                                        
+                                      CreativePatchingLoader ([前置]CreativeCore_v1.10.16_mc1.12.2.jar)
+                                        
+                                      ApotheosisCore ([神化]Apotheosis-1.12.2-1.12.5.jar)
+                                        shadows.ApotheosisTransformer
+                                      SSLoadingPlugin ([Latest][静谧四季]SereneSeasons-1.12.2-1.2.18-universal.jar)
+                                        sereneseasons.asm.transformer.EntityRendererTransformer
+                                        sereneseasons.asm.transformer.WorldTransformer
+                                      CorePlugin ([AC]AcademyCraft-1.1.3.jar)
+                                        cn.lambdalib2.render.mc.PipelineTransformer
+                                        cn.lambdalib2.registry.impl.RegistryTransformer
+                                      Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) ([Latest][泡沫修复]foamfix-0.10.10-1.12.2.jar)
+                                        pl.asie.foamfix.coremod.FoamFixTransformer
+                                      Plugin ([增加id上限]NotEnoughIDs-1.5.4.4-1.12.2.jar)
+                                        ru.fewizz.neid.asm.Transformer
+                                      FutureMC ([新版内容]future-mc-1.12.2-0.2.3.2.jar)
+                                        thedarkcolour.futuremc.asm.CoreTransformer
+                                      CTMCorePlugin ([CTM]连接材质CTM-MC1.12.2-1.0.2.31.jar)
+                                        team.chisel.ctm.client.asm.CTMTransformer
+                                      Inventory Tweaks Coremod ([R键整理]InventoryTweaks-1.63.jar)
+                                        invtweaks.forge.asm.ContainerTransformer
+                                      ForgelinPlugin ([Latest][前置]Forgelin-1.8.4.jar)
+  GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 445.87' Renderer: 'GeForce GTX 1080/PCIe/SSE2'
+  Suspected Mods: Unknown
+  Launched Version: HMCL 3.3.172
+  LWJGL: 2.9.4
+  OpenGL: GeForce GTX 1080/PCIe/SSE2 GL version 4.6.0 NVIDIA 445.87, NVIDIA Corporation
+  GL Caps: Using GL 1.3 multitexturing.
+           Using GL 1.3 texture combiners.
+           Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+           Shaders are available because OpenGL 2.1 is supported.
+           VBOs are available because OpenGL 1.5 is supported.
+  Using VBOs: Yes
+  Is Modded: Definitely; Client brand changed to 'fml,forge'
+  Type: Client (map_client.txt)
+  Resource Packs: 新版材质包.zip, Modernity-format3-v3.3.1.zip
+  Current Language: 简体中文 (中国)
+  Profiler Position: N/A (disabled)
+  CPU: 16x AMD Ryzen 7 2700X Eight-Core Processor

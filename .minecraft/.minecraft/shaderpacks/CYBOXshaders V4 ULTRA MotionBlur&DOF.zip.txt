@@ -1,0 +1,2 @@
+#Fri Jul 07 09:54:19 CST 2017
+HQ_SHADOW_FILTER=true

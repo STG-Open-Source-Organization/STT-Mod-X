@@ -1,0 +1,18 @@
+{
+  "id": "海_-620,63,-451",
+  "name": "海",
+  "icon": "waypoint-normal.png",
+  "x": -620,
+  "y": 63,
+  "z": -451,
+  "r": 76,
+  "g": 26,
+  "b": 100,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

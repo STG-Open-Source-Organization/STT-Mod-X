@@ -1,0 +1,18 @@
+{
+  "id": "jia_-454,68,-496",
+  "name": "jia",
+  "icon": "waypoint-normal.png",
+  "x": -454,
+  "y": 68,
+  "z": -496,
+  "r": 19,
+  "g": 121,
+  "b": 13,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

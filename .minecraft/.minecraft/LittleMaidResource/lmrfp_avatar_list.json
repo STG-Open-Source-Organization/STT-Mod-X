@@ -1,0 +1,12 @@
+{
+  "lmavatar": {
+    "default": {
+      "maidModel": "default_Orign",
+      "maidColor": 0,
+      "armorHelmetModel": "default_Orign",
+      "armorChestplateModel": "default_Orign",
+      "armorLeggingsModel": "default_Orign",
+      "armorBootsModel": "default_Orign"
+    }
+  }
+}

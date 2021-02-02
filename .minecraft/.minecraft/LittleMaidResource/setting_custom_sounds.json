@@ -1,0 +1,378 @@
+{
+  "default_voice": "amitaro_lite",
+  "custom_voice": {
+    "LittleMaidMob_NM1": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "0": "amitaro_lite"
+      }
+    },
+    "b16color_Beverly7": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "0": "amitaro_lite",
+        "1": "amitaro_lite",
+        "2": "amitaro_lite",
+        "3": "amitaro_lite",
+        "4": "amitaro_lite",
+        "5": "amitaro_lite",
+        "6": "amitaro_lite",
+        "7": "amitaro_lite",
+        "8": "amitaro_lite",
+        "9": "amitaro_lite",
+        "10": "amitaro_lite",
+        "11": "amitaro_lite",
+        "12": "amitaro_lite",
+        "13": "amitaro_lite",
+        "14": "amitaro_lite",
+        "15": "amitaro_lite"
+      }
+    },
+    "b16color_Chloe2": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "0": "amitaro_lite",
+        "1": "amitaro_lite",
+        "2": "amitaro_lite",
+        "3": "amitaro_lite",
+        "4": "amitaro_lite",
+        "5": "amitaro_lite",
+        "6": "amitaro_lite",
+        "7": "amitaro_lite",
+        "8": "amitaro_lite",
+        "9": "amitaro_lite",
+        "10": "amitaro_lite",
+        "11": "amitaro_lite",
+        "12": "amitaro_lite",
+        "13": "amitaro_lite",
+        "14": "amitaro_lite",
+        "15": "amitaro_lite"
+      }
+    },
+    "CV_DogAngel": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "0": "amitaro_lite",
+        "1": "amitaro_lite",
+        "2": "amitaro_lite",
+        "3": "amitaro_lite",
+        "4": "amitaro_lite",
+        "5": "amitaro_lite",
+        "6": "amitaro_lite",
+        "7": "amitaro_lite",
+        "8": "amitaro_lite",
+        "9": "amitaro_lite",
+        "10": "amitaro_lite",
+        "11": "amitaro_lite",
+        "12": "amitaro_lite",
+        "13": "amitaro_lite",
+        "14": "amitaro_lite",
+        "15": "amitaro_lite"
+      }
+    },
+    "CV_Yomu": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "1": "amitaro_lite",
+        "2": "amitaro_lite",
+        "3": "amitaro_lite",
+        "4": "amitaro_lite",
+        "5": "amitaro_lite",
+        "6": "amitaro_lite",
+        "7": "amitaro_lite",
+        "8": "amitaro_lite",
+        "9": "amitaro_lite",
+        "10": "amitaro_lite",
+        "11": "amitaro_lite",
+        "12": "amitaro_lite",
+        "13": "amitaro_lite",
+        "14": "amitaro_lite",
+        "15": "amitaro_lite"
+      }
+    },
+    "CV_DogAngel2": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "0": "amitaro_lite",
+        "1": "amitaro_lite",
+        "2": "amitaro_lite",
+        "3": "amitaro_lite",
+        "4": "amitaro_lite",
+        "5": "amitaro_lite",
+        "6": "amitaro_lite",
+        "7": "amitaro_lite",
+        "8": "amitaro_lite",
+        "9": "amitaro_lite",
+        "10": "amitaro_lite",
+        "11": "amitaro_lite",
+        "12": "amitaro_lite",
+        "13": "amitaro_lite",
+        "14": "amitaro_lite",
+        "15": "amitaro_lite"
+      }
+    },
+    "additional_Orign": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "0": "amitaro_lite",
+        "1": "amitaro_lite",
+        "2": "amitaro_lite",
+        "3": "amitaro_lite",
+        "4": "amitaro_lite",
+        "5": "amitaro_lite",
+        "6": "amitaro_lite",
+        "7": "amitaro_lite",
+        "8": "amitaro_lite",
+        "9": "amitaro_lite",
+        "10": "amitaro_lite",
+        "11": "amitaro_lite",
+        "12": "amitaro_lite",
+        "13": "amitaro_lite",
+        "14": "amitaro_lite",
+        "15": "amitaro_lite"
+      }
+    },
+    "CV_DressYukari": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "10": "amitaro_lite"
+      }
+    },
+    "b16under_Chloe2": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "0": "amitaro_lite",
+        "1": "amitaro_lite",
+        "2": "amitaro_lite",
+        "3": "amitaro_lite",
+        "4": "amitaro_lite",
+        "5": "amitaro_lite",
+        "6": "amitaro_lite",
+        "7": "amitaro_lite",
+        "8": "amitaro_lite",
+        "9": "amitaro_lite",
+        "10": "amitaro_lite",
+        "11": "amitaro_lite",
+        "12": "amitaro_lite",
+        "13": "amitaro_lite",
+        "14": "amitaro_lite",
+        "15": "amitaro_lite"
+      }
+    },
+    "mmm_Aug": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "2": "amitaro_lite",
+        "8": "amitaro_lite",
+        "12": "amitaro_lite",
+        "13": "amitaro_lite"
+      }
+    },
+    "mmm_SR2": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "12": "amitaro_lite"
+      }
+    },
+    "e15color_Elsa5": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "0": "amitaro_lite",
+        "1": "amitaro_lite",
+        "2": "amitaro_lite",
+        "3": "amitaro_lite",
+        "4": "amitaro_lite",
+        "5": "amitaro_lite",
+        "6": "amitaro_lite",
+        "7": "amitaro_lite",
+        "8": "amitaro_lite",
+        "9": "amitaro_lite",
+        "10": "amitaro_lite",
+        "11": "amitaro_lite",
+        "12": "amitaro_lite",
+        "13": "amitaro_lite",
+        "14": "amitaro_lite",
+        "15": "amitaro_lite"
+      }
+    },
+    "default_Orign": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "0": "amitaro_lite",
+        "1": "amitaro_lite",
+        "2": "amitaro_lite",
+        "3": "amitaro_lite",
+        "4": "amitaro_lite",
+        "5": "amitaro_lite",
+        "6": "amitaro_lite",
+        "7": "amitaro_lite",
+        "8": "amitaro_lite",
+        "9": "amitaro_lite",
+        "10": "amitaro_lite",
+        "11": "amitaro_lite",
+        "12": "amitaro_lite",
+        "13": "amitaro_lite",
+        "14": "amitaro_lite",
+        "15": "amitaro_lite"
+      }
+    },
+    "e15under_Elsa5": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "0": "amitaro_lite",
+        "1": "amitaro_lite",
+        "2": "amitaro_lite",
+        "3": "amitaro_lite",
+        "4": "amitaro_lite",
+        "5": "amitaro_lite",
+        "6": "amitaro_lite",
+        "7": "amitaro_lite",
+        "8": "amitaro_lite",
+        "9": "amitaro_lite",
+        "10": "amitaro_lite",
+        "11": "amitaro_lite",
+        "12": "amitaro_lite",
+        "13": "amitaro_lite",
+        "14": "amitaro_lite",
+        "15": "amitaro_lite"
+      }
+    },
+    "crafter_Steve": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "12": "amitaro_lite"
+      }
+    },
+    "LittleMaidMob_NM": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "1": "amitaro_lite",
+        "6": "amitaro_lite",
+        "8": "amitaro_lite",
+        "10": "amitaro_lite",
+        "11": "amitaro_lite",
+        "14": "amitaro_lite",
+        "15": "amitaro_lite"
+      }
+    },
+    "CV_ChibiNeko": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "0": "amitaro_lite",
+        "1": "amitaro_lite",
+        "2": "amitaro_lite",
+        "3": "amitaro_lite",
+        "4": "amitaro_lite",
+        "5": "amitaro_lite",
+        "6": "amitaro_lite",
+        "7": "amitaro_lite",
+        "8": "amitaro_lite",
+        "9": "amitaro_lite",
+        "10": "amitaro_lite",
+        "11": "amitaro_lite",
+        "12": "amitaro_lite",
+        "13": "amitaro_lite",
+        "14": "amitaro_lite",
+        "15": "amitaro_lite"
+      }
+    },
+    "CV_Utsuho": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "0": "amitaro_lite",
+        "1": "amitaro_lite",
+        "2": "amitaro_lite",
+        "3": "amitaro_lite",
+        "4": "amitaro_lite",
+        "5": "amitaro_lite",
+        "6": "amitaro_lite",
+        "7": "amitaro_lite",
+        "8": "amitaro_lite",
+        "9": "amitaro_lite",
+        "10": "amitaro_lite",
+        "11": "amitaro_lite",
+        "12": "amitaro_lite",
+        "13": "amitaro_lite",
+        "14": "amitaro_lite",
+        "15": "amitaro_lite"
+      }
+    },
+    "alternative_Orign": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "9": "amitaro_lite",
+        "12": "amitaro_lite",
+        "13": "amitaro_lite"
+      }
+    },
+    "b16under_Beverly7": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "0": "amitaro_lite",
+        "1": "amitaro_lite",
+        "2": "amitaro_lite",
+        "3": "amitaro_lite",
+        "4": "amitaro_lite",
+        "5": "amitaro_lite",
+        "6": "amitaro_lite",
+        "7": "amitaro_lite",
+        "8": "amitaro_lite",
+        "9": "amitaro_lite",
+        "10": "amitaro_lite",
+        "11": "amitaro_lite",
+        "12": "amitaro_lite",
+        "13": "amitaro_lite",
+        "14": "amitaro_lite",
+        "15": "amitaro_lite"
+      }
+    },
+    "CV_Tenshi": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "0": "amitaro_lite",
+        "1": "amitaro_lite",
+        "2": "amitaro_lite",
+        "3": "amitaro_lite",
+        "4": "amitaro_lite",
+        "5": "amitaro_lite",
+        "6": "amitaro_lite",
+        "7": "amitaro_lite",
+        "8": "amitaro_lite",
+        "9": "amitaro_lite",
+        "10": "amitaro_lite",
+        "11": "amitaro_lite",
+        "12": "amitaro_lite",
+        "13": "amitaro_lite",
+        "14": "amitaro_lite",
+        "15": "amitaro_lite"
+      }
+    },
+    "CV_Angel": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "0": "amitaro_lite",
+        "1": "amitaro_lite",
+        "2": "amitaro_lite",
+        "3": "amitaro_lite",
+        "4": "amitaro_lite",
+        "5": "amitaro_lite",
+        "6": "amitaro_lite",
+        "7": "amitaro_lite",
+        "8": "amitaro_lite",
+        "9": "amitaro_lite",
+        "10": "amitaro_lite",
+        "11": "amitaro_lite",
+        "12": "amitaro_lite",
+        "13": "amitaro_lite",
+        "14": "amitaro_lite",
+        "15": "amitaro_lite"
+      }
+    },
+    "crafter_Stef": {
+      "default_voice": "amitaro_lite",
+      "color_voice": {
+        "12": "amitaro_lite"
+      }
+    }
+  }
+}

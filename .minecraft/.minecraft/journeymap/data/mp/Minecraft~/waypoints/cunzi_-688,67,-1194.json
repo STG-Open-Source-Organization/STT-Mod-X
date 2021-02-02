@@ -1,0 +1,18 @@
+{
+  "id": "cunzi_-688,67,-1194",
+  "name": "cunzi",
+  "icon": "waypoint-normal.png",
+  "x": -688,
+  "y": 67,
+  "z": -1194,
+  "r": 184,
+  "g": 161,
+  "b": 115,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

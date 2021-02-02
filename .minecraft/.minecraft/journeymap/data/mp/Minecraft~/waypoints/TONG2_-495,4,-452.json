@@ -1,0 +1,18 @@
+{
+  "id": "TONG2_-495,4,-452",
+  "name": "TONG2",
+  "icon": "waypoint-normal.png",
+  "x": -495,
+  "y": 4,
+  "z": -452,
+  "r": 179,
+  "g": 251,
+  "b": 136,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

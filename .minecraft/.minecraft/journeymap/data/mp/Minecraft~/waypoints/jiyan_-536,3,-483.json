@@ -1,0 +1,18 @@
+{
+  "id": "jiyan_-536,3,-483",
+  "name": "jiyan",
+  "icon": "waypoint-normal.png",
+  "x": -536,
+  "y": 3,
+  "z": -483,
+  "r": 137,
+  "g": 16,
+  "b": 59,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

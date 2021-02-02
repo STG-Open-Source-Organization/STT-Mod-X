@@ -1,0 +1,3 @@
+#Tue Jul 04 15:54:27 CST 2017
+Motionblur=true
+Depth_of_Field=true

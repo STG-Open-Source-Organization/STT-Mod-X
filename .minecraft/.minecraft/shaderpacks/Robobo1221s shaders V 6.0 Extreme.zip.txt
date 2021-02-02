@@ -1,0 +1,15 @@
+#Sun Jul 23 00:18:09 CST 2017
+drynessHalflife=10
+CHROMATIC_ABBORATION=true
+SUNLIGHTAMOUNT=2.0
+SSAO=true
+shadowDistance=250
+noiseTextureResolution=516
+centerDepthHalflife=5
+REFLECTION_STRENGTH=1.0
+DIRTY_LENS=true
+MOVIE_BORDER=true
+MOTIONBLUR=true
+eyeBrightnessHalflife=10
+sunPathRotation=40
+GODRAYS=true
