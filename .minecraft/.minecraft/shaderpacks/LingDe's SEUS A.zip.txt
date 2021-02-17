@@ -1,4 +1,0 @@
-#Tue Jul 25 21:46:02 CST 2017
-LLLFF=true
-Dirty_Lens=false
-EDGE_BLUR=false
