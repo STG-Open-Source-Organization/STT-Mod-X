@@ -1,0 +1,9 @@
+
+#Common settings
+[common]
+
+	#Debug settings
+	[common.debug]
+		#デバッグモードを有効にするか否か / Enable debug mode or not
+		debug_mode = false
+

@@ -1,6 +1,0 @@
-#Tue Jul 25 14:27:14 CST 2017
-POM=true
-POM_RES=512
-Motionblur=true
-Lens_Flares=true
-Depth_of_Field=true

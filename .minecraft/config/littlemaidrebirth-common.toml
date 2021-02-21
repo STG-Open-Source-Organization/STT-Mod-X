@@ -1,0 +1,23 @@
+
+#Common settings
+[common]
+
+	#Spawn settings
+	[common.spawn]
+		#Whether LittleMaid can spawn or not
+		canSpawnLM = true
+		#LittleMaid spawn weight
+		#Range: 1 ~ 50
+		spawnWeightLM = 5
+		#LittleMaid spawn limit
+		#Range: 1 ~ 200
+		spawnLimitLM = 20
+		#LittleMaid min group size
+		#Range: 1 ~ 30
+		spawnMinGroupSizeLM = 1
+		#LittleMaid max group size
+		#Range: 1 ~ 30
+		spawnMaxGroupSizeLM = 3
+		#Whether LittleMaid can despawn or not
+		canDespawnLM = false
+

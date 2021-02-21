@@ -1,5 +1,0 @@
-#Tue Jul 25 14:30:07 CST 2017
-POM=true
-CAUSTICS_WIP=true
-SPECULAR=true
-SSAO=true
