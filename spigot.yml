@@ -1,0 +1,143 @@
+# 这是Spigot的主配置文件
+# 有很多项目可配置，其中某些项目会影响游戏体验，更改时应多加注意。
+# 请确保在更改每个配置项之前都知道这个配置项控制什么。
+# 此配置文件中每个配置项的用途参考Spigot wiki于
+# http://www.spigotmc.org/wiki/spigot-configuration/
+# 如果需要关于配置文件的帮助或有任何关于Spigot的问题，
+# 
+# 
+# 请加入Spigot的IRC或在Spigot论坛发帖
+# IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
+# Forums: http://www.spigotmc.org/
+
+config-version: 12
+stats:
+  disable-saving: false
+  forced-stats: {}
+commands:
+  log: true
+  spam-exclusions:
+  - /skill
+  tab-complete: 0
+  send-namespaced: true
+  silent-commandblock-console: false
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+settings:
+  sample-count: 12
+  player-shuffle: 0
+  user-cache-size: 1000
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+  netty-threads: 4
+  log-villager-deaths: true
+  save-user-cache-on-stop-only: false
+  moved-too-quickly-multiplier: 10.0
+  moved-wrongly-threshold: 0.0625
+  bungeecord: false
+  debug: false
+  attribute:
+    maxHealth:
+      max: 2048.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
+messages:
+  restart: Server is restarting
+  whitelist: You are not whitelisted on this server!
+  unknown-command: Unknown command. Type "/help" for help.
+  server-full: The server is full!
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
+advancements:
+  disable-saving: false
+  disabled:
+  - minecraft:story/disabled
+players:
+  disable-saving: false
+world-settings:
+  default:
+    verbose: true
+    view-distance: default
+    nerf-spawner-mobs: false
+    item-despawn-rate: 6000
+    zombie-aggressive-towards-villager: true
+    wither-spawn-sound-radius: 0
+    dragon-death-sound-radius: 0
+    enable-zombie-pigmen-portal-spawns: true
+    hanging-tick-frequency: 100
+    seed-village: 10387312
+    seed-desert: 14357617
+    seed-igloo: 14357618
+    seed-jungle: 14357619
+    seed-swamp: 14357620
+    seed-monument: 10387313
+    seed-shipwreck: 165745295
+    seed-ocean: 14357621
+    seed-outpost: 165745296
+    seed-endcity: 10387313
+    seed-slime: 987234911
+    seed-bastion: 30084232
+    seed-fortress: 30084232
+    seed-mansion: 10387319
+    seed-fossil: 14357921
+    seed-portal: 34222645
+    end-portal-sound-radius: 0
+    arrow-despawn-rate: 1200
+    trident-despawn-rate: 1200
+    mob-spawn-range: 6
+    hopper-amount: 1
+    max-tnt-per-tick: 100
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    merge-radius:
+      item: 2.5
+      exp: 3.0
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      raiders: 48
+      misc: 16
+      tick-inactive-villagers: true
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      beetroot-modifier: 100
+      carrot-modifier: 100
+      potato-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
+      vine-modifier: 100
+      cocoa-modifier: 100
+      bamboo-modifier: 100
+      sweetberry-modifier: 100
+      kelp-modifier: 100
+    hunger:
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      combat-exhaustion: 0.1
+      regen-exhaustion: 6.0
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
+    squid-spawn-range:
+      min: 45.0
+    max-tick-time:
+      tile: 50
+      entity: 50

@@ -1,0 +1,21 @@
+# Welcome to Mohist tile tick configuration!
+# This opens up good TPS savings if used wisely.
+# 'overrides' section populates itself over time.
+# -=-=-=-=-
+# Simple usage cases:
+# 'skip-every: 50' - skips every 50th tick
+# 'skip-every: 0' - tick limiter is not applied (vanilla behaviour)
+# 'skip-every: 1' - tile will not tick at all (skips every 1st tick)
+# 'skip-every: default' - value is grabbed from 'defaults' section
+# Values in range of 0 up to 1000 can be used, you won't need more than that.
+# -=-=-=-=-
+
+defaults:
+  skip-every: 0
+overrides:
+  net-minecraft-tileentity-BeehiveTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-ChestTileEntity:
+    skip-every: default
+  shadows-apotheosis-spawn-spawner-ApothSpawnerTile:
+    skip-every: default

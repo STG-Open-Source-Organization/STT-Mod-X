@@ -1,0 +1,173 @@
+[21二月2021 18:34:12.710] [main/INFO] [Arclight/]: 
+
+       ___           ___     __   /\
+      /   | ________/ (_)__ / /  / /
+     / /| |/ __/ __/ / / _ / _ \/__/
+    / ___ / / / /_/ / / / / // / /
+   /_/  |/_/  \__/_/_/\_ /_//_/ /
+                     /__/     \/
+
+    运行版本 arclight-1.16.5-1.0.14-3408941
+    构建日期 2021-02-21 08:26:57
+
+[21二月2021 18:34:12.723] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.0.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge]
+[21二月2021 18:34:12.725] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_281 by Oracle Corporation
+[21二月2021 18:34:13.604] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[21二月2021 18:34:13.630] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/E:/STT工业整合服务端1.16.5-5.1.5Build-17202%20forge1.16.2-33.0.5Beta/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
+[21二月2021 18:34:15.996] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [net.sistr.lmml.mixin.Connector]
+[21二月2021 18:34:15.997] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sistr.littlemaidrebirth.mixin.Connector]
+[21二月2021 18:34:15.998] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.botania.common.MixinConnector]
+[21二月2021 18:34:15.999] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+[21二月2021 18:34:16.000] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [thelm.jaopca.mixins.JAOPCAMixinConnector]
+[21二月2021 18:34:16.008] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.impl.ArclightConnector_1_16]
+[21二月2021 18:34:16.014] [main/INFO] [net.sistr.lmml.LittleMaidModelLoader/]: Invoking Mixin Connector
+[21二月2021 18:34:16.018] [main/INFO] [com.sistr.littlemaidrebirth.LittleMaidReBirthMod/]: Invoking Mixin Connector
+[21二月2021 18:34:16.056] [main/INFO] [Arclight/]: 核心 Mixin 配置已加载
+[21二月2021 18:34:16.058] [main/INFO] [Arclight/]: 服务端优化 Mixin 配置已加载
+[21二月2021 18:34:16.064] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[21二月2021 18:34:16.086] [main/WARN] [mixin/]: Reference map 'littlemaidmodelloader.refmap.json' for assets/littlemaidmodelloader/littlemaidmodelloader.mixins.json could not be read. If this is a development environment you can ignore this message
+[21二月2021 18:34:16.087] [main/WARN] [mixin/]: Reference map 'littlemaidrebirth.refmap.json' for assets/littlemaidrebirth/littlemaidrebirth.mixins.json could not be read. If this is a development environment you can ignore this message
+[21二月2021 18:34:17.644] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#<init>
+[21二月2021 18:34:17.647] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#onCraftMatrixChanged
+[21二月2021 18:34:17.650] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#transferStackInSlot
+[21二月2021 18:34:17.671] [main/ERROR] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Error occurred applying transform of coremod apothasm/container-repair.js function apothanvilcontainer
+java.lang.NullPointerException: null
+	at org.objectweb.asm.tree.InsnList.set(InsnList.java:194) ~[asm-tree-9.0.jar:9.0]
+	at jdk.nashorn.internal.scripts.Script$Recompilation$304$363A$\^eval\_.initializeCoreMod#transformer(<eval>:42) ~[?:?]
+	at jdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:639) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:494) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:393) ~[nashorn.jar:?]
+	at jdk.nashorn.api.scripting.ScriptObjectMirror.call(ScriptObjectMirror.java:117) ~[nashorn.jar:?]
+	at net.minecraftforge.coremod.NashornFactory.lambda$getFunction$0(NashornFactory.java:18) ~[coremods-4.0.6.jar:4.0.6+14+master.c21a551]
+	at net.minecraftforge.coremod.transformer.CoreModMethodTransformer.runCoremod(CoreModMethodTransformer.java:18) ~[coremods-4.0.6.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModMethodTransformer.runCoremod(CoreModMethodTransformer.java:10) ~[coremods-4.0.6.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModBaseTransformer.transform(CoreModBaseTransformer.java:38) ~[coremods-4.0.6.jar:?]
+	at cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:111) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.buildTransformedClassNodeFor(TransformingClassLoader.java:142) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchPluginHandler.lambda$null$8(LaunchPluginHandler.java:97) ~[modlauncher-8.0.9.jar:?]
+	at org.spongepowered.asm.launch.MixinLaunchPlugin.getClassNode(MixinLaunchPlugin.java:214) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.launch.MixinLaunchPlugin.getClassNode(MixinLaunchPlugin.java:202) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.ClassInfo.forName(ClassInfo.java:1843) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.getTargetClass(MixinInfo.java:1007) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.readTargetClasses(MixinInfo.java:997) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.parseTargets(MixinInfo.java:885) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:730) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:646) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:514) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:439) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:415) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:285) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:223) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformationHandler.processClass(MixinTransformationHandler.java:121) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.launch.MixinLaunchPlugin.processClass(MixinLaunchPlugin.java:131) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:154) ~[modlauncher-8.0.9.jar:8.0.9+86+master.3cf110c]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.0.9.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_281]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_281]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_281]
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51) ~[forge-1.16.5-36.0.42.jar:36.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63) [forge-1.16.5-36.0.42.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60) [forge-1.16.5-36.0.42.jar:?]
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57) [forge-1.16.5-36.0.42.jar:?]
+	at io.izzel.arclight.common.ArclightMain.run(ArclightMain.java:46) [arclight-forge-1.16-1.0.14.jar:arclight-1.16.5-1.0.14-3408941]
+	at io.izzel.arclight.server.Main_1_16.main(Main_1_16.java:10) [arclight-forge-1.16-1.0.14.jar:arclight-1.16.5-1.0.14-3408941]
+[21二月2021 18:34:17.741] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LootTableManager#apply
+[21二月2021 18:34:17.871] [main/WARN] [mixin/]: @Mixin target org.bukkit.plugin.java.PluginClassLoader is public in mixins.arclight.bukkit.json:PluginClassLoaderMixin and should be specified in value
+[21二月2021 18:34:18.095] [main/WARN] [mixin/]: Static binding violation: PRIVATE overwrite method getServer in mixins.arclight.core.json:server.MinecraftServerMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[21二月2021 18:34:18.097] [main/FATAL] [mixin/]: Mixin apply failed mixins.arclight.core.json:server.MinecraftServerMixin -> net.minecraft.server.MinecraftServer: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException STATIC modifier of @Shadow field options in mixins.arclight.core.json:server.MinecraftServerMixin does not match the target
+org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: STATIC modifier of @Shadow field options in mixins.arclight.core.json:server.MinecraftServerMixin does not match the target
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachFields(MixinPreProcessorStandard.java:624) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:292) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:267) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1271) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:287) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:345) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:569) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:351) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:223) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformationHandler.processClass(MixinTransformationHandler.java:121) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.launch.MixinLaunchPlugin.processClass(MixinLaunchPlugin.java:131) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:154) ~[modlauncher-8.0.9.jar:8.0.9+86+master.3cf110c]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.0.9.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_281]
+	at net.minecraft.server.Main.main(MainMixin.java:104) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_281]
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51) ~[forge-1.16.5-36.0.42.jar:36.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63) [forge-1.16.5-36.0.42.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60) [forge-1.16.5-36.0.42.jar:?]
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57) [forge-1.16.5-36.0.42.jar:?]
+	at io.izzel.arclight.common.ArclightMain.run(ArclightMain.java:46) [arclight-forge-1.16-1.0.14.jar:arclight-1.16.5-1.0.14-3408941]
+	at io.izzel.arclight.server.Main_1_16.main(Main_1_16.java:10) [arclight-forge-1.16-1.0.14.jar:arclight-1.16.5-1.0.14-3408941]
+[21二月2021 18:34:18.100] [main/INFO] [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:48]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+[21二月2021 18:34:18.100] [main/INFO] [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:48]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:39)
+[21二月2021 18:34:18.100] [main/INFO] [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:48]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+[21二月2021 18:34:18.101] [main/INFO] [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:48]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+[21二月2021 18:34:18.101] [main/INFO] [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:48]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+[21二月2021 18:34:18.102] [main/INFO] [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:48]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+[21二月2021 18:34:18.102] [main/INFO] [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:48]: 	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63)
+[21二月2021 18:34:18.103] [main/INFO] [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:48]: 	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60)
+[21二月2021 18:34:18.103] [main/INFO] [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:48]: 	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57)
+[21二月2021 18:34:18.104] [main/INFO] [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:48]: 	at io.izzel.arclight.common.ArclightMain.run(ArclightMain.java:46)
+[21二月2021 18:34:18.104] [main/INFO] [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:48]: 	at io.izzel.arclight.server.Main_1_16.main(Main_1_16.java:10)
+[21二月2021 18:34:18.105] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: Caused by: java.lang.reflect.InvocationTargetException
+[21二月2021 18:34:18.106] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[21二月2021 18:34:18.109] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[21二月2021 18:34:18.110] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[21二月2021 18:34:18.110] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[21二月2021 18:34:18.110] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51)
+[21二月2021 18:34:18.111] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[21二月2021 18:34:18.111] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	... 9 more
+[21二月2021 18:34:18.112] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+[21二月2021 18:34:18.115] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+[21二月2021 18:34:18.116] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:223)
+[21二月2021 18:34:18.116] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformationHandler.processClass(MixinTransformationHandler.java:121)
+[21二月2021 18:34:18.117] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at org.spongepowered.asm.launch.MixinLaunchPlugin.processClass(MixinLaunchPlugin.java:131)
+[21二月2021 18:34:18.117] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:154)
+[21二月2021 18:34:18.118] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85)
+[21二月2021 18:34:18.118] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+[21二月2021 18:34:18.118] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265)
+[21二月2021 18:34:18.119] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136)
+[21二月2021 18:34:18.121] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98)
+[21二月2021 18:34:18.125] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[21二月2021 18:34:18.125] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at net.minecraft.server.Main.main(MainMixin.java:104)
+[21二月2021 18:34:18.126] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	... 15 more
+[21二月2021 18:34:18.126] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [mixins.arclight.core.json:server.MinecraftServerMixin] from phase [DEFAULT] in config [mixins.arclight.core.json] FAILED during APPLY
+[21二月2021 18:34:18.127] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:642)
+[21二月2021 18:34:18.127] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:594)
+[21二月2021 18:34:18.128] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:356)
+[21二月2021 18:34:18.128] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	... 26 more
+[21二月2021 18:34:18.128] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:-1]: Caused by: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: STATIC modifier of @Shadow field options in mixins.arclight.core.json:server.MinecraftServerMixin does not match the target
+[21二月2021 18:34:18.129] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:-1]: 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachFields(MixinPreProcessorStandard.java:624)
+[21二月2021 18:34:18.133] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:-1]: 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:292)
+[21二月2021 18:34:18.133] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:-1]: 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:267)
+[21二月2021 18:34:18.133] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:-1]: 	at org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1271)
+[21二月2021 18:34:18.134] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:-1]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:287)
+[21二月2021 18:34:18.135] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:-1]: 	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:345)
+[21二月2021 18:34:18.135] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:-1]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:569)
+[21二月2021 18:34:18.137] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:-1]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:351)
+[21二月2021 18:34:18.141] [main/INFO] [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:-1]: 	... 26 more
+[21二月2021 18:34:18.142] [main/INFO] [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:49]: Fail to launch Arclight.

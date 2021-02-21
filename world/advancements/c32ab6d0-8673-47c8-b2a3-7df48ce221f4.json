@@ -1,0 +1,111 @@
+{
+  "twilightforest:alt/major_landmarks/naga_courtyard": {
+    "criteria": {
+      "discover": "2021-02-21 17:57:30 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/hedge_maze": {
+    "criteria": {
+      "discover": "2021-02-21 17:57:30 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/quest_grove": {
+    "criteria": {
+      "discover": "2021-02-21 17:57:30 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/large_hollow_hill": {
+    "criteria": {
+      "discover": "2021-02-21 17:57:30 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/medium_hollow_hill": {
+    "criteria": {
+      "discover": "2021-02-21 17:57:30 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/lich_tower": {
+    "criteria": {
+      "discover": "2021-02-21 17:57:30 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/ice_tower": {
+    "criteria": {
+      "discover": "2021-02-21 17:57:30 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:progress_castle": {
+    "criteria": {
+      "discover": "2021-02-21 17:57:30 +0800"
+    },
+    "done": false
+  },
+  "twilightforest:progress_thorns": {
+    "criteria": {
+      "discover": "2021-02-21 17:57:30 +0800"
+    },
+    "done": false
+  },
+  "apotheosis:spawner/root": {
+    "criteria": {
+      "game_start": "2021-02-21 17:57:30 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/small_hollow_hill": {
+    "criteria": {
+      "discover": "2021-02-21 17:57:30 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/mushroom_tower": {
+    "criteria": {
+      "discover": "2021-02-21 17:57:30 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/yeti_lairs": {
+    "criteria": {
+      "discover": "2021-02-21 17:57:30 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/final_castle": {
+    "criteria": {
+      "discover": "2021-02-21 17:57:30 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/dark_tower": {
+    "criteria": {
+      "discover": "2021-02-21 17:57:30 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/hollow_hills": {
+    "criteria": {
+      "2": "2021-02-21 17:57:30 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/hydra_lair": {
+    "criteria": {
+      "discover": "2021-02-21 17:57:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:wooded_hills": "2021-02-21 17:57:30 +0800"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}
