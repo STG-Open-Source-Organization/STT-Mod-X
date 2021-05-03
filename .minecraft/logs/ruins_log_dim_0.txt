@@ -1,0 +1,96 @@
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\dead_forest, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\corrupted_sands, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\prairie, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\snowy_coniferous_forest, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\kelp_forest, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\pasture, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\wetland, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\voidcraft_biome_dream_nether, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\temperate_rainforest, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\lush_swamp, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\alps, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\shield, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\snowy_tundra, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\alps_foothills, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\glacier, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\voidcraft_biome_dream_end, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\seasonal_forest, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\rw_spruce_mountains, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\outback, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\redwood_forest, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\woodland, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\tropical_island, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\coral_reef, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\origin_island, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\redwood_forest_edge, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\fen, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\origin_beach, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\rw_emperor_ridge, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\undergarden, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\mountain_foothills, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\voidcraft_biome_dream_overworld, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\maple_woods, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\chaparral, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\white_beach, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\marsh, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\meadow, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\flower_island, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\rw_silver_birch_hills, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\mystic_grove, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\rw_birch_autumn_forest, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\voidcraft_biome_void, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\grove, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\steppe, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\voidcraft_biome_dream_void, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\rw_bamboo_marsh, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\ominous_woods, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\sacred_springs, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\gravel_beach, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\tundra, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\grassland, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\orchard, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\cold_desert, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\flower_field, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\bayou, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\boreal_forest, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\coniferous_forest, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\highland, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\eucalyptus_forest, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\mountain, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\rw_blue_oak_forest, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\wasteland, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\land_of_lakes, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\rw_flatland_thicket, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\bog, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\moor, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\phantasmagoric_inferno, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\volcanic_island, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\voidcraft_biome_xia, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\quagmire, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\oasis, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\tropical_rainforest, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\rw_bur_oak_forest, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\dead_swamp, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\visceral_heap, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\xeric_shrubland, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\bamboo_forest, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\overgrown_cliffs, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\shrubland, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\cherry_blossom_grove, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\rw_bombona_beach, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\fungi_forest, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\rainforest, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\crag, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\brushland, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\lavender_fields, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\lush_desert, creating empty folder for it: success
+Did not find any Building data for E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\config\ruins_config\rw_spiny_forest, creating empty folder for it: success
+
+Loading options from: E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\saves\新的世界---
+tries_per_chunk_normal = 6
+chance_to_spawn_normal = 10.0
+templateInstancesMinDistance = 256.0
+anyRuinsMinDistance = 64.0
+anySpawnMinDistance = 32
+anySpawnMaxDistance = 2147483647
+Ruins mod loaded successfully for world E:\STT整合客户端LTS-1.12.2-1.12.2-3.5.3 Build-11701 forge1.12.2-14.23.5.2855\.minecraft\saves\新的世界---, template files: 31
