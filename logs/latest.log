@@ -1,197 +1,45 @@
-[22:33:03] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLServerTweaker
-[22:33:03] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLServerTweaker
-[22:33:03] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLServerTweaker
-[22:33:03] [main/INFO]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
-[22:33:04] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_251, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_251
-[22:33:04] [main/INFO]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
-[22:33:07] [main/INFO]: [micdoodle8.mods.miccore.DepLoader$DepLoadInst:<init>:333]: MicdoodleCore searching for dependencies in mods file: E:\stt_server_project_to_STTmodX_1.7.10RE-2.5.926\.\mods
-[22:33:07] [main/WARN]: The following coremods do not have a @MCVersion annotation. They may cause problems if this is not the correct version of Minecraft for them.
-[22:33:07] [main/WARN]: Missing @MCVersion: codechicken.core.launch.CodeChickenCorePlugin  cofh.asm.LoadingPlugin  cn.lambdalib.core.LLCorePlugin  micdoodle8.mods.miccore.MicdoodlePlugin  codechicken.nei.asm.NEICorePlugin  
-[22:33:07] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:33:07] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[22:33:07] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:33:07] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:33:07] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:08] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:08] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:08] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:09] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:09] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:09] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:09] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:09] [main/INFO]: [micdoodle8.mods.miccore.MicdoodlePlugin:getASMTransformerClass:102]: Successfully Registered Transformer
-[22:33:09] [main/INFO]: [micdoodle8.mods.miccore.MicdoodlePlugin:injectData:295]: [Micdoodle8Core]: Patching game...
-[22:33:09] [main/INFO]: [micdoodle8.mods.miccore.MicdoodlePlugin:injectData:295]: [Micdoodle8Core]: Patching game...
-[22:33:09] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:09] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[22:33:10] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:10] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:10] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:10] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[22:33:10] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[22:33:10] [main/INFO]: [micdoodle8.mods.miccore.MicdoodleTransformer:printLog:1989]: Galacticraft successfully injected bytecode into: ahb (1 / 1)
-[22:33:10] [main/INFO]: [micdoodle8.mods.miccore.MicdoodleTransformer:printResultsAndReset:1905]: Potential problem: Galacticraft did not complete injection of bytecode into: oi (4 / 6)
-[22:33:10] [main/INFO]: [micdoodle8.mods.miccore.MicdoodleTransformer:printLog:1989]: Galacticraft successfully injected bytecode into: sv (1 / 1)
-[22:33:10] [main/INFO]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[22:33:10] [main/INFO]: [micdoodle8.mods.miccore.MicdoodleTransformer:printLog:1989]: Galacticraft successfully injected bytecode into: xk (1 / 1)
-[22:33:11] [main/ERROR]: Unable to launch
-java.lang.reflect.InvocationTargetException
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
-	at cpw.mods.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:43) [Uranium-1710-dev-5-B271-31d6587-server.jar:1.7.10-R0.1-SNAPSHOT]
-	at cpw.mods.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:12) [Uranium-1710-dev-5-B271-31d6587-server.jar:1.7.10-R0.1-SNAPSHOT]
-Caused by: java.lang.NoClassDefFoundError: net/minecraft/block/BlockCake
-	at net.minecraft.block.Block.func_149671_p(Block.java:301) ~[aji.class:?]
-	at net.minecraft.init.Bootstrap.func_151354_b(Bootstrap.java:714) ~[kl.class:?]
-	at net.minecraft.server.MinecraftServer.main(MinecraftServer.java:1588) ~[MinecraftServer.class:?]
-	... 12 more
-Caused by: java.lang.ClassNotFoundException: net.minecraft.block.BlockCake
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_251]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_251]
-	at net.minecraft.block.Block.func_149671_p(Block.java:301) ~[aji.class:?]
-	at net.minecraft.init.Bootstrap.func_151354_b(Bootstrap.java:714) ~[kl.class:?]
-	at net.minecraft.server.MinecraftServer.main(MinecraftServer.java:1588) ~[MinecraftServer.class:?]
-	... 12 more
-Caused by: java.lang.RuntimeException: Could not replace FoodStats.addStats call in net/minecraft/block/BlockCake.func_150036_b
-   L0
-    LINENUMBER 109 L0
-    ALOAD 5
-    ICONST_0
-    INVOKEVIRTUAL net/minecraft/entity/player/EntityPlayer.func_71043_e (Z)Z
-    IFEQ L1
-   L2
-    LINENUMBER 112 L2
-    ALOAD 5
-    INVOKEVIRTUAL net/minecraft/entity/player/EntityPlayer.func_71024_bL ()Lnet/minecraft/util/FoodStats;
-    GETFIELD net/minecraft/util/FoodStats.field_75127_a : I
-    ISTORE 6
-   L3
-    LINENUMBER 113 L3
-    ALOAD 5
-    ICONST_2
-    ILOAD 6
-    IADD
-    INVOKESTATIC org/bukkit/craftbukkit/v1_7_R4/event/CraftEventFactory.callFoodLevelChangeEvent (Lnet/minecraft/entity/player/EntityPlayer;I)Lorg/bukkit/event/entity/FoodLevelChangeEvent;
-    ASTORE 7
-   L4
-    LINENUMBER 115 L4
-    ALOAD 7
-    INVOKEVIRTUAL org/bukkit/event/entity/FoodLevelChangeEvent.isCancelled ()Z
-    IFNE L5
-   L6
-    LINENUMBER 117 L6
-    ALOAD 5
-    INVOKEVIRTUAL net/minecraft/entity/player/EntityPlayer.func_71024_bL ()Lnet/minecraft/util/FoodStats;
-    ALOAD 7
-    INVOKEVIRTUAL org/bukkit/event/entity/FoodLevelChangeEvent.getFoodLevel ()I
-    ILOAD 6
-    ISUB
-    LDC 0.1
-    INVOKEVIRTUAL net/minecraft/util/FoodStats.func_75122_a (IF)V
-   L5
-    LINENUMBER 120 L5
-   FRAME APPEND [I org/bukkit/event/entity/FoodLevelChangeEvent]
-    ALOAD 5
-    CHECKCAST net/minecraft/entity/player/EntityPlayerMP
-    GETFIELD net/minecraft/entity/player/EntityPlayerMP.field_71135_a : Lnet/minecraft/network/NetHandlerPlayServer;
-    NEW net/minecraft/network/play/server/S06PacketUpdateHealth
-    DUP
-    ALOAD 5
-    CHECKCAST net/minecraft/entity/player/EntityPlayerMP
-    INVOKEVIRTUAL net/minecraft/entity/player/EntityPlayerMP.getBukkitEntity ()Lorg/bukkit/craftbukkit/v1_7_R4/entity/CraftPlayer;
-    INVOKEVIRTUAL org/bukkit/craftbukkit/v1_7_R4/entity/CraftPlayer.getScaledHealth ()F
-    ALOAD 5
-    INVOKEVIRTUAL net/minecraft/entity/player/EntityPlayer.func_71024_bL ()Lnet/minecraft/util/FoodStats;
-    GETFIELD net/minecraft/util/FoodStats.field_75127_a : I
-    ALOAD 5
-    INVOKEVIRTUAL net/minecraft/entity/player/EntityPlayer.func_71024_bL ()Lnet/minecraft/util/FoodStats;
-    GETFIELD net/minecraft/util/FoodStats.field_75125_b : F
-    INVOKESPECIAL net/minecraft/network/play/server/S06PacketUpdateHealth.<init> (FIF)V
-    INVOKEVIRTUAL net/minecraft/network/NetHandlerPlayServer.func_147359_a (Lnet/minecraft/network/Packet;)V
-   L7
-    LINENUMBER 122 L7
-    ALOAD 1
-    ILOAD 2
-    ILOAD 3
-    ILOAD 4
-    INVOKEVIRTUAL net/minecraft/world/World.func_72805_g (III)I
-    ICONST_1
-    IADD
-    ISTORE 8
-   L8
-    LINENUMBER 124 L8
-    ILOAD 8
-    BIPUSH 6
-    IF_ICMPLT L9
-   L10
-    LINENUMBER 126 L10
-    ALOAD 1
-    ILOAD 2
-    ILOAD 3
-    ILOAD 4
-    INVOKEVIRTUAL net/minecraft/world/World.func_147468_f (III)Z
-    POP
-    GOTO L1
-   L9
-    LINENUMBER 130 L9
-   FRAME APPEND [I]
-    ALOAD 1
-    ILOAD 2
-    ILOAD 3
-    ILOAD 4
-    ILOAD 8
-    ICONST_2
-    INVOKEVIRTUAL net/minecraft/world/World.func_72921_c (IIIII)Z
-    POP
-   L1
-    LINENUMBER 133 L1
-   FRAME CHOP 3
-    RETURN
-   L11
-    LOCALVARIABLE oldFoodLevel I L3 L1 6
-    LOCALVARIABLE event Lorg/bukkit/event/entity/FoodLevelChangeEvent; L4 L1 7
-    LOCALVARIABLE l I L8 L1 8
-    LOCALVARIABLE this Lnet/minecraft/block/BlockCake; L0 L11 0
-    LOCALVARIABLE p_150036_1_ Lnet/minecraft/world/World; L0 L11 1
-    LOCALVARIABLE p_150036_2_ I L0 L11 2
-    LOCALVARIABLE p_150036_3_ I L0 L11 3
-    LOCALVARIABLE p_150036_4_ I L0 L11 4
-    LOCALVARIABLE p_150036_5_ Lnet/minecraft/entity/player/EntityPlayer; L0 L11 5
-    MAXSTACK = 6
-    MAXLOCALS = 9
-
-	at squeek.applecore.asm.module.ModuleBlockFood.addOnBlockFoodEatenHook(ModuleBlockFood.java:98) ~[AppleCore-mc1.7.10-3.1.1.jar:?]
-	at squeek.applecore.asm.module.ModuleBlockFood.transform(ModuleBlockFood.java:38) ~[AppleCore-mc1.7.10-3.1.1.jar:?]
-	at squeek.applecore.asm.TransformerModuleHandler.transform(TransformerModuleHandler.java:41) ~[AppleCore-mc1.7.10-3.1.1.jar:?]
-	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_251]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_251]
-	at net.minecraft.block.Block.func_149671_p(Block.java:301) ~[aji.class:?]
-	at net.minecraft.init.Bootstrap.func_151354_b(Bootstrap.java:714) ~[kl.class:?]
-	at net.minecraft.server.MinecraftServer.main(MinecraftServer.java:1588) ~[MinecraftServer.class:?]
-	... 12 more
-[22:33:11] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:-1]: java.lang.reflect.InvocationTargetException
-[22:33:11] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[22:33:11] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-[22:33:11] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-[22:33:11] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.lang.reflect.Method.invoke(Unknown Source)
-[22:33:11] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at cpw.mods.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:43)
-[22:33:11] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at cpw.mods.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:12)
-[22:33:11] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:-1]: Caused by: cpw.mods.fml.relauncher.FMLSecurityManager$ExitTrappedException
-[22:33:11] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at cpw.mods.fml.relauncher.FMLSecurityManager.checkPermission(FMLSecurityManager.java:25)
-[22:33:11] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.lang.SecurityManager.checkExit(Unknown Source)
-[22:33:11] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.lang.Runtime.exit(Unknown Source)
-[22:33:11] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.lang.System.exit(Unknown Source)
-[22:33:11] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:138)
-[22:33:11] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-[22:33:11] [main/INFO]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	... 6 more
+[20:19:51] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[20:20:15] [Server thread/INFO]: Loading properties
+[20:20:15] [Server thread/INFO]: Default game type: SURVIVAL
+[20:20:15] [Server thread/INFO]: Generating keypair
+[20:20:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:20:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:20:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:20:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:20:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:20:33] [Server thread/INFO]: Preparing level "world"
+[20:20:34] [Server thread/INFO]: Preparing start region for level 0
+[20:20:35] [Server thread/INFO]: Preparing spawn area: 77%
+[20:20:35] [Server thread/INFO]: Done (2.976s)! For help, type "help" or "?"
+[20:20:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2146ms behind, skipping 42 tick(s)
+[20:21:48] [Server thread/INFO]: Blackhold[/127.0.0.1:52987] logged in with entity id 667 at (-229.5, 69.0, 32.5)
+[20:21:48] [Server thread/INFO]: Blackhold joined the game
+[20:21:48] [Server thread/INFO]: Blackhold has just earned the achievement [You've been installed!]
+[20:22:09] [Server thread/INFO]: Blackhold lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[20:22:09] [Server thread/INFO]: Blackhold left the game
+[20:22:16] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[20:22:21] [Server thread/INFO]: Stopping the server
+[20:22:21] [Server thread/INFO]: Stopping server
+[20:22:21] [Server thread/INFO]: Saving players
+[20:22:21] [Server thread/INFO]: Saving worlds
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Moon
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Mars
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Asteroids
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Diona
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Koentus
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Polongnius
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Nibiru
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Fronos
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Kapteyn B
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Sirius B
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Mercury
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Venus
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Pluto
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Deimos
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Phobos
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Dark Asteroids
+[20:22:21] [Server thread/INFO]: Saving chunks for level 'world'/Jupiter

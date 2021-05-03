@@ -1,0 +1,103 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 21-3-7 下午8:13
+Description: Exception in server tick loop
+
+Duplicate Mods:
+	BiblioWoodsNatura : E:\stt_server_project_to_STTmodX_1.7.10RE-2.5.926.sv\mods\[Natura]BiblioWoods-1.7.10-1.5.jar
+	BiblioWoodsNatura : E:\stt_server_project_to_STTmodX_1.7.10RE-2.5.926.sv\mods\[展示架拓展][Natura]BiblioWoods-1.7.10-1.5.jar
+
+cpw.mods.fml.common.DuplicateModsFoundException
+	at cpw.mods.fml.common.Loader.identifyDuplicates(Loader.java:403)
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:365)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489)
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:314)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:117)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_281, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1355178760 bytes (1292 MB) / 1525678080 bytes (1455 MB) up to 11434721280 bytes (10905 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 64 mods loaded, 0 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+		mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+		FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.4.1614-1.7.10-universal.jar) 
+		Forge{10.13.4.1614} [Minecraft Forge] (forge-1.7.10-10.13.4.1614-1.7.10-universal.jar) 
+		CodeChickenCore{1.0.7.47} [CodeChicken Core] (minecraft.jar) 
+		LambdaLib|Core{1.2.3} [LambdaLib|Core] (minecraft.jar) 
+		Micdoodlecore{} [Micdoodle8 Core] (minecraft.jar) 
+		NotEnoughItems{1.0.5.120} [Not Enough Items] (NotEnoughItemsNEI-1.7.10-1.0.5.120-universal.jar) 
+		<CoFH ASM>{000} [CoFH ASM] (minecraft.jar) 
+		academy-craft{1.0.7} [Academy Craft] ([AC]AcademyCraft-1.0.7.jar) 
+		aobd{2.9.2} [Another One Bites The Dust] ([AOBD]AOBD-2.9.2.jar) 
+		BuildCraft|Core{7.1.23} [BuildCraft] ([BC]buildcraft-7.1.23.jar) 
+		BuildCraft|Transport{7.1.23} [BC Transport] ([BC]buildcraft-7.1.23.jar) 
+		BuildCraft|Factory{7.1.23} [BC Factory] ([BC]buildcraft-7.1.23.jar) 
+		BuildCraft|Silicon{7.1.23} [BC Silicon] ([BC]buildcraft-7.1.23.jar) 
+		BuildCraft|Robotics{7.1.23} [BC Robotics] ([BC]buildcraft-7.1.23.jar) 
+		BuildCraft|Energy{7.1.23} [BC Energy] ([BC]buildcraft-7.1.23.jar) 
+		BuildCraft|Builders{7.1.23} [BC Builders] ([BC]buildcraft-7.1.23.jar) 
+		B0bGrowsOre{2.5.4} [B0bGary's Growable Ores] ([BGO]可生长矿石B0bGary's+Growable+Ores-2.5.4+for+1.7.10.jar) 
+		cookingbook{1.0.140} [Cooking for Blockheads] ([CB]懒人厨房cookingbook-mc1.7.10-1.0.140.jar) 
+		Forestry{4.2.16.64} [Forestry for Minecraft] ([FR]林业forestry_1.7.10-4.2.16.64.jar) 
+		IC2{2.2.827-experimental} [IndustrialCraft 2] ([IC2]industrialcraft-2-2.2.827-experimental.jar) 
+		BiblioWoodsNatura{1.5} [BiblioWoods Natura Edition] ([Natura]BiblioWoods-1.7.10-1.5.jar) 
+		neresources{0.1.0.ManuallyBuilt} [Not Enough Resources] ([NEI扩展]NotEnoughResources-1.7.10-0.1.0-122.jar) 
+		Railcraft{9.12.2.0} [Railcraft] ([RC]铁路Railcraft_1.7.10-9.12.2.0.jar) 
+		AgriCraft{1.7.10-1.5.0} [AgriCraft] ([农业工艺]AgriCraft-1.7.10-1.5.0.jar) 
+		chisel{2.9.5.11} [Chisel] ([凿子]Chisel-1.7.10-2.9.5.11.jar) 
+		CoFHCore{1.7.10R3.1.4} [CoFH Core] ([前置]CoFHCore-[1.7.10]3.1.4-329.jar) 
+		LambdaLib{1.2.3} [LambdaLib] ([前置]LambdaLib-1.2.3.jar) 
+		wanionlib{1.7.10-1.8} [WanionLib] ([前置]WanionLib-1.7.10-1.8.jar) 
+		Torcherino{2.2s} [Torcherino] ([加速火把]Torcherino-1.7.10-2.2s.jar) 
+		recipehandler{1.7.10} [NoMoreRecipeConflict] ([合成冲突消除]NoMoreRecipeConflict-0.3(1.7.10).jar) 
+		netherportalfix{1.0} [Nether Portal Fix] ([地狱传送修复]netherportalfix-1.7.10-1.1.0.jar) 
+		cfm{3.4.7} [?9MrCrayfish's Furniture Mod] ([家具mod]MrCrayfishFurnitureModv3.4.7(1.7.10).jar) 
+		BiblioWoodsNatura{1.5} [BiblioWoods Natura Edition] ([展示架拓展][Natura]BiblioWoods-1.7.10-1.5.jar) 
+		BuildCraft|Compat{7.1.7} [BuildCraft Compat] ([建筑兼容]buildcraft-compat-7.1.7.jar) 
+		flammpfeil.slashblade{mc1.7.10-r88} [SlashBlade] ([拔刀剑]SlashBlade-mc1.7.10-r88.jar) 
+		battlegear2{1.7.10} [Mine & Blade Battlegear 2 - Bullseye] ([挖矿与砍杀双持与战备2]1.7.10-MB_Battlegear2-Bullseye-1.0.8.3.jar) 
+		BiblioCraft{1.11.7} [BiblioCraft] ([收藏馆]BiblioCraft[v1.11.7][MC1.7.10].jar) 
+		journeymap{5.1.4p2} [JourneyMap] ([旅行地图]journeymap-1.7.10-5.1.4p2-unlimited.jar) 
+		TwilightForest{2.3.7} [The Twilight Forest] ([暮色森林]twilightforest-1.7.10-2.3.7.jar) 
+		IronChest{6.0.62.742} [Iron Chest] ([更多箱子]ironchest-1.7.10-6.0.62.742-universal.jar) 
+		EnderStorage{1.4.7.38} [EnderStorage] ([末影存储]EnderStorage-1.7.10-1.4.7.38-universal.jar) 
+		EnderIO{1.7.10-2.3.0.429_beta} [Ender IO] ([末影接口]EnderIO-1.7.10-2.3.0.429_beta.jar) 
+		enderioaddons{0.10.13} [Ender IO Addons] ([末影接口拓展]EnderIOAddons-1.7.10-2.3.0.427_beta-0.10.13.56_beta.jar) 
+		endercore{1.7.10-0.2.0.39_beta} [EnderCore] ([末影接口核心]EnderCore-1.7.10-0.2.0.39_beta.jar) 
+		nmsot{1.2.0-mc1.7.10} [No Mob Spawning on Trees] ([树上不再生成怪物]NoMobSpawningOnTrees-1.2.0-mc1.7.10.jar) 
+		harvestcraft{1.7.10j} [Pam's HarvestCraft] ([潘马斯农场]Pam's+HarvestCraft+1.7.10Lb.jar) 
+		tc{4.4.1_021} [Traincraft] ([火车工业]Traincraft-4.4.1_021.jar) 
+		UniDict{1.7.10-2.9.2} [UniDict] ([矿辞统一]UniDict-1.7.10-2.9.2.jar) 
+		simplyjetpacks{1.5.3} [Simply Jetpacks] ([简易飞行背包]SimplyJetpacks-MC1.7.10-1.5.3.jar) 
+		AppleCore{3.1.1} [AppleCore] ([苹果核]AppleCore-mc1.7.10-3.1.1.jar) 
+		AS_Ruins{15.4} [Ruins Spawning System] ([遗迹]Ruins-1.7.10.jar) 
+		Waila{1.5.10} [Waila] ([高亮显示]Waila-1.5.10_1.7.10.jar) 
+		WailaHarvestability{1.1.6} [Waila Harvestability] ([高亮显示]WailaHarvestability-mc1.7.10-1.1.6.jar) 
+		wailaplugins{MC1.7.10-0.2.0-25} [WAILA Plugins] ([高亮显示]WAILAPlugins-MC1.7.10-0.2.0-25.jar) 
+		wawla{1.3.1} [What Are We Looking At] ([高亮显示]Wawla-1.0.5.120.jar) 
+		Translocator{1.1.2.16} [Translocator] ([高级传送器]Translocator -1.7.10-1.1.2.16-universal.jar) 
+		AdvancedSolarPanel{1.7.10-3.5.1} [Advanced Solar Panels] ([高级太阳能]Advanced Solar Panels-3.5.1.jar) 
+		customsteveserver{1.1.0Beta} [CustomSteveServer] (CustomSteve_Server1710110Beta_Forge.jar) 
+		GalacticraftMars{3.0.12} [Galacticraft Planets] (Galacticraft-Planets-1.7-3.0.12.502.jar) 
+		GalacticraftCore{3.0.12} [Galacticraft Core] (GalacticraftCore-1.7-3.0.12.502.jar) 
+		MorePlanet{1.4.4} [More Planets] (More-Planets-1.7.10-1.4.4-GC502.jar) 
+		notenoughIDs{1.4.3.4} [NotEnoughIDs] (NotEnoughIDs-1.4.3.4.jar) 
+		bspkrsCore{6.16} [bspkrsCore] ([1.7.10][前置]bspkrsCore-universal-6.16.jar) 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

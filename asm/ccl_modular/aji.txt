@@ -4,7 +4,7 @@ public class aji {
 
   // compiled from: Block.java
   // access flags 0x1008
-  static synthetic INNERCLASS aji$6 null null
+  static synthetic INNERCLASS aji$6 aji null
   // access flags 0x9
   public static INNERCLASS ajm aji SoundType
   // access flags 0x0
@@ -131,9 +131,6 @@ public class aji {
   // access flags 0x2
   private Ljava/lang/String; b
 
-  // access flags 0x1
-  public Z isForgeBlock
-
   // access flags 0x1A
   private final static Ljava/lang/String; __OBFID = "CL_00000199"
 
@@ -174,7 +171,7 @@ public class aji {
   // access flags 0x9
   public static b(Laji;)I
    L0
-    LINENUMBER 132 L0
+    LINENUMBER 131 L0
     GETSTATIC aji.c : Lcw;
     ALOAD 0
     INVOKEVIRTUAL cw.b (Ljava/lang/Object;)I
@@ -187,14 +184,14 @@ public class aji {
   // access flags 0x9
   public static e(I)Laji;
    L0
-    LINENUMBER 137 L0
+    LINENUMBER 136 L0
     GETSTATIC aji.c : Lcw;
     ILOAD 0
     INVOKEVIRTUAL cw.a (I)Ljava/lang/Object;
     CHECKCAST aji
     ASTORE 1
    L1
-    LINENUMBER 138 L1
+    LINENUMBER 137 L1
     ALOAD 1
     IFNONNULL L2
     GETSTATIC ajn.a : Laji;
@@ -214,7 +211,7 @@ public class aji {
   // access flags 0x9
   public static a(Ladb;)Laji;
    L0
-    LINENUMBER 143 L0
+    LINENUMBER 142 L0
     ALOAD 0
     INVOKESTATIC adb.b (Ladb;)I
     INVOKESTATIC aji.e (I)Laji;
@@ -228,20 +225,20 @@ public class aji {
   public static b(Ljava/lang/String;)Laji;
     TRYCATCHBLOCK L0 L1 L2 java/lang/NumberFormatException
    L3
-    LINENUMBER 148 L3
+    LINENUMBER 147 L3
     GETSTATIC aji.c : Lcw;
     ALOAD 0
     INVOKEVIRTUAL cw.b (Ljava/lang/String;)Z
     IFEQ L0
    L4
-    LINENUMBER 150 L4
+    LINENUMBER 149 L4
     GETSTATIC aji.c : Lcw;
     ALOAD 0
     INVOKEVIRTUAL cw.a (Ljava/lang/String;)Ljava/lang/Object;
     CHECKCAST aji
     ARETURN
    L0
-    LINENUMBER 156 L0
+    LINENUMBER 155 L0
    FRAME FULL [java/lang/String] []
     GETSTATIC aji.c : Lcw;
     ALOAD 0
@@ -251,11 +248,11 @@ public class aji {
    L1
     ARETURN
    L2
-    LINENUMBER 158 L2
+    LINENUMBER 157 L2
    FRAME FULL [java/lang/String] [java/lang/NumberFormatException]
     ASTORE 1
    L5
-    LINENUMBER 160 L5
+    LINENUMBER 159 L5
     ACONST_NULL
     ARETURN
    L6
@@ -267,7 +264,7 @@ public class aji {
   // access flags 0x1
   public j()Z
    L0
-    LINENUMBER 167 L0
+    LINENUMBER 166 L0
     ALOAD 0
     GETFIELD aji.q : Z
     IRETURN
@@ -279,7 +276,7 @@ public class aji {
   // access flags 0x1
   public k()I
    L0
-    LINENUMBER 172 L0
+    LINENUMBER 171 L0
     ALOAD 0
     GETFIELD aji.r : I
     IRETURN
@@ -291,7 +288,7 @@ public class aji {
   // access flags 0x1
   public m()I
    L0
-    LINENUMBER 183 L0
+    LINENUMBER 182 L0
     ALOAD 0
     GETFIELD aji.t : I
     IRETURN
@@ -303,7 +300,7 @@ public class aji {
   // access flags 0x1
   public n()Z
    L0
-    LINENUMBER 188 L0
+    LINENUMBER 187 L0
     ALOAD 0
     GETFIELD aji.u : Z
     IRETURN
@@ -315,7 +312,7 @@ public class aji {
   // access flags 0x1
   public o()Lawt;
    L0
-    LINENUMBER 193 L0
+    LINENUMBER 192 L0
     ALOAD 0
     GETFIELD aji.J : Lawt;
     ARETURN
@@ -327,7 +324,7 @@ public class aji {
   // access flags 0x1
   public f(I)Lawv;
    L0
-    LINENUMBER 198 L0
+    LINENUMBER 197 L0
     ALOAD 0
     INVOKEVIRTUAL aji.o ()Lawt;
     INVOKEVIRTUAL awt.r ()Lawv;
@@ -341,7 +338,7 @@ public class aji {
   // access flags 0x9
   public static p()V
    L0
-    LINENUMBER 203 L0
+    LINENUMBER 202 L0
     GETSTATIC aji.c : Lcw;
     ICONST_0
     LDC "air"
@@ -352,7 +349,7 @@ public class aji {
     INVOKEVIRTUAL aja.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L1
-    LINENUMBER 204 L1
+    LINENUMBER 203 L1
     GETSTATIC aji.c : Lcw;
     ICONST_1
     LDC "stone"
@@ -371,7 +368,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L2
-    LINENUMBER 205 L2
+    LINENUMBER 204 L2
     GETSTATIC aji.c : Lcw;
     ICONST_2
     LDC "grass"
@@ -388,7 +385,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L3
-    LINENUMBER 206 L3
+    LINENUMBER 205 L3
     GETSTATIC aji.c : Lcw;
     ICONST_3
     LDC "dirt"
@@ -405,7 +402,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L4
-    LINENUMBER 207 L4
+    LINENUMBER 206 L4
     NEW aji
     DUP
     GETSTATIC awt.e : Lawt;
@@ -424,14 +421,14 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     ASTORE 0
    L5
-    LINENUMBER 208 L5
+    LINENUMBER 207 L5
     GETSTATIC aji.c : Lcw;
     ICONST_4
     LDC "cobblestone"
     ALOAD 0
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L6
-    LINENUMBER 209 L6
+    LINENUMBER 208 L6
     NEW aom
     DUP
     INVOKESPECIAL aom.<init> ()V
@@ -447,14 +444,14 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     ASTORE 1
    L7
-    LINENUMBER 210 L7
+    LINENUMBER 209 L7
     GETSTATIC aji.c : Lcw;
     ICONST_5
     LDC "planks"
     ALOAD 1
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L8
-    LINENUMBER 211 L8
+    LINENUMBER 210 L8
     GETSTATIC aji.c : Lcw;
     BIPUSH 6
     LDC "sapling"
@@ -471,7 +468,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L9
-    LINENUMBER 212 L9
+    LINENUMBER 211 L9
     GETSTATIC aji.c : Lcw;
     BIPUSH 7
     LDC "bedrock"
@@ -493,7 +490,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L10
-    LINENUMBER 213 L10
+    LINENUMBER 212 L10
     GETSTATIC aji.c : Lcw;
     BIPUSH 8
     LDC "flowing_water"
@@ -512,7 +509,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L11
-    LINENUMBER 214 L11
+    LINENUMBER 213 L11
     GETSTATIC aji.c : Lcw;
     BIPUSH 9
     LDC "water"
@@ -531,7 +528,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L12
-    LINENUMBER 215 L12
+    LINENUMBER 214 L12
     GETSTATIC aji.c : Lcw;
     BIPUSH 10
     LDC "flowing_lava"
@@ -550,7 +547,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L13
-    LINENUMBER 216 L13
+    LINENUMBER 215 L13
     GETSTATIC aji.c : Lcw;
     BIPUSH 11
     LDC "lava"
@@ -569,7 +566,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L14
-    LINENUMBER 217 L14
+    LINENUMBER 216 L14
     GETSTATIC aji.c : Lcw;
     BIPUSH 12
     LDC "sand"
@@ -586,7 +583,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L15
-    LINENUMBER 218 L15
+    LINENUMBER 217 L15
     GETSTATIC aji.c : Lcw;
     BIPUSH 13
     LDC "gravel"
@@ -603,7 +600,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L16
-    LINENUMBER 219 L16
+    LINENUMBER 218 L16
     GETSTATIC aji.c : Lcw;
     BIPUSH 14
     LDC "gold_ore"
@@ -622,7 +619,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L17
-    LINENUMBER 220 L17
+    LINENUMBER 219 L17
     GETSTATIC aji.c : Lcw;
     BIPUSH 15
     LDC "iron_ore"
@@ -641,7 +638,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L18
-    LINENUMBER 221 L18
+    LINENUMBER 220 L18
     GETSTATIC aji.c : Lcw;
     BIPUSH 16
     LDC "coal_ore"
@@ -660,7 +657,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L19
-    LINENUMBER 222 L19
+    LINENUMBER 221 L19
     GETSTATIC aji.c : Lcw;
     BIPUSH 17
     LDC "log"
@@ -673,7 +670,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L20
-    LINENUMBER 223 L20
+    LINENUMBER 222 L20
     GETSTATIC aji.c : Lcw;
     BIPUSH 18
     LDC "leaves"
@@ -686,7 +683,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L21
-    LINENUMBER 224 L21
+    LINENUMBER 223 L21
     GETSTATIC aji.c : Lcw;
     BIPUSH 19
     LDC "sponge"
@@ -703,7 +700,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L22
-    LINENUMBER 225 L22
+    LINENUMBER 224 L22
     GETSTATIC aji.c : Lcw;
     BIPUSH 20
     LDC "glass"
@@ -722,7 +719,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L23
-    LINENUMBER 226 L23
+    LINENUMBER 225 L23
     GETSTATIC aji.c : Lcw;
     BIPUSH 21
     LDC "lapis_ore"
@@ -741,7 +738,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L24
-    LINENUMBER 227 L24
+    LINENUMBER 226 L24
     GETSTATIC aji.c : Lcw;
     BIPUSH 22
     LDC "lapis_block"
@@ -763,7 +760,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L25
-    LINENUMBER 228 L25
+    LINENUMBER 227 L25
     GETSTATIC aji.c : Lcw;
     BIPUSH 23
     LDC "dispenser"
@@ -780,7 +777,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L26
-    LINENUMBER 229 L26
+    LINENUMBER 228 L26
     NEW ani
     DUP
     INVOKESPECIAL ani.<init> ()V
@@ -794,14 +791,14 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     ASTORE 2
    L27
-    LINENUMBER 230 L27
+    LINENUMBER 229 L27
     GETSTATIC aji.c : Lcw;
     BIPUSH 24
     LDC "sandstone"
     ALOAD 2
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L28
-    LINENUMBER 231 L28
+    LINENUMBER 230 L28
     GETSTATIC aji.c : Lcw;
     BIPUSH 25
     LDC "noteblock"
@@ -816,7 +813,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L29
-    LINENUMBER 232 L29
+    LINENUMBER 231 L29
     GETSTATIC aji.c : Lcw;
     BIPUSH 26
     LDC "bed"
@@ -832,7 +829,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L30
-    LINENUMBER 233 L30
+    LINENUMBER 232 L30
     GETSTATIC aji.c : Lcw;
     BIPUSH 27
     LDC "golden_rail"
@@ -849,7 +846,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L31
-    LINENUMBER 234 L31
+    LINENUMBER 233 L31
     GETSTATIC aji.c : Lcw;
     BIPUSH 28
     LDC "detector_rail"
@@ -866,7 +863,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L32
-    LINENUMBER 235 L32
+    LINENUMBER 234 L32
     GETSTATIC aji.c : Lcw;
     BIPUSH 29
     LDC "sticky_piston"
@@ -878,7 +875,7 @@ public class aji {
     INVOKEVIRTUAL app.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L33
-    LINENUMBER 236 L33
+    LINENUMBER 235 L33
     GETSTATIC aji.c : Lcw;
     BIPUSH 30
     LDC "web"
@@ -895,7 +892,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L34
-    LINENUMBER 237 L34
+    LINENUMBER 236 L34
     GETSTATIC aji.c : Lcw;
     BIPUSH 31
     LDC "tallgrass"
@@ -910,7 +907,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L35
-    LINENUMBER 238 L35
+    LINENUMBER 237 L35
     GETSTATIC aji.c : Lcw;
     BIPUSH 32
     LDC "deadbush"
@@ -927,7 +924,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L36
-    LINENUMBER 239 L36
+    LINENUMBER 238 L36
     GETSTATIC aji.c : Lcw;
     BIPUSH 33
     LDC "piston"
@@ -939,7 +936,7 @@ public class aji {
     INVOKEVIRTUAL app.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L37
-    LINENUMBER 240 L37
+    LINENUMBER 239 L37
     GETSTATIC aji.c : Lcw;
     BIPUSH 34
     LDC "piston_head"
@@ -948,7 +945,7 @@ public class aji {
     INVOKESPECIAL apq.<init> ()V
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L38
-    LINENUMBER 241 L38
+    LINENUMBER 240 L38
     GETSTATIC aji.c : Lcw;
     BIPUSH 35
     LDC "wool"
@@ -966,7 +963,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L39
-    LINENUMBER 242 L39
+    LINENUMBER 241 L39
     GETSTATIC aji.c : Lcw;
     BIPUSH 36
     LDC "piston_extension"
@@ -975,7 +972,7 @@ public class aji {
     INVOKESPECIAL apr.<init> ()V
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L40
-    LINENUMBER 243 L40
+    LINENUMBER 242 L40
     GETSTATIC aji.c : Lcw;
     BIPUSH 37
     LDC "yellow_flower"
@@ -993,7 +990,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L41
-    LINENUMBER 244 L41
+    LINENUMBER 243 L41
     GETSTATIC aji.c : Lcw;
     BIPUSH 38
     LDC "red_flower"
@@ -1011,7 +1008,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L42
-    LINENUMBER 245 L42
+    LINENUMBER 244 L42
     GETSTATIC aji.c : Lcw;
     BIPUSH 39
     LDC "brown_mushroom"
@@ -1030,7 +1027,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L43
-    LINENUMBER 246 L43
+    LINENUMBER 245 L43
     GETSTATIC aji.c : Lcw;
     BIPUSH 40
     LDC "red_mushroom"
@@ -1047,7 +1044,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L44
-    LINENUMBER 247 L44
+    LINENUMBER 246 L44
     GETSTATIC aji.c : Lcw;
     BIPUSH 41
     LDC "gold_block"
@@ -1067,7 +1064,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L45
-    LINENUMBER 248 L45
+    LINENUMBER 247 L45
     GETSTATIC aji.c : Lcw;
     BIPUSH 42
     LDC "iron_block"
@@ -1087,7 +1084,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L46
-    LINENUMBER 249 L46
+    LINENUMBER 248 L46
     GETSTATIC aji.c : Lcw;
     BIPUSH 43
     LDC "double_stone_slab"
@@ -1105,7 +1102,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L47
-    LINENUMBER 250 L47
+    LINENUMBER 249 L47
     GETSTATIC aji.c : Lcw;
     BIPUSH 44
     LDC "stone_slab"
@@ -1123,7 +1120,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L48
-    LINENUMBER 251 L48
+    LINENUMBER 250 L48
     NEW aji
     DUP
     GETSTATIC awt.e : Lawt;
@@ -1142,14 +1139,14 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     ASTORE 3
    L49
-    LINENUMBER 252 L49
+    LINENUMBER 251 L49
     GETSTATIC aji.c : Lcw;
     BIPUSH 45
     LDC "brick_block"
     ALOAD 3
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L50
-    LINENUMBER 253 L50
+    LINENUMBER 252 L50
     GETSTATIC aji.c : Lcw;
     BIPUSH 46
     LDC "tnt"
@@ -1166,7 +1163,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L51
-    LINENUMBER 254 L51
+    LINENUMBER 253 L51
     GETSTATIC aji.c : Lcw;
     BIPUSH 47
     LDC "bookshelf"
@@ -1183,7 +1180,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L52
-    LINENUMBER 255 L52
+    LINENUMBER 254 L52
     GETSTATIC aji.c : Lcw;
     BIPUSH 48
     LDC "mossy_cobblestone"
@@ -1205,7 +1202,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L53
-    LINENUMBER 256 L53
+    LINENUMBER 255 L53
     GETSTATIC aji.c : Lcw;
     BIPUSH 49
     LDC "obsidian"
@@ -1224,7 +1221,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L54
-    LINENUMBER 257 L54
+    LINENUMBER 256 L54
     GETSTATIC aji.c : Lcw;
     BIPUSH 50
     LDC "torch"
@@ -1243,7 +1240,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L55
-    LINENUMBER 258 L55
+    LINENUMBER 257 L55
     GETSTATIC aji.c : Lcw;
     BIPUSH 51
     LDC "fire"
@@ -1263,7 +1260,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L56
-    LINENUMBER 259 L56
+    LINENUMBER 258 L56
     GETSTATIC aji.c : Lcw;
     BIPUSH 52
     LDC "mob_spawner"
@@ -1281,7 +1278,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L57
-    LINENUMBER 260 L57
+    LINENUMBER 259 L57
     GETSTATIC aji.c : Lcw;
     BIPUSH 53
     LDC "oak_stairs"
@@ -1294,7 +1291,7 @@ public class aji {
     INVOKEVIRTUAL ans.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L58
-    LINENUMBER 261 L58
+    LINENUMBER 260 L58
     GETSTATIC aji.c : Lcw;
     BIPUSH 54
     LDC "chest"
@@ -1310,7 +1307,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L59
-    LINENUMBER 262 L59
+    LINENUMBER 261 L59
     GETSTATIC aji.c : Lcw;
     BIPUSH 55
     LDC "redstone_wire"
@@ -1328,7 +1325,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L60
-    LINENUMBER 263 L60
+    LINENUMBER 262 L60
     GETSTATIC aji.c : Lcw;
     BIPUSH 56
     LDC "diamond_ore"
@@ -1347,7 +1344,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L61
-    LINENUMBER 264 L61
+    LINENUMBER 263 L61
     GETSTATIC aji.c : Lcw;
     BIPUSH 57
     LDC "diamond_block"
@@ -1367,7 +1364,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L62
-    LINENUMBER 265 L62
+    LINENUMBER 264 L62
     GETSTATIC aji.c : Lcw;
     BIPUSH 58
     LDC "crafting_table"
@@ -1384,7 +1381,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L63
-    LINENUMBER 266 L63
+    LINENUMBER 265 L63
     GETSTATIC aji.c : Lcw;
     BIPUSH 59
     LDC "wheat"
@@ -1397,7 +1394,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L64
-    LINENUMBER 267 L64
+    LINENUMBER 266 L64
     NEW aky
     DUP
     INVOKESPECIAL aky.<init> ()V
@@ -1411,14 +1408,14 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     ASTORE 4
    L65
-    LINENUMBER 268 L65
+    LINENUMBER 267 L65
     GETSTATIC aji.c : Lcw;
     BIPUSH 60
     LDC "farmland"
     ALOAD 4
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L66
-    LINENUMBER 269 L66
+    LINENUMBER 268 L66
     GETSTATIC aji.c : Lcw;
     BIPUSH 61
     LDC "furnace"
@@ -1436,7 +1433,7 @@ public class aji {
     INVOKEVIRTUAL aji.a (Labt;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L67
-    LINENUMBER 270 L67
+    LINENUMBER 269 L67
     GETSTATIC aji.c : Lcw;
     BIPUSH 62
     LDC "lit_furnace"
@@ -1454,7 +1451,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L68
-    LINENUMBER 271 L68
+    LINENUMBER 270 L68
     GETSTATIC aji.c : Lcw;
     BIPUSH 63
     LDC "standing_sign"
@@ -1472,7 +1469,7 @@ public class aji {
     INVOKEVIRTUAL aji.H ()Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L69
-    LINENUMBER 272 L69
+    LINENUMBER 271 L69
     GETSTATIC aji.c : Lcw;
     BIPUSH 64
     LDC "wooden_door"
@@ -1491,7 +1488,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L70
-    LINENUMBER 273 L70
+    LINENUMBER 272 L70
     GETSTATIC aji.c : Lcw;
     BIPUSH 65
     LDC "ladder"
@@ -1508,7 +1505,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L71
-    LINENUMBER 274 L71
+    LINENUMBER 273 L71
     GETSTATIC aji.c : Lcw;
     BIPUSH 66
     LDC "rail"
@@ -1525,7 +1522,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L72
-    LINENUMBER 275 L72
+    LINENUMBER 274 L72
     GETSTATIC aji.c : Lcw;
     BIPUSH 67
     LDC "stone_stairs"
@@ -1538,7 +1535,7 @@ public class aji {
     INVOKEVIRTUAL ans.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L73
-    LINENUMBER 276 L73
+    LINENUMBER 275 L73
     GETSTATIC aji.c : Lcw;
     BIPUSH 68
     LDC "wall_sign"
@@ -1556,7 +1553,7 @@ public class aji {
     INVOKEVIRTUAL aji.H ()Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L74
-    LINENUMBER 277 L74
+    LINENUMBER 276 L74
     GETSTATIC aji.c : Lcw;
     BIPUSH 69
     LDC "lever"
@@ -1573,7 +1570,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L75
-    LINENUMBER 278 L75
+    LINENUMBER 277 L75
     GETSTATIC aji.c : Lcw;
     BIPUSH 70
     LDC "stone_pressure_plate"
@@ -1591,7 +1588,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L76
-    LINENUMBER 279 L76
+    LINENUMBER 278 L76
     GETSTATIC aji.c : Lcw;
     BIPUSH 71
     LDC "iron_door"
@@ -1610,7 +1607,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L77
-    LINENUMBER 280 L77
+    LINENUMBER 279 L77
     GETSTATIC aji.c : Lcw;
     BIPUSH 72
     LDC "wooden_pressure_plate"
@@ -1628,7 +1625,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L78
-    LINENUMBER 281 L78
+    LINENUMBER 280 L78
     GETSTATIC aji.c : Lcw;
     BIPUSH 73
     LDC "redstone_ore"
@@ -1650,7 +1647,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L79
-    LINENUMBER 282 L79
+    LINENUMBER 281 L79
     GETSTATIC aji.c : Lcw;
     BIPUSH 74
     LDC "lit_redstone_ore"
@@ -1672,7 +1669,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L80
-    LINENUMBER 283 L80
+    LINENUMBER 282 L80
     GETSTATIC aji.c : Lcw;
     BIPUSH 75
     LDC "unlit_redstone_torch"
@@ -1690,7 +1687,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L81
-    LINENUMBER 284 L81
+    LINENUMBER 283 L81
     GETSTATIC aji.c : Lcw;
     BIPUSH 76
     LDC "redstone_torch"
@@ -1712,7 +1709,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L82
-    LINENUMBER 285 L82
+    LINENUMBER 284 L82
     GETSTATIC aji.c : Lcw;
     BIPUSH 77
     LDC "stone_button"
@@ -1727,7 +1724,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L83
-    LINENUMBER 286 L83
+    LINENUMBER 285 L83
     GETSTATIC aji.c : Lcw;
     BIPUSH 78
     LDC "snow_layer"
@@ -1746,7 +1743,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L84
-    LINENUMBER 287 L84
+    LINENUMBER 286 L84
     GETSTATIC aji.c : Lcw;
     BIPUSH 79
     LDC "ice"
@@ -1765,7 +1762,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L85
-    LINENUMBER 288 L85
+    LINENUMBER 287 L85
     GETSTATIC aji.c : Lcw;
     BIPUSH 80
     LDC "snow"
@@ -1782,7 +1779,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L86
-    LINENUMBER 289 L86
+    LINENUMBER 288 L86
     GETSTATIC aji.c : Lcw;
     BIPUSH 81
     LDC "cactus"
@@ -1799,7 +1796,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L87
-    LINENUMBER 290 L87
+    LINENUMBER 289 L87
     GETSTATIC aji.c : Lcw;
     BIPUSH 82
     LDC "clay"
@@ -1816,7 +1813,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L88
-    LINENUMBER 291 L88
+    LINENUMBER 290 L88
     GETSTATIC aji.c : Lcw;
     BIPUSH 83
     LDC "reeds"
@@ -1834,7 +1831,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L89
-    LINENUMBER 292 L89
+    LINENUMBER 291 L89
     GETSTATIC aji.c : Lcw;
     BIPUSH 84
     LDC "jukebox"
@@ -1853,7 +1850,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L90
-    LINENUMBER 293 L90
+    LINENUMBER 292 L90
     GETSTATIC aji.c : Lcw;
     BIPUSH 85
     LDC "fence"
@@ -1872,7 +1869,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L91
-    LINENUMBER 294 L91
+    LINENUMBER 293 L91
     NEW amw
     DUP
     ICONST_0
@@ -1887,14 +1884,14 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     ASTORE 5
    L92
-    LINENUMBER 295 L92
+    LINENUMBER 294 L92
     GETSTATIC aji.c : Lcw;
     BIPUSH 86
     LDC "pumpkin"
     ALOAD 5
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L93
-    LINENUMBER 296 L93
+    LINENUMBER 295 L93
     GETSTATIC aji.c : Lcw;
     BIPUSH 87
     LDC "netherrack"
@@ -1911,7 +1908,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L94
-    LINENUMBER 297 L94
+    LINENUMBER 296 L94
     GETSTATIC aji.c : Lcw;
     BIPUSH 88
     LDC "soul_sand"
@@ -1928,7 +1925,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L95
-    LINENUMBER 298 L95
+    LINENUMBER 297 L95
     GETSTATIC aji.c : Lcw;
     BIPUSH 89
     LDC "glowstone"
@@ -1948,7 +1945,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L96
-    LINENUMBER 299 L96
+    LINENUMBER 298 L96
     GETSTATIC aji.c : Lcw;
     BIPUSH 90
     LDC "portal"
@@ -1967,7 +1964,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L97
-    LINENUMBER 300 L97
+    LINENUMBER 299 L97
     GETSTATIC aji.c : Lcw;
     BIPUSH 91
     LDC "lit_pumpkin"
@@ -1987,7 +1984,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L98
-    LINENUMBER 301 L98
+    LINENUMBER 300 L98
     GETSTATIC aji.c : Lcw;
     BIPUSH 92
     LDC "cake"
@@ -2005,7 +2002,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L99
-    LINENUMBER 302 L99
+    LINENUMBER 301 L99
     GETSTATIC aji.c : Lcw;
     BIPUSH 93
     LDC "unpowered_repeater"
@@ -2024,7 +2021,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L100
-    LINENUMBER 303 L100
+    LINENUMBER 302 L100
     GETSTATIC aji.c : Lcw;
     BIPUSH 94
     LDC "powered_repeater"
@@ -2045,7 +2042,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L101
-    LINENUMBER 304 L101
+    LINENUMBER 303 L101
     GETSTATIC aji.c : Lcw;
     BIPUSH 95
     LDC "stained_glass"
@@ -2063,7 +2060,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L102
-    LINENUMBER 305 L102
+    LINENUMBER 304 L102
     GETSTATIC aji.c : Lcw;
     BIPUSH 96
     LDC "trapdoor"
@@ -2082,7 +2079,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L103
-    LINENUMBER 306 L103
+    LINENUMBER 305 L103
     GETSTATIC aji.c : Lcw;
     BIPUSH 97
     LDC "monster_egg"
@@ -2095,7 +2092,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L104
-    LINENUMBER 307 L104
+    LINENUMBER 306 L104
     NEW anw
     DUP
     INVOKESPECIAL anw.<init> ()V
@@ -2111,14 +2108,14 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     ASTORE 6
    L105
-    LINENUMBER 308 L105
+    LINENUMBER 307 L105
     GETSTATIC aji.c : Lcw;
     BIPUSH 98
     LDC "stonebrick"
     ALOAD 6
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L106
-    LINENUMBER 309 L106
+    LINENUMBER 308 L106
     GETSTATIC aji.c : Lcw;
     BIPUSH 99
     LDC "brown_mushroom_block"
@@ -2137,7 +2134,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L107
-    LINENUMBER 310 L107
+    LINENUMBER 309 L107
     GETSTATIC aji.c : Lcw;
     BIPUSH 100
     LDC "red_mushroom_block"
@@ -2156,7 +2153,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L108
-    LINENUMBER 311 L108
+    LINENUMBER 310 L108
     GETSTATIC aji.c : Lcw;
     BIPUSH 101
     LDC "iron_bars"
@@ -2177,7 +2174,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L109
-    LINENUMBER 312 L109
+    LINENUMBER 311 L109
     GETSTATIC aji.c : Lcw;
     BIPUSH 102
     LDC "glass_pane"
@@ -2196,7 +2193,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L110
-    LINENUMBER 313 L110
+    LINENUMBER 312 L110
     NEW aly
     DUP
     INVOKESPECIAL aly.<init> ()V
@@ -2210,14 +2207,14 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     ASTORE 7
    L111
-    LINENUMBER 314 L111
+    LINENUMBER 313 L111
     GETSTATIC aji.c : Lcw;
     BIPUSH 103
     LDC "melon_block"
     ALOAD 7
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L112
-    LINENUMBER 315 L112
+    LINENUMBER 314 L112
     GETSTATIC aji.c : Lcw;
     BIPUSH 104
     LDC "pumpkin_stem"
@@ -2235,7 +2232,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L113
-    LINENUMBER 316 L113
+    LINENUMBER 315 L113
     GETSTATIC aji.c : Lcw;
     BIPUSH 105
     LDC "melon_stem"
@@ -2253,7 +2250,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L114
-    LINENUMBER 317 L114
+    LINENUMBER 316 L114
     GETSTATIC aji.c : Lcw;
     BIPUSH 106
     LDC "vine"
@@ -2270,7 +2267,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L115
-    LINENUMBER 318 L115
+    LINENUMBER 317 L115
     GETSTATIC aji.c : Lcw;
     BIPUSH 107
     LDC "fence_gate"
@@ -2287,7 +2284,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L116
-    LINENUMBER 319 L116
+    LINENUMBER 318 L116
     GETSTATIC aji.c : Lcw;
     BIPUSH 108
     LDC "brick_stairs"
@@ -2300,7 +2297,7 @@ public class aji {
     INVOKEVIRTUAL ans.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L117
-    LINENUMBER 320 L117
+    LINENUMBER 319 L117
     GETSTATIC aji.c : Lcw;
     BIPUSH 109
     LDC "stone_brick_stairs"
@@ -2313,7 +2310,7 @@ public class aji {
     INVOKEVIRTUAL ans.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L118
-    LINENUMBER 321 L118
+    LINENUMBER 320 L118
     GETSTATIC aji.c : Lcw;
     BIPUSH 110
     LDC "mycelium"
@@ -2330,7 +2327,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L119
-    LINENUMBER 322 L119
+    LINENUMBER 321 L119
     GETSTATIC aji.c : Lcw;
     BIPUSH 111
     LDC "waterlily"
@@ -2347,7 +2344,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L120
-    LINENUMBER 323 L120
+    LINENUMBER 322 L120
     NEW aji
     DUP
     GETSTATIC awt.e : Lawt;
@@ -2366,14 +2363,14 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     ASTORE 8
    L121
-    LINENUMBER 324 L121
+    LINENUMBER 323 L121
     GETSTATIC aji.c : Lcw;
     BIPUSH 112
     LDC "nether_brick"
     ALOAD 8
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L122
-    LINENUMBER 325 L122
+    LINENUMBER 324 L122
     GETSTATIC aji.c : Lcw;
     BIPUSH 113
     LDC "nether_brick_fence"
@@ -2392,7 +2389,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L123
-    LINENUMBER 326 L123
+    LINENUMBER 325 L123
     GETSTATIC aji.c : Lcw;
     BIPUSH 114
     LDC "nether_brick_stairs"
@@ -2405,7 +2402,7 @@ public class aji {
     INVOKEVIRTUAL ans.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L124
-    LINENUMBER 327 L124
+    LINENUMBER 326 L124
     GETSTATIC aji.c : Lcw;
     BIPUSH 115
     LDC "nether_wart"
@@ -2418,7 +2415,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L125
-    LINENUMBER 328 L125
+    LINENUMBER 327 L125
     GETSTATIC aji.c : Lcw;
     BIPUSH 116
     LDC "enchanting_table"
@@ -2435,7 +2432,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L126
-    LINENUMBER 329 L126
+    LINENUMBER 328 L126
     GETSTATIC aji.c : Lcw;
     BIPUSH 117
     LDC "brewing_stand"
@@ -2452,7 +2449,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L127
-    LINENUMBER 330 L127
+    LINENUMBER 329 L127
     GETSTATIC aji.c : Lcw;
     BIPUSH 118
     LDC "cauldron"
@@ -2467,7 +2464,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L128
-    LINENUMBER 331 L128
+    LINENUMBER 330 L128
     GETSTATIC aji.c : Lcw;
     BIPUSH 119
     LDC "end_portal"
@@ -2481,7 +2478,7 @@ public class aji {
     INVOKEVIRTUAL aji.b (F)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L129
-    LINENUMBER 332 L129
+    LINENUMBER 331 L129
     GETSTATIC aji.c : Lcw;
     BIPUSH 120
     LDC "end_portal_frame"
@@ -2504,7 +2501,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L130
-    LINENUMBER 333 L130
+    LINENUMBER 332 L130
     GETSTATIC aji.c : Lcw;
     BIPUSH 121
     LDC "end_stone"
@@ -2526,7 +2523,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L131
-    LINENUMBER 334 L131
+    LINENUMBER 333 L131
     GETSTATIC aji.c : Lcw;
     BIPUSH 122
     LDC "dragon_egg"
@@ -2547,7 +2544,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L132
-    LINENUMBER 335 L132
+    LINENUMBER 334 L132
     GETSTATIC aji.c : Lcw;
     BIPUSH 123
     LDC "redstone_lamp"
@@ -2567,7 +2564,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L133
-    LINENUMBER 336 L133
+    LINENUMBER 335 L133
     GETSTATIC aji.c : Lcw;
     BIPUSH 124
     LDC "lit_redstone_lamp"
@@ -2585,7 +2582,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L134
-    LINENUMBER 337 L134
+    LINENUMBER 336 L134
     GETSTATIC aji.c : Lcw;
     BIPUSH 125
     LDC "double_wooden_slab"
@@ -2603,7 +2600,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L135
-    LINENUMBER 338 L135
+    LINENUMBER 337 L135
     GETSTATIC aji.c : Lcw;
     BIPUSH 126
     LDC "wooden_slab"
@@ -2621,7 +2618,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L136
-    LINENUMBER 339 L136
+    LINENUMBER 338 L136
     GETSTATIC aji.c : Lcw;
     BIPUSH 127
     LDC "cocoa"
@@ -2640,7 +2637,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L137
-    LINENUMBER 340 L137
+    LINENUMBER 339 L137
     GETSTATIC aji.c : Lcw;
     SIPUSH 128
     LDC "sandstone_stairs"
@@ -2653,7 +2650,7 @@ public class aji {
     INVOKEVIRTUAL ans.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L138
-    LINENUMBER 341 L138
+    LINENUMBER 340 L138
     GETSTATIC aji.c : Lcw;
     SIPUSH 129
     LDC "emerald_ore"
@@ -2672,7 +2669,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L139
-    LINENUMBER 342 L139
+    LINENUMBER 341 L139
     GETSTATIC aji.c : Lcw;
     SIPUSH 130
     LDC "ender_chest"
@@ -2691,7 +2688,7 @@ public class aji {
     INVOKEVIRTUAL aji.a (F)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L140
-    LINENUMBER 343 L140
+    LINENUMBER 342 L140
     GETSTATIC aji.c : Lcw;
     SIPUSH 131
     LDC "tripwire_hook"
@@ -2704,7 +2701,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L141
-    LINENUMBER 344 L141
+    LINENUMBER 343 L141
     GETSTATIC aji.c : Lcw;
     SIPUSH 132
     LDC "tripwire"
@@ -2717,7 +2714,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L142
-    LINENUMBER 345 L142
+    LINENUMBER 344 L142
     GETSTATIC aji.c : Lcw;
     SIPUSH 133
     LDC "emerald_block"
@@ -2737,7 +2734,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L143
-    LINENUMBER 346 L143
+    LINENUMBER 345 L143
     GETSTATIC aji.c : Lcw;
     SIPUSH 134
     LDC "spruce_stairs"
@@ -2750,7 +2747,7 @@ public class aji {
     INVOKEVIRTUAL ans.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L144
-    LINENUMBER 347 L144
+    LINENUMBER 346 L144
     GETSTATIC aji.c : Lcw;
     SIPUSH 135
     LDC "birch_stairs"
@@ -2763,7 +2760,7 @@ public class aji {
     INVOKEVIRTUAL ans.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L145
-    LINENUMBER 348 L145
+    LINENUMBER 347 L145
     GETSTATIC aji.c : Lcw;
     SIPUSH 136
     LDC "jungle_stairs"
@@ -2776,7 +2773,7 @@ public class aji {
     INVOKEVIRTUAL ans.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L146
-    LINENUMBER 349 L146
+    LINENUMBER 348 L146
     GETSTATIC aji.c : Lcw;
     SIPUSH 137
     LDC "command_block"
@@ -2792,7 +2789,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L147
-    LINENUMBER 350 L147
+    LINENUMBER 349 L147
     GETSTATIC aji.c : Lcw;
     SIPUSH 138
     LDC "beacon"
@@ -2807,7 +2804,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L148
-    LINENUMBER 351 L148
+    LINENUMBER 350 L148
     GETSTATIC aji.c : Lcw;
     SIPUSH 139
     LDC "cobblestone_wall"
@@ -2819,7 +2816,7 @@ public class aji {
     INVOKEVIRTUAL aoi.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L149
-    LINENUMBER 352 L149
+    LINENUMBER 351 L149
     GETSTATIC aji.c : Lcw;
     SIPUSH 140
     LDC "flower_pot"
@@ -2836,7 +2833,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L150
-    LINENUMBER 353 L150
+    LINENUMBER 352 L150
     GETSTATIC aji.c : Lcw;
     SIPUSH 141
     LDC "carrots"
@@ -2849,7 +2846,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L151
-    LINENUMBER 354 L151
+    LINENUMBER 353 L151
     GETSTATIC aji.c : Lcw;
     SIPUSH 142
     LDC "potatoes"
@@ -2862,7 +2859,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L152
-    LINENUMBER 355 L152
+    LINENUMBER 354 L152
     GETSTATIC aji.c : Lcw;
     SIPUSH 143
     LDC "wooden_button"
@@ -2877,7 +2874,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L153
-    LINENUMBER 356 L153
+    LINENUMBER 355 L153
     GETSTATIC aji.c : Lcw;
     SIPUSH 144
     LDC "skull"
@@ -2894,7 +2891,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L154
-    LINENUMBER 357 L154
+    LINENUMBER 356 L154
     GETSTATIC aji.c : Lcw;
     SIPUSH 145
     LDC "anvil"
@@ -2911,7 +2908,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L155
-    LINENUMBER 358 L155
+    LINENUMBER 357 L155
     GETSTATIC aji.c : Lcw;
     SIPUSH 146
     LDC "trapped_chest"
@@ -2927,7 +2924,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L156
-    LINENUMBER 359 L156
+    LINENUMBER 358 L156
     GETSTATIC aji.c : Lcw;
     SIPUSH 147
     LDC "light_weighted_pressure_plate"
@@ -2945,7 +2942,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L157
-    LINENUMBER 360 L157
+    LINENUMBER 359 L157
     GETSTATIC aji.c : Lcw;
     SIPUSH 148
     LDC "heavy_weighted_pressure_plate"
@@ -2963,7 +2960,7 @@ public class aji {
     INVOKEVIRTUAL aji.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L158
-    LINENUMBER 361 L158
+    LINENUMBER 360 L158
     GETSTATIC aji.c : Lcw;
     SIPUSH 149
     LDC "unpowered_comparator"
@@ -2982,7 +2979,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L159
-    LINENUMBER 362 L159
+    LINENUMBER 361 L159
     GETSTATIC aji.c : Lcw;
     SIPUSH 150
     LDC "powered_comparator"
@@ -3003,7 +3000,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L160
-    LINENUMBER 363 L160
+    LINENUMBER 362 L160
     GETSTATIC aji.c : Lcw;
     SIPUSH 151
     LDC "daylight_detector"
@@ -3020,7 +3017,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L161
-    LINENUMBER 364 L161
+    LINENUMBER 363 L161
     GETSTATIC aji.c : Lcw;
     SIPUSH 152
     LDC "redstone_block"
@@ -3040,7 +3037,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L162
-    LINENUMBER 365 L162
+    LINENUMBER 364 L162
     GETSTATIC aji.c : Lcw;
     SIPUSH 153
     LDC "quartz_ore"
@@ -3059,7 +3056,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L163
-    LINENUMBER 366 L163
+    LINENUMBER 365 L163
     GETSTATIC aji.c : Lcw;
     SIPUSH 154
     LDC "hopper"
@@ -3078,7 +3075,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L164
-    LINENUMBER 367 L164
+    LINENUMBER 366 L164
     NEW amx
     DUP
     INVOKESPECIAL amx.<init> ()V
@@ -3092,14 +3089,14 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     ASTORE 9
    L165
-    LINENUMBER 368 L165
+    LINENUMBER 367 L165
     GETSTATIC aji.c : Lcw;
     SIPUSH 155
     LDC "quartz_block"
     ALOAD 9
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L166
-    LINENUMBER 369 L166
+    LINENUMBER 368 L166
     GETSTATIC aji.c : Lcw;
     SIPUSH 156
     LDC "quartz_stairs"
@@ -3112,7 +3109,7 @@ public class aji {
     INVOKEVIRTUAL ans.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L167
-    LINENUMBER 370 L167
+    LINENUMBER 369 L167
     GETSTATIC aji.c : Lcw;
     SIPUSH 157
     LDC "activator_rail"
@@ -3129,7 +3126,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L168
-    LINENUMBER 371 L168
+    LINENUMBER 370 L168
     GETSTATIC aji.c : Lcw;
     SIPUSH 158
     LDC "dropper"
@@ -3146,7 +3143,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L169
-    LINENUMBER 372 L169
+    LINENUMBER 371 L169
     GETSTATIC aji.c : Lcw;
     SIPUSH 159
     LDC "stained_hardened_clay"
@@ -3166,7 +3163,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L170
-    LINENUMBER 373 L170
+    LINENUMBER 372 L170
     GETSTATIC aji.c : Lcw;
     SIPUSH 160
     LDC "stained_glass_pane"
@@ -3183,7 +3180,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L171
-    LINENUMBER 374 L171
+    LINENUMBER 373 L171
     GETSTATIC aji.c : Lcw;
     SIPUSH 161
     LDC "leaves2"
@@ -3196,7 +3193,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L172
-    LINENUMBER 375 L172
+    LINENUMBER 374 L172
     GETSTATIC aji.c : Lcw;
     SIPUSH 162
     LDC "log2"
@@ -3209,7 +3206,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L173
-    LINENUMBER 376 L173
+    LINENUMBER 375 L173
     GETSTATIC aji.c : Lcw;
     SIPUSH 163
     LDC "acacia_stairs"
@@ -3222,7 +3219,7 @@ public class aji {
     INVOKEVIRTUAL ans.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L174
-    LINENUMBER 377 L174
+    LINENUMBER 376 L174
     GETSTATIC aji.c : Lcw;
     SIPUSH 164
     LDC "dark_oak_stairs"
@@ -3235,7 +3232,7 @@ public class aji {
     INVOKEVIRTUAL ans.c (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L175
-    LINENUMBER 378 L175
+    LINENUMBER 377 L175
     GETSTATIC aji.c : Lcw;
     SIPUSH 170
     LDC "hay_block"
@@ -3254,7 +3251,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L176
-    LINENUMBER 379 L176
+    LINENUMBER 378 L176
     GETSTATIC aji.c : Lcw;
     SIPUSH 171
     LDC "carpet"
@@ -3271,7 +3268,7 @@ public class aji {
     INVOKEVIRTUAL aji.g (I)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L177
-    LINENUMBER 380 L177
+    LINENUMBER 379 L177
     GETSTATIC aji.c : Lcw;
     SIPUSH 172
     LDC "hardened_clay"
@@ -3290,7 +3287,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L178
-    LINENUMBER 381 L178
+    LINENUMBER 380 L178
     GETSTATIC aji.c : Lcw;
     SIPUSH 173
     LDC "coal_block"
@@ -3312,7 +3309,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L179
-    LINENUMBER 382 L179
+    LINENUMBER 381 L179
     GETSTATIC aji.c : Lcw;
     SIPUSH 174
     LDC "packed_ice"
@@ -3329,7 +3326,7 @@ public class aji {
     INVOKEVIRTUAL aji.d (Ljava/lang/String;)Laji;
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L180
-    LINENUMBER 383 L180
+    LINENUMBER 382 L180
     GETSTATIC aji.c : Lcw;
     SIPUSH 175
     LDC "double_plant"
@@ -3338,41 +3335,41 @@ public class aji {
     INVOKESPECIAL ako.<init> ()V
     INVOKEVIRTUAL cw.a (ILjava/lang/String;Ljava/lang/Object;)V
    L181
-    LINENUMBER 384 L181
+    LINENUMBER 383 L181
     GETSTATIC aji.c : Lcw;
     INVOKEVIRTUAL cw.iterator ()Ljava/util/Iterator;
     ASTORE 10
    L182
-    LINENUMBER 386 L182
+    LINENUMBER 385 L182
    FRAME FULL [aji aji aji aji aji aji aji aji aji aji java/util/Iterator] []
     ALOAD 10
     INVOKEINTERFACE java/util/Iterator.hasNext ()Z
     IFEQ L183
    L184
-    LINENUMBER 388 L184
+    LINENUMBER 387 L184
     ALOAD 10
     INVOKEINTERFACE java/util/Iterator.next ()Ljava/lang/Object;
     CHECKCAST aji
     ASTORE 11
    L185
-    LINENUMBER 390 L185
+    LINENUMBER 389 L185
     ALOAD 11
     GETFIELD aji.J : Lawt;
     GETSTATIC awt.a : Lawt;
     IF_ACMPNE L186
    L187
-    LINENUMBER 392 L187
+    LINENUMBER 391 L187
     ALOAD 11
     ICONST_0
     PUTFIELD aji.u : Z
     GOTO L188
    L186
-    LINENUMBER 396 L186
+    LINENUMBER 395 L186
    FRAME FULL [aji aji aji aji aji aji aji aji aji aji java/util/Iterator aji] []
     ICONST_0
     ISTORE 12
    L189
-    LINENUMBER 397 L189
+    LINENUMBER 396 L189
     ALOAD 11
     INVOKEVIRTUAL aji.b ()I
     BIPUSH 10
@@ -3386,12 +3383,12 @@ public class aji {
    FRAME FULL [aji aji aji aji aji aji aji aji aji aji java/util/Iterator aji I] [I]
     ISTORE 13
    L192
-    LINENUMBER 398 L192
+    LINENUMBER 397 L192
     ALOAD 11
     INSTANCEOF alj
     ISTORE 14
    L193
-    LINENUMBER 399 L193
+    LINENUMBER 398 L193
     ALOAD 11
     ALOAD 4
     IF_ACMPNE L194
@@ -3404,12 +3401,12 @@ public class aji {
    FRAME FULL [aji aji aji aji aji aji aji aji aji aji java/util/Iterator aji I I I] [I]
     ISTORE 15
    L196
-    LINENUMBER 400 L196
+    LINENUMBER 399 L196
     ALOAD 11
     GETFIELD aji.s : Z
     ISTORE 16
    L197
-    LINENUMBER 401 L197
+    LINENUMBER 400 L197
     ALOAD 11
     GETFIELD aji.r : I
     IFNE L198
@@ -3422,7 +3419,7 @@ public class aji {
    FRAME FULL [aji aji aji aji aji aji aji aji aji aji java/util/Iterator aji I I I I I] [I]
     ISTORE 17
    L200
-    LINENUMBER 403 L200
+    LINENUMBER 402 L200
     ILOAD 13
     IFNE L201
     ILOAD 14
@@ -3434,22 +3431,22 @@ public class aji {
     ILOAD 17
     IFEQ L202
    L201
-    LINENUMBER 405 L201
+    LINENUMBER 404 L201
    FRAME FULL [aji aji aji aji aji aji aji aji aji aji java/util/Iterator aji I I I I I I] []
     ICONST_1
     ISTORE 12
    L202
-    LINENUMBER 408 L202
+    LINENUMBER 407 L202
    FRAME FULL [aji aji aji aji aji aji aji aji aji aji java/util/Iterator aji I I I I I I] []
     ALOAD 11
     ILOAD 12
     PUTFIELD aji.u : Z
    L188
-    LINENUMBER 410 L188
+    LINENUMBER 409 L188
    FRAME FULL [aji aji aji aji aji aji aji aji aji aji java/util/Iterator aji] []
     GOTO L182
    L183
-    LINENUMBER 411 L183
+    LINENUMBER 410 L183
    FRAME FULL [aji aji aji aji aji aji aji aji aji aji java/util/Iterator] []
     RETURN
    L203
@@ -3477,7 +3474,7 @@ public class aji {
   // access flags 0x4
   protected <init>(Lawt;)V
    L0
-    LINENUMBER 414 L0
+    LINENUMBER 413 L0
     ALOAD 0
     INVOKESPECIAL java/lang/Object.<init> ()V
    L1
@@ -3491,44 +3488,42 @@ public class aji {
     ICONST_1
     PUTFIELD aji.y : Z
    L3
-    LINENUMBER 128 L3
+    LINENUMBER 127 L3
     ALOAD 0
     GETSTATIC aji.c : Lcw;
     CHECKCAST cpw/mods/fml/common/registry/FMLControlledNamespacedRegistry
     ALOAD 0
     LDC Laji;.class
-   L4
-    LINENUMBER 129 L4
     INVOKEVIRTUAL cpw/mods/fml/common/registry/FMLControlledNamespacedRegistry.getDelegate (Ljava/lang/Object;Ljava/lang/Class;)Lcpw/mods/fml/common/registry/RegistryDelegate;
     PUTFIELD aji.delegate : Lcpw/mods/fml/common/registry/RegistryDelegate;
-   L5
-    LINENUMBER 1178 L5
+   L4
+    LINENUMBER 1160 L4
     ALOAD 0
     NEW java/lang/ThreadLocal
     DUP
     INVOKESPECIAL java/lang/ThreadLocal.<init> ()V
     PUTFIELD aji.harvesters : Ljava/lang/ThreadLocal;
-   L6
-    LINENUMBER 1179 L6
+   L5
+    LINENUMBER 1161 L5
     ALOAD 0
     NEW java/lang/ThreadLocal
     DUP
     INVOKESPECIAL java/lang/ThreadLocal.<init> ()V
     PUTFIELD aji.silk_check_meta : Ljava/lang/ThreadLocal;
-   L7
-    LINENUMBER 1436 L7
+   L6
+    LINENUMBER 1418 L6
     ALOAD 0
     ALOAD 0
     INSTANCEOF akw
     PUTFIELD aji.isTileProvider : Z
-   L8
-    LINENUMBER 2169 L8
+   L7
+    LINENUMBER 2151 L7
     ALOAD 0
     BIPUSH 16
     ANEWARRAY java/lang/String
     PUTFIELD aji.harvestTool : [Ljava/lang/String;
-   L9
-    LINENUMBER 2170 L9
+   L8
+    LINENUMBER 2152 L8
     ALOAD 0
     BIPUSH 16
     NEWARRAY T_INT
@@ -3597,44 +3592,44 @@ public class aji {
     ICONST_M1
     IASTORE
     PUTFIELD aji.harvestLevel : [I
-   L10
-    LINENUMBER 2250 L10
+   L9
+    LINENUMBER 2232 L9
     ALOAD 0
     NEW aji$4
     DUP
     ALOAD 0
     INVOKESPECIAL aji$4.<init> (Laji;)V
     PUTFIELD aji.captureDrops : Ljava/lang/ThreadLocal;
-   L11
-    LINENUMBER 2254 L11
+   L10
+    LINENUMBER 2236 L10
     ALOAD 0
     NEW aji$5
     DUP
     ALOAD 0
     INVOKESPECIAL aji$5.<init> (Laji;)V
     PUTFIELD aji.capturedDrops : Ljava/lang/ThreadLocal;
-   L12
-    LINENUMBER 415 L12
+   L11
+    LINENUMBER 414 L11
     ALOAD 0
     GETSTATIC aji.e : Lajm;
     PUTFIELD aji.H : Lajm;
-   L13
-    LINENUMBER 416 L13
+   L12
+    LINENUMBER 415 L12
     ALOAD 0
     FCONST_1
     PUTFIELD aji.I : F
-   L14
-    LINENUMBER 417 L14
+   L13
+    LINENUMBER 416 L13
     ALOAD 0
     LDC 0.6
     PUTFIELD aji.K : F
-   L15
-    LINENUMBER 418 L15
+   L14
+    LINENUMBER 417 L14
     ALOAD 0
     ALOAD 1
     PUTFIELD aji.J : Lawt;
-   L16
-    LINENUMBER 419 L16
+   L15
+    LINENUMBER 418 L15
     ALOAD 0
     FCONST_0
     FCONST_0
@@ -3643,58 +3638,58 @@ public class aji {
     FCONST_1
     FCONST_1
     INVOKEVIRTUAL aji.a (FFFFFF)V
+   L16
+    LINENUMBER 419 L16
+    ALOAD 0
+    ALOAD 0
+    INVOKEVIRTUAL aji.c ()Z
+    PUTFIELD aji.q : Z
    L17
     LINENUMBER 420 L17
     ALOAD 0
     ALOAD 0
     INVOKEVIRTUAL aji.c ()Z
-    PUTFIELD aji.q : Z
-   L18
-    LINENUMBER 421 L18
-    ALOAD 0
-    ALOAD 0
-    INVOKEVIRTUAL aji.c ()Z
-    IFEQ L19
+    IFEQ L18
     SIPUSH 255
-    GOTO L20
-   L19
+    GOTO L19
+   L18
    FRAME FULL [aji awt] [aji]
     ICONST_0
-   L20
+   L19
    FRAME FULL [aji awt] [aji I]
     PUTFIELD aji.r : I
-   L21
-    LINENUMBER 422 L21
+   L20
+    LINENUMBER 421 L20
     ALOAD 0
     ALOAD 1
     INVOKEVIRTUAL awt.b ()Z
-    IFNE L22
+    IFNE L21
     ICONST_1
-    GOTO L23
-   L22
+    GOTO L22
+   L21
    FRAME FULL [aji awt] [aji]
     ICONST_0
-   L23
+   L22
    FRAME FULL [aji awt] [aji I]
     PUTFIELD aji.s : Z
-   L24
-    LINENUMBER 423 L24
+   L23
+    LINENUMBER 422 L23
     RETURN
-   L25
-    LOCALVARIABLE this Laji; L0 L25 0
-    LOCALVARIABLE p_i45394_1_ Lawt; L0 L25 1
+   L24
+    LOCALVARIABLE this Laji; L0 L24 0
+    LOCALVARIABLE p_i45394_1_ Lawt; L0 L24 1
     MAXSTACK = 7
     MAXLOCALS = 2
 
   // access flags 0x1
   public a(Lajm;)Laji;
    L0
-    LINENUMBER 427 L0
+    LINENUMBER 426 L0
     ALOAD 0
     ALOAD 1
     PUTFIELD aji.H : Lajm;
    L1
-    LINENUMBER 428 L1
+    LINENUMBER 427 L1
     ALOAD 0
     ARETURN
    L2
@@ -3706,12 +3701,12 @@ public class aji {
   // access flags 0x1
   public g(I)Laji;
    L0
-    LINENUMBER 433 L0
+    LINENUMBER 432 L0
     ALOAD 0
     ILOAD 1
     PUTFIELD aji.r : I
    L1
-    LINENUMBER 434 L1
+    LINENUMBER 433 L1
     ALOAD 0
     ARETURN
    L2
@@ -3723,7 +3718,7 @@ public class aji {
   // access flags 0x1
   public a(F)Laji;
    L0
-    LINENUMBER 439 L0
+    LINENUMBER 438 L0
     ALOAD 0
     LDC 15.0
     FLOAD 1
@@ -3731,7 +3726,7 @@ public class aji {
     F2I
     PUTFIELD aji.t : I
    L1
-    LINENUMBER 440 L1
+    LINENUMBER 439 L1
     ALOAD 0
     ARETURN
    L2
@@ -3743,14 +3738,14 @@ public class aji {
   // access flags 0x1
   public b(F)Laji;
    L0
-    LINENUMBER 445 L0
+    LINENUMBER 444 L0
     ALOAD 0
     FLOAD 1
     LDC 3.0
     FMUL
     PUTFIELD aji.w : F
    L1
-    LINENUMBER 446 L1
+    LINENUMBER 445 L1
     ALOAD 0
     ARETURN
    L2
@@ -3762,7 +3757,7 @@ public class aji {
   // access flags 0x1
   public r()Z
    L0
-    LINENUMBER 457 L0
+    LINENUMBER 456 L0
     ALOAD 0
     GETFIELD aji.J : Lawt;
     INVOKEVIRTUAL awt.k ()Z
@@ -3789,7 +3784,7 @@ public class aji {
   // access flags 0x1
   public d()Z
    L0
-    LINENUMBER 462 L0
+    LINENUMBER 461 L0
     ICONST_1
     IRETURN
    L1
@@ -3800,7 +3795,7 @@ public class aji {
   // access flags 0x1
   public b(Lahl;III)Z
    L0
-    LINENUMBER 467 L0
+    LINENUMBER 466 L0
     ALOAD 0
     GETFIELD aji.J : Lawt;
     INVOKEVIRTUAL awt.c ()Z
@@ -3825,7 +3820,7 @@ public class aji {
   // access flags 0x1
   public b()I
    L0
-    LINENUMBER 472 L0
+    LINENUMBER 471 L0
     ICONST_0
     IRETURN
    L1
@@ -3836,12 +3831,12 @@ public class aji {
   // access flags 0x1
   public c(F)Laji;
    L0
-    LINENUMBER 477 L0
+    LINENUMBER 476 L0
     ALOAD 0
     FLOAD 1
     PUTFIELD aji.v : F
    L1
-    LINENUMBER 479 L1
+    LINENUMBER 478 L1
     ALOAD 0
     GETFIELD aji.w : F
     FLOAD 1
@@ -3850,14 +3845,14 @@ public class aji {
     FCMPG
     IFGE L2
    L3
-    LINENUMBER 481 L3
+    LINENUMBER 480 L3
     ALOAD 0
     FLOAD 1
     LDC 5.0
     FMUL
     PUTFIELD aji.w : F
    L2
-    LINENUMBER 484 L2
+    LINENUMBER 483 L2
    FRAME FULL [aji F] []
     ALOAD 0
     ARETURN
@@ -3870,13 +3865,13 @@ public class aji {
   // access flags 0x1
   public s()Laji;
    L0
-    LINENUMBER 489 L0
+    LINENUMBER 488 L0
     ALOAD 0
     LDC -1.0
     INVOKEVIRTUAL aji.c (F)Laji;
     POP
    L1
-    LINENUMBER 490 L1
+    LINENUMBER 489 L1
     ALOAD 0
     ARETURN
    L2
@@ -3887,7 +3882,7 @@ public class aji {
   // access flags 0x1
   public f(Lahb;III)F
    L0
-    LINENUMBER 495 L0
+    LINENUMBER 494 L0
     ALOAD 0
     GETFIELD aji.v : F
     FRETURN
@@ -3903,12 +3898,12 @@ public class aji {
   // access flags 0x1
   public a(Z)Laji;
    L0
-    LINENUMBER 500 L0
+    LINENUMBER 499 L0
     ALOAD 0
     ILOAD 1
     PUTFIELD aji.z : Z
    L1
-    LINENUMBER 501 L1
+    LINENUMBER 500 L1
     ALOAD 0
     ARETURN
    L2
@@ -3920,7 +3915,7 @@ public class aji {
   // access flags 0x1
   public t()Z
    L0
-    LINENUMBER 506 L0
+    LINENUMBER 505 L0
     ALOAD 0
     GETFIELD aji.z : Z
     IRETURN
@@ -3934,7 +3929,7 @@ public class aji {
   public u()Z
   @Ljava/lang/Deprecated;()
    L0
-    LINENUMBER 512 L0
+    LINENUMBER 511 L0
     ALOAD 0
     ICONST_0
     INVOKEVIRTUAL aji.hasTileEntity (I)Z
@@ -3947,43 +3942,43 @@ public class aji {
   // access flags 0x11
   public final a(FFFFFF)V
    L0
-    LINENUMBER 517 L0
+    LINENUMBER 516 L0
     ALOAD 0
     FLOAD 1
     F2D
     PUTFIELD aji.B : D
    L1
-    LINENUMBER 518 L1
+    LINENUMBER 517 L1
     ALOAD 0
     FLOAD 2
     F2D
     PUTFIELD aji.C : D
    L2
-    LINENUMBER 519 L2
+    LINENUMBER 518 L2
     ALOAD 0
     FLOAD 3
     F2D
     PUTFIELD aji.D : D
    L3
-    LINENUMBER 520 L3
+    LINENUMBER 519 L3
     ALOAD 0
     FLOAD 4
     F2D
     PUTFIELD aji.E : D
    L4
-    LINENUMBER 521 L4
+    LINENUMBER 520 L4
     ALOAD 0
     FLOAD 5
     F2D
     PUTFIELD aji.F : D
    L5
-    LINENUMBER 522 L5
+    LINENUMBER 521 L5
     ALOAD 0
     FLOAD 6
     F2D
     PUTFIELD aji.G : D
    L6
-    LINENUMBER 523 L6
+    LINENUMBER 522 L6
     RETURN
    L7
     LOCALVARIABLE this Laji; L0 L7 0
@@ -3999,7 +3994,7 @@ public class aji {
   // access flags 0x1
   public d(Lahl;IIII)Z
    L0
-    LINENUMBER 551 L0
+    LINENUMBER 550 L0
     ALOAD 1
     ILOAD 2
     ILOAD 3
@@ -4021,7 +4016,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;IIILazt;Ljava/util/List;Lsa;)V
    L0
-    LINENUMBER 568 L0
+    LINENUMBER 567 L0
     ALOAD 0
     ALOAD 1
     ILOAD 2
@@ -4030,7 +4025,7 @@ public class aji {
     INVOKEVIRTUAL aji.a (Lahb;III)Lazt;
     ASTORE 8
    L1
-    LINENUMBER 570 L1
+    LINENUMBER 569 L1
     ALOAD 8
     IFNULL L2
     ALOAD 5
@@ -4038,13 +4033,13 @@ public class aji {
     INVOKEVIRTUAL azt.b (Lazt;)Z
     IFEQ L2
    L3
-    LINENUMBER 572 L3
+    LINENUMBER 571 L3
     ALOAD 6
     ALOAD 8
     INVOKEINTERFACE java/util/List.add (Ljava/lang/Object;)Z
     POP
    L2
-    LINENUMBER 574 L2
+    LINENUMBER 573 L2
    FRAME FULL [aji ahb I I I azt java/util/List sa azt] []
     RETURN
    L4
@@ -4063,7 +4058,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;III)Lazt;
    L0
-    LINENUMBER 578 L0
+    LINENUMBER 577 L0
     ILOAD 2
     I2D
     ALOAD 0
@@ -4108,7 +4103,7 @@ public class aji {
   // access flags 0x1
   public c()Z
    L0
-    LINENUMBER 595 L0
+    LINENUMBER 594 L0
     ICONST_1
     IRETURN
    L1
@@ -4119,7 +4114,7 @@ public class aji {
   // access flags 0x1
   public a(IZ)Z
    L0
-    LINENUMBER 600 L0
+    LINENUMBER 599 L0
     ALOAD 0
     INVOKEVIRTUAL aji.v ()Z
     IRETURN
@@ -4133,7 +4128,7 @@ public class aji {
   // access flags 0x1
   public v()Z
    L0
-    LINENUMBER 605 L0
+    LINENUMBER 604 L0
     ICONST_1
     IRETURN
    L1
@@ -4144,7 +4139,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;IIILjava/util/Random;)V
    L0
-    LINENUMBER 608 L0
+    LINENUMBER 607 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -4159,7 +4154,7 @@ public class aji {
   // access flags 0x1
   public b(Lahb;IIII)V
    L0
-    LINENUMBER 613 L0
+    LINENUMBER 612 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -4174,7 +4169,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;IIILaji;)V
    L0
-    LINENUMBER 615 L0
+    LINENUMBER 614 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -4189,7 +4184,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;)I
    L0
-    LINENUMBER 619 L0
+    LINENUMBER 618 L0
     BIPUSH 10
     IRETURN
    L1
@@ -4201,7 +4196,7 @@ public class aji {
   // access flags 0x1
   public b(Lahb;III)V
    L0
-    LINENUMBER 622 L0
+    LINENUMBER 621 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -4215,7 +4210,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;IIILaji;I)V
    L0
-    LINENUMBER 626 L0
+    LINENUMBER 625 L0
     ALOAD 0
     ILOAD 6
     INVOKEVIRTUAL aji.hasTileEntity (I)Z
@@ -4224,14 +4219,14 @@ public class aji {
     INSTANCEOF ajc
     IFNE L1
    L2
-    LINENUMBER 628 L2
+    LINENUMBER 627 L2
     ALOAD 1
     ILOAD 2
     ILOAD 3
     ILOAD 4
     INVOKEVIRTUAL ahb.p (III)V
    L1
-    LINENUMBER 630 L1
+    LINENUMBER 629 L1
    FRAME FULL [aji ahb I I I aji I] []
     RETURN
    L3
@@ -4248,7 +4243,7 @@ public class aji {
   // access flags 0x1
   public a(Ljava/util/Random;)I
    L0
-    LINENUMBER 634 L0
+    LINENUMBER 633 L0
     ICONST_1
     IRETURN
    L1
@@ -4260,7 +4255,7 @@ public class aji {
   // access flags 0x1
   public a(ILjava/util/Random;I)Ladb;
    L0
-    LINENUMBER 639 L0
+    LINENUMBER 638 L0
     ALOAD 0
     INVOKESTATIC adb.a (Laji;)Ladb;
     ARETURN
@@ -4275,7 +4270,7 @@ public class aji {
   // access flags 0x1
   public a(Lyz;Lahb;III)F
    L0
-    LINENUMBER 644 L0
+    LINENUMBER 643 L0
     ALOAD 0
     ALOAD 1
     ALOAD 2
@@ -4297,7 +4292,7 @@ public class aji {
   // access flags 0x11
   public final b(Lahb;IIIII)V
    L0
-    LINENUMBER 649 L0
+    LINENUMBER 648 L0
     ALOAD 0
     ALOAD 1
     ILOAD 2
@@ -4308,7 +4303,7 @@ public class aji {
     ILOAD 6
     INVOKEVIRTUAL aji.a (Lahb;IIIIFI)V
    L1
-    LINENUMBER 650 L1
+    LINENUMBER 649 L1
     RETURN
    L2
     LOCALVARIABLE this Laji; L0 L2 0
@@ -4324,7 +4319,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;IIIIFI)V
    L0
-    LINENUMBER 654 L0
+    LINENUMBER 653 L0
     ALOAD 1
     GETFIELD ahb.E : Z
     IFNE L1
@@ -4332,7 +4327,7 @@ public class aji {
     GETFIELD ahb.restoringBlockSnapshots : Z
     IFNE L1
    L2
-    LINENUMBER 656 L2
+    LINENUMBER 655 L2
     ALOAD 0
     ALOAD 1
     ILOAD 2
@@ -4343,7 +4338,7 @@ public class aji {
     INVOKEVIRTUAL aji.getDrops (Lahb;IIIII)Ljava/util/ArrayList;
     ASTORE 8
    L3
-    LINENUMBER 657 L3
+    LINENUMBER 656 L3
     ALOAD 8
     ALOAD 1
     ALOAD 0
@@ -4361,7 +4356,7 @@ public class aji {
     INVOKESTATIC net/minecraftforge/event/ForgeEventFactory.fireBlockHarvesting (Ljava/util/ArrayList;Lahb;Laji;IIIIIFZLyz;)F
     FSTORE 6
    L4
-    LINENUMBER 659 L4
+    LINENUMBER 658 L4
     ALOAD 8
     INVOKEVIRTUAL java/util/ArrayList.iterator ()Ljava/util/Iterator;
     ASTORE 9
@@ -4375,7 +4370,7 @@ public class aji {
     CHECKCAST add
     ASTORE 10
    L6
-    LINENUMBER 661 L6
+    LINENUMBER 660 L6
     ALOAD 1
     GETFIELD ahb.s : Ljava/util/Random;
     INVOKEVIRTUAL java/util/Random.nextFloat ()F
@@ -4383,7 +4378,7 @@ public class aji {
     FCMPG
     IFGT L7
    L8
-    LINENUMBER 663 L8
+    LINENUMBER 662 L8
     ALOAD 0
     ALOAD 1
     ILOAD 2
@@ -4392,15 +4387,16 @@ public class aji {
     ALOAD 10
     INVOKEVIRTUAL aji.a (Lahb;IIILadd;)V
    L7
-    LINENUMBER 665 L7
+    LINENUMBER 664 L7
    FRAME FULL [aji ahb I I I I F I java/util/ArrayList java/util/Iterator add] []
     GOTO L5
    L1
-    LINENUMBER 667 L1
+    LINENUMBER 666 L1
    FRAME FULL [aji ahb I I I I F I] []
     RETURN
    L9
     LOCALVARIABLE item Ladd; L6 L7 10
+    LOCALVARIABLE i$ Ljava/util/Iterator; L5 L1 9
     LOCALVARIABLE items Ljava/util/ArrayList; L3 L1 8
     // signature Ljava/util/ArrayList<Ladd;>;
     // declaration: java.util.ArrayList<add>
@@ -4418,7 +4414,7 @@ public class aji {
   // access flags 0x4
   protected a(Lahb;IIILadd;)V
    L0
-    LINENUMBER 671 L0
+    LINENUMBER 670 L0
     ALOAD 1
     GETFIELD ahb.E : Z
     IFNE L1
@@ -4431,7 +4427,7 @@ public class aji {
     GETFIELD ahb.restoringBlockSnapshots : Z
     IFNE L1
    L2
-    LINENUMBER 673 L2
+    LINENUMBER 672 L2
     ALOAD 0
     GETFIELD aji.captureDrops : Ljava/lang/ThreadLocal;
     INVOKEVIRTUAL java/lang/ThreadLocal.get ()Ljava/lang/Object;
@@ -4439,7 +4435,7 @@ public class aji {
     INVOKEVIRTUAL java/lang/Boolean.booleanValue ()Z
     IFEQ L3
    L4
-    LINENUMBER 675 L4
+    LINENUMBER 674 L4
     ALOAD 0
     GETFIELD aji.capturedDrops : Ljava/lang/ThreadLocal;
     INVOKEVIRTUAL java/lang/ThreadLocal.get ()Ljava/lang/Object;
@@ -4448,15 +4444,15 @@ public class aji {
     INVOKEINTERFACE java/util/List.add (Ljava/lang/Object;)Z
     POP
    L5
-    LINENUMBER 676 L5
+    LINENUMBER 675 L5
     RETURN
    L3
-    LINENUMBER 678 L3
+    LINENUMBER 677 L3
    FRAME FULL [aji ahb I I I add] []
     LDC 0.7
     FSTORE 6
    L6
-    LINENUMBER 679 L6
+    LINENUMBER 678 L6
     ALOAD 1
     GETFIELD ahb.s : Ljava/util/Random;
     INVOKEVIRTUAL java/util/Random.nextFloat ()F
@@ -4472,7 +4468,7 @@ public class aji {
     DADD
     DSTORE 7
    L7
-    LINENUMBER 680 L7
+    LINENUMBER 679 L7
     ALOAD 1
     GETFIELD ahb.s : Ljava/util/Random;
     INVOKEVIRTUAL java/util/Random.nextFloat ()F
@@ -4488,7 +4484,7 @@ public class aji {
     DADD
     DSTORE 9
    L8
-    LINENUMBER 681 L8
+    LINENUMBER 680 L8
     ALOAD 1
     GETFIELD ahb.s : Ljava/util/Random;
     INVOKEVIRTUAL java/util/Random.nextFloat ()F
@@ -4504,7 +4500,7 @@ public class aji {
     DADD
     DSTORE 11
    L9
-    LINENUMBER 682 L9
+    LINENUMBER 681 L9
     NEW xk
     DUP
     ALOAD 1
@@ -4524,18 +4520,18 @@ public class aji {
     INVOKESPECIAL xk.<init> (Lahb;DDDLadd;)V
     ASTORE 13
    L10
-    LINENUMBER 683 L10
+    LINENUMBER 682 L10
     ALOAD 13
     BIPUSH 10
     PUTFIELD xk.b : I
    L11
-    LINENUMBER 684 L11
+    LINENUMBER 683 L11
     ALOAD 1
     ALOAD 13
     INVOKEVIRTUAL ahb.d (Lsa;)Z
     POP
    L1
-    LINENUMBER 686 L1
+    LINENUMBER 685 L1
    FRAME FULL [aji ahb I I I add] []
     RETURN
    L12
@@ -4556,28 +4552,28 @@ public class aji {
   // access flags 0x1
   public c(Lahb;IIII)V
    L0
-    LINENUMBER 690 L0
+    LINENUMBER 689 L0
     ALOAD 1
     GETFIELD ahb.E : Z
     IFNE L1
    L2
-    LINENUMBER 692 L2
+    LINENUMBER 691 L2
    FRAME FULL [aji ahb I I I I] []
     ILOAD 5
     IFLE L1
    L3
-    LINENUMBER 694 L3
+    LINENUMBER 693 L3
     ILOAD 5
     INVOKESTATIC sq.a (I)I
     ISTORE 6
    L4
-    LINENUMBER 695 L4
+    LINENUMBER 694 L4
     ILOAD 5
     ILOAD 6
     ISUB
     ISTORE 5
    L5
-    LINENUMBER 696 L5
+    LINENUMBER 695 L5
     ALOAD 1
     NEW sq
     DUP
@@ -4599,10 +4595,10 @@ public class aji {
     INVOKEVIRTUAL ahb.d (Lsa;)Z
     POP
    L6
-    LINENUMBER 697 L6
+    LINENUMBER 696 L6
     GOTO L2
    L1
-    LINENUMBER 699 L1
+    LINENUMBER 698 L1
    FRAME FULL [aji ahb I I I I] []
     RETURN
    L7
@@ -4619,7 +4615,7 @@ public class aji {
   // access flags 0x1
   public a(I)I
    L0
-    LINENUMBER 703 L0
+    LINENUMBER 702 L0
     ICONST_0
     IRETURN
    L1
@@ -4631,7 +4627,7 @@ public class aji {
   // access flags 0x1
   public a(Lsa;)F
    L0
-    LINENUMBER 708 L0
+    LINENUMBER 707 L0
     ALOAD 0
     GETFIELD aji.w : F
     LDC 5.0
@@ -4646,7 +4642,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;IIILazw;Lazw;)Lazu;
    L0
-    LINENUMBER 713 L0
+    LINENUMBER 712 L0
     ALOAD 0
     ALOAD 1
     ILOAD 2
@@ -4654,7 +4650,7 @@ public class aji {
     ILOAD 4
     INVOKEVIRTUAL aji.a (Lahl;III)V
    L1
-    LINENUMBER 714 L1
+    LINENUMBER 713 L1
     ALOAD 5
     ILOAD 2
     INEG
@@ -4668,7 +4664,7 @@ public class aji {
     INVOKEVIRTUAL azw.c (DDD)Lazw;
     ASTORE 5
    L2
-    LINENUMBER 715 L2
+    LINENUMBER 714 L2
     ALOAD 6
     ILOAD 2
     INEG
@@ -4682,7 +4678,7 @@ public class aji {
     INVOKEVIRTUAL azw.c (DDD)Lazw;
     ASTORE 6
    L3
-    LINENUMBER 716 L3
+    LINENUMBER 715 L3
     ALOAD 5
     ALOAD 6
     ALOAD 0
@@ -4690,7 +4686,7 @@ public class aji {
     INVOKEVIRTUAL azw.b (Lazw;D)Lazw;
     ASTORE 7
    L4
-    LINENUMBER 717 L4
+    LINENUMBER 716 L4
     ALOAD 5
     ALOAD 6
     ALOAD 0
@@ -4698,7 +4694,7 @@ public class aji {
     INVOKEVIRTUAL azw.b (Lazw;D)Lazw;
     ASTORE 8
    L5
-    LINENUMBER 718 L5
+    LINENUMBER 717 L5
     ALOAD 5
     ALOAD 6
     ALOAD 0
@@ -4706,7 +4702,7 @@ public class aji {
     INVOKEVIRTUAL azw.c (Lazw;D)Lazw;
     ASTORE 9
    L6
-    LINENUMBER 719 L6
+    LINENUMBER 718 L6
     ALOAD 5
     ALOAD 6
     ALOAD 0
@@ -4714,7 +4710,7 @@ public class aji {
     INVOKEVIRTUAL azw.c (Lazw;D)Lazw;
     ASTORE 10
    L7
-    LINENUMBER 720 L7
+    LINENUMBER 719 L7
     ALOAD 5
     ALOAD 6
     ALOAD 0
@@ -4722,7 +4718,7 @@ public class aji {
     INVOKEVIRTUAL azw.d (Lazw;D)Lazw;
     ASTORE 11
    L8
-    LINENUMBER 721 L8
+    LINENUMBER 720 L8
     ALOAD 5
     ALOAD 6
     ALOAD 0
@@ -4730,77 +4726,77 @@ public class aji {
     INVOKEVIRTUAL azw.d (Lazw;D)Lazw;
     ASTORE 12
    L9
-    LINENUMBER 723 L9
+    LINENUMBER 722 L9
     ALOAD 0
     ALOAD 7
     INVOKESPECIAL aji.a (Lazw;)Z
     IFNE L10
    L11
-    LINENUMBER 725 L11
+    LINENUMBER 724 L11
     ACONST_NULL
     ASTORE 7
    L10
-    LINENUMBER 728 L10
+    LINENUMBER 727 L10
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw] []
     ALOAD 0
     ALOAD 8
     INVOKESPECIAL aji.a (Lazw;)Z
     IFNE L12
    L13
-    LINENUMBER 730 L13
+    LINENUMBER 729 L13
     ACONST_NULL
     ASTORE 8
    L12
-    LINENUMBER 733 L12
+    LINENUMBER 732 L12
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw] []
     ALOAD 0
     ALOAD 9
     INVOKESPECIAL aji.b (Lazw;)Z
     IFNE L14
    L15
-    LINENUMBER 735 L15
+    LINENUMBER 734 L15
     ACONST_NULL
     ASTORE 9
    L14
-    LINENUMBER 738 L14
+    LINENUMBER 737 L14
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw] []
     ALOAD 0
     ALOAD 10
     INVOKESPECIAL aji.b (Lazw;)Z
     IFNE L16
    L17
-    LINENUMBER 740 L17
+    LINENUMBER 739 L17
     ACONST_NULL
     ASTORE 10
    L16
-    LINENUMBER 743 L16
+    LINENUMBER 742 L16
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw] []
     ALOAD 0
     ALOAD 11
     INVOKESPECIAL aji.c (Lazw;)Z
     IFNE L18
    L19
-    LINENUMBER 745 L19
+    LINENUMBER 744 L19
     ACONST_NULL
     ASTORE 11
    L18
-    LINENUMBER 748 L18
+    LINENUMBER 747 L18
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw] []
     ALOAD 0
     ALOAD 12
     INVOKESPECIAL aji.c (Lazw;)Z
     IFNE L20
    L21
-    LINENUMBER 750 L21
+    LINENUMBER 749 L21
     ACONST_NULL
     ASTORE 12
    L20
-    LINENUMBER 753 L20
+    LINENUMBER 752 L20
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw] []
     ACONST_NULL
     ASTORE 13
    L22
-    LINENUMBER 755 L22
+    LINENUMBER 754 L22
     ALOAD 7
     IFNULL L23
     ALOAD 13
@@ -4814,12 +4810,12 @@ public class aji {
     DCMPG
     IFGE L23
    L24
-    LINENUMBER 757 L24
+    LINENUMBER 756 L24
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw N] []
     ALOAD 7
     ASTORE 13
    L23
-    LINENUMBER 760 L23
+    LINENUMBER 759 L23
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw azw] []
     ALOAD 8
     IFNULL L25
@@ -4834,12 +4830,12 @@ public class aji {
     DCMPG
     IFGE L25
    L26
-    LINENUMBER 762 L26
+    LINENUMBER 761 L26
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw azw] []
     ALOAD 8
     ASTORE 13
    L25
-    LINENUMBER 765 L25
+    LINENUMBER 764 L25
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw azw] []
     ALOAD 9
     IFNULL L27
@@ -4854,12 +4850,12 @@ public class aji {
     DCMPG
     IFGE L27
    L28
-    LINENUMBER 767 L28
+    LINENUMBER 766 L28
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw azw] []
     ALOAD 9
     ASTORE 13
    L27
-    LINENUMBER 770 L27
+    LINENUMBER 769 L27
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw azw] []
     ALOAD 10
     IFNULL L29
@@ -4874,12 +4870,12 @@ public class aji {
     DCMPG
     IFGE L29
    L30
-    LINENUMBER 772 L30
+    LINENUMBER 771 L30
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw azw] []
     ALOAD 10
     ASTORE 13
    L29
-    LINENUMBER 775 L29
+    LINENUMBER 774 L29
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw azw] []
     ALOAD 11
     IFNULL L31
@@ -4894,12 +4890,12 @@ public class aji {
     DCMPG
     IFGE L31
    L32
-    LINENUMBER 777 L32
+    LINENUMBER 776 L32
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw azw] []
     ALOAD 11
     ASTORE 13
    L31
-    LINENUMBER 780 L31
+    LINENUMBER 779 L31
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw azw] []
     ALOAD 12
     IFNULL L33
@@ -4914,85 +4910,85 @@ public class aji {
     DCMPG
     IFGE L33
    L34
-    LINENUMBER 782 L34
+    LINENUMBER 781 L34
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw azw] []
     ALOAD 12
     ASTORE 13
    L33
-    LINENUMBER 785 L33
+    LINENUMBER 784 L33
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw azw] []
     ALOAD 13
     IFNONNULL L35
    L36
-    LINENUMBER 787 L36
+    LINENUMBER 786 L36
     ACONST_NULL
     ARETURN
    L35
-    LINENUMBER 791 L35
+    LINENUMBER 790 L35
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw azw] []
     ICONST_M1
     ISTORE 14
    L37
-    LINENUMBER 793 L37
+    LINENUMBER 792 L37
     ALOAD 13
     ALOAD 7
     IF_ACMPNE L38
    L39
-    LINENUMBER 795 L39
+    LINENUMBER 794 L39
     ICONST_4
     ISTORE 14
    L38
-    LINENUMBER 798 L38
+    LINENUMBER 797 L38
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw azw I] []
     ALOAD 13
     ALOAD 8
     IF_ACMPNE L40
    L41
-    LINENUMBER 800 L41
+    LINENUMBER 799 L41
     ICONST_5
     ISTORE 14
    L40
-    LINENUMBER 803 L40
+    LINENUMBER 802 L40
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw azw I] []
     ALOAD 13
     ALOAD 9
     IF_ACMPNE L42
    L43
-    LINENUMBER 805 L43
+    LINENUMBER 804 L43
     ICONST_0
     ISTORE 14
    L42
-    LINENUMBER 808 L42
+    LINENUMBER 807 L42
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw azw I] []
     ALOAD 13
     ALOAD 10
     IF_ACMPNE L44
    L45
-    LINENUMBER 810 L45
+    LINENUMBER 809 L45
     ICONST_1
     ISTORE 14
    L44
-    LINENUMBER 813 L44
+    LINENUMBER 812 L44
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw azw I] []
     ALOAD 13
     ALOAD 11
     IF_ACMPNE L46
    L47
-    LINENUMBER 815 L47
+    LINENUMBER 814 L47
     ICONST_2
     ISTORE 14
    L46
-    LINENUMBER 818 L46
+    LINENUMBER 817 L46
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw azw I] []
     ALOAD 13
     ALOAD 12
     IF_ACMPNE L48
    L49
-    LINENUMBER 820 L49
+    LINENUMBER 819 L49
     ICONST_3
     ISTORE 14
    L48
-    LINENUMBER 823 L48
+    LINENUMBER 822 L48
    FRAME FULL [aji ahb I I I azw azw azw azw azw azw azw azw azw I] []
     NEW azu
     DUP
@@ -5032,7 +5028,7 @@ public class aji {
   // access flags 0x2
   private a(Lazw;)Z
    L0
-    LINENUMBER 829 L0
+    LINENUMBER 828 L0
     ALOAD 1
     IFNONNULL L1
     ICONST_0
@@ -5080,7 +5076,7 @@ public class aji {
   // access flags 0x2
   private b(Lazw;)Z
    L0
-    LINENUMBER 834 L0
+    LINENUMBER 833 L0
     ALOAD 1
     IFNONNULL L1
     ICONST_0
@@ -5128,7 +5124,7 @@ public class aji {
   // access flags 0x2
   private c(Lazw;)Z
    L0
-    LINENUMBER 839 L0
+    LINENUMBER 838 L0
     ALOAD 1
     IFNONNULL L1
     ICONST_0
@@ -5176,7 +5172,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;IIILagw;)V
    L0
-    LINENUMBER 842 L0
+    LINENUMBER 841 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -5191,7 +5187,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;IIIILadd;)Z
    L0
-    LINENUMBER 846 L0
+    LINENUMBER 845 L0
     ALOAD 0
     ALOAD 1
     ILOAD 2
@@ -5214,7 +5210,7 @@ public class aji {
   // access flags 0x1
   public d(Lahb;IIII)Z
    L0
-    LINENUMBER 857 L0
+    LINENUMBER 856 L0
     ALOAD 0
     ALOAD 1
     ILOAD 2
@@ -5235,7 +5231,7 @@ public class aji {
   // access flags 0x1
   public c(Lahb;III)Z
    L0
-    LINENUMBER 862 L0
+    LINENUMBER 861 L0
     ALOAD 1
     ILOAD 2
     ILOAD 3
@@ -5259,7 +5255,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;IIILyz;IFFF)Z
    L0
-    LINENUMBER 867 L0
+    LINENUMBER 866 L0
     ICONST_0
     IRETURN
    L1
@@ -5279,7 +5275,7 @@ public class aji {
   // access flags 0x1
   public b(Lahb;IIILsa;)V
    L0
-    LINENUMBER 870 L0
+    LINENUMBER 869 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -5294,7 +5290,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;IIIIFFFI)I
    L0
-    LINENUMBER 874 L0
+    LINENUMBER 873 L0
     ILOAD 9
     IRETURN
    L1
@@ -5314,7 +5310,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;IIILyz;)V
    L0
-    LINENUMBER 877 L0
+    LINENUMBER 876 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -5329,7 +5325,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;IIILsa;Lazw;)V
    L0
-    LINENUMBER 879 L0
+    LINENUMBER 878 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -5345,7 +5341,7 @@ public class aji {
   // access flags 0x1
   public a(Lahl;III)V
    L0
-    LINENUMBER 881 L0
+    LINENUMBER 880 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -5359,7 +5355,7 @@ public class aji {
   // access flags 0x11
   public final x()D
    L0
-    LINENUMBER 885 L0
+    LINENUMBER 884 L0
     ALOAD 0
     GETFIELD aji.B : D
     DRETURN
@@ -5371,7 +5367,7 @@ public class aji {
   // access flags 0x11
   public final y()D
    L0
-    LINENUMBER 890 L0
+    LINENUMBER 889 L0
     ALOAD 0
     GETFIELD aji.E : D
     DRETURN
@@ -5383,7 +5379,7 @@ public class aji {
   // access flags 0x11
   public final z()D
    L0
-    LINENUMBER 895 L0
+    LINENUMBER 894 L0
     ALOAD 0
     GETFIELD aji.C : D
     DRETURN
@@ -5395,7 +5391,7 @@ public class aji {
   // access flags 0x11
   public final A()D
    L0
-    LINENUMBER 900 L0
+    LINENUMBER 899 L0
     ALOAD 0
     GETFIELD aji.F : D
     DRETURN
@@ -5407,7 +5403,7 @@ public class aji {
   // access flags 0x11
   public final B()D
    L0
-    LINENUMBER 905 L0
+    LINENUMBER 904 L0
     ALOAD 0
     GETFIELD aji.D : D
     DRETURN
@@ -5419,7 +5415,7 @@ public class aji {
   // access flags 0x11
   public final C()D
    L0
-    LINENUMBER 910 L0
+    LINENUMBER 909 L0
     ALOAD 0
     GETFIELD aji.G : D
     DRETURN
@@ -5431,7 +5427,7 @@ public class aji {
   // access flags 0x1
   public b(Lahl;IIII)I
    L0
-    LINENUMBER 933 L0
+    LINENUMBER 932 L0
     ICONST_0
     IRETURN
    L1
@@ -5447,7 +5443,7 @@ public class aji {
   // access flags 0x1
   public f()Z
    L0
-    LINENUMBER 938 L0
+    LINENUMBER 937 L0
     ICONST_0
     IRETURN
    L1
@@ -5458,7 +5454,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;IIILsa;)V
    L0
-    LINENUMBER 941 L0
+    LINENUMBER 940 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -5473,7 +5469,7 @@ public class aji {
   // access flags 0x1
   public c(Lahl;IIII)I
    L0
-    LINENUMBER 945 L0
+    LINENUMBER 944 L0
     ICONST_0
     IRETURN
    L1
@@ -5489,7 +5485,7 @@ public class aji {
   // access flags 0x1
   public g()V
    L0
-    LINENUMBER 948 L0
+    LINENUMBER 947 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -5499,7 +5495,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;Lyz;IIII)V
    L0
-    LINENUMBER 952 L0
+    LINENUMBER 951 L0
     ALOAD 2
     GETSTATIC pp.C : [Lph;
     ALOAD 0
@@ -5508,12 +5504,12 @@ public class aji {
     ICONST_1
     INVOKEVIRTUAL yz.a (Lph;I)V
    L1
-    LINENUMBER 953 L1
+    LINENUMBER 952 L1
     ALOAD 2
     LDC 0.025
     INVOKEVIRTUAL yz.a (F)V
    L2
-    LINENUMBER 955 L2
+    LINENUMBER 954 L2
     ALOAD 0
     ALOAD 1
     ALOAD 2
@@ -5527,29 +5523,29 @@ public class aji {
     INVOKESTATIC afv.e (Lsv;)Z
     IFEQ L3
    L4
-    LINENUMBER 957 L4
+    LINENUMBER 956 L4
     NEW java/util/ArrayList
     DUP
     INVOKESPECIAL java/util/ArrayList.<init> ()V
     ASTORE 7
    L5
-    LINENUMBER 958 L5
+    LINENUMBER 957 L5
     ALOAD 0
     ILOAD 6
     INVOKEVIRTUAL aji.j (I)Ladd;
     ASTORE 8
    L6
-    LINENUMBER 960 L6
+    LINENUMBER 959 L6
     ALOAD 8
     IFNULL L7
    L8
-    LINENUMBER 962 L8
+    LINENUMBER 961 L8
     ALOAD 7
     ALOAD 8
     INVOKEVIRTUAL java/util/ArrayList.add (Ljava/lang/Object;)Z
     POP
    L7
-    LINENUMBER 965 L7
+    LINENUMBER 964 L7
    FRAME FULL [aji ahb yz I I I I java/util/ArrayList add] []
     ALOAD 7
     ALOAD 1
@@ -5565,7 +5561,7 @@ public class aji {
     INVOKESTATIC net/minecraftforge/event/ForgeEventFactory.fireBlockHarvesting (Ljava/util/ArrayList;Lahb;Laji;IIIIIFZLyz;)F
     POP
    L9
-    LINENUMBER 966 L9
+    LINENUMBER 965 L9
     ALOAD 7
     INVOKEVIRTUAL java/util/ArrayList.iterator ()Ljava/util/Iterator;
     ASTORE 9
@@ -5579,7 +5575,7 @@ public class aji {
     CHECKCAST add
     ASTORE 10
    L12
-    LINENUMBER 968 L12
+    LINENUMBER 967 L12
     ALOAD 0
     ALOAD 1
     ILOAD 3
@@ -5588,26 +5584,26 @@ public class aji {
     ALOAD 10
     INVOKEVIRTUAL aji.a (Lahb;IIILadd;)V
    L13
-    LINENUMBER 969 L13
+    LINENUMBER 968 L13
     GOTO L10
    L11
-    LINENUMBER 970 L11
+    LINENUMBER 969 L11
    FRAME FULL [aji ahb yz I I I I java/util/ArrayList add java/util/Iterator] []
     GOTO L14
    L3
-    LINENUMBER 973 L3
+    LINENUMBER 972 L3
    FRAME FULL [aji ahb yz I I I I] []
     ALOAD 0
     GETFIELD aji.harvesters : Ljava/lang/ThreadLocal;
     ALOAD 2
     INVOKEVIRTUAL java/lang/ThreadLocal.set (Ljava/lang/Object;)V
    L15
-    LINENUMBER 974 L15
+    LINENUMBER 973 L15
     ALOAD 2
     INVOKESTATIC afv.f (Lsv;)I
     ISTORE 7
    L16
-    LINENUMBER 975 L16
+    LINENUMBER 974 L16
     ALOAD 0
     ALOAD 1
     ILOAD 3
@@ -5617,17 +5613,18 @@ public class aji {
     ILOAD 7
     INVOKEVIRTUAL aji.b (Lahb;IIIII)V
    L17
-    LINENUMBER 976 L17
+    LINENUMBER 975 L17
     ALOAD 0
     GETFIELD aji.harvesters : Ljava/lang/ThreadLocal;
     ACONST_NULL
     INVOKEVIRTUAL java/lang/ThreadLocal.set (Ljava/lang/Object;)V
    L14
-    LINENUMBER 978 L14
+    LINENUMBER 977 L14
    FRAME FULL [aji ahb yz I I I I] []
     RETURN
    L18
     LOCALVARIABLE is Ladd; L12 L13 10
+    LOCALVARIABLE i$ Ljava/util/Iterator; L10 L11 9
     LOCALVARIABLE items Ljava/util/ArrayList; L5 L11 7
     // signature Ljava/util/ArrayList<Ladd;>;
     // declaration: java.util.ArrayList<add>
@@ -5646,14 +5643,14 @@ public class aji {
   // access flags 0x4
   protected E()Z
    L0
-    LINENUMBER 982 L0
+    LINENUMBER 981 L0
     ALOAD 0
     GETFIELD aji.silk_check_meta : Ljava/lang/ThreadLocal;
     INVOKEVIRTUAL java/lang/ThreadLocal.get ()Ljava/lang/Object;
     CHECKCAST java/lang/Integer
     ASTORE 1
    L1
-    LINENUMBER 983 L1
+    LINENUMBER 982 L1
     ALOAD 0
     INVOKEVIRTUAL aji.d ()Z
     IFEQ L2
@@ -5687,27 +5684,27 @@ public class aji {
   // access flags 0x4
   protected j(I)Ladd;
    L0
-    LINENUMBER 988 L0
+    LINENUMBER 987 L0
     ICONST_0
     ISTORE 2
    L1
-    LINENUMBER 989 L1
+    LINENUMBER 988 L1
     ALOAD 0
     INVOKESTATIC adb.a (Laji;)Ladb;
     ASTORE 3
    L2
-    LINENUMBER 991 L2
+    LINENUMBER 990 L2
     ALOAD 3
     IFNULL L3
     ALOAD 3
     INVOKEVIRTUAL adb.n ()Z
     IFEQ L3
    L4
-    LINENUMBER 993 L4
+    LINENUMBER 992 L4
     ILOAD 1
     ISTORE 2
    L3
-    LINENUMBER 996 L3
+    LINENUMBER 995 L3
    FRAME FULL [aji I I adb] []
     NEW add
     DUP
@@ -5727,7 +5724,7 @@ public class aji {
   // access flags 0x1
   public a(ILjava/util/Random;)I
    L0
-    LINENUMBER 1001 L0
+    LINENUMBER 1000 L0
     ALOAD 0
     ALOAD 2
     INVOKEVIRTUAL aji.a (Ljava/util/Random;)I
@@ -5742,7 +5739,7 @@ public class aji {
   // access flags 0x1
   public j(Lahb;III)Z
    L0
-    LINENUMBER 1006 L0
+    LINENUMBER 1005 L0
     ICONST_1
     IRETURN
    L1
@@ -5757,7 +5754,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;IIILsv;Ladd;)V
    L0
-    LINENUMBER 1009 L0
+    LINENUMBER 1008 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -5773,7 +5770,7 @@ public class aji {
   // access flags 0x1
   public e(Lahb;IIII)V
    L0
-    LINENUMBER 1011 L0
+    LINENUMBER 1010 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -5788,12 +5785,12 @@ public class aji {
   // access flags 0x1
   public c(Ljava/lang/String;)Laji;
    L0
-    LINENUMBER 1015 L0
+    LINENUMBER 1014 L0
     ALOAD 0
     ALOAD 1
     PUTFIELD aji.b : Ljava/lang/String;
    L1
-    LINENUMBER 1016 L1
+    LINENUMBER 1015 L1
     ALOAD 0
     ARETURN
    L2
@@ -5805,7 +5802,7 @@ public class aji {
   // access flags 0x1
   public F()Ljava/lang/String;
    L0
-    LINENUMBER 1021 L0
+    LINENUMBER 1020 L0
     NEW java/lang/StringBuilder
     DUP
     INVOKESPECIAL java/lang/StringBuilder.<init> ()V
@@ -5825,7 +5822,7 @@ public class aji {
   // access flags 0x1
   public a()Ljava/lang/String;
    L0
-    LINENUMBER 1026 L0
+    LINENUMBER 1025 L0
     NEW java/lang/StringBuilder
     DUP
     INVOKESPECIAL java/lang/StringBuilder.<init> ()V
@@ -5844,7 +5841,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;IIIII)Z
    L0
-    LINENUMBER 1031 L0
+    LINENUMBER 1030 L0
     ICONST_0
     IRETURN
    L1
@@ -5861,7 +5858,7 @@ public class aji {
   // access flags 0x1
   public G()Z
    L0
-    LINENUMBER 1036 L0
+    LINENUMBER 1035 L0
     ALOAD 0
     GETFIELD aji.y : Z
     IRETURN
@@ -5873,12 +5870,12 @@ public class aji {
   // access flags 0x4
   protected H()Laji;
    L0
-    LINENUMBER 1041 L0
+    LINENUMBER 1040 L0
     ALOAD 0
     ICONST_0
     PUTFIELD aji.y : Z
    L1
-    LINENUMBER 1042 L1
+    LINENUMBER 1041 L1
     ALOAD 0
     ARETURN
    L2
@@ -5889,7 +5886,7 @@ public class aji {
   // access flags 0x1
   public h()I
    L0
-    LINENUMBER 1047 L0
+    LINENUMBER 1046 L0
     ALOAD 0
     GETFIELD aji.J : Lawt;
     INVOKEVIRTUAL awt.m ()I
@@ -5902,7 +5899,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;IIILsa;F)V
    L0
-    LINENUMBER 1056 L0
+    LINENUMBER 1055 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -5918,7 +5915,7 @@ public class aji {
   // access flags 0x1
   public k(Lahb;III)I
    L0
-    LINENUMBER 1066 L0
+    LINENUMBER 1065 L0
     ALOAD 0
     ALOAD 1
     ILOAD 2
@@ -5939,12 +5936,12 @@ public class aji {
   // access flags 0x1
   public a(Labt;)Laji;
    L0
-    LINENUMBER 1077 L0
+    LINENUMBER 1076 L0
     ALOAD 0
     ALOAD 1
     PUTFIELD aji.a : Labt;
    L1
-    LINENUMBER 1078 L1
+    LINENUMBER 1077 L1
     ALOAD 0
     ARETURN
    L2
@@ -5956,7 +5953,7 @@ public class aji {
   // access flags 0x1
   public a(Lahb;IIIILyz;)V
    L0
-    LINENUMBER 1081 L0
+    LINENUMBER 1080 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -5972,7 +5969,7 @@ public class aji {
   // access flags 0x1
   public f(Lahb;IIII)V
    L0
-    LINENUMBER 1089 L0
+    LINENUMBER 1088 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -5987,7 +5984,7 @@ public class aji {
   // access flags 0x1
   public l(Lahb;III)V
    L0
-    LINENUMBER 1091 L0
+    LINENUMBER 1090 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -6001,7 +5998,7 @@ public class aji {
   // access flags 0x1
   public L()Z
    L0
-    LINENUMBER 1101 L0
+    LINENUMBER 1100 L0
     ICONST_1
     IRETURN
    L1
@@ -6012,7 +6009,7 @@ public class aji {
   // access flags 0x1
   public a(Lagw;)Z
    L0
-    LINENUMBER 1106 L0
+    LINENUMBER 1105 L0
     ICONST_1
     IRETURN
    L1
@@ -6024,7 +6021,7 @@ public class aji {
   // access flags 0x1
   public c(Laji;)Z
    L0
-    LINENUMBER 1111 L0
+    LINENUMBER 1110 L0
     ALOAD 0
     ALOAD 1
     IF_ACMPNE L1
@@ -6045,7 +6042,7 @@ public class aji {
   // access flags 0x9
   public static a(Laji;Laji;)Z
    L0
-    LINENUMBER 1116 L0
+    LINENUMBER 1115 L0
     ALOAD 0
     IFNULL L1
     ALOAD 1
@@ -6076,7 +6073,7 @@ public class aji {
   // access flags 0x1
   public M()Z
    L0
-    LINENUMBER 1121 L0
+    LINENUMBER 1120 L0
     ICONST_0
     IRETURN
    L1
@@ -6087,7 +6084,7 @@ public class aji {
   // access flags 0x1
   public g(Lahb;IIII)I
    L0
-    LINENUMBER 1126 L0
+    LINENUMBER 1125 L0
     ICONST_0
     IRETURN
    L1
@@ -6103,12 +6100,12 @@ public class aji {
   // access flags 0x1
   public d(Ljava/lang/String;)Laji;
    L0
-    LINENUMBER 1131 L0
+    LINENUMBER 1130 L0
     ALOAD 0
     ALOAD 1
     PUTFIELD aji.d : Ljava/lang/String;
    L1
-    LINENUMBER 1132 L1
+    LINENUMBER 1131 L1
     ALOAD 0
     ARETURN
    L2
@@ -6117,45 +6114,10 @@ public class aji {
     MAXSTACK = 2
     MAXLOCALS = 2
 
-  // access flags 0x9
-  public static range(FFF)F
-   L0
-    LINENUMBER 1138 L0
-    FLOAD 1
-    FLOAD 0
-    FCMPG
-    IFGE L1
-   L2
-    LINENUMBER 1140 L2
-    FLOAD 0
-    FRETURN
-   L1
-    LINENUMBER 1143 L1
-   FRAME FULL [F F F] []
-    FLOAD 1
-    FLOAD 2
-    FCMPL
-    IFLE L3
-   L4
-    LINENUMBER 1145 L4
-    FLOAD 2
-    FRETURN
-   L3
-    LINENUMBER 1148 L3
-   FRAME FULL [F F F] []
-    FLOAD 1
-    FRETURN
-   L5
-    LOCALVARIABLE min F L0 L5 0
-    LOCALVARIABLE value F L0 L5 1
-    LOCALVARIABLE max F L0 L5 2
-    MAXSTACK = 2
-    MAXLOCALS = 3
-
   // access flags 0x1
   public getLightValue(Lahl;III)I
    L0
-    LINENUMBER 1191 L0
+    LINENUMBER 1173 L0
     ALOAD 1
     ILOAD 2
     ILOAD 3
@@ -6163,12 +6125,12 @@ public class aji {
     INVOKEINTERFACE ahl.a (III)Laji;
     ASTORE 5
    L1
-    LINENUMBER 1192 L1
+    LINENUMBER 1174 L1
     ALOAD 5
     ALOAD 0
     IF_ACMPEQ L2
    L3
-    LINENUMBER 1194 L3
+    LINENUMBER 1176 L3
     ALOAD 5
     ALOAD 1
     ILOAD 2
@@ -6177,7 +6139,7 @@ public class aji {
     INVOKEVIRTUAL aji.getLightValue (Lahl;III)I
     IRETURN
    L2
-    LINENUMBER 1196 L2
+    LINENUMBER 1178 L2
    FRAME FULL [aji ahl I I I aji] []
     ALOAD 0
     INVOKEVIRTUAL aji.m ()I
@@ -6195,7 +6157,7 @@ public class aji {
   // access flags 0x1
   public isLadder(Lahl;IIILsv;)Z
    L0
-    LINENUMBER 1211 L0
+    LINENUMBER 1193 L0
     ICONST_0
     IRETURN
    L1
@@ -6211,7 +6173,7 @@ public class aji {
   // access flags 0x1
   public isNormalCube(Lahl;III)Z
    L0
-    LINENUMBER 1227 L0
+    LINENUMBER 1209 L0
     ALOAD 0
     INVOKEVIRTUAL aji.o ()Lawt;
     INVOKEVIRTUAL awt.k ()Z
@@ -6242,7 +6204,7 @@ public class aji {
   // access flags 0x1
   public isSideSolid(Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;)Z
    L0
-    LINENUMBER 1242 L0
+    LINENUMBER 1224 L0
     ALOAD 1
     ILOAD 2
     ILOAD 3
@@ -6250,12 +6212,12 @@ public class aji {
     INVOKEINTERFACE ahl.e (III)I
     ISTORE 6
    L1
-    LINENUMBER 1244 L1
+    LINENUMBER 1226 L1
     ALOAD 0
     INSTANCEOF alj
     IFEQ L2
    L3
-    LINENUMBER 1246 L3
+    LINENUMBER 1228 L3
     ILOAD 6
     BIPUSH 8
     IAND
@@ -6280,13 +6242,13 @@ public class aji {
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection I] [I]
     IRETURN
    L2
-    LINENUMBER 1248 L2
+    LINENUMBER 1230 L2
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection I] []
     ALOAD 0
     INSTANCEOF aky
     IFEQ L8
    L9
-    LINENUMBER 1250 L9
+    LINENUMBER 1232 L9
     ALOAD 5
     GETSTATIC net/minecraftforge/common/util/ForgeDirection.DOWN : Lnet/minecraftforge/common/util/ForgeDirection;
     IF_ACMPEQ L10
@@ -6302,13 +6264,13 @@ public class aji {
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection I] [I]
     IRETURN
    L8
-    LINENUMBER 1252 L8
+    LINENUMBER 1234 L8
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection I] []
     ALOAD 0
     INSTANCEOF ans
     IFEQ L12
    L13
-    LINENUMBER 1254 L13
+    LINENUMBER 1236 L13
     ILOAD 6
     ICONST_4
     IAND
@@ -6322,7 +6284,7 @@ public class aji {
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection I] [I]
     ISTORE 7
    L16
-    LINENUMBER 1255 L16
+    LINENUMBER 1237 L16
     ILOAD 6
     ICONST_3
     IAND
@@ -6347,13 +6309,13 @@ public class aji {
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection I I] [I]
     IRETURN
    L12
-    LINENUMBER 1257 L12
+    LINENUMBER 1239 L12
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection I] []
     ALOAD 0
     INSTANCEOF ann
     IFEQ L20
    L21
-    LINENUMBER 1259 L21
+    LINENUMBER 1241 L21
     ILOAD 6
     BIPUSH 7
     IAND
@@ -6368,7 +6330,7 @@ public class aji {
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection I] [I]
     IRETURN
    L20
-    LINENUMBER 1261 L20
+    LINENUMBER 1243 L20
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection I] []
     ALOAD 0
     INSTANCEOF aln
@@ -6377,21 +6339,21 @@ public class aji {
     GETSTATIC net/minecraftforge/common/util/ForgeDirection.UP : Lnet/minecraftforge/common/util/ForgeDirection;
     IF_ACMPNE L24
    L25
-    LINENUMBER 1263 L25
+    LINENUMBER 1245 L25
     ICONST_1
     IRETURN
    L24
-    LINENUMBER 1265 L24
+    LINENUMBER 1247 L24
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection I] []
     ALOAD 0
     INSTANCEOF ams
     IFEQ L26
    L27
-    LINENUMBER 1267 L27
+    LINENUMBER 1249 L27
     ICONST_1
     IRETURN
    L26
-    LINENUMBER 1269 L26
+    LINENUMBER 1251 L26
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection I] []
     ALOAD 0
     ALOAD 1
@@ -6415,7 +6377,7 @@ public class aji {
   // access flags 0x1
   public isReplaceable(Lahl;III)Z
    L0
-    LINENUMBER 1284 L0
+    LINENUMBER 1266 L0
     ALOAD 0
     GETFIELD aji.J : Lawt;
     INVOKEVIRTUAL awt.j ()Z
@@ -6432,7 +6394,7 @@ public class aji {
   // access flags 0x1
   public isBurning(Lahl;III)Z
    L0
-    LINENUMBER 1299 L0
+    LINENUMBER 1281 L0
     ICONST_0
     IRETURN
    L1
@@ -6447,7 +6409,7 @@ public class aji {
   // access flags 0x1
   public isAir(Lahl;III)Z
    L0
-    LINENUMBER 1316 L0
+    LINENUMBER 1298 L0
     ALOAD 0
     INVOKEVIRTUAL aji.o ()Lawt;
     GETSTATIC awt.a : Lawt;
@@ -6472,7 +6434,7 @@ public class aji {
   // access flags 0x1
   public canHarvestBlock(Lyz;I)Z
    L0
-    LINENUMBER 1328 L0
+    LINENUMBER 1310 L0
     ALOAD 0
     ALOAD 1
     ILOAD 2
@@ -6488,7 +6450,7 @@ public class aji {
   // access flags 0x1
   public removedByPlayer(Lahb;Lyz;IIIZ)Z
    L0
-    LINENUMBER 1353 L0
+    LINENUMBER 1335 L0
     ALOAD 0
     ALOAD 1
     ALOAD 2
@@ -6513,7 +6475,7 @@ public class aji {
   public removedByPlayer(Lahb;Lyz;III)Z
   @Ljava/lang/Deprecated;()
    L0
-    LINENUMBER 1359 L0
+    LINENUMBER 1341 L0
     ALOAD 1
     ILOAD 3
     ILOAD 4
@@ -6533,7 +6495,7 @@ public class aji {
   // access flags 0x1
   public getFlammability(Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;)I
    L0
-    LINENUMBER 1375 L0
+    LINENUMBER 1357 L0
     GETSTATIC ajn.ab : Lalb;
     ALOAD 0
     INVOKEVIRTUAL alb.getFlammability (Laji;)I
@@ -6551,7 +6513,7 @@ public class aji {
   // access flags 0x1
   public isFlammable(Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;)Z
    L0
-    LINENUMBER 1391 L0
+    LINENUMBER 1373 L0
     ALOAD 0
     ALOAD 1
     ILOAD 2
@@ -6581,7 +6543,7 @@ public class aji {
   // access flags 0x1
   public getFireSpreadSpeed(Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;)I
    L0
-    LINENUMBER 1407 L0
+    LINENUMBER 1389 L0
     GETSTATIC ajn.ab : Lalb;
     ALOAD 0
     INVOKEVIRTUAL alb.getEncouragement (Laji;)I
@@ -6599,7 +6561,7 @@ public class aji {
   // access flags 0x1
   public isFireSource(Lahb;IIILnet/minecraftforge/common/util/ForgeDirection;)Z
    L0
-    LINENUMBER 1425 L0
+    LINENUMBER 1407 L0
     ALOAD 0
     GETSTATIC ajn.aL : Laji;
     IF_ACMPNE L1
@@ -6607,11 +6569,11 @@ public class aji {
     GETSTATIC net/minecraftforge/common/util/ForgeDirection.UP : Lnet/minecraftforge/common/util/ForgeDirection;
     IF_ACMPNE L1
    L2
-    LINENUMBER 1427 L2
+    LINENUMBER 1409 L2
     ICONST_1
     IRETURN
    L1
-    LINENUMBER 1429 L1
+    LINENUMBER 1411 L1
    FRAME FULL [aji ahb I I I net/minecraftforge/common/util/ForgeDirection] []
     ALOAD 1
     GETFIELD ahb.t : Laqo;
@@ -6624,11 +6586,11 @@ public class aji {
     GETSTATIC net/minecraftforge/common/util/ForgeDirection.UP : Lnet/minecraftforge/common/util/ForgeDirection;
     IF_ACMPNE L3
    L4
-    LINENUMBER 1431 L4
+    LINENUMBER 1413 L4
     ICONST_1
     IRETURN
    L3
-    LINENUMBER 1433 L3
+    LINENUMBER 1415 L3
    FRAME FULL [aji ahb I I I net/minecraftforge/common/util/ForgeDirection] []
     ICONST_0
     IRETURN
@@ -6645,7 +6607,7 @@ public class aji {
   // access flags 0x1
   public hasTileEntity(I)Z
    L0
-    LINENUMBER 1449 L0
+    LINENUMBER 1431 L0
     ALOAD 0
     GETFIELD aji.isTileProvider : Z
     IRETURN
@@ -6658,12 +6620,12 @@ public class aji {
   // access flags 0x1
   public createTileEntity(Lahb;I)Laor;
    L0
-    LINENUMBER 1462 L0
+    LINENUMBER 1444 L0
     ALOAD 0
     GETFIELD aji.isTileProvider : Z
     IFEQ L1
    L2
-    LINENUMBER 1464 L2
+    LINENUMBER 1446 L2
     ALOAD 0
     CHECKCAST akw
     ALOAD 1
@@ -6671,7 +6633,7 @@ public class aji {
     INVOKEINTERFACE akw.a (Lahb;I)Laor;
     ARETURN
    L1
-    LINENUMBER 1466 L1
+    LINENUMBER 1448 L1
    FRAME FULL [aji ahb I] []
     ACONST_NULL
     ARETURN
@@ -6685,7 +6647,7 @@ public class aji {
   // access flags 0x1
   public quantityDropped(IILjava/util/Random;)I
    L0
-    LINENUMBER 1480 L0
+    LINENUMBER 1462 L0
     ALOAD 0
     ILOAD 2
     ALOAD 3
@@ -6704,13 +6666,13 @@ public class aji {
   // declaration: java.util.ArrayList<add> getDrops(ahb, int, int, int, int, int)
   public getDrops(Lahb;IIIII)Ljava/util/ArrayList;
    L0
-    LINENUMBER 1496 L0
+    LINENUMBER 1478 L0
     NEW java/util/ArrayList
     DUP
     INVOKESPECIAL java/util/ArrayList.<init> ()V
     ASTORE 7
    L1
-    LINENUMBER 1498 L1
+    LINENUMBER 1480 L1
     ALOAD 0
     ILOAD 5
     ILOAD 6
@@ -6719,7 +6681,7 @@ public class aji {
     INVOKEVIRTUAL aji.quantityDropped (IILjava/util/Random;)I
     ISTORE 8
    L2
-    LINENUMBER 1499 L2
+    LINENUMBER 1481 L2
     ICONST_0
     ISTORE 9
    L3
@@ -6728,7 +6690,7 @@ public class aji {
     ILOAD 8
     IF_ICMPGE L4
    L5
-    LINENUMBER 1501 L5
+    LINENUMBER 1483 L5
     ALOAD 0
     ILOAD 5
     ALOAD 1
@@ -6737,11 +6699,11 @@ public class aji {
     INVOKEVIRTUAL aji.a (ILjava/util/Random;I)Ladb;
     ASTORE 10
    L6
-    LINENUMBER 1502 L6
+    LINENUMBER 1484 L6
     ALOAD 10
     IFNULL L7
    L8
-    LINENUMBER 1504 L8
+    LINENUMBER 1486 L8
     ALOAD 7
     NEW add
     DUP
@@ -6754,12 +6716,12 @@ public class aji {
     INVOKEVIRTUAL java/util/ArrayList.add (Ljava/lang/Object;)Z
     POP
    L7
-    LINENUMBER 1499 L7
+    LINENUMBER 1481 L7
    FRAME FULL [aji ahb I I I I I java/util/ArrayList I I adb] []
     IINC 9 1
     GOTO L3
    L4
-    LINENUMBER 1507 L4
+    LINENUMBER 1489 L4
    FRAME FULL [aji ahb I I I I I java/util/ArrayList I I] []
     ALOAD 7
     ARETURN
@@ -6783,25 +6745,25 @@ public class aji {
   // access flags 0x1
   public canSilkHarvest(Lahb;Lyz;IIII)Z
    L0
-    LINENUMBER 1523 L0
+    LINENUMBER 1505 L0
     ALOAD 0
     GETFIELD aji.silk_check_meta : Ljava/lang/ThreadLocal;
     ILOAD 6
     INVOKESTATIC java/lang/Integer.valueOf (I)Ljava/lang/Integer;
     INVOKEVIRTUAL java/lang/ThreadLocal.set (Ljava/lang/Object;)V
    L1
-    LINENUMBER 1524 L1
+    LINENUMBER 1506 L1
     ALOAD 0
     INVOKEVIRTUAL aji.E ()Z
     ISTORE 7
    L2
-    LINENUMBER 1525 L2
+    LINENUMBER 1507 L2
     ALOAD 0
     GETFIELD aji.silk_check_meta : Ljava/lang/ThreadLocal;
     ACONST_NULL
     INVOKEVIRTUAL java/lang/ThreadLocal.set (Ljava/lang/Object;)V
    L3
-    LINENUMBER 1526 L3
+    LINENUMBER 1508 L3
     ILOAD 7
     IRETURN
    L4
@@ -6819,7 +6781,7 @@ public class aji {
   // access flags 0x1
   public canCreatureSpawn(Lsx;Lahl;III)Z
    L0
-    LINENUMBER 1542 L0
+    LINENUMBER 1524 L0
     ALOAD 2
     ILOAD 3
     ILOAD 4
@@ -6827,12 +6789,12 @@ public class aji {
     INVOKEINTERFACE ahl.e (III)I
     ISTORE 6
    L1
-    LINENUMBER 1543 L1
+    LINENUMBER 1525 L1
     ALOAD 0
     INSTANCEOF alj
     IFEQ L2
    L3
-    LINENUMBER 1545 L3
+    LINENUMBER 1527 L3
     ILOAD 6
     BIPUSH 8
     IAND
@@ -6852,13 +6814,13 @@ public class aji {
    FRAME FULL [aji sx ahl I I I I] [I]
     IRETURN
    L2
-    LINENUMBER 1547 L2
+    LINENUMBER 1529 L2
    FRAME FULL [aji sx ahl I I I I] []
     ALOAD 0
     INSTANCEOF ans
     IFEQ L7
    L8
-    LINENUMBER 1549 L8
+    LINENUMBER 1531 L8
     ILOAD 6
     ICONST_4
     IAND
@@ -6872,7 +6834,7 @@ public class aji {
    FRAME FULL [aji sx ahl I I I I] [I]
     IRETURN
    L7
-    LINENUMBER 1551 L7
+    LINENUMBER 1533 L7
    FRAME FULL [aji sx ahl I I I I] []
     ALOAD 0
     ALOAD 2
@@ -6896,7 +6858,7 @@ public class aji {
   // access flags 0x1
   public isBed(Lahl;IIILsv;)Z
    L0
-    LINENUMBER 1568 L0
+    LINENUMBER 1550 L0
     ALOAD 0
     GETSTATIC ajn.C : Laji;
     IF_ACMPNE L1
@@ -6921,12 +6883,12 @@ public class aji {
   // access flags 0x1
   public getBedSpawnPosition(Lahl;IIILyz;)Lr;
    L0
-    LINENUMBER 1584 L0
+    LINENUMBER 1566 L0
     ALOAD 1
     INSTANCEOF ahb
     IFEQ L1
    L2
-    LINENUMBER 1585 L2
+    LINENUMBER 1567 L2
     ALOAD 1
     CHECKCAST ahb
     ILOAD 2
@@ -6936,7 +6898,7 @@ public class aji {
     INVOKESTATIC ajh.a (Lahb;IIII)Lr;
     ARETURN
    L1
-    LINENUMBER 1586 L1
+    LINENUMBER 1568 L1
    FRAME FULL [aji ahl I I I yz] []
     ACONST_NULL
     ARETURN
@@ -6953,12 +6915,12 @@ public class aji {
   // access flags 0x1
   public setBedOccupied(Lahl;IIILyz;Z)V
    L0
-    LINENUMBER 1601 L0
+    LINENUMBER 1583 L0
     ALOAD 1
     INSTANCEOF ahb
     IFEQ L1
    L2
-    LINENUMBER 1602 L2
+    LINENUMBER 1584 L2
     ALOAD 1
     CHECKCAST ahb
     ILOAD 2
@@ -6967,7 +6929,7 @@ public class aji {
     ILOAD 6
     INVOKESTATIC ajh.a (Lahb;IIIZ)V
    L1
-    LINENUMBER 1603 L1
+    LINENUMBER 1585 L1
    FRAME FULL [aji ahl I I I yz I] []
     RETURN
    L3
@@ -6984,7 +6946,7 @@ public class aji {
   // access flags 0x1
   public getBedDirection(Lahl;III)I
    L0
-    LINENUMBER 1617 L0
+    LINENUMBER 1599 L0
     ALOAD 1
     ILOAD 2
     ILOAD 3
@@ -7004,7 +6966,7 @@ public class aji {
   // access flags 0x1
   public isBedFoot(Lahl;III)Z
    L0
-    LINENUMBER 1631 L0
+    LINENUMBER 1613 L0
     ALOAD 1
     ILOAD 2
     ILOAD 3
@@ -7024,7 +6986,7 @@ public class aji {
   // access flags 0x1
   public beginLeavesDecay(Lahb;III)V
    L0
-    LINENUMBER 1642 L0
+    LINENUMBER 1624 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -7038,7 +7000,7 @@ public class aji {
   // access flags 0x1
   public canSustainLeaves(Lahl;III)Z
    L0
-    LINENUMBER 1655 L0
+    LINENUMBER 1637 L0
     ICONST_0
     IRETURN
    L1
@@ -7053,7 +7015,7 @@ public class aji {
   // access flags 0x1
   public isLeaves(Lahl;III)Z
    L0
-    LINENUMBER 1669 L0
+    LINENUMBER 1651 L0
     ALOAD 0
     INVOKEVIRTUAL aji.o ()Lawt;
     GETSTATIC awt.j : Lawt;
@@ -7090,7 +7052,7 @@ public class aji {
   // access flags 0x1
   public isWood(Lahl;III)Z
    L0
-    LINENUMBER 1696 L0
+    LINENUMBER 1678 L0
     ICONST_0
     IRETURN
    L1
@@ -7105,7 +7067,7 @@ public class aji {
   // access flags 0x1
   public isReplaceableOreGen(Lahb;IIILaji;)Z
    L0
-    LINENUMBER 1712 L0
+    LINENUMBER 1694 L0
     ALOAD 0
     ALOAD 5
     IF_ACMPNE L1
@@ -7130,7 +7092,7 @@ public class aji {
   // access flags 0x1
   public getExplosionResistance(Lsa;Lahb;IIIDDD)F
    L0
-    LINENUMBER 1730 L0
+    LINENUMBER 1712 L0
     ALOAD 0
     ALOAD 1
     INVOKEVIRTUAL aji.a (Lsa;)F
@@ -7151,7 +7113,7 @@ public class aji {
   // access flags 0x1
   public onBlockExploded(Lahb;IIILagw;)V
    L0
-    LINENUMBER 1746 L0
+    LINENUMBER 1728 L0
     ALOAD 1
     ILOAD 2
     ILOAD 3
@@ -7159,7 +7121,7 @@ public class aji {
     INVOKEVIRTUAL ahb.f (III)Z
     POP
    L1
-    LINENUMBER 1747 L1
+    LINENUMBER 1729 L1
     ALOAD 0
     ALOAD 1
     ILOAD 2
@@ -7168,7 +7130,7 @@ public class aji {
     ALOAD 5
     INVOKEVIRTUAL aji.a (Lahb;IIILagw;)V
    L2
-    LINENUMBER 1748 L2
+    LINENUMBER 1730 L2
     RETURN
    L3
     LOCALVARIABLE this Laji; L0 L3 0
@@ -7183,7 +7145,7 @@ public class aji {
   // access flags 0x1
   public canConnectRedstone(Lahl;IIII)Z
    L0
-    LINENUMBER 1770 L0
+    LINENUMBER 1752 L0
     ALOAD 0
     INVOKEVIRTUAL aji.f ()Z
     IFEQ L1
@@ -7211,7 +7173,7 @@ public class aji {
   // access flags 0x1
   public canPlaceTorchOnTop(Lahb;III)Z
    L0
-    LINENUMBER 1785 L0
+    LINENUMBER 1767 L0
     ALOAD 0
     ALOAD 1
     ILOAD 2
@@ -7221,11 +7183,11 @@ public class aji {
     INVOKEVIRTUAL aji.isSideSolid (Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;)Z
     IFEQ L1
    L2
-    LINENUMBER 1787 L2
+    LINENUMBER 1769 L2
     ICONST_1
     IRETURN
    L1
-    LINENUMBER 1791 L1
+    LINENUMBER 1773 L1
    FRAME FULL [aji ahb I I I] []
     ALOAD 0
     GETSTATIC ajn.aJ : Laji;
@@ -7261,7 +7223,7 @@ public class aji {
   // access flags 0x1
   public canRenderInPass(I)Z
    L0
-    LINENUMBER 1803 L0
+    LINENUMBER 1785 L0
     ILOAD 1
     ALOAD 0
     INVOKEVIRTUAL aji.w ()I
@@ -7283,7 +7245,7 @@ public class aji {
   // access flags 0x1
   public getPickBlock(Lazu;Lahb;IIILyz;)Ladd;
    L0
-    LINENUMBER 1814 L0
+    LINENUMBER 1796 L0
     ALOAD 0
     ALOAD 1
     ALOAD 2
@@ -7308,7 +7270,7 @@ public class aji {
   public getPickBlock(Lazu;Lahb;III)Ladd;
   @Ljava/lang/Deprecated;()
    L0
-    LINENUMBER 1819 L0
+    LINENUMBER 1801 L0
     ALOAD 0
     ALOAD 2
     ILOAD 3
@@ -7317,15 +7279,15 @@ public class aji {
     INVOKEVIRTUAL aji.d (Lahb;III)Ladb;
     ASTORE 6
    L1
-    LINENUMBER 1821 L1
+    LINENUMBER 1803 L1
     ALOAD 6
     IFNONNULL L2
    L3
-    LINENUMBER 1823 L3
+    LINENUMBER 1805 L3
     ACONST_NULL
     ARETURN
    L2
-    LINENUMBER 1826 L2
+    LINENUMBER 1808 L2
    FRAME FULL [aji azu ahb I I I adb] []
     ALOAD 6
     INSTANCEOF abh
@@ -7343,7 +7305,7 @@ public class aji {
    FRAME FULL [aji azu ahb I I I adb] [aji]
     ASTORE 7
    L6
-    LINENUMBER 1827 L6
+    LINENUMBER 1809 L6
     NEW add
     DUP
     ALOAD 6
@@ -7371,7 +7333,7 @@ public class aji {
   // access flags 0x1
   public isFoliage(Lahl;III)Z
    L0
-    LINENUMBER 1838 L0
+    LINENUMBER 1820 L0
     ICONST_0
     IRETURN
    L1
@@ -7386,7 +7348,7 @@ public class aji {
   // access flags 0x1
   public canSustainPlant(Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;Lnet/minecraftforge/common/IPlantable;)Z
    L0
-    LINENUMBER 1899 L0
+    LINENUMBER 1881 L0
     ALOAD 6
     ALOAD 1
     ILOAD 2
@@ -7397,7 +7359,7 @@ public class aji {
     INVOKEINTERFACE net/minecraftforge/common/IPlantable.getPlant (Lahl;III)Laji;
     ASTORE 7
    L1
-    LINENUMBER 1900 L1
+    LINENUMBER 1882 L1
     ALOAD 6
     ALOAD 1
     ILOAD 2
@@ -7408,7 +7370,7 @@ public class aji {
     INVOKEINTERFACE net/minecraftforge/common/IPlantable.getPlantType (Lahl;III)Lnet/minecraftforge/common/EnumPlantType;
     ASTORE 8
    L2
-    LINENUMBER 1902 L2
+    LINENUMBER 1884 L2
     ALOAD 7
     GETSTATIC ajn.aF : Laji;
     IF_ACMPNE L3
@@ -7416,11 +7378,11 @@ public class aji {
     GETSTATIC ajn.aF : Laji;
     IF_ACMPNE L3
    L4
-    LINENUMBER 1904 L4
+    LINENUMBER 1886 L4
     ICONST_1
     IRETURN
    L3
-    LINENUMBER 1907 L3
+    LINENUMBER 1889 L3
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType] []
     ALOAD 7
     GETSTATIC ajn.aH : Laji;
@@ -7429,11 +7391,11 @@ public class aji {
     GETSTATIC ajn.aH : Laji;
     IF_ACMPNE L5
    L6
-    LINENUMBER 1909 L6
+    LINENUMBER 1891 L6
     ICONST_1
     IRETURN
    L5
-    LINENUMBER 1912 L5
+    LINENUMBER 1894 L5
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType] []
     ALOAD 6
     INSTANCEOF ajr
@@ -7444,11 +7406,11 @@ public class aji {
     INVOKEVIRTUAL ajr.a (Laji;)Z
     IFEQ L7
    L8
-    LINENUMBER 1914 L8
+    LINENUMBER 1896 L8
     ICONST_1
     IRETURN
    L7
-    LINENUMBER 1917 L7
+    LINENUMBER 1899 L7
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType] []
     GETSTATIC aji$6.$SwitchMap$net$minecraftforge$common$EnumPlantType : [I
     ALOAD 8
@@ -7464,7 +7426,7 @@ public class aji {
       7: L15
       default: L16
    L9
-    LINENUMBER 1919 L9
+    LINENUMBER 1901 L9
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType] []
     ALOAD 0
     GETSTATIC ajn.m : Lanh;
@@ -7478,7 +7440,7 @@ public class aji {
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType] [I]
     IRETURN
    L10
-    LINENUMBER 1920 L10
+    LINENUMBER 1902 L10
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType] []
     ALOAD 0
     GETSTATIC ajn.aM : Laji;
@@ -7492,7 +7454,7 @@ public class aji {
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType] [I]
     IRETURN
    L11
-    LINENUMBER 1921 L11
+    LINENUMBER 1903 L11
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType] []
     ALOAD 0
     GETSTATIC ajn.ak : Laji;
@@ -7506,7 +7468,7 @@ public class aji {
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType] [I]
     IRETURN
    L12
-    LINENUMBER 1922 L12
+    LINENUMBER 1904 L12
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType] []
     ALOAD 0
     ALOAD 1
@@ -7517,7 +7479,7 @@ public class aji {
     INVOKEVIRTUAL aji.isSideSolid (Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;)Z
     IRETURN
    L13
-    LINENUMBER 1923 L13
+    LINENUMBER 1905 L13
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType] []
     ALOAD 0
     GETSTATIC ajn.c : Lalh;
@@ -7539,7 +7501,7 @@ public class aji {
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType] [I]
     IRETURN
    L14
-    LINENUMBER 1924 L14
+    LINENUMBER 1906 L14
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType] []
     ALOAD 1
     ILOAD 2
@@ -7564,7 +7526,7 @@ public class aji {
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType] [I]
     IRETURN
    L15
-    LINENUMBER 1926 L15
+    LINENUMBER 1908 L15
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType] []
     ALOAD 0
     GETSTATIC ajn.c : Lalh;
@@ -7586,7 +7548,7 @@ public class aji {
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType] [I]
     ISTORE 9
    L31
-    LINENUMBER 1927 L31
+    LINENUMBER 1909 L31
     ALOAD 1
     ILOAD 2
     ICONST_1
@@ -7603,8 +7565,6 @@ public class aji {
     IADD
     ILOAD 3
     ILOAD 4
-   L33
-    LINENUMBER 1928 L33
     INVOKEINTERFACE ahl.a (III)Laji;
     INVOKEVIRTUAL aji.o ()Lawt;
     GETSTATIC awt.h : Lawt;
@@ -7615,8 +7575,6 @@ public class aji {
     ILOAD 4
     ICONST_1
     ISUB
-   L34
-    LINENUMBER 1929 L34
     INVOKEINTERFACE ahl.a (III)Laji;
     INVOKEVIRTUAL aji.o ()Lawt;
     GETSTATIC awt.h : Lawt;
@@ -7627,60 +7585,58 @@ public class aji {
     ILOAD 4
     ICONST_1
     IADD
-   L35
-    LINENUMBER 1930 L35
     INVOKEINTERFACE ahl.a (III)Laji;
     INVOKEVIRTUAL aji.o ()Lawt;
     GETSTATIC awt.h : Lawt;
-    IF_ACMPNE L36
+    IF_ACMPNE L33
    L32
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType I] []
     ICONST_1
-    GOTO L37
-   L36
+    GOTO L34
+   L33
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType I] []
     ICONST_0
-   L37
+   L34
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType I] [I]
     ISTORE 10
-   L38
-    LINENUMBER 1931 L38
+   L35
+    LINENUMBER 1913 L35
     ILOAD 9
-    IFEQ L39
+    IFEQ L36
     ILOAD 10
-    IFEQ L39
+    IFEQ L36
     ICONST_1
-    GOTO L40
-   L39
+    GOTO L37
+   L36
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType I I] []
     ICONST_0
-   L40
+   L37
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType I I] [I]
     IRETURN
    L16
-    LINENUMBER 1934 L16
+    LINENUMBER 1916 L16
    FRAME FULL [aji ahl I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable aji net/minecraftforge/common/EnumPlantType] []
     ICONST_0
     IRETURN
-   L41
+   L38
     LOCALVARIABLE isBeach Z L31 L16 9
-    LOCALVARIABLE hasWater Z L38 L16 10
-    LOCALVARIABLE this Laji; L0 L41 0
-    LOCALVARIABLE world Lahl; L0 L41 1
-    LOCALVARIABLE x I L0 L41 2
-    LOCALVARIABLE y I L0 L41 3
-    LOCALVARIABLE z I L0 L41 4
-    LOCALVARIABLE direction Lnet/minecraftforge/common/util/ForgeDirection; L0 L41 5
-    LOCALVARIABLE plantable Lnet/minecraftforge/common/IPlantable; L0 L41 6
-    LOCALVARIABLE plant Laji; L1 L41 7
-    LOCALVARIABLE plantType Lnet/minecraftforge/common/EnumPlantType; L2 L41 8
+    LOCALVARIABLE hasWater Z L35 L16 10
+    LOCALVARIABLE this Laji; L0 L38 0
+    LOCALVARIABLE world Lahl; L0 L38 1
+    LOCALVARIABLE x I L0 L38 2
+    LOCALVARIABLE y I L0 L38 3
+    LOCALVARIABLE z I L0 L38 4
+    LOCALVARIABLE direction Lnet/minecraftforge/common/util/ForgeDirection; L0 L38 5
+    LOCALVARIABLE plantable Lnet/minecraftforge/common/IPlantable; L0 L38 6
+    LOCALVARIABLE plant Laji; L1 L38 7
+    LOCALVARIABLE plantType Lnet/minecraftforge/common/EnumPlantType; L2 L38 8
     MAXSTACK = 6
     MAXLOCALS = 11
 
   // access flags 0x1
   public onPlantGrow(Lahb;IIIIII)V
    L0
-    LINENUMBER 1956 L0
+    LINENUMBER 1938 L0
     ALOAD 0
     GETSTATIC ajn.c : Lalh;
     IF_ACMPEQ L1
@@ -7688,7 +7644,7 @@ public class aji {
     GETSTATIC ajn.ak : Laji;
     IF_ACMPNE L2
    L1
-    LINENUMBER 1958 L1
+    LINENUMBER 1940 L1
    FRAME FULL [aji ahb I I I I I I] []
     ALOAD 1
     ILOAD 2
@@ -7700,7 +7656,7 @@ public class aji {
     INVOKEVIRTUAL ahb.d (IIILaji;II)Z
     POP
    L2
-    LINENUMBER 1960 L2
+    LINENUMBER 1942 L2
    FRAME FULL [aji ahb I I I I I I] []
     RETURN
    L3
@@ -7718,12 +7674,12 @@ public class aji {
   // access flags 0x1
   public isFertile(Lahb;III)Z
    L0
-    LINENUMBER 1975 L0
+    LINENUMBER 1957 L0
     ALOAD 0
     GETSTATIC ajn.ak : Laji;
     IF_ACMPNE L1
    L2
-    LINENUMBER 1977 L2
+    LINENUMBER 1959 L2
     ALOAD 1
     ILOAD 2
     ILOAD 3
@@ -7739,7 +7695,7 @@ public class aji {
    FRAME FULL [aji ahb I I I] [I]
     IRETURN
    L1
-    LINENUMBER 1980 L1
+    LINENUMBER 1962 L1
    FRAME FULL [aji ahb I I I] []
     ICONST_0
     IRETURN
@@ -7755,7 +7711,7 @@ public class aji {
   // access flags 0x1
   public getLightOpacity(Lahl;III)I
    L0
-    LINENUMBER 1999 L0
+    LINENUMBER 1981 L0
     ALOAD 0
     INVOKEVIRTUAL aji.k ()I
     IRETURN
@@ -7771,12 +7727,12 @@ public class aji {
   // access flags 0x1
   public canEntityDestroy(Lahl;IIILsa;)Z
    L0
-    LINENUMBER 2013 L0
+    LINENUMBER 1995 L0
     ALOAD 5
     INSTANCEOF xc
     IFEQ L1
    L2
-    LINENUMBER 2015 L2
+    LINENUMBER 1997 L2
     ALOAD 0
     GETSTATIC ajn.h : Laji;
     IF_ACMPEQ L3
@@ -7798,13 +7754,13 @@ public class aji {
    FRAME FULL [aji ahl I I I sa] [I]
     IRETURN
    L1
-    LINENUMBER 2017 L1
+    LINENUMBER 1999 L1
    FRAME FULL [aji ahl I I I sa] []
     ALOAD 5
     INSTANCEOF xa
     IFEQ L5
    L6
-    LINENUMBER 2019 L6
+    LINENUMBER 2001 L6
     ALOAD 0
     GETSTATIC ajn.Z : Laji;
     IF_ACMPEQ L7
@@ -7823,7 +7779,7 @@ public class aji {
    FRAME FULL [aji ahl I I I sa] [I]
     IRETURN
    L5
-    LINENUMBER 2022 L5
+    LINENUMBER 2004 L5
    FRAME FULL [aji ahl I I I sa] []
     ICONST_1
     IRETURN
@@ -7840,7 +7796,7 @@ public class aji {
   // access flags 0x1
   public isBeaconBase(Lahl;IIIIII)Z
    L0
-    LINENUMBER 2039 L0
+    LINENUMBER 2021 L0
     ALOAD 0
     GETSTATIC ajn.bE : Laji;
     IF_ACMPEQ L1
@@ -7878,7 +7834,7 @@ public class aji {
   // access flags 0x1
   public rotateBlock(Lahb;IIILnet/minecraftforge/common/util/ForgeDirection;)Z
    L0
-    LINENUMBER 2057 L0
+    LINENUMBER 2039 L0
     ALOAD 0
     ALOAD 1
     ILOAD 2
@@ -7900,7 +7856,7 @@ public class aji {
   // access flags 0x1
   public getValidRotations(Lahb;III)[Lnet/minecraftforge/common/util/ForgeDirection;
    L0
-    LINENUMBER 2071 L0
+    LINENUMBER 2053 L0
     ALOAD 0
     INVOKESTATIC net/minecraftforge/common/util/RotationHelper.getValidVanillaBlockRotations (Laji;)[Lnet/minecraftforge/common/util/ForgeDirection;
     ARETURN
@@ -7916,7 +7872,7 @@ public class aji {
   // access flags 0x1
   public getEnchantPowerBonus(Lahb;III)F
    L0
-    LINENUMBER 2084 L0
+    LINENUMBER 2066 L0
     ALOAD 0
     GETSTATIC ajn.X : Laji;
     IF_ACMPNE L1
@@ -7940,12 +7896,12 @@ public class aji {
   // access flags 0x1
   public recolourBlock(Lahb;IIILnet/minecraftforge/common/util/ForgeDirection;I)Z
    L0
-    LINENUMBER 2099 L0
+    LINENUMBER 2081 L0
     ALOAD 0
     GETSTATIC ajn.L : Laji;
     IF_ACMPNE L1
    L2
-    LINENUMBER 2101 L2
+    LINENUMBER 2083 L2
     ALOAD 1
     ILOAD 2
     ILOAD 3
@@ -7953,12 +7909,12 @@ public class aji {
     INVOKEVIRTUAL ahb.e (III)I
     ISTORE 7
    L3
-    LINENUMBER 2102 L3
+    LINENUMBER 2084 L3
     ILOAD 7
     ILOAD 6
     IF_ICMPEQ L1
    L4
-    LINENUMBER 2104 L4
+    LINENUMBER 2086 L4
     ALOAD 1
     ILOAD 2
     ILOAD 3
@@ -7968,11 +7924,11 @@ public class aji {
     INVOKEVIRTUAL ahb.a (IIIII)Z
     POP
    L5
-    LINENUMBER 2105 L5
+    LINENUMBER 2087 L5
     ICONST_1
     IRETURN
    L1
-    LINENUMBER 2108 L1
+    LINENUMBER 2090 L1
    FRAME FULL [aji ahb I I I net/minecraftforge/common/util/ForgeDirection I] []
     ICONST_0
     IRETURN
@@ -7991,7 +7947,7 @@ public class aji {
   // access flags 0x1
   public getExpDrop(Lahl;II)I
    L0
-    LINENUMBER 2121 L0
+    LINENUMBER 2103 L0
     ICONST_0
     IRETURN
    L1
@@ -8005,7 +7961,7 @@ public class aji {
   // access flags 0x1
   public onNeighborChange(Lahl;IIIIII)V
    L0
-    LINENUMBER 2136 L0
+    LINENUMBER 2118 L0
     RETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
@@ -8022,7 +7978,7 @@ public class aji {
   // access flags 0x1
   public shouldCheckWeakPower(Lahl;IIII)Z
    L0
-    LINENUMBER 2149 L0
+    LINENUMBER 2131 L0
     ALOAD 0
     INVOKEVIRTUAL aji.r ()Z
     IRETURN
@@ -8039,7 +7995,7 @@ public class aji {
   // access flags 0x1
   public getWeakChanges(Lahl;III)Z
    L0
-    LINENUMBER 2166 L0
+    LINENUMBER 2148 L0
     ICONST_0
     IRETURN
    L1
@@ -8054,7 +8010,7 @@ public class aji {
   // access flags 0x1
   public setHarvestLevel(Ljava/lang/String;I)V
    L0
-    LINENUMBER 2184 L0
+    LINENUMBER 2166 L0
     ICONST_0
     ISTORE 3
    L1
@@ -8063,18 +8019,18 @@ public class aji {
     BIPUSH 16
     IF_ICMPGE L2
    L3
-    LINENUMBER 2186 L3
+    LINENUMBER 2168 L3
     ALOAD 0
     ALOAD 1
     ILOAD 2
     ILOAD 3
     INVOKEVIRTUAL aji.setHarvestLevel (Ljava/lang/String;II)V
    L4
-    LINENUMBER 2184 L4
+    LINENUMBER 2166 L4
     IINC 3 1
     GOTO L1
    L2
-    LINENUMBER 2188 L2
+    LINENUMBER 2170 L2
    FRAME FULL [aji java/lang/String I I] []
     RETURN
    L5
@@ -8088,21 +8044,21 @@ public class aji {
   // access flags 0x1
   public setHarvestLevel(Ljava/lang/String;II)V
    L0
-    LINENUMBER 2204 L0
+    LINENUMBER 2186 L0
     ALOAD 0
     GETFIELD aji.harvestTool : [Ljava/lang/String;
     ILOAD 3
     ALOAD 1
     AASTORE
    L1
-    LINENUMBER 2205 L1
+    LINENUMBER 2187 L1
     ALOAD 0
     GETFIELD aji.harvestLevel : [I
     ILOAD 3
     ILOAD 2
     IASTORE
    L2
-    LINENUMBER 2206 L2
+    LINENUMBER 2188 L2
     RETURN
    L3
     LOCALVARIABLE this Laji; L0 L3 0
@@ -8115,7 +8071,7 @@ public class aji {
   // access flags 0x1
   public getHarvestTool(I)Ljava/lang/String;
    L0
-    LINENUMBER 2217 L0
+    LINENUMBER 2199 L0
     ALOAD 0
     GETFIELD aji.harvestTool : [Ljava/lang/String;
     ILOAD 1
@@ -8130,7 +8086,7 @@ public class aji {
   // access flags 0x1
   public getHarvestLevel(I)I
    L0
-    LINENUMBER 2229 L0
+    LINENUMBER 2211 L0
     ALOAD 0
     GETFIELD aji.harvestLevel : [I
     ILOAD 1
@@ -8145,7 +8101,7 @@ public class aji {
   // access flags 0x1
   public isToolEffective(Ljava/lang/String;I)Z
    L0
-    LINENUMBER 2242 L0
+    LINENUMBER 2224 L0
     LDC "pickaxe"
     ALOAD 1
     INVOKEVIRTUAL java/lang/String.equals (Ljava/lang/Object;)Z
@@ -8160,12 +8116,12 @@ public class aji {
     GETSTATIC ajn.Z : Laji;
     IF_ACMPNE L1
    L2
-    LINENUMBER 2243 L2
+    LINENUMBER 2225 L2
    FRAME FULL [aji java/lang/String I] []
     ICONST_0
     IRETURN
    L1
-    LINENUMBER 2244 L1
+    LINENUMBER 2226 L1
    FRAME FULL [aji java/lang/String I] []
     ALOAD 0
     GETFIELD aji.harvestTool : [Ljava/lang/String;
@@ -8175,7 +8131,7 @@ public class aji {
     ICONST_0
     IRETURN
    L3
-    LINENUMBER 2245 L3
+    LINENUMBER 2227 L3
    FRAME FULL [aji java/lang/String I] []
     ALOAD 0
     GETFIELD aji.harvestTool : [Ljava/lang/String;
@@ -8196,29 +8152,29 @@ public class aji {
   // declaration: java.util.List<add> captureDrops(boolean)
   protected captureDrops(Z)Ljava/util/List;
    L0
-    LINENUMBER 2260 L0
+    LINENUMBER 2242 L0
     ILOAD 1
     IFEQ L1
    L2
-    LINENUMBER 2262 L2
+    LINENUMBER 2244 L2
     ALOAD 0
     GETFIELD aji.captureDrops : Ljava/lang/ThreadLocal;
     ICONST_1
     INVOKESTATIC java/lang/Boolean.valueOf (Z)Ljava/lang/Boolean;
     INVOKEVIRTUAL java/lang/ThreadLocal.set (Ljava/lang/Object;)V
    L3
-    LINENUMBER 2263 L3
+    LINENUMBER 2245 L3
     ALOAD 0
     GETFIELD aji.capturedDrops : Ljava/lang/ThreadLocal;
     INVOKEVIRTUAL java/lang/ThreadLocal.get ()Ljava/lang/Object;
     CHECKCAST java/util/List
     INVOKEINTERFACE java/util/List.clear ()V
    L4
-    LINENUMBER 2264 L4
+    LINENUMBER 2246 L4
     ACONST_NULL
     ARETURN
    L1
-    LINENUMBER 2268 L1
+    LINENUMBER 2250 L1
    FRAME FULL [aji I] []
     ALOAD 0
     GETFIELD aji.captureDrops : Ljava/lang/ThreadLocal;
@@ -8226,7 +8182,7 @@ public class aji {
     INVOKESTATIC java/lang/Boolean.valueOf (Z)Ljava/lang/Boolean;
     INVOKEVIRTUAL java/lang/ThreadLocal.set (Ljava/lang/Object;)V
    L5
-    LINENUMBER 2269 L5
+    LINENUMBER 2251 L5
     ALOAD 0
     GETFIELD aji.capturedDrops : Ljava/lang/ThreadLocal;
     INVOKEVIRTUAL java/lang/ThreadLocal.get ()Ljava/lang/Object;

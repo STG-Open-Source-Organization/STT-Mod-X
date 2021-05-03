@@ -1,194 +1,38 @@
-[22:33:03] [main/INFO] [FML/]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
-[22:33:04] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_251, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_251
-[22:33:04] [main/INFO] [STDERR/]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
-[22:33:07] [main/INFO] [STDOUT/]: [micdoodle8.mods.miccore.DepLoader$DepLoadInst:<init>:333]: MicdoodleCore searching for dependencies in mods file: E:\stt_server_project_to_STTmodX_1.7.10RE-2.5.926\.\mods
-[22:33:07] [main/WARN] [FML/]: The following coremods do not have a @MCVersion annotation. They may cause problems if this is not the correct version of Minecraft for them.
-[22:33:07] [main/WARN] [FML/]: Missing @MCVersion: codechicken.core.launch.CodeChickenCorePlugin  cofh.asm.LoadingPlugin  cn.lambdalib.core.LLCorePlugin  micdoodle8.mods.miccore.MicdoodlePlugin  codechicken.nei.asm.NEICorePlugin  
-[22:33:07] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:33:07] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[22:33:07] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:33:07] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:33:07] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:08] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:08] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:08] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:09] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:09] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:09] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:09] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:09] [main/INFO] [STDOUT/]: [micdoodle8.mods.miccore.MicdoodlePlugin:getASMTransformerClass:102]: Successfully Registered Transformer
-[22:33:09] [main/INFO] [STDOUT/]: [micdoodle8.mods.miccore.MicdoodlePlugin:injectData:295]: [Micdoodle8Core]: Patching game...
-[22:33:09] [main/INFO] [STDOUT/]: [micdoodle8.mods.miccore.MicdoodlePlugin:injectData:295]: [Micdoodle8Core]: Patching game...
-[22:33:09] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:09] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[22:33:10] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:10] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:10] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:33:10] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[22:33:10] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[22:33:10] [main/INFO] [STDOUT/]: [micdoodle8.mods.miccore.MicdoodleTransformer:printLog:1989]: Galacticraft successfully injected bytecode into: ahb (1 / 1)
-[22:33:10] [main/INFO] [STDERR/]: [micdoodle8.mods.miccore.MicdoodleTransformer:printResultsAndReset:1905]: Potential problem: Galacticraft did not complete injection of bytecode into: oi (4 / 6)
-[22:33:10] [main/INFO] [STDOUT/]: [micdoodle8.mods.miccore.MicdoodleTransformer:printLog:1989]: Galacticraft successfully injected bytecode into: sv (1 / 1)
-[22:33:10] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[22:33:10] [main/INFO] [STDOUT/]: [micdoodle8.mods.miccore.MicdoodleTransformer:printLog:1989]: Galacticraft successfully injected bytecode into: xk (1 / 1)
-[22:33:11] [main/ERROR] [LaunchWrapper/]: Unable to launch
-java.lang.reflect.InvocationTargetException
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_251]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_251]
-	at cpw.mods.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:43) [Uranium-1710-dev-5-B271-31d6587-server.jar:1.7.10-R0.1-SNAPSHOT]
-	at cpw.mods.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:12) [Uranium-1710-dev-5-B271-31d6587-server.jar:1.7.10-R0.1-SNAPSHOT]
-Caused by: java.lang.NoClassDefFoundError: net/minecraft/block/BlockCake
-	at net.minecraft.block.Block.func_149671_p(Block.java:301) ~[aji.class:?]
-	at net.minecraft.init.Bootstrap.func_151354_b(Bootstrap.java:714) ~[kl.class:?]
-	at net.minecraft.server.MinecraftServer.main(MinecraftServer.java:1588) ~[MinecraftServer.class:?]
-	... 12 more
-Caused by: java.lang.ClassNotFoundException: net.minecraft.block.BlockCake
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_251]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_251]
-	at net.minecraft.block.Block.func_149671_p(Block.java:301) ~[aji.class:?]
-	at net.minecraft.init.Bootstrap.func_151354_b(Bootstrap.java:714) ~[kl.class:?]
-	at net.minecraft.server.MinecraftServer.main(MinecraftServer.java:1588) ~[MinecraftServer.class:?]
-	... 12 more
-Caused by: java.lang.RuntimeException: Could not replace FoodStats.addStats call in net/minecraft/block/BlockCake.func_150036_b
-   L0
-    LINENUMBER 109 L0
-    ALOAD 5
-    ICONST_0
-    INVOKEVIRTUAL net/minecraft/entity/player/EntityPlayer.func_71043_e (Z)Z
-    IFEQ L1
-   L2
-    LINENUMBER 112 L2
-    ALOAD 5
-    INVOKEVIRTUAL net/minecraft/entity/player/EntityPlayer.func_71024_bL ()Lnet/minecraft/util/FoodStats;
-    GETFIELD net/minecraft/util/FoodStats.field_75127_a : I
-    ISTORE 6
-   L3
-    LINENUMBER 113 L3
-    ALOAD 5
-    ICONST_2
-    ILOAD 6
-    IADD
-    INVOKESTATIC org/bukkit/craftbukkit/v1_7_R4/event/CraftEventFactory.callFoodLevelChangeEvent (Lnet/minecraft/entity/player/EntityPlayer;I)Lorg/bukkit/event/entity/FoodLevelChangeEvent;
-    ASTORE 7
-   L4
-    LINENUMBER 115 L4
-    ALOAD 7
-    INVOKEVIRTUAL org/bukkit/event/entity/FoodLevelChangeEvent.isCancelled ()Z
-    IFNE L5
-   L6
-    LINENUMBER 117 L6
-    ALOAD 5
-    INVOKEVIRTUAL net/minecraft/entity/player/EntityPlayer.func_71024_bL ()Lnet/minecraft/util/FoodStats;
-    ALOAD 7
-    INVOKEVIRTUAL org/bukkit/event/entity/FoodLevelChangeEvent.getFoodLevel ()I
-    ILOAD 6
-    ISUB
-    LDC 0.1
-    INVOKEVIRTUAL net/minecraft/util/FoodStats.func_75122_a (IF)V
-   L5
-    LINENUMBER 120 L5
-   FRAME APPEND [I org/bukkit/event/entity/FoodLevelChangeEvent]
-    ALOAD 5
-    CHECKCAST net/minecraft/entity/player/EntityPlayerMP
-    GETFIELD net/minecraft/entity/player/EntityPlayerMP.field_71135_a : Lnet/minecraft/network/NetHandlerPlayServer;
-    NEW net/minecraft/network/play/server/S06PacketUpdateHealth
-    DUP
-    ALOAD 5
-    CHECKCAST net/minecraft/entity/player/EntityPlayerMP
-    INVOKEVIRTUAL net/minecraft/entity/player/EntityPlayerMP.getBukkitEntity ()Lorg/bukkit/craftbukkit/v1_7_R4/entity/CraftPlayer;
-    INVOKEVIRTUAL org/bukkit/craftbukkit/v1_7_R4/entity/CraftPlayer.getScaledHealth ()F
-    ALOAD 5
-    INVOKEVIRTUAL net/minecraft/entity/player/EntityPlayer.func_71024_bL ()Lnet/minecraft/util/FoodStats;
-    GETFIELD net/minecraft/util/FoodStats.field_75127_a : I
-    ALOAD 5
-    INVOKEVIRTUAL net/minecraft/entity/player/EntityPlayer.func_71024_bL ()Lnet/minecraft/util/FoodStats;
-    GETFIELD net/minecraft/util/FoodStats.field_75125_b : F
-    INVOKESPECIAL net/minecraft/network/play/server/S06PacketUpdateHealth.<init> (FIF)V
-    INVOKEVIRTUAL net/minecraft/network/NetHandlerPlayServer.func_147359_a (Lnet/minecraft/network/Packet;)V
-   L7
-    LINENUMBER 122 L7
-    ALOAD 1
-    ILOAD 2
-    ILOAD 3
-    ILOAD 4
-    INVOKEVIRTUAL net/minecraft/world/World.func_72805_g (III)I
-    ICONST_1
-    IADD
-    ISTORE 8
-   L8
-    LINENUMBER 124 L8
-    ILOAD 8
-    BIPUSH 6
-    IF_ICMPLT L9
-   L10
-    LINENUMBER 126 L10
-    ALOAD 1
-    ILOAD 2
-    ILOAD 3
-    ILOAD 4
-    INVOKEVIRTUAL net/minecraft/world/World.func_147468_f (III)Z
-    POP
-    GOTO L1
-   L9
-    LINENUMBER 130 L9
-   FRAME APPEND [I]
-    ALOAD 1
-    ILOAD 2
-    ILOAD 3
-    ILOAD 4
-    ILOAD 8
-    ICONST_2
-    INVOKEVIRTUAL net/minecraft/world/World.func_72921_c (IIIII)Z
-    POP
-   L1
-    LINENUMBER 133 L1
-   FRAME CHOP 3
-    RETURN
-   L11
-    LOCALVARIABLE oldFoodLevel I L3 L1 6
-    LOCALVARIABLE event Lorg/bukkit/event/entity/FoodLevelChangeEvent; L4 L1 7
-    LOCALVARIABLE l I L8 L1 8
-    LOCALVARIABLE this Lnet/minecraft/block/BlockCake; L0 L11 0
-    LOCALVARIABLE p_150036_1_ Lnet/minecraft/world/World; L0 L11 1
-    LOCALVARIABLE p_150036_2_ I L0 L11 2
-    LOCALVARIABLE p_150036_3_ I L0 L11 3
-    LOCALVARIABLE p_150036_4_ I L0 L11 4
-    LOCALVARIABLE p_150036_5_ Lnet/minecraft/entity/player/EntityPlayer; L0 L11 5
-    MAXSTACK = 6
-    MAXLOCALS = 9
-
-	at squeek.applecore.asm.module.ModuleBlockFood.addOnBlockFoodEatenHook(ModuleBlockFood.java:98) ~[AppleCore-mc1.7.10-3.1.1.jar:?]
-	at squeek.applecore.asm.module.ModuleBlockFood.transform(ModuleBlockFood.java:38) ~[AppleCore-mc1.7.10-3.1.1.jar:?]
-	at squeek.applecore.asm.TransformerModuleHandler.transform(TransformerModuleHandler.java:41) ~[AppleCore-mc1.7.10-3.1.1.jar:?]
-	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_251]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_251]
-	at net.minecraft.block.Block.func_149671_p(Block.java:301) ~[aji.class:?]
-	at net.minecraft.init.Bootstrap.func_151354_b(Bootstrap.java:714) ~[kl.class:?]
-	at net.minecraft.server.MinecraftServer.main(MinecraftServer.java:1588) ~[MinecraftServer.class:?]
-	... 12 more
-[22:33:11] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:-1]: java.lang.reflect.InvocationTargetException
-[22:33:11] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[22:33:11] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-[22:33:11] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-[22:33:11] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.lang.reflect.Method.invoke(Unknown Source)
-[22:33:11] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at cpw.mods.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:43)
-[22:33:11] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at cpw.mods.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:12)
-[22:33:11] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:-1]: Caused by: cpw.mods.fml.relauncher.FMLSecurityManager$ExitTrappedException
-[22:33:11] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at cpw.mods.fml.relauncher.FMLSecurityManager.checkPermission(FMLSecurityManager.java:25)
-[22:33:11] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.lang.SecurityManager.checkExit(Unknown Source)
-[22:33:11] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.lang.Runtime.exit(Unknown Source)
-[22:33:11] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.lang.System.exit(Unknown Source)
-[22:33:11] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:138)
-[22:33:11] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-[22:33:11] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	... 6 more
+[20:52:58] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[20:52:58] [main/INFO] [FML/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[20:52:58] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_281, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_281
+[20:52:58] [main/DEBUG] [FML/]: Java classpath at launch is forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[20:52:58] [main/DEBUG] [FML/]: Java library path at launch is C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;L:\apache-ant-1.10.0\bin\;F:\game\Games\and\platform-tools;F:\game\Games\and\tools;F:\game\Games\and\build-tools\28.0.3;";C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin";C:\Program Files\PuTTY\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs;C:\Users\T\AppData\Roaming\npm\node_modules\amwiki\bin\main.js;C:\Program Files\nodejs\;F:\game\Dev\wrapper\dists\gradle-4.9-bin\e9cinqnqvph59rr7g70qubb4t\gradle-4.9\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2020.2.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\ffmpeg-4.3.1-2020-10-01-essentials_build\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\CMake\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;E:\vcpkg;C:\Program Files\dotnet\;C:\Program Files (x86)\IncrediBuild;C:\Program Files\Git\cmd;D:\ffmpeg-4.3.1-2020-10-01-essentials_build\bin;C:\Users\T\AppData\Local\GitHubDesktop\bin;C:\Users\T\.dotnet\tools;C:\Users\T\AppData\Local\atom\bin;C:\Users\T\.dotnet\tools;.
+[20:52:58] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[20:52:58] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[20:52:58] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[20:52:58] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[20:52:58] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[20:52:58] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[20:52:58] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[20:52:58] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[20:52:58] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to E:\stt_server_project_to_STTmodX_1.7.10RE-2.5.1023.sv\.
+[20:52:58] [main/DEBUG] [FML/]: Discovering coremods
+[20:52:58] [main/DEBUG] [FML/]: Examining for coremod candidacy [1.7.10][前置]bspkrsCore-universal-6.16.jar
+[20:52:59] [main/DEBUG] [FML/]: Not found coremod data in [1.7.10][前置]bspkrsCore-universal-6.16.jar
+[20:52:59] [main/DEBUG] [FML/]: Examining for coremod candidacy [AC]AcademyCraft-1.0.7.jar
+[20:52:59] [main/DEBUG] [FML/]: Not found coremod data in [AC]AcademyCraft-1.0.7.jar
+[20:52:59] [main/DEBUG] [FML/]: Examining for coremod candidacy [AOBD]AOBD-2.9.2.jar
+[20:52:59] [main/DEBUG] [FML/]: Not found coremod data in [AOBD]AOBD-2.9.2.jar
+[20:52:59] [main/DEBUG] [FML/]: Examining for coremod candidacy [BC]buildcraft-7.1.23.jar
+[20:52:59] [main/DEBUG] [FML/]: Not found coremod data in [BC]buildcraft-7.1.23.jar
+[20:52:59] [main/DEBUG] [FML/]: Examining for coremod candidacy [BGO]可生长矿石B0bGary's+Growable+Ores-2.5.4+for+1.7.10.jar
+[20:52:59] [main/DEBUG] [FML/]: Not found coremod data in [BGO]可生长矿石B0bGary's+Growable+Ores-2.5.4+for+1.7.10.jar
+[20:52:59] [main/DEBUG] [FML/]: Examining for coremod candidacy [CB]懒人厨房cookingbook-mc1.7.10-1.0.140.jar
+[20:52:59] [main/DEBUG] [FML/]: Not found coremod data in [CB]懒人厨房cookingbook-mc1.7.10-1.0.140.jar
+[20:52:59] [main/DEBUG] [FML/]: Examining for coremod candidacy [FR]林业forestry_1.7.10-4.2.16.64.jar
+[20:52:59] [main/INFO] [FML/]: Loading tweaker forestry.shade.javacheck.Java7Checker from [FR]林业forestry_1.7.10-4.2.16.64.jar
+[20:52:59] [main/DEBUG] [FML/]: Examining for coremod candidacy [IC2]industrialcraft-2-2.2.827-experimental.jar
+[20:52:59] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in [IC2]industrialcraft-2-2.2.827-experimental.jar, it will be examined later for regular @Mod instances
+[20:52:59] [main/DEBUG] [FML/]: Instantiating coremod class IC2core
+[20:52:59] [main/WARN] [FML/]: The coremod ic2.core.coremod.IC2core does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:53:00] [main/DEBUG] [FML/]: Enqueued coremod IC2core
+[20:53:00] [main/DEBUG] [FML/]: Examining for coremod candidacy [NEI前置]CodeChickenCore-1.7.10-1.0.7.47-universal.jar
+[20:53:00] [main/TRACE] [FML/]: Adding [NEI前置]CodeChickenCore-1.7.10-1.0.7.47-universal.jar to the list of known coremods, it will not be examined again
+[20:53:00] [main/DEBUG] [FML/]: Instantiating coremod class CodeChickenCorePlugin
+[20:53:01] [main/WARN] [FML/]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft

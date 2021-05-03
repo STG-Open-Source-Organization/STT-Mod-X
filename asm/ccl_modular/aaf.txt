@@ -2,7 +2,7 @@
 // access flags 0x21
 public class aaf extends zs  {
 
-  // compiled from: ContainerWorkbench.java
+  // compiled from: SourceFile
 
   // access flags 0x1
   public Laae; a
@@ -22,79 +22,51 @@ public class aaf extends zs  {
   // access flags 0x2
   private I j
 
-  // access flags 0x2
-  private Lorg/bukkit/craftbukkit/v1_7_R4/inventory/CraftInventoryView; bukkitEntity
-
-  // access flags 0x2
-  private Lyx; player
-
-  // access flags 0x1A
-  private final static Ljava/lang/String; __OBFID = "CL_00001744"
-
   // access flags 0x1
   public <init>(Lyx;Lahb;III)V
    L0
-    LINENUMBER 32 L0
+    LINENUMBER 26 L0
     ALOAD 0
     INVOKESPECIAL zs.<init> ()V
    L1
-    LINENUMBER 26 L1
-    ALOAD 0
-    ACONST_NULL
-    PUTFIELD aaf.bukkitEntity : Lorg/bukkit/craftbukkit/v1_7_R4/inventory/CraftInventoryView;
-   L2
-    LINENUMBER 34 L2
-    ALOAD 0
-    NEW aaw
-    DUP
-    INVOKESPECIAL aaw.<init> ()V
-    PUTFIELD aaf.f : Lrb;
-   L3
-    LINENUMBER 35 L3
+    LINENUMBER 20 L1
     ALOAD 0
     NEW aae
     DUP
     ALOAD 0
     ICONST_3
     ICONST_3
-    ALOAD 1
-    GETFIELD yx.d : Lyz;
-    INVOKESPECIAL aae.<init> (Lzs;IILyz;)V
+    INVOKESPECIAL aae.<init> (Lzs;II)V
     PUTFIELD aaf.a : Laae;
-   L4
-    LINENUMBER 36 L4
+   L2
+    LINENUMBER 21 L2
     ALOAD 0
-    GETFIELD aaf.a : Laae;
-    ALOAD 0
-    GETFIELD aaf.f : Lrb;
-    PUTFIELD aae.resultInventory : Lrb;
-   L5
-    LINENUMBER 37 L5
-    ALOAD 0
-    ALOAD 1
-    PUTFIELD aaf.player : Lyx;
-   L6
-    LINENUMBER 39 L6
+    NEW aaw
+    DUP
+    INVOKESPECIAL aaw.<init> ()V
+    PUTFIELD aaf.f : Lrb;
+   L3
+    LINENUMBER 27 L3
     ALOAD 0
     ALOAD 2
     PUTFIELD aaf.g : Lahb;
-   L7
-    LINENUMBER 40 L7
+   L4
+    LINENUMBER 28 L4
     ALOAD 0
     ILOAD 3
     PUTFIELD aaf.h : I
-   L8
-    LINENUMBER 41 L8
+   L5
+    LINENUMBER 29 L5
     ALOAD 0
     ILOAD 4
     PUTFIELD aaf.i : I
-   L9
-    LINENUMBER 42 L9
+   L6
+    LINENUMBER 30 L6
     ALOAD 0
     ILOAD 5
     PUTFIELD aaf.j : I
-   L10
-    LINENUMBER 43 L10
+   L7
+    LINENUMBER 31 L7
     ALOAD 0
     NEW aax
     DUP
@@ -110,26 +82,26 @@ public class aaf extends zs  {
     INVOKESPECIAL aax.<init> (Lyz;Lrb;Lrb;III)V
     INVOKEVIRTUAL aaf.a (Laay;)Laay;
     POP
-   L11
-    LINENUMBER 47 L11
+   L8
+    LINENUMBER 33 L8
     ICONST_0
     ISTORE 6
-   L12
+   L9
    FRAME FULL [aaf yx ahb I I I I] []
     ILOAD 6
     ICONST_3
-    IF_ICMPGE L13
-   L14
-    LINENUMBER 49 L14
+    IF_ICMPGE L10
+   L11
+    LINENUMBER 34 L11
     ICONST_0
     ISTORE 7
-   L15
+   L12
    FRAME FULL [aaf yx ahb I I I I I] []
     ILOAD 7
     ICONST_3
-    IF_ICMPGE L16
-   L17
-    LINENUMBER 51 L17
+    IF_ICMPGE L13
+   L14
+    LINENUMBER 35 L14
     ALOAD 0
     NEW aay
     DUP
@@ -153,36 +125,36 @@ public class aaf extends zs  {
     INVOKESPECIAL aay.<init> (Lrb;III)V
     INVOKEVIRTUAL aaf.a (Laay;)Laay;
     POP
-   L18
-    LINENUMBER 49 L18
+   L15
+    LINENUMBER 34 L15
     IINC 7 1
-    GOTO L15
-   L16
-    LINENUMBER 47 L16
-   FRAME FULL [aaf yx ahb I I I I I] []
-    IINC 6 1
     GOTO L12
    L13
-    LINENUMBER 55 L13
+    LINENUMBER 33 L13
+   FRAME FULL [aaf yx ahb I I I I I] []
+    IINC 6 1
+    GOTO L9
+   L10
+    LINENUMBER 39 L10
    FRAME FULL [aaf yx ahb I I I I] []
     ICONST_0
     ISTORE 6
-   L19
+   L16
    FRAME FULL [aaf yx ahb I I I I] []
     ILOAD 6
     ICONST_3
-    IF_ICMPGE L20
-   L21
-    LINENUMBER 57 L21
+    IF_ICMPGE L17
+   L18
+    LINENUMBER 40 L18
     ICONST_0
     ISTORE 7
-   L22
+   L19
    FRAME FULL [aaf yx ahb I I I I I] []
     ILOAD 7
     BIPUSH 9
-    IF_ICMPGE L23
-   L24
-    LINENUMBER 59 L24
+    IF_ICMPGE L20
+   L21
+    LINENUMBER 41 L21
     ALOAD 0
     NEW aay
     DUP
@@ -207,27 +179,27 @@ public class aaf extends zs  {
     INVOKESPECIAL aay.<init> (Lrb;III)V
     INVOKEVIRTUAL aaf.a (Laay;)Laay;
     POP
-   L25
-    LINENUMBER 57 L25
+   L22
+    LINENUMBER 40 L22
     IINC 7 1
-    GOTO L22
-   L23
-    LINENUMBER 55 L23
-   FRAME FULL [aaf yx ahb I I I I I] []
-    IINC 6 1
     GOTO L19
    L20
-    LINENUMBER 63 L20
+    LINENUMBER 39 L20
+   FRAME FULL [aaf yx ahb I I I I I] []
+    IINC 6 1
+    GOTO L16
+   L17
+    LINENUMBER 44 L17
    FRAME FULL [aaf yx ahb I I I I] []
     ICONST_0
     ISTORE 6
-   L26
+   L23
    FRAME FULL [aaf yx ahb I I I I] []
     ILOAD 6
     BIPUSH 9
-    IF_ICMPGE L27
-   L28
-    LINENUMBER 65 L28
+    IF_ICMPGE L24
+   L25
+    LINENUMBER 45 L25
     ALOAD 0
     NEW aay
     DUP
@@ -242,171 +214,101 @@ public class aaf extends zs  {
     INVOKESPECIAL aay.<init> (Lrb;III)V
     INVOKEVIRTUAL aaf.a (Laay;)Laay;
     POP
-   L29
-    LINENUMBER 63 L29
+   L26
+    LINENUMBER 44 L26
     IINC 6 1
-    GOTO L26
-   L27
-    LINENUMBER 68 L27
+    GOTO L23
+   L24
+    LINENUMBER 48 L24
    FRAME FULL [aaf yx ahb I I I I] []
     ALOAD 0
     ALOAD 0
     GETFIELD aaf.a : Laae;
     INVOKEVIRTUAL aaf.a (Lrb;)V
-   L30
-    LINENUMBER 69 L30
+   L27
+    LINENUMBER 49 L27
     RETURN
-   L31
-    LOCALVARIABLE i1 I L15 L13 7
-    LOCALVARIABLE i1 I L22 L20 7
-    LOCALVARIABLE this Laaf; L0 L31 0
-    LOCALVARIABLE p_i1808_1_ Lyx; L0 L31 1
-    LOCALVARIABLE p_i1808_2_ Lahb; L0 L31 2
-    LOCALVARIABLE p_i1808_3_ I L0 L31 3
-    LOCALVARIABLE p_i1808_4_ I L0 L31 4
-    LOCALVARIABLE p_i1808_5_ I L0 L31 5
-    LOCALVARIABLE l I L12 L31 6
     MAXSTACK = 9
     MAXLOCALS = 8
 
   // access flags 0x1
   public a(Lrb;)V
    L0
-    LINENUMBER 74 L0
-    INVOKESTATIC afe.a ()Lafe;
+    LINENUMBER 53 L0
     ALOAD 0
-    INVOKEVIRTUAL aaf.getBukkitView ()Lorg/bukkit/craftbukkit/v1_7_R4/inventory/CraftInventoryView;
-    PUTFIELD afe.lastCraftView : Lorg/bukkit/inventory/InventoryView;
-   L1
-    LINENUMBER 75 L1
+    GETFIELD aaf.f : Lrb;
+    ICONST_0
     INVOKESTATIC afe.a ()Lafe;
     ALOAD 0
     GETFIELD aaf.a : Laae;
     ALOAD 0
     GETFIELD aaf.g : Lahb;
     INVOKEVIRTUAL afe.a (Laae;Lahb;)Ladd;
-    ASTORE 2
-   L2
-    LINENUMBER 76 L2
-    ALOAD 0
-    GETFIELD aaf.f : Lrb;
-    ICONST_0
-    ALOAD 2
     INVOKEINTERFACE rb.a (ILadd;)V
-   L3
-    LINENUMBER 78 L3
-    ALOAD 0
-    GETFIELD zs.e : Ljava/util/List;
-    INVOKEINTERFACE java/util/List.size ()I
-    ICONST_1
-    IF_ICMPGE L4
-   L5
-    LINENUMBER 80 L5
+   L1
+    LINENUMBER 54 L1
     RETURN
-   L4
-    LINENUMBER 83 L4
-   FRAME FULL [aaf rb add] []
-    ALOAD 0
-    GETFIELD zs.e : Ljava/util/List;
-    ICONST_0
-    INVOKEINTERFACE java/util/List.get (I)Ljava/lang/Object;
-    CHECKCAST mw
-    ASTORE 3
-   L6
-    LINENUMBER 84 L6
-    ALOAD 3
-    GETFIELD mw.a : Lnh;
-    NEW gq
-    DUP
-    ALOAD 3
-    GETFIELD mw.bo : Lzs;
-    GETFIELD zs.d : I
-    ICONST_0
-    ALOAD 2
-    INVOKESPECIAL gq.<init> (IILadd;)V
-    INVOKEVIRTUAL nh.a (Lft;)V
-   L7
-    LINENUMBER 86 L7
-    RETURN
-   L8
-    LOCALVARIABLE this Laaf; L0 L8 0
-    LOCALVARIABLE p_75130_1_ Lrb; L0 L8 1
-    LOCALVARIABLE craftResult Ladd; L2 L8 2
-    LOCALVARIABLE player Lmw; L6 L8 3
-    MAXSTACK = 6
-    MAXLOCALS = 4
+    MAXSTACK = 5
+    MAXLOCALS = 2
 
   // access flags 0x1
   public b(Lyz;)V
    L0
-    LINENUMBER 90 L0
+    LINENUMBER 58 L0
     ALOAD 0
     ALOAD 1
     INVOKESPECIAL zs.b (Lyz;)V
    L1
-    LINENUMBER 92 L1
+    LINENUMBER 59 L1
     ALOAD 0
     GETFIELD aaf.g : Lahb;
     GETFIELD ahb.E : Z
-    IFNE L2
-   L3
-    LINENUMBER 94 L3
+    IFEQ L2
+    RETURN
+   L2
+    LINENUMBER 61 L2
+   FRAME FULL [aaf yz] []
     ICONST_0
     ISTORE 2
-   L4
+   L3
    FRAME FULL [aaf yz I] []
     ILOAD 2
     BIPUSH 9
-    IF_ICMPGE L2
+    IF_ICMPGE L4
    L5
-    LINENUMBER 96 L5
+    LINENUMBER 62 L5
     ALOAD 0
     GETFIELD aaf.a : Laae;
     ILOAD 2
     INVOKEVIRTUAL aae.a_ (I)Ladd;
     ASTORE 3
    L6
-    LINENUMBER 98 L6
+    LINENUMBER 63 L6
     ALOAD 3
     IFNULL L7
    L8
-    LINENUMBER 100 L8
+    LINENUMBER 64 L8
     ALOAD 1
     ALOAD 3
     ICONST_0
     INVOKEVIRTUAL yz.a (Ladd;Z)Lxk;
     POP
    L7
-    LINENUMBER 94 L7
+    LINENUMBER 61 L7
    FRAME FULL [aaf yz I add] []
     IINC 2 1
-    GOTO L4
-   L2
-    LINENUMBER 104 L2
-   FRAME FULL [aaf yz] []
+    GOTO L3
+   L4
+    LINENUMBER 67 L4
+   FRAME FULL [aaf yz I] []
     RETURN
-   L9
-    LOCALVARIABLE itemstack Ladd; L6 L7 3
-    LOCALVARIABLE i I L4 L2 2
-    LOCALVARIABLE this Laaf; L0 L9 0
-    LOCALVARIABLE p_75134_1_ Lyz; L0 L9 1
     MAXSTACK = 3
     MAXLOCALS = 4
 
   // access flags 0x1
   public a(Lyz;)Z
    L0
-    LINENUMBER 108 L0
-    ALOAD 0
-    GETFIELD aaf.checkReachable : Z
-    IFNE L1
-   L2
-    LINENUMBER 110 L2
-    ICONST_1
-    IRETURN
-   L1
-    LINENUMBER 113 L1
-   FRAME FULL [aaf yz] []
+    LINENUMBER 71 L0
     ALOAD 0
     GETFIELD aaf.g : Lahb;
     ALOAD 0
@@ -417,10 +319,11 @@ public class aaf extends zs  {
     GETFIELD aaf.j : I
     INVOKEVIRTUAL ahb.a (III)Laji;
     GETSTATIC ajn.ai : Laji;
-    IF_ACMPEQ L3
+    IF_ACMPEQ L1
     ICONST_0
-    GOTO L4
-   L3
+    IRETURN
+   L1
+    LINENUMBER 72 L1
    FRAME FULL [aaf yz] []
     ALOAD 1
     ALOAD 0
@@ -440,30 +343,26 @@ public class aaf extends zs  {
     DADD
     INVOKEVIRTUAL yz.e (DDD)D
     LDC 64.0
-    DCMPG
-    IFGT L5
-    ICONST_1
-    GOTO L4
-   L5
-   FRAME FULL [aaf yz] []
+    DCMPL
+    IFLE L2
     ICONST_0
-   L4
-   FRAME FULL [aaf yz] [I]
     IRETURN
-   L6
-    LOCALVARIABLE this Laaf; L0 L6 0
-    LOCALVARIABLE p_75145_1_ Lyz; L0 L6 1
+   L2
+    LINENUMBER 73 L2
+   FRAME FULL [aaf yz] []
+    ICONST_1
+    IRETURN
     MAXSTACK = 9
     MAXLOCALS = 2
 
   // access flags 0x1
   public b(Lyz;I)Ladd;
    L0
-    LINENUMBER 118 L0
+    LINENUMBER 78 L0
     ACONST_NULL
     ASTORE 3
    L1
-    LINENUMBER 119 L1
+    LINENUMBER 79 L1
     ALOAD 0
     GETFIELD aaf.c : Ljava/util/List;
     ILOAD 2
@@ -471,24 +370,24 @@ public class aaf extends zs  {
     CHECKCAST aay
     ASTORE 4
    L2
-    LINENUMBER 121 L2
+    LINENUMBER 80 L2
     ALOAD 4
     IFNULL L3
     ALOAD 4
     INVOKEVIRTUAL aay.e ()Z
     IFEQ L3
    L4
-    LINENUMBER 123 L4
+    LINENUMBER 81 L4
     ALOAD 4
     INVOKEVIRTUAL aay.d ()Ladd;
     ASTORE 5
    L5
-    LINENUMBER 124 L5
+    LINENUMBER 82 L5
     ALOAD 5
     INVOKEVIRTUAL add.m ()Ladd;
     ASTORE 3
    L6
-    LINENUMBER 126 L6
+    LINENUMBER 84 L6
     ILOAD 2
     IFNE L7
     NEW codechicken/lib/inventory/InventoryRange
@@ -509,7 +408,7 @@ public class aaf extends zs  {
     ACONST_NULL
     ARETURN
    L8
-    LINENUMBER 128 L8
+    LINENUMBER 85 L8
    FRAME FULL [aaf yz I add aay add] []
     ALOAD 0
     ALOAD 5
@@ -519,11 +418,11 @@ public class aaf extends zs  {
     INVOKEVIRTUAL aaf.a (Ladd;IIZ)Z
     IFNE L9
    L10
-    LINENUMBER 130 L10
+    LINENUMBER 86 L10
     ACONST_NULL
     ARETURN
    L9
-    LINENUMBER 133 L9
+    LINENUMBER 88 L9
    FRAME FULL [aaf yz I add aay add] []
     ALOAD 4
     ALOAD 5
@@ -531,7 +430,7 @@ public class aaf extends zs  {
     INVOKEVIRTUAL aay.a (Ladd;Ladd;)V
     GOTO L11
    L7
-    LINENUMBER 135 L7
+    LINENUMBER 89 L7
    FRAME FULL [aaf yz I add aay add] []
     ILOAD 2
     BIPUSH 10
@@ -540,7 +439,7 @@ public class aaf extends zs  {
     BIPUSH 37
     IF_ICMPGE L12
    L13
-    LINENUMBER 137 L13
+    LINENUMBER 90 L13
     ALOAD 0
     ALOAD 5
     BIPUSH 37
@@ -549,11 +448,11 @@ public class aaf extends zs  {
     INVOKEVIRTUAL aaf.a (Ladd;IIZ)Z
     IFNE L11
    L14
-    LINENUMBER 139 L14
+    LINENUMBER 91 L14
     ACONST_NULL
     ARETURN
    L12
-    LINENUMBER 142 L12
+    LINENUMBER 93 L12
    FRAME FULL [aaf yz I add aay add] []
     ILOAD 2
     BIPUSH 37
@@ -562,7 +461,7 @@ public class aaf extends zs  {
     BIPUSH 46
     IF_ICMPGE L15
    L16
-    LINENUMBER 144 L16
+    LINENUMBER 94 L16
     ALOAD 0
     ALOAD 5
     BIPUSH 10
@@ -571,11 +470,11 @@ public class aaf extends zs  {
     INVOKEVIRTUAL aaf.a (Ladd;IIZ)Z
     IFNE L11
    L17
-    LINENUMBER 146 L17
+    LINENUMBER 95 L17
     ACONST_NULL
     ARETURN
    L15
-    LINENUMBER 149 L15
+    LINENUMBER 98 L15
    FRAME FULL [aaf yz I add aay add] []
     ALOAD 0
     ALOAD 5
@@ -585,29 +484,28 @@ public class aaf extends zs  {
     INVOKEVIRTUAL aaf.a (Ladd;IIZ)Z
     IFNE L11
    L18
-    LINENUMBER 151 L18
+    LINENUMBER 99 L18
     ACONST_NULL
     ARETURN
    L11
-    LINENUMBER 154 L11
+    LINENUMBER 102 L11
    FRAME FULL [aaf yz I add aay add] []
     ALOAD 5
     GETFIELD add.b : I
     IFNE L19
    L20
-    LINENUMBER 156 L20
+    LINENUMBER 103 L20
     ALOAD 4
     ACONST_NULL
-    CHECKCAST add
     INVOKEVIRTUAL aay.c (Ladd;)V
     GOTO L21
    L19
-    LINENUMBER 160 L19
+    LINENUMBER 105 L19
    FRAME FULL [aaf yz I add aay add] []
     ALOAD 4
     INVOKEVIRTUAL aay.f ()V
    L21
-    LINENUMBER 163 L21
+    LINENUMBER 107 L21
    FRAME FULL [aaf yz I add aay add] []
     ALOAD 5
     GETFIELD add.b : I
@@ -615,35 +513,28 @@ public class aaf extends zs  {
     GETFIELD add.b : I
     IF_ICMPNE L22
    L23
-    LINENUMBER 165 L23
+    LINENUMBER 109 L23
     ACONST_NULL
     ARETURN
    L22
-    LINENUMBER 168 L22
+    LINENUMBER 111 L22
    FRAME FULL [aaf yz I add aay add] []
     ALOAD 4
     ALOAD 1
     ALOAD 5
     INVOKEVIRTUAL aay.a (Lyz;Ladd;)V
    L3
-    LINENUMBER 171 L3
+    LINENUMBER 114 L3
    FRAME FULL [aaf yz I add aay] []
     ALOAD 3
     ARETURN
-   L24
-    LOCALVARIABLE itemstack1 Ladd; L5 L3 5
-    LOCALVARIABLE this Laaf; L0 L24 0
-    LOCALVARIABLE p_82846_1_ Lyz; L0 L24 1
-    LOCALVARIABLE p_82846_2_ I L0 L24 2
-    LOCALVARIABLE itemstack Ladd; L1 L24 3
-    LOCALVARIABLE slot Laay; L2 L24 4
     MAXSTACK = 5
     MAXLOCALS = 6
 
   // access flags 0x1
   public a(Ladd;Laay;)Z
    L0
-    LINENUMBER 176 L0
+    LINENUMBER 119 L0
     ALOAD 2
     GETFIELD aay.f : Lrb;
     ALOAD 0
@@ -662,69 +553,6 @@ public class aaf extends zs  {
    L2
    FRAME FULL [aaf add aay] [I]
     IRETURN
-   L3
-    LOCALVARIABLE this Laaf; L0 L3 0
-    LOCALVARIABLE p_94530_1_ Ladd; L0 L3 1
-    LOCALVARIABLE p_94530_2_ Laay; L0 L3 2
     MAXSTACK = 3
     MAXLOCALS = 3
-
-  // access flags 0x1
-  public getBukkitView()Lorg/bukkit/craftbukkit/v1_7_R4/inventory/CraftInventoryView;
-   L0
-    LINENUMBER 182 L0
-    ALOAD 0
-    GETFIELD aaf.bukkitEntity : Lorg/bukkit/craftbukkit/v1_7_R4/inventory/CraftInventoryView;
-    IFNULL L1
-   L2
-    LINENUMBER 184 L2
-    ALOAD 0
-    GETFIELD aaf.bukkitEntity : Lorg/bukkit/craftbukkit/v1_7_R4/inventory/CraftInventoryView;
-    ARETURN
-   L1
-    LINENUMBER 187 L1
-   FRAME FULL [aaf] []
-    NEW org/bukkit/craftbukkit/v1_7_R4/inventory/CraftInventoryCrafting
-    DUP
-    ALOAD 0
-    GETFIELD aaf.a : Laae;
-    ALOAD 0
-    GETFIELD aaf.f : Lrb;
-    INVOKESPECIAL org/bukkit/craftbukkit/v1_7_R4/inventory/CraftInventoryCrafting.<init> (Laae;Lrb;)V
-    ASTORE 1
-   L3
-    LINENUMBER 188 L3
-    ALOAD 0
-    NEW org/bukkit/craftbukkit/v1_7_R4/inventory/CraftInventoryView
-    DUP
-    ALOAD 0
-    GETFIELD aaf.player : Lyx;
-    GETFIELD yx.d : Lyz;
-    INVOKEVIRTUAL yz.getBukkitEntity ()Lorg/bukkit/craftbukkit/v1_7_R4/entity/CraftHumanEntity;
-    ALOAD 1
-    ALOAD 0
-    INVOKESPECIAL org/bukkit/craftbukkit/v1_7_R4/inventory/CraftInventoryView.<init> (Lorg/bukkit/entity/HumanEntity;Lorg/bukkit/inventory/Inventory;Lzs;)V
-    PUTFIELD aaf.bukkitEntity : Lorg/bukkit/craftbukkit/v1_7_R4/inventory/CraftInventoryView;
-   L4
-    LINENUMBER 189 L4
-    ALOAD 0
-    GETFIELD aaf.bukkitEntity : Lorg/bukkit/craftbukkit/v1_7_R4/inventory/CraftInventoryView;
-    ARETURN
-   L5
-    LOCALVARIABLE this Laaf; L0 L5 0
-    LOCALVARIABLE inventory Lorg/bukkit/craftbukkit/v1_7_R4/inventory/CraftInventoryCrafting; L3 L5 1
-    MAXSTACK = 6
-    MAXLOCALS = 2
-
-  // access flags 0x1041
-  public synthetic bridge getBukkitView()Lorg/bukkit/inventory/InventoryView;
-   L0
-    LINENUMBER 17 L0
-    ALOAD 0
-    INVOKEVIRTUAL aaf.getBukkitView ()Lorg/bukkit/craftbukkit/v1_7_R4/inventory/CraftInventoryView;
-    ARETURN
-   L1
-    LOCALVARIABLE this Laaf; L0 L1 0
-    MAXSTACK = 1
-    MAXLOCALS = 1
 }
