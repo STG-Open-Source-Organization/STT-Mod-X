@@ -11,3 +11,7 @@
 	#The model type of the material.
 	modelType = "metallic"
 
+[indreb]
+	#The byproduct material to output in Industrial Reborn's crushing.
+	byproduct = "minecraft:cobblestone"
+

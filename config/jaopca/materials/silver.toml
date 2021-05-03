@@ -15,3 +15,7 @@
 	#The base to use in Mekanism's Combiner to recreate ores.
 	ore_base = "#forge:cobblestone"
 
+[indreb]
+	#The byproduct material to output in Industrial Reborn's crushing.
+	byproduct = "minecraft:cobblestone"
+
