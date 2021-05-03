@@ -1,0 +1,391 @@
+?&3&lDan&b&l&oTiao &f&l>> &a管理員幫助
+&b&l/dt arenas(a) &f- &a查看競技場操作的相關幫助
+&b&l/dt shop(s) help &f- &a查看單挑積分&n商城&a操作的相關幫助
+&b&l/dt points(p) &f- &a查看單挑積分操作的相關幫助
+&b&l/dt blacklist(b) &f- &a查看黑名單操作的相關幫助
+&b&l/dt energy(e) &f- &a查看精力值操作的相關幫助
+&b&l/dt hd &f- &a查看單挑排行榜操作的相關幫助
+&b/dt stop <競技場名稱> &f- &a強制結束某個競技場的比賽
+&b/dt lobby set &f- &a設置服務器的單挑大廳傳送點
+&b/dt lobby delete &f- &a取消大廳傳送點
+&b/dt game <競技場名稱> <玩家1> <玩家2> &f- &a強行開啟一場比賽
+&3&lDan&b&l&oTiao &f&l>> &a管理員幫助：競技場操作
+&b/dt arena(a) mode &f- &a進入/退出競技場設置模式
+&b/dt arena(a) create <競技場編輯名> <競技場名稱(支持顏色符號)> &f- &a創造一個已設置好的競技場
+&b/dt arena(a) remove <競技場編輯名> &f- &a刪除一個已創建的競技場
+&b/dt arena(a) list &f- &a查看所有已創建的競技場
+&b/dt arena(a) commands add <競技場編輯名> <執行方式(player/op/console)> <內容> &f- &a添加一條開賽時執行的指令
+&b/dt arena(a) commands clear <競技場編輯名> &f- &a清空所有已添加的指令
+&b/dt arena(a) commands list <競技場編輯名> &f- &a查看所有已添加的指令
+&c[x]不存在的競技場，請檢查輸入
+&a[v]競技場刪除完畢！玩家將無法再進入這個競技場
+&c[x]未設置任何競技場
+&6競技場如下 [right]
+&6共計 &f&l{amount} &6個
+&c[x]這條指令只能由服務器內的玩家執行！後台無法使用！
+&a[v]已退出競技場創建模式
+&a[v]現在進入競技場創建模式&2競技場快捷創建工具已發送至你的背包，請按如下步驟操作：| | &6使用&f[&e&n左鍵&f]&6點擊空氣選擇&b&lA&6點| &6使用&f [&e&n右鍵&f]&6點擊空氣選擇&d&lB&6點| &d使用&f/dt a create <競技場編輯名> <競技場名稱(支持顏色符號)> &d完成創建| |&a最後記得再次輸入/dt a mode退出創建模式
+&7正確用法：/dt a create <競技場編輯名> <競技場名稱(支持顏色符號)>|&7如：/dt a create test 初級競技場
+&c[x]請先進入競技場創建模式！
+&c[x]未設置A點！
+&c[x]未設置B點！
+&c[x]數據文件中已有競技場&e{editname}&c了，請換一個編輯名！
+&a[v]創建完成！現在玩家可以進入這個競技場比賽了！現在你可以選擇輸入/dt a mode退出創建模式，也可以繼續進行創建操作！
+&7正確格式：/dt a commands list <競技場編輯名>
+&c[x]該競技場不存在任何指令
+&6指令如下 [right]
+&6共計 &f&l{amount} &6條
+&7正確格式：/dt a commands add <競技場編輯名> <執行方式> <內容>
+&c[x]執行方式請輸入op/player/console(不區分大小寫)，OP即以管理員身份執行，Player即以玩家自己的身份執行，Console即以後台身份執行
+&a[v]添加成功 {command}
+&7正確格式：/dt a commands clear <競技場編輯名>
+&a[v]競技場指令清空完畢
+&3&lDan&b&l&oTiao &f&l>> &a管理員幫助：黑名單操作
+&b/dt blacklist(b) add <玩家名> &f- &a為黑名單添加一個玩家
+&b/dt blacklist(b) remove <玩家名> &f- &a為黑名單移除一個玩家
+&b/dt blacklist(b) list &f- &a查看黑名單的所有玩家
+&b/dt blacklist(b) clear &f- &a清空黑名單
+&7正確格式：/dt bl add <玩家名>
+&a[v]已成功添加{player}
+&c[x]請勿重複添加！這個玩家已在黑名單中！
+&7正確格式：/dt bl remove <玩家名>
+&c[x]黑名單為空！
+&c[x]黑名單中不包括玩家&e{player}&c！請檢查輸入
+&a[v]已成功移除{player}
+&6黑名單如下 [right]
+&a[v]已全部清空{amount}個
+&c[x]服務器不存在任何語言文件，如您有特殊需求請聯繫腐竹
+&6語言文件如下 [right]
+繁體中文
+&a[v]語言環境切換已完成
+&c[x]語言文件&e{name}&c不存在
+&b我的段位信息 [right]
+   &e&l> &r{dan} &e&l<
+&a[v]現有經驗：{exp}
+&a[v]升級所差：{needexp}
+&3&lDan&b&l&oTiao &f&l>> &a管理員幫助：單挑精力值操作
+&b/dt energy(e) add <玩家名> <數額> &f- &a為某玩家增加精力值
+&b/dt energy(e) set <玩家名> <數額> &f- &a設定某玩家的精力值
+&c[x]精力值系統已被禁用！
+&6我的精力值 [right] &b{energy}/&3{maxenergy}
+&c[x]無權限！
+&7正確格式：/dt e add <玩家名> <數額>
+&c[x]請輸入有效的且大於零的數字
+&a[v]精力值增添成功
+&7正確格式：/dt e set <玩家名> <數額>
+&a[v]精力值設置成功
+&7正確格式：/dt game <競技場名稱> <玩家1> <玩家2>
+&c[x]玩家名輸入有誤！請檢查兩個玩家是否都在線！
+&c[x]請輸入兩個不同的玩家名
+&a[v]已強制開始
+&c[x]服務器未設置大廳
+&b傳送至單挑大廳...
+&a[v]單挑大廳設置完畢！玩家每次比賽結束後都會自動傳送回到單挑大廳
+&c[x]不存在單挑大廳！
+&a[v]單挑大廳刪除完畢
+  &f&l>> &6/dt help(h) &f查看玩家幫助&a[v]
+  &f&l>> &6/dt adminhelp(ah) &f查看管理員幫助&a[v]
+&3&lDan&b&l&oTiao &f&l>> &a玩家幫助
+&b/dt rank(r) &f- &a查看單挑排行榜
+&b/dt lobby(l) &f- &a傳送至大廳
+&b/dt start(st) &f- &a打開匹配面板搜尋對手
+&b/dt timetable &f- &a查看匹配功能開放時間段
+&b/dt arenasinfo(ainfo) &f- &a查看所有競技場信息
+&b/dt watch <競技場名稱> &f- &a觀戰某個正在比賽的競技場
+&b/dt send <玩家名> &f- &a向某個玩家發送單挑請求
+&b/dt accept &f- &a接受某個玩家的單挑請求
+&b/dt deny &f- &a拒絕某個玩家的單挑請求
+&b/dt quit(q) &f- &a認輸(比賽時使用)
+&b/dt shop(s) &f- &a打開單挑積分商城
+&b/dt records(r) &f- &a打開單挑記錄面板
+&b/dt points(p) me &f- &a查看我的單挑積分
+&b/dt changelang &f- &a查看所有語言文件
+&b/dt changelang <語言文件> &f- &e切換語言
+&3&lDan&b&l&oTiao &f&l>> &a管理員幫助：單挑積分操作
+&b/dt points(p) add <玩家名> <數額> &f- &a為某玩家添加積分
+&b/dt points(p) set <玩家名> <數額> &f- &a設定某玩家的積分
+&b/dt points(p) view <玩家名> &f- &a查看某玩家的積分餘額
+&6我的單挑積分餘額 [right] {amount}
+&7正確格式：/dt p add <玩家名> <數額>
+&a[v]積分增添成功
+&7正確格式：/dt p set <玩家名> <數額>
+&a[v]積分設置成功
+&7正確格式：/dt p view <玩家名>
+&6玩家&e{player}&6的單挑積分餘額 [right] {amount}
+&b對方向你認輸了！
+&c[x]你現在不在任何一場比賽中
+&3&lDan&b&l&oTiao &f&l>> &a管理員幫助：排行榜全息圖操作
+&b/dt hd win &f- &a創建/移動：全息圖-勝場排行榜
+&b/dt hd winremove &f- &a刪除：全息圖-勝場排行榜
+&b/dt hd kd &f- &a創建/移動：全息圖-KD值排行榜
+&b/dt hd kdremove &f- &a刪除：全息圖-KD值排行榜
+&b/dt hd refresh &f- &a強制刷新：所有全息圖
+&b移動全息圖...
+&b創建全息圖...
+&c[x]該全息圖本來就不存在
+&a[v]全息圖刪除完畢
+&c[x]無任何全息圖！
+&a[v]全息圖刷新完畢！
+&6單挑排行榜信息 [right]
+&b勝場數排名：第&d{ranking}&b名
+&bKD比值排名：第&d{ranking}&b名
+&e查看其他人的？輸入 &f/dt rank win或kd &e查看全服排名
+&b[star1]單挑-勝場排行榜[star2]
+&b我的排名：&e{ranking} (勝利{amount}場)
+&b我的排名：&e暫無
+&c該排行榜沒有數據
+&b[star1]單挑-KD比值排行榜[star2]
+&b我的排名：&e{ranking} (比值{kd})
+&a[v]記錄面板已打開，查看你的每一次精彩表現！
+&a輸入 &b/dt reload c &a重載配置config.yml
+&a輸入 &b/dt reload l &a重載所有語言文件
+&a[v]config.yml:重載完畢！耗時&d{ms}毫秒
+&c[x]config.yml:重載時發生異常！
+&a[v]Language file:重載完畢！耗時&d{ms}毫秒
+&c[x]Language file:重載時發生異常！
+&c[x]你沒有任何未處理的請求！
+&a[v]已接受請求
+&a[v]對方接受了你的請求！
+&6發現有&e多個&6待處理的請求，請選擇處理 [right]
+&6輸入 &f/dt accept <玩家名> &6選擇處理
+&c[x]不存在的請求
+&a[v]已拒絕請求
+&c[x]對方拒絕了你的請求
+&6輸入 &f/dt deny <玩家名> &6選擇處理
+&7正確用法：/dt send <玩家名>
+&c[x]目標玩家不在線！
+&c[x]不能向自己發送請求！
+&c[x]您已被禁賽！
+&c[x]對方已被禁賽！
+&c[x]此時間段不開放邀請賽功能，輸入/dt timetable查看
+&c[x]你所在的世界已被禁止比賽
+&c[x]對方所處世界已被禁止比賽
+&c[x]你的精力值不足！請休息一會
+&c[x]對方的精力值不足！請稍後再申請
+&c[x]你已經向對方發過申請了，請不要重複發送！
+&c[x]對方已經向你發送了申請，無需重複向TA發送申請，請先處理
+&e收到一則單挑請求&7(來自&b{player}&7)
+&a[v]請求發送完畢！等待對方處理，有效時間60秒
+&3&lDan&b&l&oTiao &f&l>> &a管理員幫助：商城操作
+&b/dt shop(s) add <價格> &f- &a上架手中的物品作為商品
+&b/dt shop(s) remove <頁數> <行> <列> &f- &a下架某個商品
+&b/dt shop(s) des <頁數> <行> <列> <內容>&f- &a為已有商品添加備註，支持顏色代碼
+&b/dt shop(s) rdes <頁數> <行> <列> &f- &a刪除商品備註
+&b/dt shop(s) bc <頁數> <行> <列> <內容> &f- &a設置玩家購買成功後發送的全服公告，支持顏色代碼，以{player}代表玩家名
+&b/dt shop(s) rbc <頁數> <行> <列> &f- &a刪除購買成功後發送的全服公告
+&0&l積分商城 &9&l[right]
+&a[v]歡迎光臨單挑積分商城！
+&7正確用法：/dt s add <價格>，注意請將要上架的物品拿在手上
+&c[x]請將要上架的物品拿在手中！
+&c[x]請輸入有效的阿拉伯數字！
+&c[x]請輸入大於零的阿拉伯數字！
+&a[v]商品上架成功！
+&7正確用法：/dt s remove <頁數> <行> <列>，行和列不考慮GUI頂部和底部的玻璃板
+&c[x]不存在這個商品
+&a[v]商品下架完畢！
+&7正確用法：/dt s des <頁數> <行> <列> <內容>，行和列不考慮GUI頂部和底部的玻璃板，支持顏色代碼
+&7正確用法：/dt s bc <頁數> <行> <列> <內容>，行和列不考慮GUI頂部和底部的玻璃板，支持顏色代碼，可以用{player}代替玩家名稱
+&a[v]備註設置完畢！
+&a[v]公告設置完畢！
+&7正確用法：/dt s rdes <頁數> <行> <列>，行和列不考慮GUI頂部和底部的玻璃板
+&7正確用法：/dt s rbc <頁數> <行> <列>，行和列不考慮GUI頂部和底部的玻璃板
+&a[v]備註刪除完畢！
+&a[v]公告刪除完畢！
+&c[x]此時間段不開放全服匹配功能，輸入/dt timetable查看
+&a[v]已打開匹配面板..
+&7正確格式：/dt stop <競技場名稱>
+&b全服匹配開放時間：
+&b全服匹配開放時間：全天無限制
+&b邀請功能開放時間：
+&b邀請功能開放時間：全天無限制
+&b你發送給{receiver}的請求長時間未得處理，已取消...
+&7玩家 &f{player} &7開始了別的比賽，之前未處理的請求已取消...
+&7玩家 &f{player} &7暫時下線了，之前未處理的請求已取消...
+&7之前向你發送單挑請求的玩家 &f{player} &7開始了別的比賽，請忽視之前的請求...
+&7之前向你發送單挑請求的玩家 &f{player} &7暫時下線了，請忽視之前的請求...
+&7比賽即將開始..
+&a比賽開始！ ！亮劍吧！
+&7比賽已進行一分鐘..
+&7比賽已進行兩分鐘..
+&7比賽已進行三分鐘！達到五分鐘時仍為決出勝負則將判定為平局！
+&7比賽已進行四分鐘！達到五分鐘時仍為決出勝負則將判定為平局！請抓緊時間
+&7比賽開始倒計時 &b{time}s
+&b已將你帶回單挑大廳！
+&7============================================================| |                       &b比賽結束！|        &7恭喜你獲得了勝利，期待妳下一次更為精彩的錶現！|                  &7同時獲得了 &a{exp} &7經驗| |&7============================================================
+&7============================================================| |                     &b比賽結束！|           &7你沒有獲勝，不要灰心，再接再厲！|                &7同時損失了 &c{exp} &7經驗| |&7============================================================
+&a[v]WOW！伺候器專門為你的勝利放了一朵絢麗的煙花~
+&b[戰報]: &7玩家 &e{winner} &7在單挑賽場上&r{arenaname}&r&7上以 &6{time}秒 &7擊敗玩家 &e{loser}
+&7============================================================| |                     &b比賽結束！|           &7比賽超時！未決出勝負，判定為平局！|                &7同時獲得了 &a{exp} &7經驗| |&7============================================================
+&b[戰報]: &7玩家 &e{p1} &7與 &e{p2} &7在單挑賽場&r{arenaname}&r&7上打成平手，實為精妙！
+&a[恭喜]: &7玩家 &e{player} &7的單挑段位成功升到了&r{dan}
+&c[x]這個競技場還沒有比賽呢！
+&b&l比賽被管理員強制結束！本局比賽不會被記錄！
+&a[v]已強制停止
+&b做的不錯！獎勵你 &d{points} &b點單挑積分
+&b勝場排名發生變更！ &e{before}->{now}
+&bKD排名發生變更！ &e{before}->{now}
+&c[x]警告：開賽時發生異常，不予開賽！
+&c服務器內沒有設置任何競技場！請聯繫管理員！
+&c所有競技場都滿了！請稍後再試~&e(小提示：輸入/dt ainfo可以查看所有競技場的實時信息)
+&c不存在這個競技場，請檢查輸入
+&c這個競技場正在比賽中！請換一個試試
+&b您已進入競技場&r{arenaname}
+&c不存在此則子指令，請檢查輸入
+&c[x]請輸入/dt a mode進入競技場創建模式後再使用這個快捷創建工具！
+&c[x]兩點必須處於同一世界！
+&a[v]A點設定完畢
+&a[v]B點設定完畢
+&0&l我的比賽記錄 &9&l[right]
+&c[x]積分餘額不足！該商品需要&e{price}&c積分，而你只有&e{points}&c積分
+&7========================================|&a[v]恭喜購買成功，現在你獲得了這個道具|&7========================================
+&0&l全服匹配 &9&l[right]
+&b對方下線了！系統判定你勝利！
+&7戰鬥未開始...
+&c[x]請勿干擾他人比賽！
+&c[x]發生非法傳送，已製止
+&c[x]比賽時禁用指令！
+&f當前頁碼：{page}/{maxpage}
+ |&9<左鍵下一頁/右鍵上一頁|
+&f<[ 全服匹配 &f]>
+ |&e在線尋找對手|&f&l>> &a點擊開始
+&f<[ &7全服匹配 &f]>
+ |&7在線尋找對手|&f&l>> &6搜尋中..{second}s
+&a作戰編號 &2#{num}
+&a[v]勝利
+&c[x]敗北
+&6[=]平局
+&7&m未記錄&r
+ |&b結果 &f[right] {result}|&b對手 &f[right] &e{opponent}|&b地圖 &f[right] &e{arena}|&b日期 &f[right] &e{date}|&b耗時 &f[right] &e{time}秒|&b經驗 &f[right] &e{exp}|&b類型 &f[right] &e{type}|&b傷害輸出  &f[right] &e{damage}|&b最大輸出  &f[right] &e{maxdamage}|&b對戰區服  &f[right] &e{server}| 
+&b商品Lore &f&l>>
+&7無
+&b商品信息 &f&l>>
+&6備註：
+&6備註： &7無
+&6價格： &e{price}
+&6餘額： &e{points}
+&a[v]點擊購買
+&c[x]餘額不足
+&a[v]物品已發送
+&c[x]背包滿了，無法獲取物品，請先為你的背包留出空位！
+&7&l[&b單挑競技場&7&l]&f&l-&e快捷創建工具&a[v]
+&6[right] &f&n左鍵&7點擊空氣設置&b&nA&7點|&6[right] &f&n右鍵&7點擊空氣設置&d&nB&7點| |&e保存-輸入：|&e/dt a create <競技場編輯名> <競技場名稱>
+&c[x]&f&n點擊拒絕&r
+&a[v]&f&n點擊接受&r
+&7無數據
+&7無限能量
+&7暫無
+&a{amount}条
+&7已中斷匹配...
+&a[恭喜]: &7玩家 &e{player} &7突破了無段位的身份，首次獲得了段位：&r{dan}&7！祝TA在單挑戰鬥的路上越走越遠！
+&7正確用法：/dt watch <競技場名稱>
+&b現在正在觀戰競技場&e{arena}
+&c[x]這個競技場不允許觀戰！
+&c[x]這個競技場還未開始比賽，無法觀戰！
+&b/dt arena(a) sw <競技場編輯名> &f- &a啟用觀戰功能並設置觀戰點
+&b/dt arena(a) rw <競技場編輯名> &f- &a取消觀戰功能並移除觀戰點
+&7正確用法：/dt a rw <競技場編輯名>
+&7正確用法：/dt a sw <競技場編輯名>
+&c[x]這個競技場本來就沒有設置觀戰點
+&a[v]觀戰點已移除
+&b[報告] &7你所觀戰的競技場上的比賽已結束，請自行傳送回家...
+&7由於傳送，你退出了觀戰狀態...
+[單挑匹配]
+&a[v]快捷木牌創建成功！
+&c[x]還未正式開賽，請不要立刻認輸，請保持信心，不要打退堂鼓！
+&b各競技場實時信息如下：
+&7未命名
+&c正在比賽中...
+&a空闲
+&c不支持觀戰
+&a可觀戰
+&f[&r{arenadisplayname}&r&f] &2編號:{arenaeditname} {state} {watch}
+&b輸入 &e/dt watch <編號> &b即可觀戰
+&c[x]執行&eOP&c身份的競技場指令時發生了錯誤，可能是管理員添加的指令不妥，請截此圖聯繫管理員
+&c[x]執行&e玩家&c身份的競技場指令時發生了錯誤，可能是管理員添加的指令不妥，請截此圖聯繫管理員
+&c[x]執行&e後台&c身份的競技場指令時發生了錯誤，可能是管理員添加的指令不妥，請截此圖聯繫管理員
+&a[v]觀戰點設置完畢
+&c[x]觀戰點所處的世界應該與其對應的競技場一致！
+&c[x]頁碼超出值域，請檢查是否存在此頁
+&c[x]行數超出範圍，請輸入1~4
+&c[x]列數超出範圍，請輸入1~9
+&c[x]未發現HD全息插件！無法使用此功能
+&c[x]對方正在比賽！請等一下再向他發送請求
+秒前
+&c[x]該玩家不存在！
+&c不存在此則子指令，你是想輸入 &e/dt {subcommand} &c嗎？
+&b/dt checkv &f- &a手動獲取單挑插件最新版本信息（即檢查更新）
+&b&l[n1] &f{player} &7[right] &a{value}場
+&e&l[n2] &f{player} &7[right] &a{value}場
+&6&l[n3] &f{player} &7[right] &a{value}場
+&b[n4] &f{player} &7[right] &a{value}場
+&b[n5] &f{player} &7[right] &a{value}場
+&b[n6] &f{player} &7[right] &a{value}場
+&b[n7] &f{player} &7[right] &a{value}場
+&b[n8] &f{player} &7[right] &a{value}場
+&b[n9] &f{player} &7[right] &a{value}場
+&b[n10] &f{player} &7[right] &a{value}場
+&b&l[n1] &f{player} &7[right] &a{value}
+&e&l[n2] &f{player} &7[right] &a{value}
+&6&l[n3] &f{player} &7[right] &a{value}
+&b[n4] &f{player} &7[right] &a{value}
+&b[n5] &f{player} &7[right] &a{value}
+&b[n6] &f{player} &7[right] &a{value}
+&b[n7] &f{player} &7[right] &a{value}
+&b[n8] &f{player} &7[right] &a{value}
+&b[n9] &f{player} &7[right] &a{value}
+&b[n10] &f{player} &7[right] &a{value}
+&f{shower} &7: &b[分享：{player}的單挑戰績&7(鼠標移動到此處查看詳情)&b]
+&2{player}：
+&f[right] &b左鍵&7將本戰績分享到聊天框
+&f[right] &d右键&7將本戰績打印到紙上
+&a[v]積分扣除成功
+&7正確格式：/dt p take <玩家名> <數額>
+&b/dt points(p) take <玩家名> <數額> &f- &a扣除某玩家的積分
+&3&lDan&b&l&oTiao &f&l>> &a管理員幫助：段位經驗操作
+&b/dt exp add <玩家名> <數額> &f- &a為某玩家添加經驗
+&b/dt exp take <玩家名> <數額> &f- &a扣除某玩家的經驗
+&b/dt exp set <玩家名> <數額> &f- &a設定某玩家的經驗
+&b/dt exp view <玩家名> &f- &a查看某玩家的經驗
+&7正確格式：/dt exp add <玩家名> <數額>
+&7正確格式：/dt exp take <玩家名> <數額>
+&7正確格式：/dt exp set <玩家名> <數額>
+&7正確格式：/dt exp view <玩家名>
+&a[v]經驗增添成功
+&a[v]經驗扣除成功
+&a[v]經驗設置成功
+&6玩家&e{player}&6的段位經驗[right] {amount}
+&b&l/dt exp &f- &a查看段位經驗操作的相關幫助
+&a戰績打印成功
+&a請將單張紙拿在手上才能打印戰績！
+&a戰績展示太頻繁啦~請等會再展示
+&c[x]競技場創建方式錯誤！請將創建工具拿在手上後點擊空氣，以將你當前所處的位置作為傳送點！
+&f&l[&b單挑&7-&b全服邀請函&f&l]
+&6[right] &7輸入&f&n/dt sendall&7即可在聊天框裡發送單挑請求|&6[right] &7每次消耗一個本道具| 
+&c[x]本操作需要消耗一個全服邀請函
+&a[v]已有{amount}個玩家收到了你的單挑請求，請等待接受
+&e玩家&7{player}&e向全服玩家下了單挑戰書
+&a[v]&f&n點擊挑戰他&r
+&c[x]你所在的世界已被禁止比賽，請移動到允許比賽的世界再開賽
+&c[x]對手{player}所在的世界已被禁止比賽，請等待TA移動到允許比賽的世界再開賽
+&c[x]你的背包裡攜帶有違禁品！不予開賽
+&c[x]對手{player}的背包裡攜帶有違禁品！不予開賽
+&b/dt sendall &f- &a向全服發起單挑請求(需要特定邀請函)
+&b/dt sendall getitem &f- &a獲取一個單挑全服邀請函道具
+&a[恭喜]: &7玩家 &e{player} &7在競技場上完成了 &b{times} &7連勝！
+&a[恭喜]: &7玩家 &e{player} &7在競技場上完成了 {times} 連勝！
+&c雙方段位差距過大，段位經驗不會變更
+&6銷量： &e{volumn}
+&c[x]這條指令只能由後台執行！在服務期內無法使用！
+&7正確用法：/dt transfer <Area/Blacklist/Dan/LanguageFile/Point/PointShop/Record>
+&c板塊名輸入錯誤，請輸入Area/Blacklist/Dan/LanguageFile/Point/PointShop/Record
+&7開始轉移數據，在此過程中可能會有卡頓現象發生....
+&7數據轉移失敗，原因：數據文件確實
+&b/dt transfer(tf) <模塊> &f- &a將yml文件中的數據轉移到數據庫中
+&c檢測到[勝場排行榜]的全息圖所在的世界不存在，全息圖加載失敗，建議將該全息圖換個位置
+&c檢測到[KD排行榜]的全息圖所在的世界不存在，全息圖加載失敗，建議將該全息圖換個位置
+獲得
+損失
+匹配賽
+邀請賽
+強制賽
+&7全息圖已自動刷新...

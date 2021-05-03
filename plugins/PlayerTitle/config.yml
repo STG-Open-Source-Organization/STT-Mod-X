@@ -1,0 +1,31 @@
+# 语言文件 [可选 中文简体:zh_CN;中文繁體:zh_TW;English:en_US]
+language: zh_CN
+
+# 默认称号
+default: "§f[ §7玩家 §f]"
+
+# 称号默认前缀
+prefixBrackets: "§f[ "
+
+# 称号默认后缀
+suffixBrackets: " §f]"
+
+# 聊天显示称号
+isChat: true
+
+# tab列表和玩家头顶显示称号,默认关闭
+# 跟计分板插件冲突,请使用变量功能进行兼容
+# 如果开启卸载插件后也很难消失,需要使用计分板插件冲突掉才行..
+isTab: false
+
+# 是否开启更新提醒,建议开启
+isCheckUpdate: true
+
+# op登录时候是否发送更新提醒
+isCheckUpdateToOpMsg: true
+
+# 是否开启云汉化(使用云服务资源来进行各种物品名称的自动汉化)
+cloudChinesization: true
+
+# 完全版本签名验证
+sign: f41dc0c9-0256-4296-ae7e-c32bd4228e08

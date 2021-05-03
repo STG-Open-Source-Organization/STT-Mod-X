@@ -1,0 +1,29 @@
+{
+  "motds": [
+    "&b欢迎来到我们服务器~这是第&e1&b条随机消息\n&d现在时间: &e%date% %time%",
+    "&b欢迎来到我们服务器~这是第&e2&b条随机消息\n&d在线人数: &e%online%",
+    "&b欢迎来到我们服务器~这是第&e1&b条随机消息\n&d您的网络运营商: &e%isp%"
+  ],
+  "onlineMsgs": [
+    "&2*&6查看服务器信息&2*      &a在线人数: &b%online%&d/&2%maxplayer%",
+    "&2*&6查看服务器信息&2*      &a现在时间: &e%date% %time%"
+  ],
+  "players": [
+    "&b啦啦啦&c啦啦啦&d啦啦啦",
+    "&b啦啦啦&c啦啦啦&d啦啦啦",
+    "&b啦啦啦&c啦啦啦&d啦啦啦",
+    "&b啦啦啦&c啦啦啦&d啦啦啦",
+    "&b啦啦啦&c啦啦啦&d啦啦啦",
+    "&b啦啦啦&c啦啦啦&d啦啦啦"
+  ],
+  "maintenanceModeMotd": "&c服务器维护中, 请等待维护完成...",
+  "maintenanceModeKickMsg": "&c服务器维护中,请等待维护完成再进入服务器!",
+  "tpsFormat": "0.0",
+  "usePlaceHolderAPI": true,
+  "showPing": false,
+  "maintenanceMode": false,
+  "emergencyMode": false,
+  "requestLimit": 15,
+  "ipProvider": "taobao",
+  "limitTime": 600000
+}

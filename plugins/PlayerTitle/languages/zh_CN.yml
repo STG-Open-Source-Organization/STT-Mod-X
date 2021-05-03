@@ -1,0 +1,309 @@
+# 没权限时候提醒
+noPermission: "&4你没有权限执行该命令"
+
+# 重载插件提醒
+reloadMsg: "&a插件重载完成"
+
+# 玩家称号过期提醒
+overdueMsg: "&4你的称号已经过期"
+
+# vault提醒
+vaultSucceedMsg: "&a成功加载Vault,启用经济相关功能!"
+vaultFailureMsg: "&4未找到Vault,未启用经济相关功能!"
+
+# placeholderAPI提醒
+placeholderAPISucceedMsg: "&a成功加载placeholderApi,启用自定义变量功能!"
+placeholderAPIFailureMsg: "&4未找到placeholderApi,未启用自定义变量功能!"
+
+# PlayerPoints提醒
+playerPointsSucceedMsg: "&a成功加载PlayerPoints,启用点券相关功能!"
+playerPointsFailureMsg: "&4未找到PlayerPoints,未启用点券相关功能!"
+
+# attributePlus提醒
+attributePlusSucceedMsg: "&a成功加载attributePlus,启用属性标签相关功能!"
+attributePlusFailureMsg: "&4未找到attributePlus,未启用属性标签相关功能!"
+
+# SXAttribute提醒
+sxAttributeSucceedMsg: "&a成功加载SXAttribute,启用属性标签相关功能!"
+sxAttributeFailureMsg: "&4未找到SXAttribute,未启用属性标签相关功能!"
+
+# /plt help指令管理员出现的提醒
+helps:
+  - "&e&m一一一一一一一一一一一一一&f[&e玩家称号系统&f]&e&m一一一一一一一一一一一一一"
+  - "&e/plt addCoin [玩家名称] [金额]         &f给玩家添加称号币"
+  - "&e/plt add [称号类型] [称号名称] [金额] (天数) (是否隐藏) (玩家名)          &f添加一个新称号到称号商城"
+  - "&e/plt addPermission [称号名称] [需要权限]         &f添加一个权限称号"
+  - "&e/plt addPlayerTitle [玩家名称] [称号名称] (天数)      &f新增一个不展示在商店的称号并直接给玩家"
+  - "&e/plt addReward [称号数量] [类型] [金额]          &f给对应数量的称号添加奖励"
+  - "&e/plt changeItem [称号id] [天数] [数量] (玩家名称)          &f将对应id的称号转换成右键可使用的物品"
+  - "&e/plt randomCard [天数] (类型)          &f获取一个随机称号卡,类型不填默认全部,天数0为永久"
+  - "&e/plt reload          &f重载插件"
+  - "&e/plt set [玩家名称] [称号ID] [天数]          &f给玩家设置对应天数的称号"
+  - "&e/plt setTitleBuff [称号id] [类型] [属性标签]         &f给称号添加buff属性"
+  - "&e/plt subtractCoin [玩家名称] [金额]            &f给玩家减少称号币"
+  - "&e/plt view [类型] (玩家名)         &f查看对应gui并管理"
+  - "&e/plt shop          &f打开称号商城gui,可选参数类型,不填默认全部"
+  - "&e/plt open          &f打开称号仓库gui"
+
+paramFailureMsg: "&4参数错误"
+noPlayerFailureMsg: "&4该命令只能玩家执行"
+typeFailureMsg: "&4类型错误"
+amountFailureMsg: "&4数量只能为大于0的数字"
+idFailureMsg: "&4ID只能为大于0的数字"
+noAir: "&4你的主手上并没有物品"
+succeedMsg: "&a命令执行成功"
+failureMsg: "&4命令执行失败"
+guiDelete: "&6>>&4>>&5>> &f&l点击删除 &6<<&4<<&5<<"
+guiManage: "&6>>&4>>&5>> &f&l点击管理 &6<<&4<<&5<<"
+guiBack: "&a点击返回"
+currentPage: "&a当前页:"
+totalPages: "&a总页数:"
+nextPage: "&a点击前往下一页"
+previousPage: "&a点击前往上一页"
+all: "&a所有"
+# 称号数量上限提醒
+currlimig: "&4非常抱歉,公开版本最多创建100个称号"
+
+buyType:
+  not: "&a无"
+  vault: "&a金币"
+  playerPoints: "&a点券"
+  coin: "&a称号币"
+  itemStack: "&a物品"
+  permission: "&a权限"
+
+set:
+  # 没有找到对应称号id的数据
+  noTitleFailureMsg: "&4没有找到对应称号id的数据"
+
+shop:
+  # title
+  title: "&f[&e称号商城&f]"
+  buySucceed: "&a购买成功"
+  buyFailure: "&4购买出现异常,请联系管理员!"
+  notSufficientFunds: "&4购买失败,你的余额不足!"
+  perpetual: "&a永久"
+  day: "天"
+  noBuff: "无"
+  back: "&a点击返回"
+  buyButton: "&f&l点击购买"
+  noBalanceButton: "&4&l余额不足"
+  itemStackBuyButton: "&6>>&4>>&5>> &f&l点击购买 &6<<&4<<&5<<"
+  itemStackNoBalanceButton: "&6>>&4>>&5>> &f&l余额不足 &6<<&4<<&5<<"
+  # 序号:${id} 称号名:${titleName} 效果:${buff} 购买类型:${buyType} 价格:${price} 玩家余额:${playerMoney} 购买天数:${day}  购买按钮:${buyButton}
+  lores:
+    - ''
+    - '&f[ &c称号说明 &f]'
+    - '&f&l>> &a显示称号：&f> ${titleName}'
+    - ''
+    - '&f[ &c称号BUFF &f]'
+    - ''
+    - '&c&l>> &a${buff}'
+    - ''
+    - '&f[ &c称号价格 &f]'
+    - ''
+    - '&c&l>> &a购买花费 ${buyType} : ${price}  / ${day}'
+    - ''
+    - '&f[ &c个人经济 &f]'
+    - '&c&l>> &a当前拥有 &e${buyType} : ${playerMoney}'
+    - ''
+    - '&6>>&4>>&5>> ${buyButton} &6<<&4<<&5<<'
+  myCoinNumber: "&a称号币数量"
+  # 变量: ${myCoin}玩家称号币数量
+  myCoinLore:
+    - ''
+    - '&f[ &c${player} &f]'
+    - '&f&l>> &a称号币数量：&f> &e${myCoin}'
+open:
+  # title
+  title: "&f[&e称号仓库&f]"
+  inUse: "&a使用中"
+  notUse: "&4未使用"
+  useButton: "&f&l点击使用"
+  noUseButton: "&a&l点击禁用"
+  # 序号:${id} 称号名:${titleName} 效果:${buff} 使用状态:${useStatus}  切换按钮:${useButton} 到期时间:${expirationTime}
+  lores:
+    - ''
+    - '&f[ &c称号说明 &f]'
+    - '&f&l>> &a显示称号：&f> ${titleName}'
+    - '&f&l>> &a到期时间：&f> ${expirationTime}'
+    - ''
+    - '&f[ &c称号BUFF &f]'
+    - ''
+    - '&c&l>> &a${buff}'
+    - ''
+    - '&f[ &c称号状态 &f]'
+    - ''
+    - '&c&l>> ${useStatus}'
+    - ''
+    - '&6>>&4>>&5>> ${useButton} &6<<&4<<&5<<'
+  myTitleNumber: "&a称号数量"
+  # 变量: ${myTitleNumber}玩家称号数量
+  myTitleNumberLore:
+    - ''
+    - '&f[ &c${player} &f]'
+    - '&f&l>> &a称号数量：&f> &e${myTitleNumber}'
+  titleNumberRanking: "&a称号数量排行"
+  # 变量: ${titleNumberRanking}称号数量排行榜,只展示前10
+  titleNumberRankingLore:
+    - ''
+    - '&f[ &c排行榜 &f]'
+    - ''
+    - '&c&l>> &a${titleNumberRanking}'
+  notRanking: "&a暂无排行"
+reward:
+  title: "&f[&e称号数量奖励&f]"
+  titleRewardMsg: "&a需求称号数量: "
+  useButton: "&6>>&4>>&5>> &e已领取 &6<<&4<<&5<<"
+  useNotButton: "&a>>&4>>&5>> &a点击领取 &a<<&4<<&5<<"
+  unableButton: "&a>>&4>>&5>> &f数量不足 &a<<&4<<&5<<"
+  # ${id} 编号 ${myTitleNumber} 称号数量  ${number} 需求数量 ${rewardType}奖励类型 ${amount}奖励数量
+  titleRewardLore:
+    - ''
+    - '&f[ &c称号奖励说明 &f]'
+    - '&f&l>> &a需求数量：&f> ${number}'
+    - ''
+    - '&f[ &c称号奖励 &f]'
+    - ''
+    - '&c&l>> &a${rewardType} : ${amount}'
+    - ''
+    - '&f[ &c个人称号数量 &f]'
+    - '&c&l>> &a当前拥有 &e${myTitleNumber}'
+    - ''
+
+setTitleBuff:
+  attributePlus: "&aap属性"
+  sxAttribute: "&asx属性"
+  monsterTruce: "&a怪物休战"
+  potionEffect: "&a药水效果"
+changeItem:
+  # 没有找到该称号
+  noTitleFailuerMsg: "&4没有找到该称号,请检查输入的称号id"
+  # 生成的称号卡物品前缀, 可以修改,但是严禁为空,修改会导致之前的生成的称号卡无法使用
+  titleCard: "&a称号卡: "
+  # 序号:${id} 称号名:${titleName} 效果:${buff} 使用状态:${useStatus}  切换按钮:${useButton} 到期时间:${expirationTime}
+  titleCardLore:
+    - ''
+    - '&f[ &c称号说明 &f]'
+    - '&f&l>> &a显示称号：&f> ${titleName}'
+    - '&f&l>> &a使用天数：&f> ${expirationTime}'
+    - ''
+    - '&f[ &c称号BUFF &f]'
+    - ''
+    - '&c&l>> &a${buff}'
+    - ''
+    - '&6>>&4>>&5>> &f&l点击获取 &6<<&4<<&5<<'
+  # 使用称号卡成功
+  useTitleCardSucceedMsg: "&a使用称号卡成功"
+  # 使用称号卡失败
+  useTitleCardFailureMsg: "&4使用称号卡失败"
+  # 没有找到对应称号id的数据
+  noTitleFailureMsg: "&4很遗憾,该称号已经被删除了"
+
+randomCard:
+  # 生成的称号卡物品前缀, 可以修改,但是严禁为空和与普通称号卡相同
+  titleCard: "&a随机称号卡"
+  # 称号卡lore
+  titleCardLore:
+    - ''
+    - '&f[ &c称号卡说明 &f]'
+    - '&f&l>> &a功能：&f> 随机获取一个称号'
+    - '&f&l>> &a使用天数：&f> ${expirationTime}'
+    - ''
+    - '&6>>&4>>&5>> &f&l使用获取 &6<<&4<<&5<<'
+  # 使用称号卡成功 ${titleCard}称号 ${day}天数
+  useTitleCardSucceedMsg: "&a使用随机称号卡成功,获得了:${titleCard}: ${day}"
+  # 使用称号卡失败
+  useTitleCardFailureMsg: "&4使用随机称号卡失败"
+  # 没有找到对应称号id的数据
+  noTitleMsg: "&4很遗憾,你随机到了空气"
+  # 没有找到对应称号id的数据
+  noTitle: "&4很遗憾,没有对应类型的称号"
+
+view:
+  hide: "&4隐藏中"
+  show: "&a显示中"
+  changHideMsg: "&a点击切换显示/隐藏"
+  # 变更类型
+  changeTypeMsg: "&a变更购买类型"
+  currentTypeMsg: "&a当前类型为: "
+  changeType: "&a请在聊天框中直接输入需要修改的类型(如果是变更物品类型,需手持物品),可选:"
+
+  # 变更物品
+  changeItemMsg: "&a变更购买物品"
+  changeItem: "&a请主手持需要新增的物品,聊天框中直接输入: yes"
+
+  # 变更名称
+  changeNameMsg: "&a变更名称"
+  currentNameMsg: "&a当前名称为: "
+  changeName: "&a请在聊天框中直接输入需要修改的称号名称,可使用颜色代码&"
+
+  # 变更时间
+  changeDayMsg: "&a变更称号天数"
+  currentDayMsg: "&a当前天数为: "
+  changeDay: "&a请在聊天框中直接输入需要修改的时间数字,0为永久"
+
+  # 变更金额/物品
+  changeAmountMsg: "&a变更称号价格/数量"
+  currentAmountMsg: "&a当前价格/数量为: "
+
+  # 管理buff
+  buffMsg: "&a称号buff管理"
+  buffLores:
+    - '&f[ &c称号BUFF &f]'
+    - ''
+    - '&c&l>> &a${buff}'
+  # 序号:${id} 称号名:${titleName} 效果:${buff} 显示状态:${status} 购买类型:${buyType} 价格:${price} 购买天数:${day}
+  shopLores:
+    - ''
+    - '&f[ &c称号说明 &f]'
+    - '&f&l>> &a称号编号：&f> ${id}'
+    - '&f&l>> &a显示称号：&f> ${titleName}'
+    - '&f&l>> &a显示状态：&f> ${status}'
+    - ''
+    - '&f[ &c称号BUFF &f]'
+    - ''
+    - '&c&l>> &a${buff}'
+    - ''
+    - '&f[ &c称号价格 &f]'
+    - ''
+    - '&c&l>> &a购买花费 ${buyType} : ${price}  / ${day}'
+    - ''
+  # 序号:${id} 称号名:${titleName} 效果:${buff} 购买类型:${buyType} 价格:${price} 玩家余额:${playerMoney} 购买天数:${day}  购买按钮:${buyButton}
+  openLores:
+    - ''
+    - '&f[ &c称号说明 &f]'
+    - '&f&l>> &a称号编号：&f> ${id}'
+    - '&f&l>> &a显示称号：&f> ${titleName}'
+    - ''
+    - '&f[ &c称号BUFF &f]'
+    - ''
+    - '&c&l>> &a${buff}'
+    - ''
+  # ${id} 编号 ${myTitleNumber} 称号数量  ${number} 需求数量 ${rewardType}奖励类型 ${amount}奖励数量
+  rewardLore:
+    - ''
+    - '&f[ &c称号奖励说明 &f]'
+    - '&f&l>> &a奖励编号：&f> &e${id}'
+    - '&f&l>> &a需求数量：&f> ${number}'
+    - ''
+    - '&f[ &c称号奖励 &f]'
+    - ''
+    - '&c&l>> &a${rewardType} : ${amount}'
+    - ''
+
+# 用于输入指令时候tab自动提醒帮助(只建议翻译,不建议更改)
+tabHelp:
+  titleId: "请输入称号id,可在称号商店查看"
+  titleName: "请输入称号名称,可使用颜色代码&"
+  coinAmount: "请输入金额,必须正整数"
+  titleAmount: "请输入称号价格/物品数量,必须正整数"
+  setTitleDay: "请输入给予的天数,必须正整数"
+  buff: "请输入属性标签,可用#表示空格,例如: 物理伤害:#100"
+  addTitleDay: "请输入该称号售卖时间,必须正整数(0,为永久)"
+  changeItemNum: "请输入该物品的数量,必须正整数"
+  titleNumber: "请输入称号数量,必须正整数"
+  titleNumberAmount: "请输入奖励价格/物品数量,必须正整数"
+  titlePermission: "请输入需要的称号权限"
+  potionEffectLevel: "请输入药水等级"
+  potionEffectHide: "是否隐藏粒子"

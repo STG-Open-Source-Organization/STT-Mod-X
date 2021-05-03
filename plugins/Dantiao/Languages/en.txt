@@ -1,0 +1,391 @@
+?&3&lDan&b&l&oTiao &f&l>> &aAdmin help.
+&b&l/dt arenas(a) &f- &aView the help about arena.
+&b&l/dt shop(s) help &f- &aView the help about &nPointShop.
+&b&l/dt points(p) &f- &aView the help about points.
+&b&l/dt blacklist(b) &f- &aView the help about blacklist.
+&b&l/dt energy(e) &f- &aView the help about energy.
+&b&l/dt hd &f- &aView the help about HD ranking.
+&b/dt stop <Arena displayname> &f- &aStop a game Forcibly.
+&b/dt lobby set &f- &aSet lobby.
+&b/dt lobby delete &f- &aRemove lobby.
+&b/dt game <Arena editname> <P1> <P2> &f- &aStart a game Forcibly.
+&3&lDan&b&l&oTiao &f&l>> &aAdmin help:Arena
+&b/dt arena(a) mode &f- &aEnter/Quit creating arena mode.
+&b/dt arena(a) create create <Arena editname> <Arena displayname> &f- &aCreate a arena which is set fully.
+&b/dt arena(a) remove <Arena editname> &f- &aRemove a arena from areas.yml.
+&b/dt arena(a) list &f- &aView all arenas created.
+&b/dt arena(a) commands add <Arena editname> <Way(player/op/console)> <Content> &f- &aAdd a command which is used at the beginning of game.
+&b/dt arena(a) commands clear <Arena editname> &f- &aClear all commands.
+&b/dt arena(a) commands list <Arena editname> &f- &aView all commands added.
+&c[x]This arena isn't exist.
+&a[v]Arena Delected.
+&c[x]There aren't any arenas.
+&6Arena list [right]
+&6Amount: &f&l{amount} &6totally.
+&c[x]This command only can be executed by player not console!
+&a[v]Quited creating arena mode
+&a[v]Now enter creating arena mode|&2The creating tool has sent to your inventory,Please:| | &6Use &f[&e&nLEFT&f] &6click block to select &b&lPOINT_A| &6Use &f[&e&nRIGHT&f] &6click block to select &d&lPOINT_B| &dUse  &f/dt a create <Arena editname> <Arena displayname> &dto create| |&aYou can quit the mode by /dt a mode
+&7Usage: /dt a create <Arena editname> <Arena displayname>|&7Èç: /dt a create test MyArena
+&c[x]Please enter the creating arena mode!
+&c[x]Point A lack!
+&c[x]Point B lack!
+&c[x]Arena '&e{editname}' &cexisted!
+&a[v]Created!No you can quit the mode by use /dt a mode,or continue creating.
+&7Usage: /dt a commands list <Arena editname>.
+&c[x]No command.
+&6All commands [right]
+&6Amount: &f&l{amount} &6totally.
+&7Usage: /dt a commands add <Arena editname> <Way> <Content>.
+&c[x]Please enter op/player/console!
+&a[v]Added {command}.
+&7Usage: /dt a commands clear <Arena editname>.
+&a[v]Commands cleared.
+&3&lDan&b&l&oTiao &f&l>> &aAdmin help:Blacklist
+&b/dt blacklist(b) add <Player name> &f- &aAdd a player to blacklist.
+&b/dt blacklist(b) remove <Player name> &f- &aRemove a player from blacklist.
+&b/dt blacklist(b) list &f- &aView all players in blacklist.
+&b/dt blacklist(b) clear &f- &aClear blacklist.
+&7Usage: /dt bl add <Player name>
+&a[v]Added {player} to blacklist
+&c[x]Please not add a player repeatedly!
+&7Usage: /dt bl remove <Player name>
+&c[x]The blacklist is empty!
+&c[x]Player &e{player}&c isn't in blacklist!
+&a[v]Removed {player} from blacklist.
+&6Blacklist [right]
+&a[v]Cleared {amount} totaly.
+&c[x]No language file
+&6Language file [right]
+English translated by Valorin
+&a[v]Language changed.
+&c[x]Language file &e{name}&c isn't exist!
+&bMy dan [right]
+   &e&l> &r{dan} &e&l<
+&a[v]My exp: {exp}
+&a[v]Exp to next level: {needexp}
+&3&lDan&b&l&oTiao &f&l>> &aAdmin help:Energy
+&b/dt energy(e) add <Player name> <Amount> &f- &aAdd energy for a player.
+&b/dt energy(e) set <Player name> <Amount> &f- &aSet energy for a player.
+&c[x]Energy system has been banned!
+&6My energy [right] &b{energy}/&3{maxenergy}
+&c[x]You haven't permission to do this!
+&7Usage: /dt e add <Player name> <Amount>
+&c[x]Please enter an arabic numerals which is greater than 0.
+&a[v]Energy added.
+&7Usage: /dt e set <Player name> <Amount>.
+&a[v]Energy set.
+&7Usage: /dt game <Arena editname> <P1> <P2>.
+&c[x]There are someboby that is not online.
+&c[x]Two player names you entered can't be the same.
+&eWarning: This command can only be executed by player.
+&c[x]No lobby!
+&bTeleporting to lobby...
+&a[v]Lobby set.
+&c[x]No lobby!
+&a[v]Lobby removed.
+  &f&l>> &6/dt help(h) &fView the help of player&a[v]
+  &f&l>> &6/dt adminhelp(ah) &fView the help of admin&a[v]
+&3&lDan&b&l&oTiao &f&l>> &aPlayer help.
+&b/dt rank(r) &f- &aView the ranking.
+&b/dt lobby(l) &f- &aTeleport to lobby.
+&b/dt start(st) &f- &aOpen the searching panel.
+&b/dt timetable &f- &aView the period during which the searching function or the invite function can be used.
+&b/dt arenasinfo(ainfo) &f- &aView all arenas' information.
+&b/dt watch <Arena editname> &f- &aWatch a game.
+&b/dt send <Player name> &f- &aSend a request to a player
+&b/dt accept &f- &aAccept a request.
+&b/dt deny &f- &aDeny a request.
+&b/dt quit(q) &f- &aQuit(Use in game).
+&b/dt shop(s) &f- &aOpen the Pointshop panel.
+&b/dt records(r) &f- &aOpen the records panel.
+&b/dt points(p) me &f- &aView my points.
+&b/dt changelang &f- &aView all language file.
+&b/dt changelang <Language file's name> &f- &eChange the language you use.
+&3&lDan&b&l&oTiao &f&l>> &aAdmin help:Points
+&b/dt points(p) add <Player name> <Amount> &f- &aAdd points for a player.
+&b/dt points(p) set <Player name> <Amount> &f- &aSet points for a player.
+&b/dt points(p) view <Player name> &f- &aView a player's points.
+&6My points [right] {amount}
+&7Usage: /dt p add <Player name> <Amount>
+&a[v]Points added.
+&7Usage: /dt p set <Player name> <Amount>
+&a[v]Points set.
+&7Usage: /dt p view <Player name>
+&6Player &e{player}&6's point [right] {amount}
+&c[x]You are not in a game now!
+&bYour opponent give in...
+&3&lDan&b&l&oTiao &f&l>> &aAdmin help:HD ranking
+&b/dt hd win &f- &aCreate/Move: HD Win ranking
+&b/dt hd winremove &f- &aRemove: HD Win ranking
+&b/dt hd kd &f- &aCreate/Move: HD KD ranking
+&b/dt hd kdremove &f- &aRemove: HD KD ranking
+&b/dt hd refresh &f- &aRefresh Forcibly: All HD
+&bMove the HD...
+&bCreate a HD...
+&c[x]This HD is not exist!
+&a[v]HD removed
+&c[x]No HD!
+&a[v]HD refreshed
+&6My ranking [right]
+&bWin: No.&d{ranking}
+&bKD: No.&d{ranking}
+&eEnter &f/dt rank win(or 'kd') &eto view all player ranking
+&b[star1]Duel-Win ranking[star2]
+&bMy ranking: &e{ranking} ({amount} wins)
+&bRanking: &eNo data.
+&cNo data in ranking.
+&b[star1]Duel-KD ranking[star2]
+&bMy ranking: &e{ranking} ({kd})
+&a[v]Opened the records pannel.
+&aEnter &b/dt reload c &ato reload config.yml
+&aEnter &b/dt reload l &ato reload all language files
+&a[v]config.yml: Reloaded!Consumed &d{ms} ms.
+&c[x]config.yml: Some error occurred while reloading!
+&a[v]Language file: Reloaded!Consumed &d{ms} ms.
+&c[x]Language file: Some error occurred while reloading!
+&c[x]You have no request which is not dealed!
+&a[v]Accepted request.
+&a[v]The player accepted your request.
+&6There are &emultiple &6request which is not dealed,please choose to deal [right]
+&6Use &f/dt accept <Player name> &6to choose to deal.
+&c[x]The request is not existed!
+&a[v]Denied the request.
+&c[x]The player denied your request.
+&6Use &f/dt deny <Player name> &6to choose to deal.
+&7Usage: /dt send <Player name>
+&c[x]The player is offline
+&c[x]You can send request to yourself.
+&c[x]Your have been banned from having a game.
+&c[x]The player has been banned from having a game.
+&c[x]This period is not allowed to send request.
+&c[x]You can't have a game in this world.
+&c[x]The player's world is not allow to accept request!
+&c[x]You are exhausted now!Have a rest~ :D
+&c[x]The player is exhausted!
+&c[x]Please not send the request repeatedly!
+&c[x]The player have sent a request to you!You needn't send a request to he(or she)!Please deal with the request he(or she) has sent to you.
+&eReceive a duel request from {player}.
+&a[v]Request sent.Validity 60 seconds.
+&3&lDan&b&l&oTiao &f&l>> &aAdmin help:Pointshop
+&b/dt shop(s) add <Price> &f- &aAdd you item in hand as a good.
+&b/dt shop(s) remove <Page> <Row> <Column> &f- &aRemove a good.
+&b/dt shop(s) des <Page> <Row> <Column> <Content> &f- &aAdd a description for a good.
+&b/dt shop(s) rdes <Page> <Row> <Column> &f- &aRemove the description
+&b/dt shop(s) bc <Page> <Row> <Column> <Content> &f- &aSet a message which is broadcast after being bought.String '{player}' stands for player name
+&b/dt shop(s) rbc <Page> <Row> <Column> &f- &aRemove the message which is broadcast after being bought
+&0&lPointshop &9&l[right]
+&a[v]Welcome to DUEL POINTSHOP!
+&7Usage: /dt s add <Price>,TIPS:Handle a item in your hand!
+&c[x]Handle a item in your hand!
+&c[x]Please enter arabic numerals£¡
+&c[x]Please enter arabic numerals which is greater than 0!
+&a[v]Good added.
+&7Usage: /dt s remove <Page> <Row> <Column>,glass is not be consided
+&c[x]This good isn't exist
+&a[v]Good removed.
+&7Usage: /dt s des <Page> <Row> <Column> <Content>,glass is not be consided
+&7Usage: /dt s bc <Page> <Row> <Column> <Content>,glass is not be consided,string '{player}' stands forPlayer name
+&a[v]Description added.
+&a[v]Broadcast set.
+&7Usage: /dt s rdes <Page> <Row> <Column>,glass is not be consided
+&7Usage: /dt s rbc <Page> <Row> <Column>,glass is not be consided
+&a[v]Description removed.
+&a[v]Broadcast removed.
+&c[x]This period is not allowed to use searching panel.
+&a[v]Opened the searching panel..
+&7Usage: /dt stop <Arena editname>
+&bOpen time of SEARCHING: 
+&bOpen time of SEARCHING: No limit
+&bOpen time of INVITE: 
+&bOpen time of INVITE: No limit
+&bThe duel request you sent to {receiver} cancelled because he(or she) hasn't deal with it for a minute!(The request over a minute will be cancelled automatically!)
+&7Player &f{player} &7have another game now,the duel request you sent to he(or she) has cancelled...
+&7Player &f{player} &7left the server,the duel request you sent to he(or she) has cancelled...
+&7The player &f{player} &7which sent a duel request to you have another game now,please ignore the request he(or she) sent to you...
+&7The player &f{player} &7which sent a duel request to you left the server,please ignore the request he(or she) sent to you...
+&7Game is about to start...
+&aGame start now!Show your sword!
+&7Game has been in for one minute...
+&7Game has been in for two minutes...
+&7Game has been in for three minutes!There two minutes left!Hold the time!
+&7Game has been in for four minutes!There one minute left!Hold the time!
+&7Game will start in &b{time}s
+&bTeleport you to the duel lobby...
+&7========================================| |          &b&lGAME OVER!|          &7YOU &aWIN&7 THE GAME|          &7And get &a{exp} &7exp| |&7========================================
+&7========================================| |          &b&lGAME OVER!|          &7YOU &cLOSE|          &7And lose &c{exp} &7exp| |&7========================================
+&a[v]WOW!A beautiful firework for your win was set off!
+&b[Duel Arena]: &7Player &e{winner} &7killed &e{loser} &7in &6{time}s &7in duel arena {arenaname}&r
+&7========================================| |          &b&lGAME OVER!|          &7Game is outtime and you reach a draw!|          &7And get &a{exp} &7exp| |&7========================================
+&b[Duel Arena]: &7Player &e{p1} &7and &e{p2} &7reached a draw in duel arena {arenaname}&r
+&b[Duel Arena]: &7Player &e{player}&7's dan is &r{dan} &7now!Congratulations!
+&c[x]There are no game in this arena!
+&b&lAdmin stop this game now and it will not be recorded in your game record panel.
+&a[v]Game stopped!This game will not be recorded!
+&bWELL DONE!System give you &d{points} &bpoints as a reward.
+&bYour win ranking changed!&e{before}->{now}
+&bYour KD ranking changed!&e{before}->{now}
+&c[x]Warning: Error in starting game!
+&cNo arena!Please tell the Admin of server!
+&cAll arenas are full!Please wait!
+&cThis arena isn't exist!
+&cThis arena is holding a game!Please choose another one.
+&bNow you enter the arena &r{arenaname}
+&cThis sub command isn't exist!
+&c[x]Please use /dt a mode before you use this tool!
+&c[x]The two points you set must be in the same world!
+&a[v]PointA set.
+&a[v]PointB set.
+&0&lMy Duel Record &9&l[right]
+&c[x]You haven't enough point(s)!This good needs &e{price}&c point(s),but you only have &e{points}&c point(s)
+&7========================================|&a[v]You get this good!Just enjoy it|&7========================================
+&0&lDUEL Opponent Searching &9&l[right]
+&bYour opponent leave the server and you win.
+&7Duel is not start now,wait...
+&c[x]Please do not disturb others' games!
+&c[x]A error occurred in teleporting and the teleportation is cancelled!
+&c[x]You can't use any commands in game!
+&fPage: {page}/{maxpage}
+ |&9<LEFT TO NEXT/RIGHT TO LAST>| 
+&f<[ Searching &f]>
+ |&eSearching the opponent|&f&l>> &aCLICK TO START
+&f<[ &7Searching &f]>
+ |&7Searching the opponent|&f&l>> &6SEARCHING FOR U...{second}s
+&aNUM &2#{num}
+&a[v]WIN
+&c[x]LOSE
+&6[=]DRAW
+&7&mNo data&r
+ |&bResult|&f[right] {result}|&bOpponent|&f[right] &e{opponent}|&bArena|&f[right] &e{arena}|&bDate|&f[right] &e{date}|&bTime|&f[right] &e{time}s|&bExp|&f[right] &e{exp}|&bStart By|&f[right] &e{type}|&bTotal Damage|&f[right] &e{damage}|&bMax Damage|&f[right] &e{maxdamage}|&bServer|&f[right] &e{server}| 
+&bLORE &f&l>>
+&7Null
+&bINFO &f&l>>
+&6Description:  
+&6Description: &7Null
+&6Price: &e{price}
+&6My Points: &e{points}
+&a[v]CLICK TO BUY
+&c[x]DON'T HAVE ENOUGH POINTS
+&a[v]Item sent.
+&c[x]Your inventory is full!
+&7&l[&bDUEL ARENA&7&l]&f&l-&eCREATING TOOL&a[v]
+&6[right] &f&nLEFT&7 Click block to set &b&nPointA&r|&6[right] &f&nRIGHT&7 Click block to set &d&nPoints&r| |&eSave: |&e/dt a create <Arena editname> <Arena editname>
+&c[x]&f&nDENY THAT&r
+&a[v]&f&nACCEPT IT&r
+&7No data
+&7Unlimited Energy
+&7Null
+&a{amount} Totally
+&7Interrupted search...
+&b[Duel Arena]: &7Player &e{player} &7now have a dan for the first time.
+&7Usage: /dt watch <Arena name>
+&bNow you are watching the arena&e {arena}
+&c[x]The game held in this arena is not allow to be watched!
+&c[x]There is no game holding in this arena now!
+&b/dt arena(a) sw <Arena name> &f- &aEnable the watching game function and set the watching point
+&b/dt arena(a) rw <Arena name> &f- &aCancel the watching game function and remove the watching point
+&7Usage: /dt a rw <Arena name>
+&7Usage: /dt a sw <Arena name>
+&c[x]This arena hasn't set watching point before!
+&a[v]Watching point removed
+&b[Duel Arena] &7The game you are watching is over...
+&7You quited watching game because of teleporting
+[1vs1 SEARCHING]
+&a[v]Sign created!
+&c[x]The game hasn't started offically!Please maintain confidence instead of quiting!
+&bAll the arena information are as follows:
+&7Unnamed
+&cBusy
+&aFree
+&cBanned Watching
+&aAllowed Watching
+&f[&r{arenadisplayname}&r&f] &2Codename:{arenaeditname} {state} {watch}
+&bEnter &e/dt watch <Code name> &bto watch a game
+&c[x]Some errors occurred when the arena commands used as &eOP&c were executed
+&c[x]Some errors occurred when the arena commands used as &ePlayer&c were executed
+&c[x]Some errors occurred when the arena commands used as &eConsole&c were executed
+&a[v]Watching point set!
+&c[x]The world of watching point and arena must be the same!
+&c[x]The page you entered is out of range,please check whether the page you entered exists or not
+&c[x]The row you entered is out of range,please enter 1~4
+&c[x]The column you entered is out of range,please enter 1~9
+&c[x]Cannot find Plugin HolographicDisplays,fail to use this function
+&c[x]The player is having a game now!Please wait
+second(s) before
+&c[x]This player is not exist!
+&cThis sub command is not exist,do you mean &e/dt {subcommand}&c?
+&b/dt checkv &f- &aGetting the latest version infomation manually
+&b&l[n1] &f{player} &7[right] &a{value} Win(s)
+&e&l[n2] &f{player} &7[right] &a{value} Win(s)
+&6&l[n3] &f{player} &7[right] &a{value} Win(s)
+&b[n4] &f{player} &7[right] &a{value} Win(s)
+&b[n5] &f{player} &7[right] &a{value} Win(s)
+&b[n6] &f{player} &7[right] &a{value} Win(s)
+&b[n7] &f{player} &7[right] &a{value} Win(s)
+&b[n8] &f{player} &7[right] &a{value} Win(s)
+&b[n9] &f{player} &7[right] &a{value} Win(s)
+&b[n10] &f{player} &7[right] &a{value} Win(s)
+&b&l[n1] &f{player} &7[right] &a{value}
+&e&l[n2] &f{player} &7[right] &a{value}
+&6&l[n3] &f{player} &7[right] &a{value}
+&b[n4] &f{player} &7[right] &a{value}
+&b[n5] &f{player} &7[right] &a{value}
+&b[n6] &f{player} &7[right] &a{value}
+&b[n7] &f{player} &7[right] &a{value}
+&b[n8] &f{player} &7[right] &a{value}
+&b[n9] &f{player} &7[right] &a{value}
+&b[n10] &f{player} &7[right] &a{value}
+&f{shower} &7: &b[Showing: {player}'s duel record&7(MOVE HERE TO VIEW)&b]
+&2{player}:
+&f[right] &bLEFT CLICK&7 to share this record
+&f[right] &dRIGHT CLICK&7 to print this record
+&a[v]Points took
+&7Usage:/dt p take <Player name> <Amount>
+&b/dt points(p) take <Player name> <Amount> &f- &aTake points
+&3&lDan&b&l&oTiao &f&l>> &aAdmin help:Exp
+&b/dt exp add <Player name> <Amount> &f- &aAdd Exp
+&b/dt exp take <Player name> <Amount> &f- &aTake Exp
+&b/dt exp set <Player name> <Amount> &f- &aSet Exp
+&b/dt exp view <Player name> &f- &aView Exp
+&7Usage:/dt exp add <Player name> <Amount>
+&7Usage:/dt exp take <Player name> <Amount>
+&7Usage:/dt exp set <Player name> <Amount>
+&7Usage:/dt exp view <Player name>
+&a[v]Exp added
+&a[v]Exp took
+&a[v]Exp set
+&6Player &e{player}&6's exp [right] {amount}
+&b&l/dt exp &f- &aView exp help
+&aRecord printed!
+&aPlease hold single paper before you print this record!
+&aShowing too frequently!
+&c[x]You are creating the arena in a wrong way!Please click the air when you hold the creating tool in order to set your location now as the teleport point!
+&f&l[&bDuel&7-&bInvitation to ALL PLAYERS&f&l]
+&6[right] &7Enter &f&n/dt sendall&7 to invite all players|&6[right] &7And this invitation will be consumed| 
+&c[x]No invitation
+&a[v]Invitation sent and {amount} player(s) received
+&7{player} &esent a duel invitation to all
+&a[v]&f&nCLICK TO DUEL&r
+&c[x]The world which you locate in is not allowed to have a game.Please change the world and try again
+&c[x]The world which your opponent {player} locate in is not allowed to have a game.Please try again after he(she) change the world
+&c[x]There are some items banned in you inventory!
+&c[x]There are some items banned in your opponent {player}'s inventory!
+&b/dt sendall &f- &aSend a duel invitation to all players(Need an invitation item)
+&b/dt sendall getitem &f- &aGet a &f&l[&bDuel&7-&bInvitation to ALL PLAYERS&f&l]
+&a[Duel Arena]: &7Player &e{player} &7got a &b{times} &7winning streak!
+&a[Duel Arena]: &7Player &e{player} &7got a {times} winning streak!
+&cThe gap of dan between you and your opponent is too large,so the dan EXP will not change!
+&6Sales volumn: &e{volumn}
+&c[x]This command can only be executed by console
+&7Usage: /dt transfer <Area/Blacklist/Dan/LanguageFile/Point/PointShop/Record>
+&cPlease enter Area/Blacklist/Dan/LanguageFile/Point/PointShop/Record
+&7Transfer...there may be a jam briefly
+&7Failed to transfer because of the loss of the data file
+&b/dt transfer(tf) <Function> &f- &aTransfer the data from yml file to MySQL database
+&cIt's found that the world which the HD of [Win Ranking] locate in is not exist!Please change the place for it!
+&cIt's found that the world which the HD of [KD Ranking] locate in is not exist!Please change the place for it!
+Gain 
+Lose 
+Searching Panel
+Inviting
+Compulsory
+&7The holograms have refleshed automatically...

@@ -1,0 +1,281 @@
+###############################################################
+#                    _____    _______                         #
+#                   |  __ \  |__   __|                        #
+#                   | |  | |    | |                           #
+#                   | |  | |    | |                           #
+#                   | |__| |    | |                           #
+#                   |_____/     |_|   By:Valorin              #
+#                                                             #
+###############################################################
+#            Thank you for downloading and using :D           #
+#                   感谢您的下载与使用:D                      #
+###############################################################
+#                       Post | 帖子                           #
+###############################################################
+# MCBBS:                                                      #
+# https://www.mcbbs.net/thread-818429-1-1.html                #
+# SpigotMC:                                                   #
+# https://www.spigotmc.org/resources/60432/                   #
+# CurseForge:                                                 #
+# https://www.curseforge.com/minecraft/bukkit-plugins/dantiao #
+###############################################################
+#                   Document | 教程文档                       #
+###############################################################
+# English version:                                            #
+# https://1392847363.gitbook.io/dantiao-plugin/               #
+# 简体中文版:                                                 #
+# https://1392847363.gitbook.io/dantiao/                      #
+###############################################################
+#                                                             #
+#            These are GLOBAL SETTINGS for Dantiao            #
+#                    单挑插件-全局设置                        #
+#                                                             #
+###############################################################
+#
+#>> Annotation above and text below.The author is a senior student from China and English translation is not 100% accurate because of my limited knowledge,please understand :D
+#>> 注释在上，正文在下。作者高中在读，水平有限，英文翻译不一定100%准确
+#
+# The version of this config.
+# 【请勿修改此项】本配置文件的版本号，用于插件检测并更新配置文件内容
+ConfigVersion: 1
+# Players with dt.admin permission will be noticed about new Dantiao version when logining
+# 是否在上线时接收更新检查信息（拥有dt.admin权限的玩家才能接收到）
+CheckVersion: true
+# The server name.When a game ends,the name of the server which player locate in will be recorded.This function is applicable for group servers 
+# 服务器名称。当一场比赛结束后，玩家所处服务器的名称也会被记录下来。这项功能主要适用于通过数据库实现子服间比赛记录互通的群组服
+ServerName: '&bServer'
+# Whether enter debug mode(message both in Chinese and English)
+# 是否进入Debug模式。进入后，后台将会收到调试信息（中英双语）
+Debug: true
+# The time interval in seconds for automatically saving caches data
+# 自动保存某些缓存中数据的间隔时间（单位为秒）
+AutoSaveCachesTime: 600
+# Message Settings
+# 提示语设置
+Message:
+  # The prefix of all message
+  # 消息前缀
+  Prefix: '&8&l[&bPVP&8&l] '
+  # The default language environment(The custom language files can be found at plugins\Dantiao\Languages)
+  # English language file is available.Just change this item to 'en'
+  # Lang: 'en'
+  # 默认使用的语言文件（无需写文件拓展名）。可在plugins\Dantiao\Languages文件夹自定义语言文件
+  Lang: 'zh_CN'
+# MySQL settings
+# 数据库设置
+MySQL:
+  # Whether use MySQL the store data
+  # 是否使用MySQL数据库储存数据
+  Enable: false
+  URL: jdbc:mysql://localhost:3306/test
+  User: root
+  Password: 1234
+  # The function whose data needs being stored in database
+  # Area: The location of arena,lobby and hologram
+  # Blacklist: The data of blacklist
+  # Dan: The data of players' DUEL LEVEL
+  # LanguageFile: The data of players' language files
+  # Point: The data of players' DUEL POINTS
+  # PointShop: The data of DUEL POINTSHOP,including the goods and their price
+  # Record: The data of ranking and players' game record
+  # 需要使用数据库储存数据的功能模块
+  # Area: 是否使用数据库储存竞技场位置、大厅位置、全息图位置的数据
+  # Blacklist: 是否使用数据库储存黑名单的数据
+  # Dan: 是否使用数据库储存玩家的段位经验数据
+  # LanguageFile: 是否使用数据库储存玩家的所选用的语言文件的数据
+  # Point: 是否使用数据库储存玩家的单挑积分数据
+  # PointShop: 是否使用数据库储存积分商城的商品数据
+  # Record: 是否使用数据库储存玩家的战斗记录以及全服的胜场数排行榜、KD值排行榜数据
+  Function:
+    Area: false
+    Blacklist: true
+    Dan: false
+    LanguageFile: true
+    Point: true
+    PointShop: false
+    Record: true
+# Energy Settings
+# 精力值系统设置
+Energy:
+  # Whether enable this function
+  # 是否启用精力值系统
+  Enable: true
+  # The amount of energy consumed in each game
+  # 每场比赛需要消耗的精力值
+  Need: 90
+  # The max energy stored
+  # 玩家精力值上限
+  Max: 300
+  # The amount of energy resumed per second
+  # 每秒恢复的精力值
+  PerSecond: 0.5
+# Player will not be allowed to have a game if he(she) is not in the designated world
+# 如果玩家不处于一个白名单世界中，那么TA将无法开始比赛
+WorldWhitelist:
+  # Whether enable this function
+  # 是否启用世界白名单功能
+  Enable: false
+  # White list of the world
+  # 白名单内容
+  Worlds:
+    - 'example_pvp_world1'
+    - 'example_pvp_world2'
+# Hologram Settings
+# 全息图设置
+Hologram:
+  # The hologram plugin which is used to hold the hologram ranking
+  # 用于显示全息排行榜的全息插件
+  Plugin: TrHologram
+  # The time interval in seconds for automatically refreshing hologram
+  # 全息图刷新的时间间隔（单位为秒）
+  RefreshInterval: 300
+# Game Settings
+# 比赛设置
+Game:
+  ArenaCreating:
+    # The material of arena creator
+    # 竞技场创建工具的材质（默认为木棍）
+    CreatingToolMaterial: STICK
+  Start:
+    # Set the period during which players are allowed to have a game and you can set more periods.If not,game will not be limited
+    # Searching stands for the period during which players are allowed to use SEACHING PANEL
+    # Invite stands for the period during which players are allowed to send DUEL request to others
+    # 设置比赛时段限制，可设置多段。若不设置，则代表不限制时段。
+    # Searching代表允许使用匹配面板的时间段；Invite代表允许自主邀请其他玩家比赛的时间段。
+    Timetable:
+      Searching:
+      - 0:00-23:55
+      Invite:
+      - 0:00-23:55
+    # Enable it or not that players are allowed to click others to send a DUEL request when holding a sword
+    # 是否启用玩家手持剑右键点击其他玩家可发送单挑请求这项功能
+    ClickPlayerToSendRequest: true
+    # Ban the item which you don't want to be brought to arena
+    # 设置禁止带入竞技场的物品。Material代表禁止指定材质的物品；Lore代表禁止含有指定描述文字的物品
+    ItemLimit:
+      Material:
+      - SNOW_BALL
+      Lore:
+      - '&aTest lore'
+  Finish:
+    # When a player's winning streak times reaches this value or more than it,a congratulation message will be broadcast
+    # 比赛结束后，若某玩家的连胜数达到或超过这个值，则会全服广播
+    BroadcastWinningStreakTimes: 3
+    # If the difference between the two players' original DUEL EXP value more than this value,
+    # the protection mechanism will be enabled,which means both players will not gain or be deducted EXP
+    # 比赛结束后，若双方玩家原有的经验值的差距超过这个值，那就会启用保护机制，即双方玩家在比赛结算时都不会获得/被扣除经验
+    ProtectionExp: 2000
+  # Reward scheme
+  # 奖励方案
+  Rewards:
+    # The reward of the game which started with the searching panel
+    # 匹配赛的奖励方案
+    Panel:
+      # The number of points awarded to the winner
+      # 奖励给获胜方的单挑积分数
+      Points: 2
+      # The basic value of DUEL EXP awarded to the winner.The total value of DUEL EXP = basic value + extra value according to game performance
+      # 奖励给获胜方的保底经验量。获胜方最终获得的经验量 = 保底经验量 + 根据比赛表现获取的额外经验量
+      WinExp: 60
+      # The max total value of DUEL EXP awarded to the winner
+      # 获胜方最终获得经验量的最大值
+      MaxExp: 130
+      # The value of DUEL EXP awarded to both the players when the game reaches a draw
+      # 平局时比赛双方获得的经验值
+      DrawExp: 25
+      # Whether set off a firework for the winner or not
+      # 是否为获胜方燃放一个烟花
+      Firework: true
+    # The reward of the game which started with one player sending duel request to the other
+    # 邀请赛的奖励方案
+    Inviting:
+      # The following meaning is the same as above
+      # 各项意义同上
+      Points: 0
+      WinExp: 0
+      MaxExp: 0
+      DrawExp: 0
+      Firework: true
+    # The reward of the game which started with the command '/dt game'
+    # 强制赛的奖励方案
+    Compulsion:
+      # The following meaning is the same as above
+      # 各项意义同上
+      Points: 10
+      WinExp: 300
+      MaxExp: 500
+      DrawExp: 100
+      Firework: true
+# DUEL LEVEL settings
+# 段位设置
+Dan:
+  Settings:
+    # Whether show the DUEL LEVEL prefix when chatting
+    # If you have installed some chatting expansion plugin,this function will be out of action
+    # To be sure,you can still show the level by PAPI variable of this plugin.You can look up them in document
+    # 是否在聊天时展示段位前缀
+    # 如果你服务器装载了聊天插件（如TrChat,MiaoChat等），那本功能将会被屏蔽
+    # 当然，你仍然可以通过PAPI变量让在聊天时展示自己的段位，本插件PAPI变量表请查阅文档
+    Show: true
+    # The context of DUEL LEVEL prefix when a player's DUEL LEVEL is zero
+    # For example:
+    # InitialDanName: '&7[DUEL LEVEL 0]'
+    # 无段位时展示的前缀内容
+    InitialDanName: "&7[无段位]"
+  # DUEL LEVEL sets settings.If you don't want to use the default DUEL LEVEL sets,you can customize it here
+  # Name stands for the name of the level;Exp stands for the exp needed to reach the level
+  # Here is an example form in English
+  # CustomDan:
+  #   exmaple1:
+  #     Name: "&f[&2PVP Lv.1&f]&r"
+  #     Exp: 50
+  #   exmaple2:
+  #     Name: "&f[&3PVP Lv,2&f]&r"
+  #     Exp: 150
+  # 自定义段位。若你不想使用插件默认的段位，可以在这里自定义。
+  # Name代表段位的称呼；Exp代表达到此段位所需要的经验量
+  # 格式可参照下方默认配置
+  CustomDan:
+    dan1:
+      Name: "&f[&2青铜I&f]&r"
+      Exp: 50
+    dan2:
+      Name: "&f[&2青铜II&f]&r"
+      Exp: 150
+    dan3:
+      Name: "&f[&2青铜III&f]&r"
+      Exp: 280
+    dan4:
+      Name: "&f[&3黑铁I&f]&r"
+      Exp: 500
+    dan5:
+      Name: "&f[&3黑铁II&f]&r"
+      Exp: 760
+    dan6:
+      Name: "&f[&3黑铁III&f]&r"
+      Exp: 1200
+    dan7:
+      Name: "&f[&e黄金I&f]&r"
+      Exp: 1550
+    dan8:
+      Name: "&f[&e黄金II&f]&r"
+      Exp: 2100
+    dan9:
+      Name: "&f[&e黄金III&f]&r"
+      Exp: 3500
+    dan10:
+      Name: "&f[&b钻石I&f]&r"
+      Exp: 5000
+    dan11:
+      Name: "&f[&b钻石II&f]&r"
+      Exp: 6666
+    dan12:
+      Name: "&f[&b钻石III&f]&r"
+      Exp: 8888
+    dan13:
+      Name: "&f[&6&l战斗天尊&f]&r"
+      Exp: 10000
+    dan14:
+      Name: "&f[&d&l荣耀王者&f]&r"
+      Exp: 15000
+  

@@ -1,0 +1,127 @@
+#购买摆摊权限的价格 (/psl gomai)
+goMai:
+  Money: 1000
+  Points: 100
+
+#禁止带有以下Lore的物品上架
+BanSellLore:
+  - "&c禁止出售"
+  - "无法摆摊"
+
+#禁止指定世界摆摊
+WorldList:
+  - "world_end"
+  - "jinzhibaitan"
+
+#WorldGuard 区域设置
+#说明那个世界必须存在有 WorldGuard 的区域
+#如果那个世界没有 WorldGuard 区域,那么不受限制
+WorldGuard:
+  enable: false
+  #每个世界只可以设置一个
+  #格式 世界名:世界内存在的WorldGuard区域
+  #如果WorldGuard区域不存在则不限制那个世界摆摊区域
+  Regions:
+    - "world:name"
+    - "world_nether:baitan"
+
+#摆摊设置
+BaitanSet:
+  #金币出售开关
+  money: true
+  #点卷出售开关
+  points: false
+  #摆摊费用 (每次进入摆摊模式收取费用)
+  # 0 为关闭
+  BaitanMoney: 0
+  #右键打开
+  RightKey:
+    #true 则 shift+右键正在摆摊的玩家打开他的摊位
+    #false 则 右键正在摆摊的玩家打开他的摊位
+    Shift: true
+
+#摆摊 经验
+BaitanExp:
+  #然后设置 5 每次出售后获得经验 <1-5> 的经验
+  Exp: 5
+  #摆摊称号
+  Chenghao:
+    #节点名
+    无名小卒:
+      #需达到多少经验
+      exp: 10
+      #称号内容
+      string: "&3无名小卒"
+      #执行指令
+      Commands:
+        - "eco give %player% 100"
+    小有名气:
+      exp: 30
+      string: "&3小有名气"
+      Commands:
+        - "eco give %player% 500"
+
+
+#支持1.8+版本
+Tags:
+  enable: true
+  String: "&6&l摆摊中 &f(Shift+右键)"
+#支持全版本
+holographicdisplays:
+  enable: true
+  high: 2.7
+  String: "&6&l摆摊中... &f(Shift+右键查看摊位)"
+
+
+#税率计算公式
+RateFormula: "<vaule> / 100 * <rate>"
+#玩家所得百分比
+#Permission — 权限
+#Rate — 所收税率
+Rate:
+  Default:
+    Rate: 25
+#不同权限不同税率
+RateList:
+  #节点名(可无限设置,只要不相同就可以)
+  vip1:
+    Permission: "psl.vip1"
+    Rate: 20
+  vip2:
+    Permission: "psl.vip2"
+    Rate: 15
+  svip:
+    Permission: "psl.svip"
+    Rate: 10
+
+
+#上架后,物品在摊位上物品Lore下方新增以下Lore
+Items:
+  Lore:
+    - " "
+    - "&7&l&m——————————————————————"
+    - "&e出售玩家: &c%player%"
+    - "&e出售类型: &c%lx%"
+    - "&e价格: &c%jg%"
+    - " "
+    - "&7购买方式: &e双击商品"
+    - "&7下架方式: &eShift+右键商品"
+
+
+#语言
+Message:
+  WorldGuard: "&f当前区域无法继续摆摊,请去&6摆摊区"
+  NoWorld: "&c这个世界禁止摆摊哦"
+  BaiTan: "&f开始摆摊辣"
+  BaiTan_: "&f已收摊"
+  BaiTanMove: "&f摆摊期间无法移动  &7(/psl baitan 收摊)"
+  Error: "&c你不能在你自己的摊位买东西"
+  ErrorCeXiao: "&c这不是你的摊位,你无法下架商品"
+  XiaJia: "&a物品下架成功,商品已发送至邮箱 &7(/psl email)"
+  buyMoney: "&f成功从 &c%player% &f的摊位购买 &c%itemname% &f花费 &c%vaule% &e金币"
+  buyPoints: "&f成功从 &c%player% &f的摊位购买 &c%itemname% &f花费 &c%vaule% &b点卷"
+  SellingSuccessMoney: "&f玩家 &c%player% &f从你这里购买了 &c%itemname% &f因此你获得了 &c%vaule% &f金币 &f(税收%vaule2%)"
+  SellingSuccessPoints: "&f玩家 &c%player% &f从你这里购买了 &c%itemname% &f因此你获得了 &c%vaule% &f点卷 &f(税收%vaule2%)"
+  Buysuccessful: "&a你购买的商品已发至你的邮箱中 &7(/psl email)"
+  noSlot: "&f你的邮箱已经满了,请整理一下后再来 &7(/psl email)"
+  ExpUp: "&f摆摊等级成功晋级 &7[&6%upname%&7] &f奖励自动已发放"
