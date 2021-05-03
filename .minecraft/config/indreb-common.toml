@@ -1,0 +1,35 @@
+
+[worldgen]
+	enabled = true
+
+	[worldgen.copper]
+		enabled = true
+		#Range: > 0
+		min_height = 0
+		#Range: > 0
+		max_height = 68
+		#Range: > 1
+		size = 10
+		#Range: > 1
+		chance = 15
+
+	[worldgen.tin]
+		enabled = true
+		#Range: > 0
+		min_height = 0
+		#Range: > 0
+		max_height = 64
+		#Range: > 1
+		size = 6
+		#Range: > 1
+		chance = 10
+
+	[worldgen.rubber_tree]
+		enabled = true
+		#Range: 0.0 ~ 100.0
+		chance = 0.20000000298023224
+		#Range: 0.0 ~ 100.0
+		chance_rich = 0.4000000059604645
+		chance_biomes = ["minecraft:forest", "minecraft:birch_forest", "minecraft:flower_forest", "minecraft:wooded_hills"]
+		chance_biomes_rich = ["minecraft:swamp", "minecraft:swamp_hills"]
+

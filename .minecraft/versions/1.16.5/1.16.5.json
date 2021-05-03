@@ -52,7 +52,7 @@
       "--launchTarget",
       "fmlclient",
       "--fml.forgeVersion",
-      "36.0.42",
+      "36.1.4",
       "--fml.mcVersion",
       "1.16.5",
       "--fml.forgeGroup",
@@ -135,7 +135,7 @@
   "assets": "1.16",
   "libraries": [
     {
-      "name": "net.minecraftforge:forge:1.16.5-36.0.42",
+      "name": "net.minecraftforge:forge:1.16.5-36.1.4",
       "downloads": {}
     },
     {
@@ -205,13 +205,13 @@
       }
     },
     {
-      "name": "cpw.mods:grossjava9hacks:1.3.0",
+      "name": "cpw.mods:grossjava9hacks:1.3.3",
       "downloads": {
         "artifact": {
-          "path": "cpw/mods/grossjava9hacks/1.3.0/grossjava9hacks-1.3.0.jar",
-          "url": "https://files.minecraftforge.net/maven/cpw/mods/grossjava9hacks/1.3.0/grossjava9hacks-1.3.0.jar",
-          "sha1": "1a922de964d0c19d864fbcba2678c1a1c4602c35",
-          "size": 1921
+          "path": "cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar",
+          "url": "https://files.minecraftforge.net/maven/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar",
+          "sha1": "e49222512ea6cabdd8b49761cef1d5a207b1f0d9",
+          "size": 2113
         }
       }
     },
@@ -282,24 +282,24 @@
       }
     },
     {
-      "name": "com.electronwill.night-config:core:3.6.2",
+      "name": "com.electronwill.night-config:core:3.6.3",
       "downloads": {
         "artifact": {
-          "path": "com/electronwill/night-config/core/3.6.2/core-3.6.2.jar",
-          "url": "https://files.minecraftforge.net/maven/com/electronwill/night-config/core/3.6.2/core-3.6.2.jar",
-          "sha1": "56f6500038861d4a8832072676da7bf7916217d0",
+          "path": "com/electronwill/night-config/core/3.6.3/core-3.6.3.jar",
+          "url": "https://files.minecraftforge.net/maven/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar",
+          "sha1": "c601bfeaeb2c0abe7aaa901b0bbe6d1beff49281",
           "size": 199091
         }
       }
     },
     {
-      "name": "com.electronwill.night-config:toml:3.6.2",
+      "name": "com.electronwill.night-config:toml:3.6.3",
       "downloads": {
         "artifact": {
-          "path": "com/electronwill/night-config/toml/3.6.2/toml-3.6.2.jar",
-          "url": "https://files.minecraftforge.net/maven/com/electronwill/night-config/toml/3.6.2/toml-3.6.2.jar",
-          "sha1": "3ac4263d06433da39a5eee95e2679f1642d921f0",
-          "size": 31152
+          "path": "com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar",
+          "url": "https://files.minecraftforge.net/maven/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar",
+          "sha1": "2b05b4d606c517da4d1a7b6d2b97d751c92887d7",
+          "size": 31288
         }
       }
     },
@@ -315,13 +315,13 @@
       }
     },
     {
-      "name": "org.apache.maven:maven-artifact:3.6.0",
+      "name": "org.apache.maven:maven-artifact:3.6.3",
       "downloads": {
         "artifact": {
-          "path": "org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar",
-          "url": "https://files.minecraftforge.net/maven/org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar",
-          "sha1": "d4c0da647de59c9ccc304a112fe1f1474d49e8eb",
-          "size": 55051
+          "path": "org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar",
+          "url": "https://files.minecraftforge.net/maven/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar",
+          "sha1": "f8ff8032903882376e8d000c51e3e16d20fc7df7",
+          "size": 57824
         }
       }
     },
@@ -392,13 +392,13 @@
       }
     },
     {
-      "name": "net.minecraftforge:nashorn-core-compat:15.1.1",
+      "name": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
       "downloads": {
         "artifact": {
-          "path": "net/minecraftforge/nashorn-core-compat/15.1.1/nashorn-core-compat-15.1.1.jar",
-          "url": "https://files.minecraftforge.net/maven/net/minecraftforge/nashorn-core-compat/15.1.1/nashorn-core-compat-15.1.1.jar",
-          "sha1": "2dac3ce16b45e7a020a7e5ab4e5099fde5c79170",
-          "size": 2194053
+          "path": "net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar",
+          "url": "https://files.minecraftforge.net/maven/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar",
+          "sha1": "1817deb38a5a8811148dca0d23161d92bdbd6184",
+          "size": 2194057
         }
       }
     },
@@ -1762,11 +1762,6 @@
     }
   ],
   "downloads": {
-    "client_mappings": {
-      "url": "https://launcher.mojang.com/v1/objects/374c6b789574afbdc901371207155661e0509e17/client.txt",
-      "sha1": "374c6b789574afbdc901371207155661e0509e17",
-      "size": 5746047
-    },
     "server_mappings": {
       "url": "https://launcher.mojang.com/v1/objects/41285beda6d251d190f2bf33beadd4fee187df7a/server.txt",
       "sha1": "41285beda6d251d190f2bf33beadd4fee187df7a",
@@ -1777,6 +1772,11 @@
       "sha1": "37fd3c903861eeff3bc24b71eed48f828b5269c8",
       "size": 17547153
     },
+    "client_mappings": {
+      "url": "https://launcher.mojang.com/v1/objects/374c6b789574afbdc901371207155661e0509e17/client.txt",
+      "sha1": "374c6b789574afbdc901371207155661e0509e17",
+      "size": 5746047
+    },
     "server": {
       "url": "https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar",
       "sha1": "1b557e7b033b583cd9f66746b7a9ab1ec1673ced",
@@ -1785,8 +1785,8 @@
   },
   "logging": {},
   "type": "release",
-  "time": "2021-02-16T10:45:13+08:00",
-  "releaseTime": "2021-02-16T10:45:13+08:00",
+  "time": "2021-04-03T02:33:56+08:00",
+  "releaseTime": "2021-04-03T02:33:56+08:00",
   "minimumLauncherVersion": 21,
   "root": true,
   "patches": [
@@ -3310,15 +3310,15 @@
         }
       ],
       "downloads": {
-        "client_mappings": {
-          "url": "https://launcher.mojang.com/v1/objects/374c6b789574afbdc901371207155661e0509e17/client.txt",
-          "sha1": "374c6b789574afbdc901371207155661e0509e17",
-          "size": 5746047
-        },
         "server_mappings": {
           "url": "https://launcher.mojang.com/v1/objects/41285beda6d251d190f2bf33beadd4fee187df7a/server.txt",
           "sha1": "41285beda6d251d190f2bf33beadd4fee187df7a",
           "size": 4400926
+        },
+        "client_mappings": {
+          "url": "https://launcher.mojang.com/v1/objects/374c6b789574afbdc901371207155661e0509e17/client.txt",
+          "sha1": "374c6b789574afbdc901371207155661e0509e17",
+          "size": 5746047
         },
         "client": {
           "url": "https://launcher.mojang.com/v1/objects/37fd3c903861eeff3bc24b71eed48f828b5269c8/client.jar",
@@ -3350,14 +3350,14 @@
     },
     {
       "id": "forge",
-      "version": "36.0.42",
+      "version": "36.1.4",
       "priority": 30000,
       "arguments": {
         "game": [
           "--launchTarget",
           "fmlclient",
           "--fml.forgeVersion",
-          "36.0.42",
+          "36.1.4",
           "--fml.mcVersion",
           "1.16.5",
           "--fml.forgeGroup",
@@ -3370,7 +3370,7 @@
       "inheritsFrom": "1.16.5",
       "libraries": [
         {
-          "name": "net.minecraftforge:forge:1.16.5-36.0.42",
+          "name": "net.minecraftforge:forge:1.16.5-36.1.4",
           "downloads": {}
         },
         {
@@ -3440,13 +3440,13 @@
           }
         },
         {
-          "name": "cpw.mods:grossjava9hacks:1.3.0",
+          "name": "cpw.mods:grossjava9hacks:1.3.3",
           "downloads": {
             "artifact": {
-              "path": "cpw/mods/grossjava9hacks/1.3.0/grossjava9hacks-1.3.0.jar",
-              "url": "https://files.minecraftforge.net/maven/cpw/mods/grossjava9hacks/1.3.0/grossjava9hacks-1.3.0.jar",
-              "sha1": "1a922de964d0c19d864fbcba2678c1a1c4602c35",
-              "size": 1921
+              "path": "cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar",
+              "url": "https://files.minecraftforge.net/maven/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar",
+              "sha1": "e49222512ea6cabdd8b49761cef1d5a207b1f0d9",
+              "size": 2113
             }
           }
         },
@@ -3517,24 +3517,24 @@
           }
         },
         {
-          "name": "com.electronwill.night-config:core:3.6.2",
+          "name": "com.electronwill.night-config:core:3.6.3",
           "downloads": {
             "artifact": {
-              "path": "com/electronwill/night-config/core/3.6.2/core-3.6.2.jar",
-              "url": "https://files.minecraftforge.net/maven/com/electronwill/night-config/core/3.6.2/core-3.6.2.jar",
-              "sha1": "56f6500038861d4a8832072676da7bf7916217d0",
+              "path": "com/electronwill/night-config/core/3.6.3/core-3.6.3.jar",
+              "url": "https://files.minecraftforge.net/maven/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar",
+              "sha1": "c601bfeaeb2c0abe7aaa901b0bbe6d1beff49281",
               "size": 199091
             }
           }
         },
         {
-          "name": "com.electronwill.night-config:toml:3.6.2",
+          "name": "com.electronwill.night-config:toml:3.6.3",
           "downloads": {
             "artifact": {
-              "path": "com/electronwill/night-config/toml/3.6.2/toml-3.6.2.jar",
-              "url": "https://files.minecraftforge.net/maven/com/electronwill/night-config/toml/3.6.2/toml-3.6.2.jar",
-              "sha1": "3ac4263d06433da39a5eee95e2679f1642d921f0",
-              "size": 31152
+              "path": "com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar",
+              "url": "https://files.minecraftforge.net/maven/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar",
+              "sha1": "2b05b4d606c517da4d1a7b6d2b97d751c92887d7",
+              "size": 31288
             }
           }
         },
@@ -3550,13 +3550,13 @@
           }
         },
         {
-          "name": "org.apache.maven:maven-artifact:3.6.0",
+          "name": "org.apache.maven:maven-artifact:3.6.3",
           "downloads": {
             "artifact": {
-              "path": "org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar",
-              "url": "https://files.minecraftforge.net/maven/org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar",
-              "sha1": "d4c0da647de59c9ccc304a112fe1f1474d49e8eb",
-              "size": 55051
+              "path": "org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar",
+              "url": "https://files.minecraftforge.net/maven/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar",
+              "sha1": "f8ff8032903882376e8d000c51e3e16d20fc7df7",
+              "size": 57824
             }
           }
         },
@@ -3627,21 +3627,21 @@
           }
         },
         {
-          "name": "net.minecraftforge:nashorn-core-compat:15.1.1",
+          "name": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
           "downloads": {
             "artifact": {
-              "path": "net/minecraftforge/nashorn-core-compat/15.1.1/nashorn-core-compat-15.1.1.jar",
-              "url": "https://files.minecraftforge.net/maven/net/minecraftforge/nashorn-core-compat/15.1.1/nashorn-core-compat-15.1.1.jar",
-              "sha1": "2dac3ce16b45e7a020a7e5ab4e5099fde5c79170",
-              "size": 2194053
+              "path": "net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar",
+              "url": "https://files.minecraftforge.net/maven/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar",
+              "sha1": "1817deb38a5a8811148dca0d23161d92bdbd6184",
+              "size": 2194057
             }
           }
         }
       ],
       "logging": {},
       "type": "release",
-      "time": "2021-02-16T10:45:13+08:00",
-      "releaseTime": "2021-02-16T10:45:13+08:00"
+      "time": "2021-04-03T02:33:56+08:00",
+      "releaseTime": "2021-04-03T02:33:56+08:00"
     }
   ]
 }

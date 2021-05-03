@@ -25,4 +25,5 @@ preferredOres = ["immersiveengineering", "minecraft"]
 	crafttweaker = true
 	theoneprobe = true
 	computercraft = true
+	curios = true
 
