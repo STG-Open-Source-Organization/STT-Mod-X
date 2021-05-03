@@ -1,12 +1,12 @@
-[12:48:58] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[12:48:58] [Client thread/INFO] [JourneymapClient] initialize ENTER
-[12:48:58] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\config\5.1\journeymap.core.config
-[12:48:58] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\config\5.1\journeymap.fullmap.config
-[12:48:58] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\config\5.1\journeymap.minimap.config
-[12:48:58] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\config\5.1\journeymap.minimap2.config
-[12:48:58] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\config\5.1\journeymap.webmap.config
-[12:48:58] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\config\5.1\journeymap.waypoint.config
-[12:48:58] [Client thread/INFO] [?] Version: JourneyMap 5.1.4p2 Unlimited, built with Forge 10.13.4.1558
+[01:08:54] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[01:08:54] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[01:08:54] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from E:\STT工业整合客户端[Releases]1.7.10RE-2.5.1.0 Build-1403  Forge1.7.10-10.13.4.1614\.minecraft\journeymap\config\5.1\journeymap.core.config
+[01:08:54] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from E:\STT工业整合客户端[Releases]1.7.10RE-2.5.1.0 Build-1403  Forge1.7.10-10.13.4.1614\.minecraft\journeymap\config\5.1\journeymap.fullmap.config
+[01:08:54] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from E:\STT工业整合客户端[Releases]1.7.10RE-2.5.1.0 Build-1403  Forge1.7.10-10.13.4.1614\.minecraft\journeymap\config\5.1\journeymap.minimap.config
+[01:08:54] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from E:\STT工业整合客户端[Releases]1.7.10RE-2.5.1.0 Build-1403  Forge1.7.10-10.13.4.1614\.minecraft\journeymap\config\5.1\journeymap.minimap2.config
+[01:08:54] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from E:\STT工业整合客户端[Releases]1.7.10RE-2.5.1.0 Build-1403  Forge1.7.10-10.13.4.1614\.minecraft\journeymap\config\5.1\journeymap.webmap.config
+[01:08:54] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from E:\STT工业整合客户端[Releases]1.7.10RE-2.5.1.0 Build-1403  Forge1.7.10-10.13.4.1614\.minecraft\journeymap\config\5.1\journeymap.waypoint.config
+[01:08:54] [Client thread/INFO] [?] Version: JourneyMap 5.1.4p2 Unlimited, built with Forge 10.13.4.1558
 Forge: 10.13.4.1614
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=zh_CN, locale=zh_cn
 Unlimited Features: 
@@ -21,79 +21,71 @@ FullMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPet
 WaypointProperties{autoHideLabel=true, beaconEnabled=true, boldLabel=false, createDeathpoints=false, fontScale=2, managerEnabled=true, maxDistance=0, name=waypoint, showDistance=true, showName=true, showRotatingBeam=true, showStaticBeam=true, showTexture=true, textureSmall=true}
 WebMapProperties: , enabled=false, port=8080, showMobs=true, showAnimals=true, showVillagers=true, showPets=true, showPlayers=true, showWaypoints=true, entityIconSetName=2D
 CoreProperties{announceMod=true, autoMapPoll=2000, browserPoll=2000, cacheAnimalsData=3100, cacheMobsData=3000, cachePlayerData=1000, cachePlayersData=2000, cacheVillagersData=2200, caveIgnoreGlass=true, isUpdateCheckEnabled=true, renderDelay=2, hideSneakingEntities=true, logLevel=INFO, mapAntialiasing=true, mapBathymetry=false, mapCaveLighting=true, mapCrops=true, mapPlants=false, mapPlantShadows=false, mapSurfaceAboveCaves=true, tileHighDisplayQuality=true, mapTransparency=true, maxAnimalsData=32, maxMobsData=32, maxPlayersData=32, maxVillagersData=32, optionsManagerViewed=5.1.4p2, radarLateralDistance=64, radarVerticalDistance=16, recordCacheStats=false, renderOverlayEventTypeName=ALL, renderOverlayPreEvent=true, renderDistanceCaveMin=3, renderDistanceCaveMax=3, renderDistanceSurfaceMin=4, renderDistanceSurfaceMax=7, revealShape=圆形, themeName=Victorian, tileRenderType=1}
-[12:48:58] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg �ms
-[12:49:01] [Client thread/INFO] [JourneymapClient] postInitialize ENTER
-[12:49:01] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.ChatEventHandler registered in MinecraftForgeBus
-[12:49:01] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.StateTickHandler registered in FMLCommonHandlerBus
-[12:49:01] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.WorldEventHandler registered in MinecraftForgeBus
-[12:49:01] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.ChunkUpdateHandler registered in MinecraftForgeBus
-[12:49:01] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.WaypointBeaconHandler registered in MinecraftForgeBus
-[12:49:01] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.TextureAtlasHandler registered in MinecraftForgeBus
-[12:49:01] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
-[12:49:01] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.MiniMapOverlayHandler registered in MinecraftForgeBus
-[12:49:01] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.KeyEventHandler registered in FMLCommonHandlerBus
-[12:49:01] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
-[12:49:01] [Client thread/TRACE] [ThemeFileHandler] Initializing themes ...
-[12:49:01] [Client thread/DEBUG] [PropertiesBase] Saved journeymap.webmap.config
-[12:49:01] [Client thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r321.94§8ms§r
-[12:49:09] [Client thread/INFO] [ColorManager] Loading blocks and textures...
-[12:49:09] [Client thread/INFO] [BlockMD] Built BlockMD cache (4495) : BlockMD.reset count 1 avg 64.33ms
-[12:49:09] [Client thread/INFO] [ColorHelper_1_7_10] initBlocksTexture: 4096x2048 loaded in 135.9325ms
-[12:49:10] [Client thread/WARN] [ColorPalette] Existing color palette's mods no longer match current loadout.
-[12:49:10] [Client thread/INFO] [ColorPalette] WAS: Academy Craft:1.0.7, Advanced Solar Panels:1.7.10-3.5.1, AgriCraft:1.7.10-1.5.0, Another One Bites The Dust:2.9.2, AppleCore:3.1.1, B0bGary's Growable Ores:2.5.4, BC Builders:7.1.23, BC Energy:7.1.23, BC Factory:7.1.23, BC Robotics:7.1.23, BC Silicon:7.1.23, BC Transport:7.1.23, BiblioCraft:1.11.7, BiblioWoods Natura Edition:1.5, BuildCraft Compat:7.1.7, BuildCraft:7.1.23, Chisel:2.9.5.11, CoFH ASM:000, CoFH Core:1.7.10R3.1.4, CodeChicken Core:1.0.7.47, Cooking for Blockheads:1.0.140, CraftGuide:1.7.1.0, CustomSteve:1.1.1-Beta, Ender IO Addons:0.10.13, Ender IO:1.7.10-2.3.0.429_beta, EnderCore:1.7.10-0.2.0.39_beta, EnderStorage:1.4.7.38, FastCraft:1.25, Forestry for Minecraft:4.2.16.64, Forge Mod Loader:7.10.99.99, IndustrialCraft 2:2.2.827-experimental, InputFix:1.7.10-v5, Inventory Tweaks:1.59-dev-152-cf6e263, Iron Chest:6.0.62.742, JourneyMap:5.1.4p2, LambdaLib:1.2.3, LambdaLib|Core:1.2.3, Mine & Blade Battlegear 2 - Bullseye:1.7.10, Minecraft Coder Pack:9.05, Minecraft Forge:10.13.4.1614, NEI Integration:1.1.2, Nether Portal Fix:1.0, No Mob Spawning on Trees:1.2.0-mc1.7.10, NoMoreRecipeConflict:1.7.10, Not Enough Items:1.0.5.120, NotEnoughIDs:1.4.3.4, Pam's HarvestCraft:1.7.10j, Railcraft:9.12.2.0, Ruins Spawning System:15.4, Serene Seasons:1.2.18, Simply Jetpacks:1.5.3, SlashBlade:mc1.7.10-r88, Sword Art Online UI:1.7.10-1.6.0-Dev1, The Twilight Forest:2.3.7, Torcherino:2.2s, Traincraft:4.4.1_021, Translocator:1.1.2.16, Treecapitator:1.7.2, UniDict:1.7.10-2.9.2, WAILA Plugins:MC1.7.10-0.2.0-25, Waila Harvestability:1.1.6, Waila:1.5.10, WanionLib:1.7.10-1.8, What Are We Looking At:1.3.1, bspkrsCore:6.16, �9MrCrayfish's Furniture Mod:3.4.7
-NOW: Academy Craft:1.0.7, Advanced Solar Panels:1.7.10-3.5.1, AgriCraft:1.7.10-1.5.0, Another One Bites The Dust:2.9.2, AppleCore:3.1.1, B0bGary's Growable Ores:2.5.4, BC Builders:7.1.23, BC Energy:7.1.23, BC Factory:7.1.23, BC Robotics:7.1.23, BC Silicon:7.1.23, BC Transport:7.1.23, BiblioCraft:1.11.7, BiblioWoods Natura Edition:1.5, BuildCraft Compat:7.1.7, BuildCraft:7.1.23, Chisel:2.9.5.11, CoFH ASM:000, CoFH Core:1.7.10R3.1.4, CodeChicken Core:1.0.7.47, Cooking for Blockheads:1.0.140, CraftGuide:1.7.1.0, CustomSteve:1.1.1-Beta, Ender IO Addons:0.10.13, Ender IO:1.7.10-2.3.0.429_beta, EnderCore:1.7.10-0.2.0.39_beta, EnderStorage:1.4.7.38, FastCraft:1.25, Forestry for Minecraft:4.2.16.64, Forge Mod Loader:7.10.99.99, Galacticraft Core:3.0.12, Galacticraft Planets:3.0.12, IndustrialCraft 2:2.2.827-experimental, InputFix:1.7.10-v5, Inventory Tweaks:1.59-dev-152-cf6e263, Iron Chest:6.0.62.742, JourneyMap:5.1.4p2, LambdaLib:1.2.3, LambdaLib|Core:1.2.3, Micdoodle8 Core:, Mine & Blade Battlegear 2 - Bullseye:1.7.10, Minecraft Coder Pack:9.05, Minecraft Forge:10.13.4.1614, More Planets:1.4.4, NEI Integration:1.1.2, Nether Portal Fix:1.0, No Mob Spawning on Trees:1.2.0-mc1.7.10, NoMoreRecipeConflict:1.7.10, Not Enough Items:1.0.5.120, NotEnoughIDs:1.4.3.4, Pam's HarvestCraft:1.7.10j, Railcraft:9.12.2.0, Ruins Spawning System:15.4, Simply Jetpacks:1.5.3, SlashBlade:mc1.7.10-r88, Sword Art Online UI:1.7.10-1.6.0-Dev1, The Twilight Forest:2.3.7, Torcherino:2.2s, Traincraft:4.4.1_021, Translocator:1.1.2.16, Treecapitator:1.7.2, UniDict:1.7.10-2.9.2, WAILA Plugins:MC1.7.10-0.2.0-25, Waila Harvestability:1.1.6, Waila:1.5.10, WanionLib:1.7.10-1.8, What Are We Looking At:1.3.1, bspkrsCore:6.16, �9MrCrayfish's Furniture Mod:3.4.7
-[12:49:10] [Client thread/INFO] [ColorManager] Initialized 4369 block colors from mods and resource packs in 392ms
-[12:49:10] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [GalacticraftCore:tile.viewScreen:0] (Transparency,Error)
-[12:49:10] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [enderioaddons:blockChassis:15] (Transparency,Error)
-[12:49:10] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [chisel:glass_pane:4] (OpenToSky,Transparency,Error,TransparentRoof)
-[12:49:10] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:1] (OpenToSky,Transparency,Error,TransparentRoof)
-[12:49:10] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:3] (OpenToSky,Transparency,Error,TransparentRoof)
-[12:49:10] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:5] (OpenToSky,Transparency,Error,TransparentRoof)
-[12:49:10] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.HugeLilyPad:0] (NoShadow,Transparency,Error,Plant,NoTopo)
-[12:49:10] [Client thread/INFO] [ColorPalette] Color palette file generated with 4364 colors in 60ms for: E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\colorpalette.json
-[12:49:10] [Client thread/INFO] [ColorManager] Updated color palette file: E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\colorpalette.json
-[12:49:22] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
-java.net.ConnectException: Connection timed out: connect
-	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_261]
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476) ~[?:1.8.0_261]
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218) ~[?:1.8.0_261]
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200) ~[?:1.8.0_261]
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162) ~[?:1.8.0_261]
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394) ~[?:1.8.0_261]
-	at java.net.Socket.connect(Socket.java:606) ~[?:1.8.0_261]
-	at java.net.Socket.connect(Socket.java:555) ~[?:1.8.0_261]
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_261]
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_261]
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_261]
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_261]
-	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_261]
-	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_261]
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226) ~[?:1.8.0_261]
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162) ~[?:1.8.0_261]
-	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1046) ~[?:1.8.0_261]
-	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1044) ~[?:1.8.0_261]
-	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_261]
-	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784) ~[?:1.8.0_261]
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1043) ~[?:1.8.0_261]
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990) ~[?:1.8.0_261]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570) ~[?:1.8.0_261]
-	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:92) ~[?:1.8.0_261]
-	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1490) ~[?:1.8.0_261]
-	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1488) ~[?:1.8.0_261]
-	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_261]
-	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784) ~[?:1.8.0_261]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1487) ~[?:1.8.0_261]
-	at java.net.URL.openStream(URL.java:1067) ~[?:1.8.0_261]
+[01:08:54] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg �ms
+[01:08:58] [Client thread/INFO] [JourneymapClient] postInitialize ENTER
+[01:08:58] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.ChatEventHandler registered in MinecraftForgeBus
+[01:08:58] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.StateTickHandler registered in FMLCommonHandlerBus
+[01:08:58] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.WorldEventHandler registered in MinecraftForgeBus
+[01:08:58] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.ChunkUpdateHandler registered in MinecraftForgeBus
+[01:08:58] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.WaypointBeaconHandler registered in MinecraftForgeBus
+[01:08:58] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.TextureAtlasHandler registered in MinecraftForgeBus
+[01:08:58] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
+[01:08:58] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.MiniMapOverlayHandler registered in MinecraftForgeBus
+[01:08:58] [Client thread/DEBUG] [EventHandlerManager] journeymap.client.forge.event.KeyEventHandler registered in FMLCommonHandlerBus
+[01:08:58] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
+[01:08:58] [Client thread/TRACE] [ThemeFileHandler] Initializing themes ...
+[01:08:58] [Client thread/DEBUG] [PropertiesBase] Saved journeymap.webmap.config
+[01:08:58] [Client thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r380.69§8ms§r
+[01:09:01] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
+java.io.IOException: Server returned HTTP response code: 403 for URL: http://widget.mcf.li/mc-mods/minecraft/journeymap-32274.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_281]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source) ~[?:1.8.0_281]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_281]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_281]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_281]
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source) ~[?:1.8.0_281]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_281]
+	at java.net.URL.openStream(Unknown Source) ~[?:1.8.0_281]
 	at journeymap.common.version.VersionCheck$1.run(VersionCheck.java:131) [VersionCheck$1.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_261]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_261]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_261]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_261]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_261]
-[13:00:30] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
-[13:00:38] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
-[13:00:39] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\data\mp\Minecraft~\waypoints
-[13:00:39] [Client thread/INFO] [ColorManager] Blocks and textures are current
-[13:00:39] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 1040MB total, 574MB free 
-[13:00:39] [Client thread/INFO] [ChatLog] JourneyMap: 按下[J]键
-[13:07:02] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合验证客户端[Releases]1.7.10RE-2.5.926 Build-1320 Forge1.7.10-10.13.4.1614\.minecraft\journeymap\data\mp\Minecraft~\DIM0
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_281]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_281]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_281]
+[01:09:26] [Client thread/INFO] [ColorManager] Loading blocks and textures...
+[01:09:26] [Client thread/INFO] [BlockMD] Built BlockMD cache (5769) : BlockMD.reset count 1 avg 89.3ms
+[01:09:26] [Client thread/INFO] [ColorHelper_1_7_10] initBlocksTexture: 4096x4096 loaded in 215.5284ms
+[01:09:26] [Client thread/WARN] [ColorPalette] Existing color palette's mods no longer match current loadout.
+[01:09:26] [Client thread/INFO] [ColorPalette] WAS: Academy Craft:1.0.7, Advanced Solar Panels:1.7.10-3.5.1, AgriCraft:1.7.10-1.5.0, Another One Bites The Dust:2.9.2, AppleCore:3.1.1, B0bGary's Growable Ores:2.5.4, BC Builders:7.1.23, BC Energy:7.1.23, BC Factory:7.1.23, BC Robotics:7.1.23, BC Silicon:7.1.23, BC Transport:7.1.23, BiblioCraft:1.11.7, BiblioWoods Natura Edition:1.5, BuildCraft Compat:7.1.7, BuildCraft:7.1.23, Chisel:2.9.5.11, CoFH ASM:000, CoFH Core:1.7.10R3.1.4, CodeChicken Core:1.0.7.47, Cooking for Blockheads:1.0.140, CraftGuide:1.7.1.0, CustomSteve:1.1.1-Beta, Ender IO Addons:0.10.13, Ender IO:1.7.10-2.3.0.429_beta, EnderCore:1.7.10-0.2.0.39_beta, EnderStorage:1.4.7.38, FastCraft:1.25, Forestry for Minecraft:4.2.16.64, Forge Mod Loader:7.10.99.99, Galacticraft Core:3.0.12, Galacticraft Planets:3.0.12, Immersive Engineering:0.7.7, IndustrialCraft 2:2.2.827-experimental, InputFix:1.7.10-v5, Inventory Tweaks:1.59-dev-152-cf6e263, Iron Chest:6.0.62.742, JourneyMap:5.1.4p2, LambdaLib:1.2.3, LambdaLib|Core:1.2.3, Micdoodle8 Core:, Mine & Blade Battlegear 2 - Bullseye:1.7.10, Minecraft Coder Pack:9.05, Minecraft Forge:10.13.4.1614, More Planets:1.4.4, NEI Integration:1.1.2, Nether Portal Fix:1.0, No Mob Spawning on Trees:1.2.0-mc1.7.10, NoMoreRecipeConflict:1.7.10, Not Enough Items:1.0.5.120, Not Enough Resources:0.1.0.ManuallyBuilt, NotEnoughIDs:1.4.3.4, Pam's HarvestCraft:1.7.10j, Railcraft:9.12.2.0, Ruins Spawning System:15.4, Simply Jetpacks:1.5.3, SlashBlade:mc1.7.10-r88, Sword Art Online UI:1.7.10-1.6.0-Dev1, The Twilight Forest:2.3.7, Torcherino:2.2s, Traincraft:4.4.1_021, Translocator:1.1.2.16, Treecapitator:1.7.2, UniDict:1.7.10-2.9.2, WAILA Plugins:MC1.7.10-0.2.0-25, Waila Harvestability:1.1.6, Waila:1.5.10, WanionLib:1.7.10-1.8, What Are We Looking At:1.3.1, bspkrsCore:6.16, �9MrCrayfish's Furniture Mod:3.4.7
+NOW: AI Improvements:0.0.1.19, Academy Craft:1.0.7, Advanced Solar Panels:1.7.10-3.5.1, AgriCraft:1.7.10-1.5.0, Another One Bites The Dust:2.9.2, AppleCore:3.1.1, Aquaculture:1.2.6, B0bGary's Growable Ores:2.5.4, BC Builders:7.1.23, BC Energy:7.1.23, BC Factory:7.1.23, BC Robotics:7.1.23, BC Silicon:7.1.23, BC Transport:7.1.23, Baubles:1.0.1.10, Better Burning:0.4.2, BiblioCraft:1.11.7, BiblioWoods Natura Edition:1.5, Botania:r1.8-249, BuildCraft Compat:7.1.7, BuildCraft:7.1.23, Chisel:2.9.5.11, CoFH ASM:000, CoFH Core:1.7.10R3.1.4, CodeChicken Core:1.0.7.47, Cooking for Blockheads:1.0.140, CraftGuide:1.7.1.0, CustomSteve:1.1.1-Beta, Ender IO Addons:0.10.13, Ender IO:1.7.10-2.3.0.429_beta, EnderCore:1.7.10-0.2.0.39_beta, EnderStorage:1.4.7.38, FastCraft:1.25, Forestry for Minecraft:4.2.16.64, Forge Mod Loader:7.10.99.99, Galacticraft Core:3.0.12, Galacticraft Planets:3.0.12, Immersive Engineering:0.7.7, IndustrialCraft 2:2.2.827-experimental, InputFix:1.7.10-v5, Inventory Tweaks:1.59-dev-152-cf6e263, Iron Chest:6.0.62.742, JourneyMap:5.1.4p2, LambdaLib:1.2.3, LambdaLib|Core:1.2.3, MMMLibX:1.7.x-srg-1, Mantle:1.7.10-0.3.2.jenkins191, Micdoodle8 Core:, Mine & Blade Battlegear 2 - Bullseye:1.7.10, Minecraft Coder Pack:9.05, Minecraft Forge:10.13.4.1614, More Planets:1.4.4, NEI Integration:1.1.2, Nether Portal Fix:1.0, No Mob Spawning on Trees:1.2.0-mc1.7.10, NoMoreRecipeConflict:1.7.10, Not Enough Items:1.0.5.120, Not Enough Resources:0.1.0.ManuallyBuilt, NotEnoughIDs:1.4.3.4, OldModelLoader:1.0, Pam's HarvestCraft:1.7.10j, Railcraft:9.12.2.0, Ruins Spawning System:15.4, Simply Jetpacks:1.5.3, SlashBlade:mc1.7.10-r88, Sword Art Online UI:1.7.10-1.6.0-Dev1, The Twilight Forest:2.3.7, Thermal Dynamics:1.7.10R1.2.1, Thermal Expansion:1.7.10R4.1.5, Thermal Foundation:1.7.10R1.2.6, Tinkers' Construct:1.7.10-1.8.8.build991, Torcherino:2.2s, Traincraft:4.4.1_021, Translocator:1.1.2.16, Treecapitator:1.7.2, UniDict:1.7.10-2.9.2, WAILA Plugins:MC1.7.10-0.2.0-25, Waila Harvestability:1.1.6, Waila:1.5.10, WanionLib:1.7.10-1.8, What Are We Looking At:1.3.1, bspkrsCore:6.16, lmmx:1.0, zabuton:1.0, �9MrCrayfish's Furniture Mod:3.4.7
+[01:09:27] [Client thread/INFO] [ColorManager] Initialized 5510 block colors from mods and resource packs in 463ms
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [GalacticraftCore:tile.viewScreen:0] (Transparency,Error)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [enderioaddons:blockChassis:15] (Transparency,Error)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [chisel:glass_pane:4] (OpenToSky,Transparency,Error,TransparentRoof)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:1] (OpenToSky,Transparency,Error,TransparentRoof)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:3] (OpenToSky,Transparency,Error,TransparentRoof)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EnderIO:blockFusedQuartz:5] (OpenToSky,Transparency,Error,TransparentRoof)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.HugeLilyPad:0] (NoShadow,Transparency,Error,Plant,NoTopo)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:0] (NoShadow,Transparency,Error,Plant,NoTopo)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:2] (NoShadow,Transparency,Error,Plant,NoTopo)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:1] (NoShadow,Transparency,Error,Plant,NoTopo)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:4] (NoShadow,Transparency,Error,Plant,NoTopo)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:3] (NoShadow,Transparency,Error,Plant,NoTopo)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:6] (NoShadow,Transparency,Error,Plant,NoTopo)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:5] (NoShadow,Transparency,Error,Plant,NoTopo)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:8] (NoShadow,Transparency,Error,Plant,NoTopo)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:7] (NoShadow,Transparency,Error,Plant,NoTopo)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:10] (NoShadow,Transparency,Error,Plant,NoTopo)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:9] (NoShadow,Transparency,Error,Plant,NoTopo)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:12] (NoShadow,Transparency,Error,Plant,NoTopo)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:11] (NoShadow,Transparency,Error,Plant,NoTopo)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:14] (NoShadow,Transparency,Error,Plant,NoTopo)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:13] (NoShadow,Transparency,Error,Plant,NoTopo)
+[01:09:27] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:15] (NoShadow,Transparency,Error,Plant,NoTopo)
+[01:09:27] [Client thread/INFO] [ColorPalette] Color palette file generated with 5478 colors in 96ms for: E:\STT工业整合客户端[Releases]1.7.10RE-2.5.1.0 Build-1403  Forge1.7.10-10.13.4.1614\.minecraft\journeymap\colorpalette.json
+[01:09:27] [Client thread/INFO] [ColorManager] Updated color palette file: E:\STT工业整合客户端[Releases]1.7.10RE-2.5.1.0 Build-1403  Forge1.7.10-10.13.4.1614\.minecraft\journeymap\colorpalette.json
+[01:10:38] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from E:\STT工业整合客户端[Releases]1.7.10RE-2.5.1.0 Build-1403  Forge1.7.10-10.13.4.1614\.minecraft\journeymap\data\sp\新的世界\waypoints
+[01:10:38] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[01:10:38] [Client thread/INFO] [JourneymapClient] Mapping started in E:\STT工业整合客户端[Releases]1.7.10RE-2.5.1.0 Build-1403  Forge1.7.10-10.13.4.1614\.minecraft\journeymap\data\sp\新的世界\DIM0. Memory: 1552MB total, 687MB free 
+[01:10:38] [Client thread/INFO] [ChatLog] JourneyMap: 按下[J]键
+[01:15:23] [Client thread/INFO] [JourneymapClient] Mapping halted in E:\STT工业整合客户端[Releases]1.7.10RE-2.5.1.0 Build-1403  Forge1.7.10-10.13.4.1614\.minecraft\journeymap\data\sp\新的世界\DIM0

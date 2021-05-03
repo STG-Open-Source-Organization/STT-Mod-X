@@ -7,9 +7,9 @@
   "hasProxyAuth": false,
   "proxyType": "DIRECT",
   "proxyPort": 0,
-  "width": 834.2857055664062,
-  "height": 514.2857055664062,
-  "theme": "blue",
+  "width": 846.6666870117188,
+  "height": 514.6666870117188,
+  "theme": "#5c6bc0",
   "localization": "def",
   "downloadType": "mojang",
   "configurations": {
