@@ -1,8 +1,0 @@
-#Fri Jul 07 15:53:53 CST 2017
-anamorphicLens=true
-motionblur=true
-dirtyLens=true
-depthOfField=true
-shadowSamples=28
-distanceBlur=true
-bloom=true
