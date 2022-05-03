@@ -1,0 +1,13 @@
+{
+	"Minecraft Version": "",
+	"Modpack Version": "3.7.1",
+	"Modpack Build Number": "3.7.1",
+	"Release Time": "",
+	"Server Pack Support": "", //true or false
+	"Modloader Type": "", // Forge or Fabric
+	"Server Core Type": "", //Catserver,Arclight,Forge,Thermos
+	"Forge_SPEC_VERSION": "", //全Forge版本
+	"Forge_LEGACY_MAJOR": "", //1.12.2及以下版本(可不填)
+	"Forge_LEGACY_BUILD": "", //1.12.2及以下版本(可不填)
+	"Fabric_VERSION": ""
+}
