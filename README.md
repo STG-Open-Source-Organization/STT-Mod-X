@@ -21,3 +21,7 @@ STG工业多模组整合包.
 ## License
 
 This project is licensed under [CC BY-NC-SA 4.0](LICENSE).
+
+git subtree add -P project/stgimp https://github.com/STG-Open-Source-Organization/stgimp.git main --squash
+
+git remote add -f stgimp https://github.com/STG-Open-Source-Organization/stgimp.git
