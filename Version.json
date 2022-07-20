@@ -93,10 +93,11 @@
     "1.17.1-5.200.0": ""
   },
   "1.18.X": {
-    "Alpha1.18.1-6.0.5Forge": ""
+    "Alpha1.18.1-6.0.5Forge": "",
+    "1.18.2-6.1.0Forge": ""
   },
   "promos": {
-    "1.18.X-recommended": "null",
+    "1.18.X-recommended": "1.18.2-6.1.0Forge",
     "1.17.X-recommended": "1.17.1-5.200.0",
     "1.16.X-recommended": "1.16.5-5.8.1",
     "1.15.X-recommended": "1.15.2-4.3.0",
