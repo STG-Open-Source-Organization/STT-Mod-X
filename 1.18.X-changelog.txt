@@ -1,7 +1,7 @@
 1.18.X
 2022-2-26   1.18.1-6.0.5[Build-22303]
-����HMCL��3.5.218
-����PLC��2.2.9
+更新HMCL至3.5.218
+更新PLC至2.2.9
 Add
 AI-Improvements-1.18-0.4.0 (1)
 AmbientSounds_v5.0.8_mc1.18.1
@@ -53,4 +53,82 @@ TConstruct-1.18.1-3.3.2.33
 TravelersBackpack-1.18.1-7.0.1
 YungsApi-1.18.1-Forge-23
 
+2022-6-29   1.18.2-6.1.0[Build-22311]
+本次更新引入了全新的农业和食物系统，更多的作物，更多的植物，不会再有原版食物只能恢复半格饱食度的烦恼。
+更好的装饰系统令房屋建设的风格更多。ic2的回归也使工业系统更加完善。
+良好的优化加上新版本的特效使1.18.2-6.1.0成为STT工业整合全新的开始。
+更新HMCL至3.5.3.221
+Add
+BowInfinityFix-1.18.x-rv11
+car-1.18.2-1.0.3
+cfm-7.0.0-pre29-1.18.2
+cloth-config-6.2.62-forge
+cofh_core-1.18.2-1.6.4.21
+CreativeCore_FORGE_v2.6.12_mc1.18.2
+Croptopia-1.18.2-FORGE-2.0.5
+FastSuite-1.18.2-3.0.2
+ferritecore-4.2.1-forge
+InfinityMending-1.17-0.1.0
+jecharacters-1.18.2-4.3.3
+kitchenkarrot-1.18.2-2-2
+mcw-roofs-2.1.2-mc1.18.2
+Mekanism-1.18.2-10.2.4.464
+MekanismAdditions-1.18.2-10.2.4.464
+MekanismGenerators-1.18.2-10.2.4.464
+nekoration-1.18.X-1.6.1
+netherportalfix-forge-1.18-9.0.0
+MekanismTools-1.18.2-10.2.4.464
+neoncraft2-2.2
+thermal_innovation-1.18.2-1.6.3.12
+thermal_foundation-1.18.2-1.6.3.28
+thermal_locomotion-1.18.2-1.6.3.8
+shutupexperimentalsettings-1.0.5
+Skewers-1.18.1-1.1.0
+thermal_expansion-1.18.2-1.6.3.13
+thermal_cultivation-1.18.2-1.6.3.11
+twilightforest-1.18.2-4.1.1102-universal
+YungsBetterMineshafts-1.18.2-Forge-2.1.4
 
+Update
+AI-Improvements-1.18.2-0.5.0
+TravelersBackpack-1.18.2-7.1.2
+YungsApi-1.18.2-Forge-2.0.8
+TConstruct-1.18.2-3.5.1.31
+AmbientSounds_FORGE_v5.0.16_mc1.18.2
+InsaneLib-1.5.1-mc1.18.2
+ironchest-1.18.2-13.1.9
+Serene+Seasons-1.18.2-7.0.0.13
+ProgressiveBosses-3.5.14-mc1.18.2
+polymorph-forge-1.18.1-0.43
+Placebo-1.18.2-6.4.1
+Patchouli-1.18.2-67
+PackMenu-1.18.2-4.1.0
+Jade-1.18.2-forge-5.2.1
+Aquaculture-1.18.2-2.3.6
+Apotheosis-1.18.2-5.3.6
+Botania-1.18.2-434
+architectury-4.5.75-forge
+balm-3.0.3+0
+mcw-bridges-2.0.3-mc1.18.2
+mcw-fences-1.0.5-mc1.18.2
+mcw-windows-2.0.3-mc1.18.2
+mcw-doors-1.0.6-mc1.18.2
+mcw-trapdoors-1.0.6-mc1.18.2
+comforts-forge-1.18.2-5.0.0.4
+ImmersiveEngineering-1.18.2-8.0.2-149
+mahoutsukai-1.18.2-v1.34.26
+Mantle-1.18.2-1.9.27
+cookingforblockheads-forge-1.18.2-12.0.1
+LMML-1.18.2-4.4.2-Forge
+LMRB-1.18.2-4.3.2-Forge
+jei-1.18.2-9.7.0.196
+curios-forge-1.18.2-5.0.7.1
+HQM-1.18.2-5.11.0-forge
+FallingTree-1.18.2-3.5.2
+industrialcraft-2-2.9.87+ex118-1.18.2-forge
+
+remove
+JustEnoughResources-1.18.1-0.13.1.138
+mcw-lights-1.0.2-mc1.18.1
+mcw-paintings-1.0.2-mc1.18.1
+productivebees-1.18.1-0.8.0.7
