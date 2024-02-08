@@ -97,6 +97,7 @@
     "1.18.2-6.1.0Forge": ""
   },
   "promos": {
+    "1.19.X-recommended": "1.19.2-7.0.0Forge",
     "1.18.X-recommended": "1.18.2-6.1.0Forge",
     "1.17.X-recommended": "1.17.1-5.200.0",
     "1.16.X-recommended": "1.16.5-5.8.1",
@@ -110,5 +111,6 @@
     "1.6.X-recommended": "1.6.4-1.8.7a",
     "1.2.X-recommended": "1.2.5-1.0.3"
 
-  }
+  },
+  "inherit": true
 }
