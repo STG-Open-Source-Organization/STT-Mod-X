@@ -289,3 +289,7 @@ update
 [Technology]【高级水力】WaterPower-1.12-0.5.8
 [Decoration]【镇守府】ChinjufuMod[1.12.2]6.2.3
 【新版内容】future-mc-0.2.10.1
+
+2025-1-1    1.12.2-3.8.0
+update
+furniture-6.3.2-1.12.2
